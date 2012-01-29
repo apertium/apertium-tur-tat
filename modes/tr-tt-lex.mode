@@ -1,0 +1,3 @@
+    
+    /usr/local/bin/hfst-proc -w /home/jonathan/quick/apertium/cheboksary/xupaixkar/apertium-tr-tt/tr-tt.automorf.hfst |/usr/local/bin/cg-proc -w /home/jonathan/quick/apertium/cheboksary/xupaixkar/apertium-tr-tt/tr-tt.rlx.bin |/usr/local/bin/apertium-tagger -g $2 /home/jonathan/quick/apertium/cheboksary/xupaixkar/apertium-tr-tt/tr-tt.prob |/usr/local/bin/apertium-pretransfer|/usr/local/bin/lt-proc -b /home/jonathan/quick/apertium/cheboksary/xupaixkar/apertium-tr-tt/tr-tt.autobil.bin |/usr/local/bin/apertium-lrx-proc -t /home/jonathan/quick/apertium/cheboksary/xupaixkar/apertium-tr-tt/tr-tt.lrx.bin 
+  

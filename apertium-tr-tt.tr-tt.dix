@@ -1,0 +1,60 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"  c="Имя существительное"/>
+    <sdef n="np"  c="Имя существительное"/>
+    <sdef n="adv"  c="Имя существительное"/>
+    <sdef n="det"  c="Имя существительное"/>
+    <sdef n="adj"  c="Имя существительное"/>
+    <sdef n="prn"  c="Имя существительное"/>
+    <sdef n="qnt"  c="Имя существительное"/>
+    <sdef n="v"  c="Имя существительное"/>
+    <sdef n="tv"  c="Имя существительное"/>
+    <sdef n="cnjcoo"  c="Имя существительное"/>
+    <sdef n="sent"  c="Имя существительное"/>
+    <sdef n="cm"  c="Имя существительное"/>
+    <sdef n="postadv"  c="Имя существительное"/>
+  </sdefs>
+  <section id="main" type="standard">
+    <!-- Раздел: Имя Существительное -->
+
+    <e><p><l>köpek<s n="n"/></l><r>эт<s n="n"/></r></p></e>
+    <e><p><l>bahçe<s n="n"/></l><r>бакча<s n="n"/></r></p></e>
+    <e><p><l>hava<s n="n"/></l><r>һава<s n="n"/></r></p></e>
+    <e><p><l>dışarı<s n="n"/></l><r>тыш<s n="n"/></r></p></e>
+    <e><p><l>ev<s n="n"/></l><r>өй<s n="n"/></r></p></e>
+    <e><p><l>ön<s n="n"/></l><r>алд<s n="n"/></r></p></e>
+
+    <e><p><l>ve<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>Ahmet<s n="np"/></l><r>Әхмәт<s n="np"/></r></p></e>
+    <e><p><l>Ana<s n="np"/></l><r>Гөлнара<s n="np"/></r></p></e>
+
+    <e><p><l>bugün<s n="n"/></l><r>бүген<s n="adv"/></r></p></e>
+    <e><p><l>çok<s n="det"/><s n="qnt"/></l><r>бик<s n="adv"/></r></p></e>
+    <e><p><l>fakat<s n="adv"/></l><r>тик<s n="adv"/></r></p></e>
+    <e><p><l>dün<s n="n"/></l><r>кичә<s n="adv"/></r></p></e>
+
+    <e><p><l>güzel<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e>
+    <e><p><l>güzel<s n="n"/></l><r>әйбәт<s n="adj"/></r></p></e>
+    <e><p><l>sıcak<s n="adj"/></l><r>җылы<s n="adj"/></r></p></e>
+    <e><p><l>sıcak<s n="n"/></l><r>җылы<s n="adj"/></r></p></e>
+    <e><p><l>soğuk<s n="adj"/></l><r>суык<s n="adj"/></r></p></e>
+
+    <e><p><l>yeterince<s n="adv"/></l><r>гына<s n="postadv"/></r></p></e>
+    <e><p><l>bu<b/>yüzden<s n="adv"/></l><r>шул<b/>сәбәпле<s n="adv"/></r></p></e>
+    <e><p><l>her<b />zaman<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
+    <e><p><l>beraber<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
+
+    <e><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/></r></p></e>
+
+    <e><p><l>oyna<s n="v"/><s n="tv"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>sev<s n="v"/><s n="tv"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
+
+	 
+    <e><p><l>.<s n="sent"/></l><r>.<s n="sent"/></r></p></e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+
+
+  </section>
+</dictionary>
