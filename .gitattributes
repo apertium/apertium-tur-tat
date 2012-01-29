@@ -2,9 +2,7 @@
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
-/INSTALL -text
 /Makefile.am -text
-/Makefile.in -text
 /NEWS -text
 /README -text
 /aclocal.m4 -text
@@ -24,10 +22,7 @@
 /apertium-tr-tt.tt.lexc -text
 /apertium-tr-tt.tt.twol -text
 /autogen.sh -text
-/configure -text
 /configure.ac -text
-/install-sh -text
-/missing -text
 /modes.xml -text
 tmp/tr.txt -text
 /tr-tt.prob -text svneol=unset#unset
