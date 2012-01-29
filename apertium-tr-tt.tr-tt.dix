@@ -11,11 +11,27 @@
     <sdef n="v"  c="Имя существительное"/>
     <sdef n="tv"  c="Имя существительное"/>
     <sdef n="cnjcoo"  c="Имя существительное"/>
-    <sdef n="sent"  c="Имя существительное"/>
-    <sdef n="cm"  c="Имя существительное"/>
     <sdef n="postadv"  c="Имя существительное"/>
+    <sdef n="m"  c=""/>
+    <sdef n="pred"  c=""/>
+    <sdef n="cop"  c=""/>
+    <sdef n="f"  c=""/>
+    <sdef n="ant"  c=""/>
+    <sdef n="sg"  c=""/>
+
+    <sdef n="apos" />
+    <sdef n="guio" />
+    <sdef n="sent" />
+    <sdef n="lpar" />
+    <sdef n="rpar" />
+    <sdef n="lquot" />
+    <sdef n="rquot" />
+    <sdef n="cm" />
+
   </sdefs>
   <section id="main" type="standard">
+    <e><p><l>0<s n="cop"/></l><r>и<s n="pred"/></r></p></e>
+
     <!-- Раздел: Имя Существительное -->
 
     <e><p><l>köpek<s n="n"/></l><r>эт<s n="n"/></r></p></e>
@@ -27,12 +43,12 @@
 
     <e><p><l>ve<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
 
-    <e><p><l>Ahmet<s n="np"/></l><r>Әхмәт<s n="np"/></r></p></e>
-    <e><p><l>Ana<s n="np"/></l><r>Гөлнара<s n="np"/></r></p></e>
+    <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Ana<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <e><p><l>bugün<s n="n"/></l><r>бүген<s n="adv"/></r></p></e>
     <e><p><l>çok<s n="det"/><s n="qnt"/></l><r>бик<s n="adv"/></r></p></e>
-    <e><p><l>fakat<s n="adv"/></l><r>тик<s n="adv"/></r></p></e>
+    <e><p><l>fakat<s n="cnjcoo"/></l><r>тик<s n="adv"/></r></p></e>
     <e><p><l>dün<s n="n"/></l><r>кичә<s n="adv"/></r></p></e>
 
     <e><p><l>güzel<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e>
@@ -52,8 +68,21 @@
     <e><p><l>sev<s n="v"/><s n="tv"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
 
 	 
-    <e><p><l>.<s n="sent"/></l><r>.<s n="sent"/></r></p></e>
+
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+    <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
+    <e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
+    <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
+    <e><p><l>«<s n="lquot"/></l><r>«<s n="lquot"/></r></p></e>
+    <e><p><l>»<s n="rquot"/></l><r>»<s n="rquot"/></r></p></e>
+    <e><p><l>“<s n="lquot"/></l><r>“<s n="lquot"/></r></p></e>
+    <e><p><l>”<s n="rquot"/></l><r>”<s n="rquot"/></r></p></e>
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
+    <e><p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
+
+    <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 
 
   </section>

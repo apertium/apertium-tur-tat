@@ -133,7 +133,7 @@ LEXICON CLIT
 %+сы%<part%>:%>с%{I%} # ; ! FIXME: check
 # ;
 
-LEXICON CASE 
+LEXICON CASE-REAL 
 
 %<nom%>: CLIT ;
 %<gen%>:%>н%{I%}ң CLIT ;
@@ -141,6 +141,11 @@ LEXICON CASE
 %<acc%>:%>н%{I%} CLIT ;
 %<loc%>:%>%{D%}%{A%} CLIT ;
 %<abl%>:%>%{D%}%{A%}н CLIT ;
+
+LEXICON CASE
+
+%<locattr%>:%>%{L%}%{A%}%{G%}%{I%} CASE-REAL ;
+CASE-REAL ; 
 
 LEXICON POSS-REAL
 
@@ -1192,6 +1197,7 @@ LEXICON Adverbs
 ни% өчен:ни% өчен ADVITGLEX ; ! ""
 
 түгел:түгел ADVLEX ; ! ""
+шул% сәбәпле:шул% сәбәпле ADVLEX ; ! ""
 
 хәзер:хәзер ADVLEX ; ! ""
 әле:әле ADVLEX ; ! ""
@@ -1209,6 +1215,7 @@ LEXICON Adverbs
 соң:соң ADVLEX ; ! ""
 һаман:һаман ADVLEX ; ! "" FIXME: Check
 әлбәттә:әлбәттә ADVLEX ; ! ""
+бергә:бергә ADVLEX ; ! ""
 
 
 LEXICON Verbs

@@ -83,7 +83,7 @@ Multichar_Symbols
 
 %<cont%>      ! Present continuous: -{bI}yor
 %<opt%>       ! Optative: -{bY}{A}
-%<past%>      ! Past: -{D}{I}
+%<ifi%>       ! Past: -{D}{I}
 %<evid%>      ! Evidential past: -m{I}ş
 %<imp%>       ! Imperative: -ø
 %<fut%>       ! Future: -{bY}{A}c{A}{k}
@@ -168,7 +168,7 @@ LEXICON clit
 LEXICON clit-cop
 
 %+%0%<cop%>: V-PERS-COP-G2-NOSG3 ; 
-%+%0%<cop%>%<past%>:%>%{D%}%{I%} V-PERS-COP-G2 ; 
+%+%0%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-COP-G2 ; 
 
 # ;
 
@@ -468,7 +468,7 @@ LEXICON VINFL-COMMON
 
 %<cont%>:%>%{bI%}yor V-PERS-COP-G2 ;
 %<opt%>:%>%{bY%}%{A%} V-PERS-OPT-G3 ;
-%<past%>:%>%{D%}%{I%} V-PERS-G1 ;
+%<ifi%>:%>%{D%}%{I%} V-PERS-G1 ;
 %<evid%>:%>m%{I%}ş V-PERS-COP-G2 ;
 %<imp%>: V-PERS-IMP-G4 ;
 %<fut%>:%>%{bY%}%{A%}c%{A%}%{k%} V-PERS-COP-G2 ; 
@@ -19042,6 +19042,8 @@ evvel% zaman% içinde:evvel% zaman% içinde ADVINFL ; ! ""
 o% zaman:o% zaman ADVINFL ; ! ""
 öyle:öyle ADVINFL ; ! "in that way"
 hâlâ:hâlâ ADVINFL ; ! ""
+bu% yüzden:bu% yüzden ADVINFL ; ! ""
+her% zaman:her% zaman ADVINFL ; ! ""
 yeterince:yeterince ADVINFL ; ! "enough, very"
 fazla:fazla ADVINFL ; ! "too"
 yavaşça:yavaşça ADVINFL ; ! "slowly"
