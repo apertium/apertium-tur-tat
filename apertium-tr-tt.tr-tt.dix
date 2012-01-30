@@ -47,9 +47,13 @@
     <e><p><l>Ana<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <e><p><l>bugün<s n="n"/></l><r>бүген<s n="adv"/></r></p></e>
+	 <!-- FIXME: bugün is a n and adv; here it should be adv -->
     <e><p><l>çok<s n="det"/><s n="qnt"/></l><r>бик<s n="adv"/></r></p></e>
+	 <!-- FIXME: çok is adv here -->
     <e><p><l>fakat<s n="cnjcoo"/></l><r>тик<s n="adv"/></r></p></e>
+	 <!-- FIXME: fakat is adv also -->
     <e><p><l>dün<s n="n"/></l><r>кичә<s n="adv"/></r></p></e>
+	 <!-- FIXME: dün is adv and n; here it should be adv-->
 
     <e><p><l>güzel<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e>
     <e><p><l>güzel<s n="n"/></l><r>әйбәт<s n="adj"/></r></p></e>
