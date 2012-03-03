@@ -13,7 +13,7 @@ skipped = 0;
 def cleanTrad(s): #{
 	out = s.strip();
 	out = out.replace(u'­', ''); # this is '­' (U+00AD) not space
-	netejedor = re.compile(u'^ *[0-9]+\.');
+	netejedor = re.compile(u'^ *;? *[0-9]+\.');
 	out = netejedor.sub(u'', out);
 	netejedor = re.compile(u' [❖O] *$');
 	out = netejedor.sub(u'', out);

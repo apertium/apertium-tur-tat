@@ -1,0 +1,2 @@
+
+$ python escrutador.py Tt-Tr_Dict_A-K.txt 2>skipped.txt >Tt-Tr_Dict_A-K.dix
