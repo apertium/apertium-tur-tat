@@ -25,7 +25,7 @@
 dev/README -text
 dev/Tt-Tr_Dict_A-K.dix -text
 dev/Tt-Tr_Dict_A-K.txt -text
-dev/escrutador.py -text
+dev/conversor.py -text
 dev/skipped.txt -text
 /modes.xml -text
 tmp/tr.txt -text
