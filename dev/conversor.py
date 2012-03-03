@@ -52,7 +52,9 @@ logfile = open(sys.argv[1] + ".log", 'w+'); 	# The log file
 print '<dictionary>'; 
 print '  <alphabet/>';
 print '  <sdefs>';
-print '    <sdef n="unk"   c="Unknown part of speech"/>';
+print '    <sdef n="v"     c="Глагол"/>';
+print '    <sdef n="TD"    c="Неизвестная переходность"/>';
+print '    <sdef n="unk"   c="Неизвестная часть речи"/>';
 print '  </sdefs>';
 print '  <section id="unchecked" type="standard">';
 
@@ -163,6 +165,7 @@ for line in file(sys.argv[1]).readlines(): #{
 				#}
 				ii = 0;
 				xword = sw.strip().replace(' ', '<b/>'); # xmlword
+				tag = '<s n="unk"/>';
 				if tr.count(',') > 0: #{
 					for w in tr.split(','): #{
 						if w == '': #{
@@ -171,14 +174,22 @@ for line in file(sys.argv[1]).readlines(): #{
 						ii += 1;
 						print >>logfile, '+' , lineno, lindex , sw, s , ii , w.strip(); 
 						xw = w.strip().replace(' ', '<b/>');
-						dixline = '    <e><p><l>' + xw + '<s n="unk"/></l><r>' + xword + '<s n="unk"/></r></p></e>\n';
+						if xword[-1] == '-' and ((xw.count('mek') > 0) or (xw.count('mak') > 0)): #{
+							tag = '<s n="v"/><s n="TD"/>';
+						else: #{
+							tag = '<s n="unk"/>';
+						#}
+						dixline = '    <e><p><l>' + xw + tag + '</l><r>' + xword + tag + '</r></p></e>\n';
 						dixout = dixout + dixline;
 					#}
 	
 				else: #{
 					print >>logfile, '+' , lineno, lindex , sw, s , ii , tr; 
 					xtr = tr.strip().replace(' ', '<b/>');
-					dixout = dixout + '    <e><p><l>' + xtr + '<s n="unk"/></l><r>' + xword + '<s n="unk"/></r></p></e>\n';
+					if xword[-1] == '-' and (xtr.count('mek') > 0 or xtr.count('mak') > 0): #{
+						tag = '<s n="v"/><s n="TD"/>';
+					#}
+					dixout = dixout + '    <e><p><l>' + xtr + tag + '</l><r>' + xword + tag + '</r></p></e>\n';
 				#}
 			#}
 		#}
