@@ -23,23 +23,30 @@ def cleanTrad(s): #{
 	return out;
 	
 #}
+def cleanLine(s): #{
+
+	out = s;
+	out = out.replace('{kimse)', '(kimse)');
+
+	return out;
+#}
 lineno = 0;
 dixlines = 0;
 cyr = re.compile(u'[Ё-ӿ]', re.UNICODE);
 for line in file(sys.argv[1]).readlines(): #{
 	lineno += 1;
 	# мазлум [mazlum] mazlum
-	line = line.decode('utf-8');
+	line = cleanLine(line.decode('utf-8'));
 	# Skip lines without []
 	if line.count('[') < 1 or (line.count('[') != line.count(']')) or (line.count('(') != line.count(')')) or line.count('{') > 0: #{
 		skipped = skipped + 1;
-		print >> sys.stderr, '-' , line;
+		print >> sys.stderr, line;
 		continue;
 	#}
 
 	if cyr.match(line[0]) == None: #{
 		skipped = skipped + 1;
-		print >> sys.stderr, '-' , line;
+		print >> sys.stderr, line;
 		continue;
 	#}
 	
