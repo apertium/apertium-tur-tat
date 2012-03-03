@@ -51,14 +51,14 @@ dixlines = 0; 					# Number out lines we're going to output in .dix format
 cyr = re.compile('[Ё-ӿ]'); 	# A regular expression to test if a character is Cyrillic or not.
 logfile = open(sys.argv[1] + ".log", 'w+'); 	# The log file 
 
-header = '<dictionary>\
-  <alphabet/>\
-  <sdefs>\
-    <sdef n="v"     c="Глагол"/>\
-    <sdef n="TD"    c="Неизвестная переходность"/>\
-    <sdef n="unk"   c="Неизвестная часть речи"/>\
-  </sdefs>\
-  <section id="unchecked" type="standard">'
+header = '<dictionary>\n\
+  <alphabet/>\n\
+  <sdefs>\n\
+    <sdef n="v"     c="Глагол"/>\n\
+    <sdef n="TD"    c="Неизвестная переходность"/>\n\
+    <sdef n="unk"   c="Неизвестная часть речи"/>\n\
+  </sdefs>\n\
+  <section id="unchecked" type="standard">\n'
 
 print(header)
 
@@ -204,11 +204,11 @@ with open(filename, 'r') as infile:
 		dixlines = dixlines + dixout.count('<e>');
 	#}
 	logfile.close();
-	footer = '  </section>\
-  <!--\
-       Пропущеные строки: %s %s\
-       Строки: %s\
-  -->\
+	footer = '  </section>\n\
+  <!--\n\
+       Пропущеные строки: %s %s\n\
+       Строки: %s\n\
+  -->\n\
 </dictionary>'
 
 	print(footer % (skipped , ''.join(str((100.0-(float(skipped)/float(lineno)*100.0)))[0:6]), dixlines))
