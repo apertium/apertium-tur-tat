@@ -1,4 +1,12 @@
-<dictionary>  <alphabet/>  <sdefs>    <sdef n="v"     c="Глагол"/>    <sdef n="TD"    c="Неизвестная переходность"/>    <sdef n="unk"   c="Неизвестная часть речи"/>  </sdefs>  <section id="unchecked" type="standard">
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="v"     c="Глагол"/>
+    <sdef n="TD"    c="Неизвестная переходность"/>
+    <sdef n="unk"   c="Неизвестная часть речи"/>
+  </sdefs>
+  <section id="unchecked" type="standard">
+
     <!-- абага [abaga] eğrelti otu O аба­га чәчәк аткач [abaga çeçek at-kaç] hiç bir zaman -->
     <e><p><l>eğrelti<b/>otu<s n="unk"/></l><r>абага<s n="unk"/></r></p></e>
     <e><p><l>hiç<b/>bir<b/>zaman<s n="unk"/></l><r>абага<b/>чәчәк<b/>аткач<s n="unk"/></r></p></e>
@@ -22666,4 +22674,9 @@
     <!-- мазлум [mazlum] mazlum -->
     <e><p><l>mazlum<s n="unk"/></l><r>мазлум<s n="unk"/></r></p></e>
 
-  </section>  <!--       Пропущеные строки: 1095 82.429       Строки: 12393  --></dictionary>
+  </section>
+  <!--
+       Пропущеные строки: 1095 82.429
+       Строки: 12393
+  -->
+</dictionary>
