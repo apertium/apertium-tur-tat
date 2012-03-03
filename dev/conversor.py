@@ -22,29 +22,38 @@ def cleanTrad(s): #{
 	out = out.replace(u'­', ''); # this is '­' (U+00AD) not space
 	netejedor = re.compile(u'^ *;? *[0-9]+\.');
 	out = netejedor.sub(u'', out);
-	netejedor = re.compile(u' [❖O] *$');
+	netejedor = re.compile(u' [❖O<] *$');
 	out = netejedor.sub(u'', out);
 	netejedor = re.compile(u'^;');
+	out = netejedor.sub(u'', out); 
+	netejedor = re.compile(u'<'); # костыргыч [kostırgıç] kusturu< 
+	out = netejedor.sub(u'', out);
+	netejedor = re.compile(u'^\[.*\] '); # беришле [berişle] [<ber+işle] tek düze, monoton
 	out = netejedor.sub(u'', out);
 	
 	return out;
-	
 #}
 
 def cleanLine(s): #{
 
 	out = s;
 	out = out.replace('{kimse)', '(kimse)');
+	# бәйрәм ит- [beyrem it-] bayram etmek <> бәйрәм котлы булсын [beyrem kotlı bulsın] bayramınız kutlu olsun
+	out = out.replace('<>', '');  
 
 	return out;
 #}
 
-lineno = 0; # Total number of lines in the source file
-dixlines = 0; # Number out lines we're going to output in .dix format
-cyr = re.compile(u'[Ё-ӿ]', re.UNICODE); # A regular expression to test if a character is Cyrillic or not.
-logfile = open(sys.argv[1] + ".log", 'w+'); # The log file 
+lineno = 0; 					# Total number of lines in the source file
+dixlines = 0; 					# Number out lines we're going to output in .dix format
+cyr = re.compile(u'[Ё-ӿ]', re.UNICODE); 	# A regular expression to test if a character is Cyrillic or not.
+logfile = open(sys.argv[1] + ".log", 'w+'); 	# The log file 
 
 print '<dictionary>'; 
+print '  <alphabet/>';
+print '  <sdefs>';
+print '    <sdef n="unk"   c="Unknown part of speech"/>';
+print '  </sdefs>';
 print '  <section id="unchecked" type="standard">';
 
 for line in file(sys.argv[1]).readlines(): #{

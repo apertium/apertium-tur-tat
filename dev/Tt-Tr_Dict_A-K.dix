@@ -1,4 +1,8 @@
 <dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="unk"   c="Unknown part of speech"/>
+  </sdefs>
   <section id="unchecked" type="standard">
     <!-- абага [abaga] eğrelti otu O аба­га чәчәк аткач [abaga çeçek at-kaç] hiç bir zaman -->
     <e><p><l>eğrelti<b/>otu<s n="unk"/></l><r>абага<s n="unk"/></r></p></e>
@@ -3943,7 +3947,7 @@
     <e><p><l>bir<b/>iki<s n="unk"/></l><r>бер-ике<s n="unk"/></r></p></e>
     <e><p><l>pek<b/>az<s n="unk"/></l><r>бер-ике<s n="unk"/></r></p></e>
     <e><p><l>bere<s n="unk"/></l><r>берет<s n="unk"/></r></p></e>
-    <e><p><l>[<ber+işle]<b/>tek<b/>düze<s n="unk"/></l><r>беришле<s n="unk"/></r></p></e>
+    <e><p><l>tek<b/>düze<s n="unk"/></l><r>беришле<s n="unk"/></r></p></e>
     <e><p><l>monoton<s n="unk"/></l><r>беришле<s n="unk"/></r></p></e>
     <e><p><l>bir<b/>an<s n="unk"/></l><r>беркавым<s n="unk"/></r></p></e>
     <e><p><l>biraz<s n="unk"/></l><r>беркадәр<s n="unk"/></r></p></e>
@@ -5277,10 +5281,10 @@
     <!-- бәйнәлмиләл [beynelmilel] mil­letler arası -->
     <e><p><l>milletler<b/>arası<s n="unk"/></l><r>бәйнәлмиләл<s n="unk"/></r></p></e>
 
-    <!-- бәйрәм [beyrem] bayram; бәй­рәм алды [beyrem aldı] arefe; бәйрәм ит- [beyrem it-] bayram etmek <> бәйрәм котлы булсын [beyrem kotlı bulsın] bayramınız kutlu olsun бәйрәмчә [beyremçe] bayramlık бәйрәмче [beyremçe] bayramcı бәйсез [beysez] bağımsız, müs­takil -->
+    <!-- бәйрәм [beyrem] bayram; бәй­рәм алды [beyrem aldı] arefe; бәйрәм ит- [beyrem it-] bayram etmek  бәйрәм котлы булсын [beyrem kotlı bulsın] bayramınız kutlu olsun бәйрәмчә [beyremçe] bayramlık бәйрәмче [beyremçe] bayramcı бәйсез [beysez] bağımsız, müs­takil -->
     <e><p><l>bayram<s n="unk"/></l><r>бәйрәм<s n="unk"/></r></p></e>
     <e><p><l>arefe<s n="unk"/></l><r>бәйрәм<b/>алды<s n="unk"/></r></p></e>
-    <e><p><l>bayram<b/>etmek<b/><><s n="unk"/></l><r>бәйрәм<b/>ит-<s n="unk"/></r></p></e>
+    <e><p><l>bayram<b/>etmek<s n="unk"/></l><r>бәйрәм<b/>ит-<s n="unk"/></r></p></e>
     <e><p><l>bayramınız<b/>kutlu<b/>olsun<s n="unk"/></l><r>бәйрәм<b/>котлы<b/>булсын<s n="unk"/></r></p></e>
     <e><p><l>bayramcı<s n="unk"/></l><r>бәйрәмче<s n="unk"/></r></p></e>
     <e><p><l>bayramlık<s n="unk"/></l><r>бәйрәмчә<s n="unk"/></r></p></e>
@@ -6239,7 +6243,7 @@
     <!-- вә [ve] ve -->
     <e><p><l>ve<s n="unk"/></l><r>вә<s n="unk"/></r></p></e>
 
-    <!-- вәгазьче [vegazçâ] vaiz, vaazcı вәгъдә [vegde] vaad, söz ver­me; вәгъдә бир- [vegde bir-] söz vermek; вәгъдә бирнәсе [vegde birnese] (kızlar) söz kesti hedi­yesi; вәгъдә бүләге [vegde bü-legâ] (herkes) söz hediyesi; вәгъ­дә ит- [vegde it-] vaad etmek, söz vermek; вәгъдәдә тор- [vegdede tor-] sözünde durmak <> вәгъдә-иман [vegde-iman] söz bir, Allah bir -->
+    <!-- вәгазьче [vegazçâ] vaiz, vaazcı вәгъдә [vegde] vaad, söz ver­me; вәгъдә бир- [vegde bir-] söz vermek; вәгъдә бирнәсе [vegde birnese] (kızlar) söz kesti hedi­yesi; вәгъдә бүләге [vegde bü-legâ] (herkes) söz hediyesi; вәгъ­дә ит- [vegde it-] vaad etmek, söz vermek; вәгъдәдә тор- [vegdede tor-] sözünde durmak  вәгъдә-иман [vegde-iman] söz bir, Allah bir -->
     <e><p><l>vaiz<s n="unk"/></l><r>вәгазьче<s n="unk"/></r></p></e>
     <e><p><l>vaazcı<s n="unk"/></l><r>вәгазьче<s n="unk"/></r></p></e>
     <e><p><l>vaad<s n="unk"/></l><r>вәгъдә<s n="unk"/></r></p></e>
@@ -6251,7 +6255,7 @@
     <e><p><l>söz<b/>vermek<s n="unk"/></l><r>вәгъдә<b/>ит-<s n="unk"/></r></p></e>
     <e><p><l>söz<b/>bir<s n="unk"/></l><r>вәгъдә-иман<s n="unk"/></r></p></e>
     <e><p><l>Allah<b/>bir<s n="unk"/></l><r>вәгъдә-иман<s n="unk"/></r></p></e>
-    <e><p><l>sözünde<b/>durmak<b/><><s n="unk"/></l><r>вәгъдәдә<b/>тор-<s n="unk"/></r></p></e>
+    <e><p><l>sözünde<b/>durmak<s n="unk"/></l><r>вәгъдәдә<b/>тор-<s n="unk"/></r></p></e>
 
     <!-- вәгъдәле [vegdele] 1. vaadini tutan; 2. nişanlı -->
     <e><p><l>vaadini<b/>tutan<s n="unk"/></l><r>вәгъдәле<s n="unk"/></r></p></e>
@@ -11050,7 +11054,7 @@
     <!-- иртамыр [irtamır] çok köklü su bitkisi -->
     <e><p><l>çok<b/>köklü<b/>su<b/>bitkisi<s n="unk"/></l><r>иртамыр<s n="unk"/></r></p></e>
 
-    <!-- иртә [irte] 1. sabah; 2. erken; 3. vaktinden önce; иртә белән [irte belen] sabahleyin; иртәдән бирле [irteden birle] sabahtan beri <> иртә таңнан кара төнгә чаклы; ир­тәдән кичкә кадәр [irte tangnan kara tönge çaklı; irteden kiçke ka­der] sabahtan akşama kadar; иртә юк, кич юк [irteyuk, kiç yuk] gecesi gündüzü yok -->
+    <!-- иртә [irte] 1. sabah; 2. erken; 3. vaktinden önce; иртә белән [irte belen] sabahleyin; иртәдән бирле [irteden birle] sabahtan beri  иртә таңнан кара төнгә чаклы; ир­тәдән кичкә кадәр [irte tangnan kara tönge çaklı; irteden kiçke ka­der] sabahtan akşama kadar; иртә юк, кич юк [irteyuk, kiç yuk] gecesi gündüzü yok -->
     <e><p><l>sabah<s n="unk"/></l><r>иртә<s n="unk"/></r></p></e>
     <e><p><l>erken<s n="unk"/></l><r>иртә<s n="unk"/></r></p></e>
     <e><p><l>vaktinden<b/>önce<s n="unk"/></l><r>иртә<s n="unk"/></r></p></e>
@@ -11058,7 +11062,7 @@
     <e><p><l>sabahtan<b/>akşama<b/>kadar<s n="unk"/></l><r>иртә<b/>таңнан<b/>кара<b/>төнгә<b/>чаклы<b/>иртәдән<b/>кичкә<b/>кадәр<s n="unk"/></r></p></e>
     <e><p><l>gecesi<b/>gündüzü<b/>yok<s n="unk"/></l><r>иртә<b/>юк<s n="unk"/></r></p></e>
     <e><p><l>gecesi<b/>gündüzü<b/>yok<s n="unk"/></l><r>кич<b/>юк<s n="unk"/></r></p></e>
-    <e><p><l>sabahtan<b/>beri<b/><><s n="unk"/></l><r>иртәдән<b/>бирле<s n="unk"/></r></p></e>
+    <e><p><l>sabahtan<b/>beri<s n="unk"/></l><r>иртәдән<b/>бирле<s n="unk"/></r></p></e>
 
     <!-- иртәге [irtegâ] yarınki -->
     <e><p><l>yarınki<s n="unk"/></l><r>иртәге<s n="unk"/></r></p></e>
@@ -17631,7 +17635,7 @@
     <e><p><l>kusturmak<s n="unk"/></l><r>костыр-<s n="unk"/></r></p></e>
 
     <!-- костыргыч [kostırgıç] kusturu< -->
-    <e><p><l>kusturu<<s n="unk"/></l><r>костыргыч<s n="unk"/></r></p></e>
+    <e><p><l>kusturu<s n="unk"/></l><r>костыргыч<s n="unk"/></r></p></e>
 
     <!-- костюм [kostyum] kostüm, el­bise, takım elbise -->
     <e><p><l>kostüm<s n="unk"/></l><r>костюм<s n="unk"/></r></p></e>
