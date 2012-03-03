@@ -33,6 +33,9 @@ def cleanLine(s): #{
 lineno = 0;
 dixlines = 0;
 cyr = re.compile(u'[Ё-ӿ]', re.UNICODE);
+logfile = open(sys.argv[1] + ".log", 'w+');
+print '<dictionary>';
+print '  <section id="unchecked" type="standard">';
 for line in file(sys.argv[1]).readlines(): #{
 	lineno += 1;
 	# мазлум [mazlum] mazlum
@@ -116,7 +119,7 @@ for line in file(sys.argv[1]).readlines(): #{
 		isCyr = False;
 	#}
 	#print line_words;
-	print line;
+	print '    <!--' , line.strip() , '-->';
 	words = line_words.keys();
 	words.sort();
 	dixout = '';
@@ -139,16 +142,16 @@ for line in file(sys.argv[1]).readlines(): #{
 							continue;
 						#}
 						ii += 1;
-						print '+' , lindex , sw, s , ii , w.strip(); 
+						print >>logfile, '+' , lineno, lindex , sw, s , ii , w.strip(); 
 						xw = w.strip().replace(' ', '<b/>');
-						dixline = '<e><p><l>' + xw + '<s n="unk"/></l><r>' + xword + '<s n="unk"/></r></p></e>\n';
+						dixline = '    <e><p><l>' + xw + '<s n="unk"/></l><r>' + xword + '<s n="unk"/></r></p></e>\n';
 						dixout = dixout + dixline;
 					#}
 	
 				else: #{
-					print '+' , lindex , sw, s , ii , tr; 
+					print >>logfile, '+' , lineno, lindex , sw, s , ii , tr; 
 					xtr = tr.strip().replace(' ', '<b/>');
-					dixout = dixout + '<e><p><l>' + xtr + '<s n="unk"/></l><r>' + xword + '<s n="unk"/></r></p></e>\n';
+					dixout = dixout + '    <e><p><l>' + xtr + '<s n="unk"/></l><r>' + xword + '<s n="unk"/></r></p></e>\n';
 				#}
 			#}
 		#}
@@ -156,6 +159,10 @@ for line in file(sys.argv[1]).readlines(): #{
 	print dixout;
 	dixlines = dixlines + dixout.count('<e>');
 #}
-
-print 'Пропущеные строки:', skipped , ''.join(str((100.0-(float(skipped)/float(lineno)*100.0)))[0:6]);
-print 'Строки:', dixlines;
+logfile.close();
+print '  </section>';
+print '  <!--';
+print '       Пропущеные строки:', skipped , ''.join(str((100.0-(float(skipped)/float(lineno)*100.0)))[0:6]);
+print '       Строки:', dixlines;
+print '  -->';
+print '</dictionary>'

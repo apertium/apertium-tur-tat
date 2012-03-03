@@ -22,8 +22,10 @@
 /apertium-tr-tt.tt.twol -text
 /autogen.sh -text
 /configure.ac -text
+dev/Tt-Tr_Dict_A-K.dix -text
 dev/Tt-Tr_Dict_A-K.txt -text
 dev/escrutador.py -text
+dev/skipped.txt -text
 /modes.xml -text
 tmp/tr.txt -text
 /tr-tt.prob -text svneol=unset#unset
