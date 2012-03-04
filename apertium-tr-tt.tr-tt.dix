@@ -9,7 +9,10 @@
     <sdef n="prn"  c="Имя существительное"/>
     <sdef n="qnt"  c="Имя существительное"/>
     <sdef n="v"  c="Имя существительное"/>
-    <sdef n="tv"  c="Имя существительное"/>
+    <sdef n="tv"  c="Переходный"/>
+    <sdef n="iv"  c="Непереходный"/>
+    <sdef n="ind"  c=""/>
+    <sdef n="dem"  c=""/>
     <sdef n="cnjcoo"  c="Имя существительное"/>
     <sdef n="postadv"  c="Имя существительное"/>
     <sdef n="m"  c=""/>
@@ -32,6 +35,27 @@
   <section id="main" type="standard">
     <e><p><l>0<s n="cop"/></l><r>и<s n="pred"/></r></p></e>
 
+    <e><p><l>var<s n="pred"/></l><r>бар<s n="pred"/></r></p></e>
+    <e><p><l>yok<s n="pred"/></l><r>юҡ<s n="pred"/></r></p></e>
+
+
+    <!-- Раздел: Союзы -->
+
+    <e><p><l>ve<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+
+    <!-- Раздел: Местоимения -->
+
+    <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
+
+
+    <!-- Раздел: Определения -->
+
+    <e><p><l>bir<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>bu<s n="det"/><s n="dem"/></l><r>бу<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>şu<s n="det"/><s n="dem"/></l><r>шул<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/></r></p></e>
+
     <!-- Раздел: Имя Существительное -->
 
     <e><p><l>köpek<s n="n"/></l><r>эт<s n="n"/></r></p></e>
@@ -40,8 +64,12 @@
     <e><p><l>dışarı<s n="n"/></l><r>тыш<s n="n"/></r></p></e>
     <e><p><l>ev<s n="n"/></l><r>өй<s n="n"/></r></p></e>
     <e><p><l>ön<s n="n"/></l><r>алд<s n="n"/></r></p></e>
+    <e><p><l>anne<s n="n"/></l><r>инә<s n="n"/></r></p></e>
+    <e><p><l>şey<s n="n"/></l><r>зат<s n="n"/></r></p></e>
+    <e><p><l>zaman<s n="n"/></l><r>заман<s n="n"/></r></p></e>
+    <e><p><l>kuş<s n="n"/></l><r>кош<s n="n"/></r></p></e>
 
-    <e><p><l>ve<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+
 
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Ana<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -61,13 +89,29 @@
     <e><p><l>soğuk<s n="adj"/></l><r>суык<s n="adj"/></r></p></e>
     <e><p><l>soğuk<s n="n"/></l><r>суык<s n="n"/></r></p></e>
 
+    <e><p><l>küçük<s n="adj"/></l><r>борчак<b/>кадәр<s n="adj"/></r></p></e>
+    <e><p><l>küçük<s n="adj"/></l><r>бәләкәй<s n="adj"/></r></p></e>
+    <e><p><l>küçük<s n="adj"/></l><r>кечкенә<s n="adj"/></r></p></e>
+    <e><p><l>küçük<s n="adj"/></l><r>кече<s n="adj"/></r></p></e>
+    <e><p><l>küçük<s n="adj"/></l><r>кечек<s n="adj"/></r></p></e>
+
+    <e><p><l>mutlu<s n="adj"/></l><r>бәхетле<s n="adj"/></r></p></e>
+    <e><p><l>yaşlı<s n="adj"/></l><r>карт<s n="adj"/></r></p></e>
+
+
+
+
     <e><p><l>yeterince<s n="adv"/></l><r>гына<s n="postadv"/></r></p></e>
     <e><p><l>bu<b/>yüzden<s n="adv"/></l><r>шул<b/>сәбәпле<s n="adv"/></r></p></e>
     <e><p><l>her<b />zaman<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
     <e><p><l>beraber<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
+    <e><p><l>beraber<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
+    <e><p><l>sonra<s n="adv"/></l><r>аннары<s n="adv"/></r></p></e>
+    <e><p><l>hayır<s n="adv"/></l><r>игелек<s n="adv"/></r></p></e>
 
-    <e><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/></r></p></e>
 
+
+    <e><p><l>ol<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>oyna<s n="v"/><s n="tv"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>sev<s n="v"/><s n="tv"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
 
