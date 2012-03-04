@@ -38,7 +38,6 @@
     <e><p><l>ahır<s n="unk"/></l><r>абзар<s n="unk"/></r></p></e>
     <e><p><l>ağıl<s n="unk"/></l><r>абзар<s n="unk"/></r></p></e>
     <e><p><l>helâ<s n="unk"/></l><r>абзар<b/>арты<s n="unk"/></r></p></e>
-    <e><p><l>ahır<b/>veya<b/>ağılı<b/>koruyucu<b/>ruh<s n="unk"/></l><r>абзар<b/>иясе<s n="unk"/></r></p></e>
     <e><p><l>ahır-avlu<s n="unk"/></l><r>абзар-кура<s n="unk"/></r></p></e>
 
     <!-- абзац [abzats] paragraf -->
@@ -51,7 +50,6 @@
     <e><p><l>saygı<b/>değer<b/>kişi<s n="unk"/></l><r>абзый<b/>кеше<s n="unk"/></r></p></e>
 
     <!-- абитуриент [abituriyent] yüksek okulda okumak için giriş sınavları verici kimse -->
-    <e><p><l>yüksek<b/>okulda<b/>okumak<b/>için<b/>giriş<b/>sınavları<b/>verici<b/>kimse<s n="unk"/></l><r>абитуриент<s n="unk"/></r></p></e>
 
     <!-- абонемент [abonement] abone kâğıdı veya bileti -->
     <e><p><l>abone<b/>kâğıdı<b/>veya<b/>bileti<s n="unk"/></l><r>абонемент<s n="unk"/></r></p></e>
@@ -98,7 +96,6 @@
     <!-- абый [abıy] kendinden büyük kardeş, ağabey; абый кеше [abıy keşe] kendinden büyük ve tanıdık olmayan erkek kimse -->
     <e><p><l>kendinden<b/>büyük<b/>kardeş<s n="unk"/></l><r>абый<s n="unk"/></r></p></e>
     <e><p><l>ağabey<s n="unk"/></l><r>абый<s n="unk"/></r></p></e>
-    <e><p><l>kendinden<b/>büyük<b/>ve<b/>tanıdık<b/>olmayan<b/>erkek<b/>kimse<s n="unk"/></l><r>абый<b/>кеше<s n="unk"/></r></p></e>
 
     <!-- абына-егыла [abına-yıgıla] yı­kı la sendeleye -->
     <e><p><l>yıkı<b/>la<b/>sendeleye<s n="unk"/></l><r>абына-егыла<s n="unk"/></r></p></e>
@@ -337,8 +334,6 @@
 
     <!-- авырту [avırtu] ağrı O  авырт­кан башка тимер таяк  [avırtkan başka timer tayak] ağrıyan başa demir dayak; авырткан җиргә (сө­ялгә) басу (кагылу) [avırtkan cirge (söyelge) basu (kagılu)] ağrıyan yere parmak basma авыр- [avır-] hastalanmak авыру [avım] hasta авырулы [avıruh] hastalıklı авыручан [avıruçan] sık sık has­talanan (kimse) авыш [avış] eğim, meyil, eğri авыш- [avış-] eğmek, meyilli ol­mak -->
     <e><p><l>hastalanmak<s n="v"/><s n="TD"/></l><r>авыр-<s n="v"/><s n="TD"/></r></p></e>
-    <e><p><l>ağrıyan<b/>başa<b/>demir<b/>dayak<s n="unk"/></l><r>авырткан<b/>башка<b/>тимер<b/>таяк<s n="unk"/></r></p></e>
-    <e><p><l>ağrıyan<b/>yere<b/>parmak<b/>basma<s n="unk"/></l><r>авырткан<b/>җиргә<b/><b/>басу<s n="unk"/></r></p></e>
     <e><p><l>ağrı<s n="unk"/></l><r>авырту<s n="unk"/></r></p></e>
     <e><p><l>hasta<s n="unk"/></l><r>авыру<s n="unk"/></r></p></e>
     <e><p><l>hastalıklı<s n="unk"/></l><r>авырулы<s n="unk"/></r></p></e>
@@ -608,7 +603,6 @@
 
     <!-- азамат [azamat] 1. iri gövdeli (kimse); 2. öncü kuvvette yer alan 25-30 yaşlarındaki asker -->
     <e><p><l>iri<b/>gövdeli<s n="unk"/></l><r>азамат<s n="unk"/></r></p></e>
-    <e><p><l>öncü<b/>kuvvette<b/>yer<b/>alan<b/>25-30<b/>yaşlarındaki<b/>asker<s n="unk"/></l><r>азамат<s n="unk"/></r></p></e>
 
     <!-- азап  [azap] azap O азап күр-(чик-) [azap kür- (çik-)] azap gör­mek (çekmek) азапла- [azapla-] azap vermek азаплан- [azapları-] 1. azap gör­mek; 2. boş yere uğraşmak азаплы [azaplı] sıkıntılı азапсыз [azapsız] sıkıntısız -->
     <e><p><l>azap<s n="unk"/></l><r>азап<s n="unk"/></r></p></e>
@@ -1250,7 +1244,6 @@
     <e><p><l>değiştirmek<s n="v"/><s n="TD"/></l><r>алмаштыр-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- алмаштыргысыз [almaştırgısız] (bir şeyin, kimsenin) yerini başka hiç bir şey (kimse) tutamaz -->
-    <e><p><l>yerini<b/>başka<b/>hiç<b/>bir<b/>şey<b/><b/>tutamaz<s n="unk"/></l><r>алмаштыргысыз<s n="unk"/></r></p></e>
 
     <!-- алмаштырырлык [almaştırırlık] değiştirilebilir -->
     <e><p><l>değiştirilebilir<s n="unk"/></l><r>алмаштырырлык<s n="unk"/></r></p></e>
@@ -1300,9 +1293,6 @@
     <e><p><l>usta<s n="unk"/></l><r>алтын<b/>куллы<s n="unk"/></r></p></e>
     <e><p><l>mahir<s n="unk"/></l><r>алтын<b/>куллы<s n="unk"/></r></p></e>
     <e><p><l>altın<b/>güz<s n="unk"/></l><r>алтын<b/>көз<s n="unk"/></r></p></e>
-    <e><p><l>15<b/>Eylül<b/>-<b/>15<b/>Ekim<b/>arası<s n="unk"/></l><r>алтын<b/>көз<s n="unk"/></r></p></e>
-    <e><p><l>altın<b/>dağlar<b/>vaad<b/>etmek<s n="v"/><s n="TD"/></l><r>алтын<b/>таулар<b/>вәгъдә<b/>ит-<s n="v"/><s n="TD"/></r></p></e>
-    <e><p><l>çok<b/>şeyler<b/>vaad<b/>etmek<b/>ama<b/>sözünde<b/>durmamak<s n="v"/><s n="TD"/></l><r>алтын<b/>таулар<b/>вәгъдә<b/>ит-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- алтынла- [altınla-] altınlamak, yaldızlamak -->
     <e><p><l>altınlamak<s n="v"/><s n="TD"/></l><r>алтынла-<s n="v"/><s n="TD"/></r></p></e>
@@ -1522,7 +1512,6 @@
     <e><p><l>kolaylaştırmak<s n="v"/><s n="TD"/></l><r>ансатлаштыр-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>kolaylık<s n="unk"/></l><r>ансатлык<s n="unk"/></r></p></e>
     <e><p><l>onsuz<s n="unk"/></l><r>ансыз<s n="unk"/></r></p></e>
-    <e><p><l>ondan<b/>başka<b/>dünya<b/>hiç<b/>bir<b/>şey<s n="unk"/></l><r>ансыз<b/>-дөнья<b/>сансыз<s n="unk"/></r></p></e>
     <e><p><l>o<b/>olmasa<b/>da<s n="unk"/></l><r>ансыз<b/>да<s n="unk"/></r></p></e>
 
     <!-- ант [ant] ant, yemin ❖ ант боз-[ant boz-] ant bozmak; ант эч- [ant eç-] ant içmek -->
@@ -1690,7 +1679,6 @@
     <e><p><l>çifte<b/>pencere<b/>arasındaki<b/>yer<s n="unk"/></l><r>тәрәзә<b/>аралыгы<s n="unk"/></r></p></e>
 
     <!-- аран [aran] at ve inek ahırındaki her göz -->
-    <e><p><l>at<b/>ve<b/>inek<b/>ahırındaki<b/>her<b/>göz<s n="unk"/></l><r>аран<s n="unk"/></r></p></e>
 
     <!-- арата [arata] 1. basamak (ağaç merdivende); 2. lento, atkı -->
     <e><p><l>basamak<s n="unk"/></l><r>арата<s n="unk"/></r></p></e>
@@ -1805,7 +1793,6 @@
 
     <!-- арпа I [arpa] arpa O арпа эчен­дә бер бодай [arpa ecende ber boday] arpa içinde tek buğday, yalnız -->
     <e><p><l>arpa<s n="unk"/></l><r>арпа<s n="unk"/></r></p></e>
-    <e><p><l>arpa<b/>içinde<b/>tek<b/>buğday<s n="unk"/></l><r>арпа<b/>эчендә<b/>бер<b/>бодай<s n="unk"/></r></p></e>
     <e><p><l>yalnız<s n="unk"/></l><r>арпа<b/>эчендә<b/>бер<b/>бодай<s n="unk"/></r></p></e>
 
     <!-- арпаган [arpagan] arpağan -->
@@ -2255,8 +2242,6 @@
     <e><p><l>kemik<b/>oyununda<b/>atılan<b/>uzun<b/>sopa<s n="unk"/></l><r>аткы<s n="unk"/></r></p></e>
 
     <!-- атлавыч, атлагыч [atlavıç. atla-gıç] süt karıştırmak için kullanılan ağaç alet -->
-    <e><p><l>süt<b/>karıştırmak<b/>için<b/>kullanılan<b/>ağaç<b/>alet<s n="unk"/></l><r>атлавыч<s n="unk"/></r></p></e>
-    <e><p><l>süt<b/>karıştırmak<b/>için<b/>kullanılan<b/>ağaç<b/>alet<s n="unk"/></l><r>атлагыч<s n="unk"/></r></p></e>
 
     <!-- атлам [atlam] geniş adım -->
     <e><p><l>geniş<b/>adım<s n="unk"/></l><r>атлам<s n="unk"/></r></p></e>
@@ -2613,8 +2598,6 @@
     <e><p><l>aş<s n="unk"/></l><r>аш<s n="unk"/></r></p></e>
     <e><p><l>yemek<s n="unk"/></l><r>аш<s n="unk"/></r></p></e>
     <e><p><l>afiyet<b/>olsun<s n="unk"/></l><r>ашыгыз<b/>тәмле<b/>булсын<s n="unk"/></r></p></e>
-    <e><p><l>ölse<b/>de<b/>yazık<b/>değil<b/>çok<b/>yaşamış<s n="unk"/></l><r>ашын<b/>ашаган<s n="unk"/></r></p></e>
-    <e><p><l>ölse<b/>de<b/>yazık<b/>değil<b/>çok<b/>yaşamış<s n="unk"/></l><r>яшен<b/>яшәгән<s n="unk"/></r></p></e>
 
     <!-- аш- [aş-] 1. aşmak; 2. yüksel­mek, ağmak; 3. gerçekleşmek -->
     <e><p><l>aşmak<s n="v"/><s n="TD"/></l><r>аш-<s n="v"/><s n="TD"/></r></p></e>
@@ -2721,7 +2704,6 @@
     <e><p><l>ayı<b/>kamışı<s n="unk"/></l><r>аю<b/>көпшәсе<s n="unk"/></r></p></e>
     <e><p><l>şaşkına<b/>çevirmek<s n="unk"/></l><r>аю<b/>мае<b/>сөртү<s n="unk"/></r></p></e>
     <e><p><l>başına<b/>iş<b/>açmak<s n="unk"/></l><r>аю<b/>мае<b/>сөртү<s n="unk"/></r></p></e>
-    <e><p><l>iyi<b/>hedefle<b/>kötü<b/>iş<b/>yapmak<s n="v"/><s n="TD"/></l><r>аю<b/>хезмәте<b/>күрсәт-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- аюкач [ayukaç] ayı yavrusu -->
     <e><p><l>ayı<b/>yavrusu<s n="unk"/></l><r>аюкач<s n="unk"/></r></p></e>
@@ -2789,7 +2771,6 @@
     <e><p><l>elsiz<b/>ayaksız<b/>kalmak<s n="v"/><s n="TD"/></l><r>аяксыз-кулсыз<b/>кал-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- аякчу [ayakçu] çorap yerine ayağa dolanan kumaş parçası -->
-    <e><p><l>çorap<b/>yerine<b/>ayağa<b/>dolanan<b/>kumaş<b/>parçası<s n="unk"/></l><r>аякчу<s n="unk"/></r></p></e>
 
     <!-- аяныч [ayanıç] üzüntü, esef -->
     <e><p><l>üzüntü<s n="unk"/></l><r>аяныч<s n="unk"/></r></p></e>
@@ -2803,8 +2784,6 @@
     <e><p><l>koruma<s n="unk"/></l><r>аяу<s n="unk"/></r></p></e>
 
     <!-- аяу: аяу атнасы [ayau: ayau atnası] 1. 21-28 Haziran (en kısa geceli en uzun günlerde) tabiatı koruma haftası; 2. çocuk doğuran kadının ilk haftası -->
-    <e><p><l>21-28<b/>Haziran<b/><b/>tabiatı<b/>koruma<b/>haftası<s n="unk"/></l><r>аяу<b/>аяу<b/>атнасы<s n="unk"/></r></p></e>
-    <e><p><l>çocuk<b/>doğuran<b/>kadının<b/>ilk<b/>haftası<s n="unk"/></l><r>аяу<b/>аяу<b/>атнасы<s n="unk"/></r></p></e>
 
     <!-- аяусыз [ayausız] acımasız, mer­hametsiz -->
     <e><p><l>acımasız<s n="unk"/></l><r>аяусыз<s n="unk"/></r></p></e>
@@ -3026,7 +3005,6 @@
     <!-- багана [bağana] sütun, direk; багана умарта [bağana umarta] uzun bal kovanı O багана кебек катып кал- [bağana kebek katıp kal-] odun gibi durmak -->
     <e><p><l>sütun<s n="unk"/></l><r>багана<s n="unk"/></r></p></e>
     <e><p><l>direk<s n="unk"/></l><r>багана<s n="unk"/></r></p></e>
-    <e><p><l>odun<b/>gibi<b/>durmak<s n="v"/><s n="TD"/></l><r>багана<b/>кебек<b/>катып<b/>кал-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>uzun<b/>bal<b/>kovanı<s n="unk"/></l><r>багана<b/>умарта<s n="unk"/></r></p></e>
 
     <!-- багла- [bağla-] bağlamak -->
@@ -3063,7 +3041,6 @@
     <e><p><l>pazar<s n="unk"/></l><r>базар<s n="unk"/></r></p></e>
     <e><p><l>otorite<s n="unk"/></l><r>базар<s n="unk"/></r></p></e>
     <e><p><l>kıymet<s n="unk"/></l><r>базар<s n="unk"/></r></p></e>
-    <e><p><l>her<b/>kafadan<b/>bir<b/>ses<b/>çıkarmak<s n="v"/><s n="TD"/></l><r>базар<b/>яса-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>pazarı<s n="unk"/></l><r>базары<b/>күтәрел-<s n="unk"/></r></p></e>
     <e><p><l>kıymeti<s n="unk"/></l><r>базары<b/>күтәрел-<s n="unk"/></r></p></e>
     <e><p><l>otoritesi<b/>yükselmek<s n="v"/><s n="TD"/></l><r>базары<b/>күтәрел-<s n="v"/><s n="TD"/></r></p></e>
@@ -3132,8 +3109,6 @@
 
     <!-- байтирәк [baytirek] 1. mit. kökü yedi kat derinlerde, başı yedi kat gökte olan ağaç; 2. yeni doğan ço­cuk için dikilen ağaç -->
     <e><p><l>mit.<b/>kökü<b/>yedi<b/>kat<b/>derinlerde<s n="unk"/></l><r>байтирәк<s n="unk"/></r></p></e>
-    <e><p><l>başı<b/>yedi<b/>kat<b/>gökte<b/>olan<b/>ağaç<s n="unk"/></l><r>байтирәк<s n="unk"/></r></p></e>
-    <e><p><l>yeni<b/>doğan<b/>çocuk<b/>için<b/>dikilen<b/>ağaç<s n="unk"/></l><r>байтирәк<s n="unk"/></r></p></e>
 
     <!-- бак- [bak-] bakmak -->
     <e><p><l>bakmak<s n="v"/><s n="TD"/></l><r>бак-<s n="v"/><s n="TD"/></r></p></e>
@@ -3250,8 +3225,6 @@
     <!-- балдак [baldak] halka, kaşsız yüzük O балдак бармакка күрә, яр йөрәккә күрә [baldak barmак­ка küre, yar yörekke küre] baldak parmağa göre yar yüreğe göre -->
     <e><p><l>halka<s n="unk"/></l><r>балдак<s n="unk"/></r></p></e>
     <e><p><l>kaşsız<b/>yüzük<s n="unk"/></l><r>балдак<s n="unk"/></r></p></e>
-    <e><p><l>baldak<b/>parmağa<b/>göre<b/>yar<b/>yüreğe<b/>göre<s n="unk"/></l><r>балдак<b/>бармакка<b/>күрә<s n="unk"/></r></p></e>
-    <e><p><l>baldak<b/>parmağa<b/>göre<b/>yar<b/>yüreğe<b/>göre<s n="unk"/></l><r>яр<b/>йөрәккә<b/>күрә<s n="unk"/></r></p></e>
 
     <!-- балдыз [baldız] baldız -->
     <e><p><l>baldız<s n="unk"/></l><r>балдыз<s n="unk"/></r></p></e>
@@ -3433,7 +3406,6 @@
     <e><p><l>parmak<b/>kadarcık<s n="unk"/></l><r>бармак<b/>буе<s n="unk"/></r></p></e>
     <e><p><l>hece<b/>ölçü<s n="unk"/></l><r>бармак<b/>исәбе<s n="unk"/></r></p></e>
     <e><p><l>hece<b/>vezni<s n="unk"/></l><r>бармак<b/>исәбе<s n="unk"/></r></p></e>
-    <e><p><l>parmak<b/>ile<b/>işaret<b/>ederek<b/>azarlama<s n="unk"/></l><r>бармак<b/>янау<s n="unk"/></r></p></e>
     <e><p><l>parmak<b/>kımıldatmama<s n="unk"/></l><r>бармакка<b/>бармак<b/>сукмау<s n="unk"/></r></p></e>
 
     <!-- бармакча  [barmakça]   eldiven parmağı барометр [barometr] barometr барон [baron] baron баррикада [barrikada] barikat барсы [barsı] hepsi, tamamı бархан [barhan] barkan барча [barca] hepsi, tamam i барщина   [barşçina]   angarya usûlü бары I [barı] fakat бары II [barı] hepsi, tamamı барыбер [barıbâr] hepsi bir, far­ksız, aynı, eşit, nasıl olsa da -->
@@ -3507,7 +3479,6 @@
     <e><p><l>bastıracak<s n="unk"/></l><r>бастыргыч<s n="unk"/></r></p></e>
 
     <!-- бастырык [bastırık] araba ile ta­şınan otları üstten bastırmak için bağlanan ağaç -->
-    <e><p><l>araba<b/>ile<b/>taşınan<b/>otları<b/>üstten<b/>bastırmak<b/>için<b/>bağlanan<b/>ağaç<s n="unk"/></l><r>бастырык<s n="unk"/></r></p></e>
 
     <!-- бастырыкла- [bastırıkla-] bastı-rık ile bastırmak -->
     <e><p><l>bastı-rık<b/>ile<b/>bastırmak<s n="v"/><s n="TD"/></l><r>бастырыкла-<s n="v"/><s n="TD"/></r></p></e>
@@ -4139,7 +4110,6 @@
     <e><p><l>kapanmak<s n="v"/><s n="TD"/></l><r>биклән-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>mersin<b/>balığı<s n="unk"/></l><r>бикрә<s n="unk"/></r></p></e>
     <e><p><l>zengin<b/>kadın<s n="unk"/></l><r>бикә<s n="unk"/></r></p></e>
-    <e><p><l>isimlerden<b/>sonra<b/><b/>kullanıldığında<b/>dişilik<b/>bildiren<s n="unk"/></l><r>бикә<s n="unk"/></r></p></e>
     <e><p><l>yeni<b/>evli<b/>gelin<s n="unk"/></l><r>бикәч<s n="unk"/></r></p></e>
     <e><p><l>bel<s n="unk"/></l><r>бил<s n="unk"/></r></p></e>
     <e><p><l>büzülme<s n="unk"/></l><r>бил<s n="unk"/></r></p></e>
@@ -4177,8 +4147,6 @@
     <e><p><l>bilinmezlik<s n="unk"/></l><r>билгесезлек<s n="unk"/></r></p></e>
 
     <!-- билдәмә [bildeme] 1. kadın el­bisesinde belde kendisine dikilmiş kemer; 2.  kasaplık hayvanların belkemiklerinin iki tarafından çıka­rılan et билет [bilet] bilet билле [bille] belli, beli varolan билчән [bilçen] dikenli yabani ot бильярд [bilyard] bilardo; биль­ярд таягы [bilyard tayagı] bilardo sopası -->
-    <e><p><l>kadın<b/>elbisesinde<b/>belde<b/>kendisine<b/>dikilmiş<b/>kemer<s n="unk"/></l><r>билдәмә<s n="unk"/></r></p></e>
-    <e><p><l>kasaplık<b/>hayvanların<b/>belkemiklerinin<b/>iki<b/>tarafından<b/>çıkarılan<b/>et<s n="unk"/></l><r>билдәмә<s n="unk"/></r></p></e>
     <e><p><l>bilet<s n="unk"/></l><r>билет<s n="unk"/></r></p></e>
     <e><p><l>belli<s n="unk"/></l><r>билле<s n="unk"/></r></p></e>
     <e><p><l>beli<b/>varolan<s n="unk"/></l><r>билле<s n="unk"/></r></p></e>
@@ -4395,7 +4363,6 @@
 
     <!-- богыл [bogıl] 1,5 metre boyun­da kuru ot yığını бодай [boday] buğday боек- [boyık-] kederlenmek, hü­zünlenmek, bunalmak -->
     <e><p><l>1<s n="unk"/></l><r>богыл<s n="unk"/></r></p></e>
-    <e><p><l>5<b/>metre<b/>boyunda<b/>kuru<b/>ot<b/>yığını<s n="unk"/></l><r>богыл<s n="unk"/></r></p></e>
     <e><p><l>buğday<s n="unk"/></l><r>бодай<s n="unk"/></r></p></e>
     <e><p><l>kederlenmek<s n="v"/><s n="TD"/></l><r>боек-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>hüzünlenmek<s n="v"/><s n="TD"/></l><r>боек-<s n="v"/><s n="TD"/></r></p></e>
@@ -4452,7 +4419,6 @@
     <e><p><l>buzlu<s n="unk"/></l><r>бозлы<s n="unk"/></r></p></e>
     <e><p><l>buzul<s n="unk"/></l><r>бозлык<s n="unk"/></r></p></e>
     <e><p><l>bozuk<s n="unk"/></l><r>бозык<s n="unk"/></r></p></e>
-    <e><p><l>mantıkta<b/>ispatı<b/>kendinde<b/>görülen<b/>hüküm<s n="unk"/></l><r>бозык<b/>боҗра<s n="unk"/></r></p></e>
     <e><p><l>kısır<b/>döngü<s n="unk"/></l><r>бозык<b/>боҗра<s n="unk"/></r></p></e>
     <e><p><l>bozuk<b/>fikir<s n="unk"/></l><r>бозык<b/>уй<s n="unk"/></r></p></e>
     <e><p><l>ahlak<b/>bozukluğu<s n="unk"/></l><r>бозык<b/>юл<s n="unk"/></r></p></e>
@@ -4519,7 +4485,6 @@
 
     <!-- болганчык [bolgançık] bulanık O болганчык суда балык тот- [bol­gançık suda balık tot-] bulanık su­da balık avlamak -->
     <e><p><l>bulanık<s n="unk"/></l><r>болганчык<s n="unk"/></r></p></e>
-    <e><p><l>bulanık<b/>suda<b/>balık<b/>avlamak<s n="v"/><s n="TD"/></l><r>болганчык<b/>суда<b/>балык<b/>тот-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- болганчыклан- [bolgançıklan-] bulanmak -->
     <e><p><l>bulanmak<s n="v"/><s n="TD"/></l><r>болганчыклан-<s n="v"/><s n="TD"/></r></p></e>
@@ -4864,7 +4829,6 @@
     <e><p><l>tabî<b/>olmamak<s n="v"/><s n="TD"/></l><r>буй<b/>бирмә-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>büyümek<s n="v"/><s n="TD"/></l><r>буй<b/>җит-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>rüşte<b/>ermek<s n="v"/><s n="TD"/></l><r>буй<b/>җит-<s n="v"/><s n="TD"/></r></p></e>
-    <e><p><l>bir<b/>şeyi<b/>almaya<b/>imkân<b/>olmak<s n="v"/><s n="TD"/></l><r>буй<b/>җит-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>boy<b/>boy<s n="unk"/></l><r>буй-буй<s n="unk"/></r></p></e>
     <e><p><l>manda<s n="unk"/></l><r>буйвол<s n="unk"/></r></p></e>
     <e><p><l>hâmile<b/>olmak<s n="v"/><s n="TD"/></l><r>буйга<b/>уз-<s n="v"/><s n="TD"/></r></p></e>
@@ -4982,7 +4946,6 @@
     <e><p><l>keçe<b/>konçtu<b/>çizme<s n="unk"/></l><r>бурка<s n="unk"/></r></p></e>
 
     <!-- бурлак [burlak] nehir gemilerini akıntıya karşı kıyıdan iple çekerek yüzdüren kimse, yedekçi бурлаклык [budaklık] yedekçilik бурлат [burlat]  koyu  kırmızı, şarabî -->
-    <e><p><l>nehir<b/>gemilerini<b/>akıntıya<b/>karşı<b/>kıyıdan<b/>iple<b/>çekerek<b/>yüzdüren<b/>kimse<s n="unk"/></l><r>бурлак<s n="unk"/></r></p></e>
     <e><p><l>yedekçi<s n="unk"/></l><r>бурлак<s n="unk"/></r></p></e>
     <e><p><l>yedekçilik<s n="unk"/></l><r>бурлаклык<s n="unk"/></r></p></e>
     <e><p><l>koyu<b/><b/>kırmızı<s n="unk"/></l><r>бурлат<s n="unk"/></r></p></e>
@@ -5169,7 +5132,6 @@
     <e><p><l>büst<s n="unk"/></l><r>бюст<s n="unk"/></r></p></e>
     <e><p><l>sutyen<s n="unk"/></l><r>бюстгалтер<s n="unk"/></r></p></e>
     <e><p><l>bebek<s n="unk"/></l><r>бәби<s n="unk"/></r></p></e>
-    <e><p><l>bebeğe<b/>isim<b/>koymak<b/>vb.<b/>ziyafeti<s n="unk"/></l><r>бәби<b/>туе<s n="unk"/></r></p></e>
 
     <!-- бәбилә- [bebile-] bebeklemek, doğurmak -->
     <e><p><l>bebeklemek<s n="v"/><s n="TD"/></l><r>бәбилә-<s n="v"/><s n="TD"/></r></p></e>
@@ -5179,7 +5141,6 @@
     <e><p><l>bebeği<s n="unk"/></l><r>бәби<b/>бәбәк<s n="unk"/></r></p></e>
     <e><p><l>kaz<b/>ve<b/>ördek<b/>yavrusu<s n="unk"/></l><r>бәбкә<s n="unk"/></r></p></e>
     <e><p><l>yavrucuk<s n="unk"/></l><r>бәбкә<s n="unk"/></r></p></e>
-    <e><p><l>kaz<b/>ve<b/>ördek<b/>yavrularının<b/>severek<b/>yediği<b/>ot<s n="unk"/></l><r>бәбкә<b/>үләне<s n="unk"/></r></p></e>
     <e><p><l>bk.<s n="unk"/></l><r>бәбәй<s n="unk"/></r></p></e>
     <e><p><l>tomurcuk<b/>gözü<s n="unk"/></l><r>бәбәк<s n="unk"/></r></p></e>
     <e><p><l>sidik<s n="unk"/></l><r>бәвел<s n="unk"/></r></p></e>
@@ -5300,7 +5261,6 @@
     <e><p><l>bey<s n="unk"/></l><r>бәк<s n="unk"/></r></p></e>
 
     <!-- бәке [beke] buz üstüne su al­mak için açılan delik -->
-    <e><p><l>buz<b/>üstüne<b/>su<b/>almak<b/>için<b/>açılan<b/>delik<s n="unk"/></l><r>бәке<s n="unk"/></r></p></e>
 
     <!-- бәкәл [bekel] toynak boğumu -->
     <e><p><l>toynak<b/>boğumu<s n="unk"/></l><r>бәкәл<s n="unk"/></r></p></e>
@@ -5318,7 +5278,6 @@
     <!-- бәлеш I [belâş] içine et, pata­tes, pilav vb. koyarak pişirilen ek­mek dolması -->
     <e><p><l>içine<b/>et<s n="unk"/></l><r>бәлеш<s n="unk"/></r></p></e>
     <e><p><l>patates<s n="unk"/></l><r>бәлеш<s n="unk"/></r></p></e>
-    <e><p><l>pilav<b/>vb.<b/>koyarak<b/>pişirilen<b/>ekmek<b/>dolması<s n="unk"/></l><r>бәлеш<s n="unk"/></r></p></e>
 
     <!-- бәлеш II [belâş] vay, vay mânâ­sına ünlem -->
     <e><p><l>vay<s n="unk"/></l><r>бәлеш<s n="unk"/></r></p></e>
@@ -5401,7 +5360,6 @@
 
     <!-- бәртәс [bertes] sazangillerden, tatlı sularda yaşayan bir cins ba­lık -->
     <e><p><l>sazangillerden<s n="unk"/></l><r>бәртәс<s n="unk"/></r></p></e>
-    <e><p><l>tatlı<b/>sularda<b/>yaşayan<b/>bir<b/>cins<b/>balık<s n="unk"/></l><r>бәртәс<s n="unk"/></r></p></e>
 
     <!-- бәрхет [berhet] kadife бәрәкәт [bereket] bereket бәрәкәтле [bereketle] bereketli бәрәкәтсез   [bereketsez] bere­ketsiz -->
     <e><p><l>kadife<s n="unk"/></l><r>бәрхет<s n="unk"/></r></p></e>
@@ -5549,7 +5507,6 @@
     <e><p><l>ay<b/>çöreği<s n="unk"/></l><r>бөккән<s n="unk"/></r></p></e>
     <e><p><l>bükmek<s n="v"/><s n="TD"/></l><r>бөклә-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>yumrultma<s n="unk"/></l><r>бөклә-<s n="unk"/></r></p></e>
-    <e><p><l>aşık<b/>kemiğini<b/>oyunda<b/>bel<b/>hâline<b/>getirmek<s n="v"/><s n="TD"/></l><r>бөклә-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>bükülmek<s n="v"/><s n="TD"/></l><r>бөклән-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>kambur<s n="unk"/></l><r>бөкре<s n="unk"/></r></p></e>
     <e><p><l>iflâs<b/>etmek<s n="v"/><s n="TD"/></l><r>бөл-<s n="v"/><s n="TD"/></r></p></e>
@@ -5616,7 +5573,6 @@
     <e><p><l>ayrıntılı<b/>şekilde<s n="unk"/></l><r>бөртекләп<s n="unk"/></r></p></e>
 
     <!-- бөрчек [börçek] kumaşta vb. bulunan küçük ve sık benek, nokta -->
-    <e><p><l>kumaşta<b/>vb.<b/>bulunan<b/>küçük<b/>ve<b/>sık<b/>benek<s n="unk"/></l><r>бөрчек<s n="unk"/></r></p></e>
     <e><p><l>nokta<s n="unk"/></l><r>бөрчек<s n="unk"/></r></p></e>
 
     <!-- бөрчек-бөрчек [börçek-börçek] kumlu -->
@@ -5702,7 +5658,6 @@
 
     <!-- бүгенге [bugenge] bugünkü O бүгенге көн белән яшәү [bügenge kön balen yeşeü] gününü gün et­mek -->
     <e><p><l>bugünkü<s n="unk"/></l><r>бүгенге<s n="unk"/></r></p></e>
-    <e><p><l>gününü<b/>gün<b/>etmek<s n="unk"/></l><r>бүгенге<b/>көн<b/>белән<b/>яшәү<s n="unk"/></r></p></e>
 
     <!-- бүгенгәчә [bügengeçe] bugüne kadar -->
     <e><p><l>bugüne<b/>kadar<s n="unk"/></l><r>бүгенгәчә<s n="unk"/></r></p></e>
@@ -5733,7 +5688,6 @@
     <e><p><l>göğüs<b/>kabartmak<s n="unk"/></l><r>бүксә<b/>киер<s n="unk"/></r></p></e>
 
     <!-- бүкән [büken] kalın gövdeli ağaçtan tek parçalı sandalye, oturmak veya dikmek için kütük -->
-    <e><p><l>kalın<b/>gövdeli<b/>ağaçtan<b/>tek<b/>parçalı<b/>sandalye<s n="unk"/></l><r>бүкән<s n="unk"/></r></p></e>
     <e><p><l>oturmak<b/>veya<b/>dikmek<b/>için<b/>kütük<s n="unk"/></l><r>бүкән<s n="unk"/></r></p></e>
 
     <!-- бүл- [bül-] bölmek, paylaşmak, pay etmek -->
@@ -5922,7 +5876,6 @@
     <e><p><l>bozuk<b/>para<s n="unk"/></l><r>вак<b/>акча<s n="unk"/></r></p></e>
     <e><p><l>küçük<b/>beliş<s n="unk"/></l><r>вак<b/>бәлеш<s n="unk"/></r></p></e>
     <e><p><l>ufak<b/>taneli<s n="unk"/></l><r>вак<b/>бөртекле<s n="unk"/></r></p></e>
-    <e><p><l>kılını<b/>kırk<b/>yararak<b/>incelemek<s n="v"/><s n="TD"/></l><r>вак<b/>иләктән<b/>илә-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>küçük<b/>mülkiyetçilik<s n="unk"/></l><r>вак<b/>милекчелек<s n="unk"/></r></p></e>
     <e><p><l>incir<b/>çekirdeğini<b/>doldurmaz<b/>söz.<s n="unk"/></l><r>вак<b/>сүз<s n="unk"/></r></p></e>
 
@@ -6235,7 +6188,6 @@
     <e><p><l>çok<b/>çabuk<b/>hareket<b/>etme<s n="unk"/></l><r>выжылда-<s n="unk"/></r></p></e>
 
     <!-- выжылдавык [vıjıldavık] çocuk­ların ip veya sopa ile vızıldatarak oynadıkları oyun âleti -->
-    <e><p><l>çocukların<b/>ip<b/>veya<b/>sopa<b/>ile<b/>vızıldatarak<b/>oynadıkları<b/>oyun<b/>âleti<s n="unk"/></l><r>выжылдавык<s n="unk"/></r></p></e>
 
     <!-- вымпел [vımpel] flama -->
     <e><p><l>flama<s n="unk"/></l><r>вымпел<s n="unk"/></r></p></e>
@@ -6359,7 +6311,6 @@
     <e><p><l>vahşetli<s n="unk"/></l><r>вәхшәтле<s n="unk"/></r></p></e>
     <e><p><l>vicdan<s n="unk"/></l><r>вөҗдан<s n="unk"/></r></p></e>
     <e><p><l>vicdan<b/>emrin-ce<s n="unk"/></l><r>вөҗдан<b/><b/><b/>кушканча<s n="unk"/></r></p></e>
-    <e><p><l>vicdan<b/>rahatlığı<b/>için<s n="unk"/></l><r>вөҗдан<b/><b/><b/>тынычлыгы<b/><b/><b/>өчен<s n="unk"/></r></p></e>
     <e><p><l>vicdan<b/><b/><b/>azabı<s n="unk"/></l><r>вөҗдан<b/>газабы<s n="unk"/></r></p></e>
     <e><p><l>vicdanlı<s n="unk"/></l><r>вөҗданлы<s n="unk"/></r></p></e>
     <e><p><l>vic-danlılık<s n="unk"/></l><r>вөҗданлылык<s n="unk"/></r></p></e>
@@ -6418,7 +6369,6 @@
     <e><p><l>vahşetli<s n="unk"/></l><r>вәхшәтле<s n="unk"/></r></p></e>
     <e><p><l>vicdan<s n="unk"/></l><r>вөҗдан<s n="unk"/></r></p></e>
     <e><p><l>vicdan<b/>emrin-ce<s n="unk"/></l><r>вөҗдан<b/><b/><b/>кушканча<s n="unk"/></r></p></e>
-    <e><p><l>vicdan<b/>rahatlığı<b/>için<s n="unk"/></l><r>вөҗдан<b/><b/><b/>тынычлыгы<b/><b/><b/>өчен<s n="unk"/></r></p></e>
     <e><p><l>vicdan<b/><b/><b/>azabı<s n="unk"/></l><r>вөҗдан<b/>газабы<s n="unk"/></r></p></e>
     <e><p><l>vicdanlı<s n="unk"/></l><r>вөҗданлы<s n="unk"/></r></p></e>
     <e><p><l>vic-danlılık<s n="unk"/></l><r>вөҗданлылык<s n="unk"/></r></p></e>
@@ -6694,7 +6644,6 @@
     <e><p><l>gayreti<b/>gelmek<s n="v"/><s n="TD"/></l><r>гайрәт<b/>кер-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>gayretlenmek<s n="v"/><s n="TD"/></l><r>гайрәт<b/>кер-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>ilgi<s n="unk"/></l><r>гайрәтен<b/>чигер-<s n="unk"/></r></p></e>
-    <e><p><l>sevgi<b/>ve<b/>isteği<b/>azalmasına<b/>sebep<b/>olmak<s n="v"/><s n="TD"/></l><r>гайрәтен<b/>чигер-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>gayretli<s n="unk"/></l><r>гайрәтле<s n="unk"/></r></p></e>
     <e><p><l>gayretlilik<s n="unk"/></l><r>гайрәтлелек<s n="unk"/></r></p></e>
 
@@ -7082,7 +7031,6 @@
 
     <!-- гомер [gömer] ömür; ни гомер (булды) [ni gömer (buldı)] ne çok, zaman (oldu); гомер (гомердә дә) онытасым юк [gömer (gömerde de) onıtasım yuk] ömür boyunca unutmam; гомер ит- (кичер-, сөр-) [gömer it- (kiçer-, sör-)] ömür ya­şamak; гомер уздыр- (үткәр-) [gö­mer uzdır- (ütker-)] ömür geçir­mek; гомер язы [gömer yazı] ömür ilk baharı, gençlik çağı -->
     <e><p><l>ömür<s n="unk"/></l><r>гомер<s n="unk"/></r></p></e>
-    <e><p><l>ömür<b/>boyunca<b/>unutmam<s n="unk"/></l><r>гомер<b/><b/>онытасым<b/>юк<s n="unk"/></r></p></e>
     <e><p><l>ömür<b/>yaşamak<s n="v"/><s n="TD"/></l><r>гомер<b/>ит-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>ömür<b/>geçirmek<s n="v"/><s n="TD"/></l><r>гомер<b/>уздыр-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>ömür<b/>ilk<b/>baharı<s n="unk"/></l><r>гомер<b/>язы<s n="unk"/></r></p></e>
@@ -7117,7 +7065,6 @@
 
     <!-- гомуми [gomumi] umumî; гому­ми белем мәктәбе [gomumi ba­lem mektebe] umumi tahsil veren okul -->
     <e><p><l>umumî<s n="unk"/></l><r>гомуми<s n="unk"/></r></p></e>
-    <e><p><l>umumi<b/>tahsil<b/>veren<b/>okul<s n="unk"/></l><r>гомуми<b/>белем<b/>мәктәбе<s n="unk"/></r></p></e>
 
     <!-- гомумилек [gomumilâk] umumi­lik -->
     <e><p><l>umumilik<s n="unk"/></l><r>гомумилек<s n="unk"/></r></p></e>
@@ -7294,7 +7241,6 @@
     <!-- груһ [gruh] güruh, grup; кара груһлар [kara gruhlar] Rus ihtilâli sırasında çar taraftarı -->
     <e><p><l>güruh<s n="unk"/></l><r>груһ<s n="unk"/></r></p></e>
     <e><p><l>grup<s n="unk"/></l><r>груһ<s n="unk"/></r></p></e>
-    <e><p><l>Rus<b/>ihtilâli<b/>sırasında<b/>çar<b/>taraftarı<s n="unk"/></l><r>кара<b/>груһлар<s n="unk"/></r></p></e>
 
     <!-- губернатор [gubernator] vali -->
     <e><p><l>vali<s n="unk"/></l><r>губернатор<s n="unk"/></r></p></e>
@@ -7496,8 +7442,6 @@
     <e><p><l>hâmile<s n="unk"/></l><r>гөманлы<s n="unk"/></r></p></e>
 
     <!-- гөмбет [gömber] balıkları ağa doğru sürmek için suda şapıltı çı­karan ağaç sopa; гөмберт: гөм­берт ит [gömbert: gömbârt it-] ses çıkararak suya düşmek гөмбә [gömbe] mantar гөмбәз [göm bez] kubbe гөмбәзле [gömbezlâ] kubbeli гөмбәзсыман  [gömbezsiman] kubbe gibi гөмбәле [gömbele] mantarlı гөмбәлек [gömbelek]  mantarlı yer -->
-    <e><p><l>ses<b/>çıkararak<b/>suya<b/>düşmek<s n="unk"/></l><r>гөмберт<b/>гөмберт<b/>ит<s n="unk"/></r></p></e>
-    <e><p><l>balıkları<b/>ağa<b/>doğru<b/>sürmek<b/>için<b/>suda<b/>şapıltı<b/>çıkaran<b/>ağaç<b/>sopa<s n="unk"/></l><r>гөмбет<s n="unk"/></r></p></e>
     <e><p><l>mantar<s n="unk"/></l><r>гөмбә<s n="unk"/></r></p></e>
     <e><p><l>kubbe<s n="unk"/></l><r>гөмбәз<s n="unk"/></r></p></e>
     <e><p><l>kubbeli<s n="unk"/></l><r>гөмбәзле<s n="unk"/></r></p></e>
@@ -8403,7 +8347,6 @@
     <e><p><l>araba<b/>okunun<b/>ucundaki<b/>yay<s n="unk"/></l><r>дуга<s n="unk"/></r></p></e>
     <e><p><l>koşum<b/>yayı<s n="unk"/></l><r>дуга<s n="unk"/></r></p></e>
     <e><p><l>saçma<b/>sapan<s n="unk"/></l><r>дуга<b/>белән<b/>печән<b/>чап-<s n="unk"/></r></p></e>
-    <e><p><l>manasız<b/>şekilde<b/>konuşmak<s n="v"/><s n="TD"/></l><r>дуга<b/>белән<b/>печән<b/>чап-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- дугай [dugay] 1. nehirin eski yolundaki göl; 2. pencere örtü-sündeki kemer, yay; З.уапт ay şekli -->
     <e><p><l>nehirin<b/>eski<b/>yolundaki<b/>göl<s n="unk"/></l><r>дугай<s n="unk"/></r></p></e>
@@ -8568,7 +8511,6 @@
     <!-- дәрман [derman] derman дәрмана [dermana] çiçekli, çok yıllık ve tedavide kullanılan bitki дәррәү [derreü] hepsi birden дәрт [dert] dert, sevda, aşıklık, sevgi, tutku, ihtiras, coşkunluk; дәрт бир- [dert bir-] dert vermek; дәрт сүн- [dert sün-] dert sön­mek; дәртен сүндер- [derten sün-der-] derdini söndürmek дәртле [dertle] dertli дәртлелек [dertlâlek] dertlilik дәртлән- [dertlen-] dertlenmek дәртләндер- [dertlender-] dert­lendirmek -->
     <e><p><l>derman<s n="unk"/></l><r>дәрман<s n="unk"/></r></p></e>
     <e><p><l>çiçekli<s n="unk"/></l><r>дәрмана<s n="unk"/></r></p></e>
-    <e><p><l>çok<b/>yıllık<b/>ve<b/>tedavide<b/>kullanılan<b/>bitki<s n="unk"/></l><r>дәрмана<s n="unk"/></r></p></e>
     <e><p><l>hepsi<b/>birden<s n="unk"/></l><r>дәррәү<s n="unk"/></r></p></e>
     <e><p><l>dert<s n="unk"/></l><r>дәрт<s n="unk"/></r></p></e>
     <e><p><l>sevda<s n="unk"/></l><r>дәрт<s n="unk"/></r></p></e>
@@ -8679,7 +8621,6 @@
     <e><p><l>tam<b/>kör<s n="unk"/></l><r>дөм<b/>сукыр<s n="unk"/></r></p></e>
 
     <!-- дөмбе [dömbe] suda balık kor­kutmak için yuvarlak başlı ağaç sopa -->
-    <e><p><l>suda<b/>balık<b/>korkutmak<b/>için<b/>yuvarlak<b/>başlı<b/>ağaç<b/>sopa<s n="unk"/></l><r>дөмбе<s n="unk"/></r></p></e>
 
     <!-- дөмбәслә- [dömbesle-] yumruk­lamak -->
     <e><p><l>yumruklamak<s n="v"/><s n="TD"/></l><r>дөмбәслә-<s n="v"/><s n="TD"/></r></p></e>
@@ -8766,7 +8707,6 @@
     <e><p><l>dört<s n="unk"/></l><r>дүрт<s n="unk"/></r></p></e>
     <e><p><l>dört<s n="unk"/></l><r>дүрт<b/>аяклап<s n="unk"/></r></p></e>
     <e><p><l>dört<b/>aza<s n="unk"/></l><r>дүрт<b/>сан<s n="unk"/></r></p></e>
-    <e><p><l>iki<b/>ayak<b/>ve<b/>iki<b/>kol<s n="unk"/></l><r>дүрт<b/>сан<s n="unk"/></r></p></e>
     <e><p><l>tangırdatmak<s n="v"/><s n="TD"/></l><r>дөңгердәт-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- дүртенче [dürtence] dördüncü дүртенчедән [dürtençeden] dör­düncüden -->
@@ -9342,7 +9282,6 @@
     <e><p><l>baş<b/>ucu<b/>noktası<s n="unk"/></l><r>зенит<s n="unk"/></r></p></e>
 
     <!-- зенитчы [zenitçı] en yükseğe atan silâh ile mücehhez atıcı -->
-    <e><p><l>en<b/>yükseğe<b/>atan<b/>silâh<b/>ile<b/>mücehhez<b/>atıcı<s n="unk"/></l><r>зенитчы<s n="unk"/></r></p></e>
 
     <!-- зерелдә- [zerelde-] zırıldamak -->
     <e><p><l>zırıldamak<s n="v"/><s n="TD"/></l><r>зерелдә-<s n="v"/><s n="TD"/></r></p></e>
@@ -9356,7 +9295,6 @@
 
     <!-- зефир [zefir] 1. sabah yeli; 2. çilek reçelinden hazırlanıp köpür­terek yapılan şekerleme -->
     <e><p><l>sabah<b/>yeli<s n="unk"/></l><r>зефир<s n="unk"/></r></p></e>
-    <e><p><l>çilek<b/>reçelinden<b/>hazırlanıp<b/>köpürterek<b/>yapılan<b/>şekerleme<s n="unk"/></l><r>зефир<s n="unk"/></r></p></e>
 
     <!-- зеңгепдәт- [zenggâldet-] zıngır­datmak -->
     <e><p><l>zıngırdatmak<s n="v"/><s n="TD"/></l><r>зеңгепдәт-<s n="v"/><s n="TD"/></r></p></e>
@@ -9459,7 +9397,6 @@
 
     <!-- зур [zur] büyük; зур гына [zur gına]   yeteri   kadar   (oldukça, epeyce) büyük ❖ зурга кит- [zurga kit-]  çapraşmak;  зурга җибәр-[zurga ciber-] çapraştırmak; зур­дан куп- (күтәр-) [zurdan kup- (kü-ter-)] 1. dozunu kaçırmak; 2. çok önem vererek hazırlanmak зурай - [zuray-] büyümek зурайт- [zurayt-] büyütmek зурайткыч [zuraytkıç] büyütücü, büyüteç -->
     <e><p><l>büyük<s n="unk"/></l><r>зур<s n="unk"/></r></p></e>
-    <e><p><l>yeteri<b/><b/><b/>kadar<b/><b/><b/><b/>büyük<s n="unk"/></l><r>зур<b/>гына<s n="unk"/></r></p></e>
     <e><p><l>büyümek<s n="v"/><s n="TD"/></l><r>зурай<b/>-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>büyütmek<s n="v"/><s n="TD"/></l><r>зурайт-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>büyütücü<s n="unk"/></l><r>зурайткыч<s n="unk"/></r></p></e>
@@ -9471,7 +9408,6 @@
 
     <!-- зурат [zurat] tahta iskele üstüne yığılıp koyulmuş ekin demetleri зур-зур [zur-zur] büyük büyük зурла- [zurla-] hürmet göster­mek -->
     <e><p><l>büyük<b/>büyük<s n="unk"/></l><r>зур-зур<s n="unk"/></r></p></e>
-    <e><p><l>tahta<b/>iskele<b/>üstüne<b/>yığılıp<b/>koyulmuş<b/>ekin<b/>demetleri<s n="unk"/></l><r>зурат<s n="unk"/></r></p></e>
     <e><p><l>hürmet<b/>göstermek<s n="v"/><s n="TD"/></l><r>зурла-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- зурларча [zurlarça] büyükler gibi зурлык [zurlık] büyüklük зурлы-кечкенәле [zurlı-keçkene-le] küçüklü büyüklü -->
@@ -9582,7 +9518,6 @@
     <e><p><l>istihzarlı<b/>söyleme<s n="unk"/></l><r>зәһәрле<b/>искәртү<s n="unk"/></r></p></e>
     <e><p><l>öfke<b/>dolu<b/>bakış<s n="unk"/></l><r>зәһәрле<b/>караш<s n="unk"/></r></p></e>
     <e><p><l>kötü<b/>kalpli<b/>kişi<s n="unk"/></l><r>зәһәрле<b/>кеше<s n="unk"/></r></p></e>
-    <e><p><l>kinci<b/>gözler<b/>ile<b/>bakarak<b/>gülmek<s n="v"/><s n="TD"/></l><r>зәһәрле<b/>көл-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- зәһәрлән- [zeherlen-] zehirlen­mek, hışımlanmak -->
     <e><p><l>zehirlenmek<s n="v"/><s n="TD"/></l><r>зәһәрлән-<s n="v"/><s n="TD"/></r></p></e>
@@ -9599,8 +9534,6 @@
     <e><p><l>eğmek<s n="v"/><s n="TD"/></l><r>и-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>bükmek<s n="v"/><s n="TD"/></l><r>и-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>söz<b/>dinlemeyen<s n="unk"/></l><r>игә<b/>кипмәүче<s n="unk"/></r></p></e>
-    <e><p><l>uyumlu<b/>olsa<b/>da<b/>keyfi<b/>yok<s n="unk"/></l><r>ие<b/>килсә<s n="unk"/></r></p></e>
-    <e><p><l>uyumlu<b/>olsa<b/>da<b/>keyfi<b/>yok<s n="unk"/></l><r>көе<b/>килми<s n="unk"/></r></p></e>
 
     <!-- ибе-җебе: ибе-җебе күренми (юк) [ibe-cebe: ibe-cebe kürenmi (yuk)] düzeni olmayan -->
     <e><p><l>düzeni<b/>olmayan<s n="unk"/></l><r>ибе-җебе<b/>ибе-җебе<b/>күренми<s n="unk"/></r></p></e>
@@ -9609,7 +9542,6 @@
     <e><p><l>iblis<s n="unk"/></l><r>иблис<s n="unk"/></r></p></e>
     <e><p><l>ayartma<s n="unk"/></l><r>иблис<b/>вәс-вәсәсе<s n="unk"/></r></p></e>
     <e><p><l>ayartan<s n="unk"/></l><r>иблис<b/>көчеге<s n="unk"/></r></p></e>
-    <e><p><l>çok<b/>kurnaz<b/>ve<b/>kötü<b/>çocuk<s n="unk"/></l><r>иблис<b/>көчеге<s n="unk"/></r></p></e>
     <e><p><l>iblis<b/>tohumu<s n="unk"/></l><r>иблис<b/>токымы<s n="unk"/></r></p></e>
     <e><p><l>şeytan<b/>soyunnan<b/>olan<s n="unk"/></l><r>иблис<b/>токымы<s n="unk"/></r></p></e>
 
@@ -9884,8 +9816,6 @@
     <e><p><l>değişik<s n="unk"/></l><r>икенче<s n="unk"/></r></p></e>
     <e><p><l>ikinci<b/>bir<s n="unk"/></l><r>икенче<b/>бер<s n="unk"/></r></p></e>
     <e><p><l>ikincil<s n="unk"/></l><r>икенче<b/>дәрәҗәдәге<s n="unk"/></r></p></e>
-    <e><p><l>başka<b/>bir<b/>göz<b/>ile<s n="unk"/></l><r>икенче<b/>күз<b/>белән<s n="unk"/></r></p></e>
-    <e><p><l>horozların<b/>ikinci<b/>ötüşüne<b/>kadar<s n="unk"/></l><r>икенче<b/>әтәчкә<b/>кадәр<s n="unk"/></r></p></e>
     <e><p><l>geç<b/>vakte<b/>kadar<s n="unk"/></l><r>икенче<b/>әтәчкә<b/>кадәр<s n="unk"/></r></p></e>
 
     <!-- икенчел [ikençel] ikinci derece­de, ikincil -->
@@ -9912,19 +9842,15 @@
     <e><p><l>kısaca<s n="unk"/></l><r>ике-өч<b/>сүз<b/>белән<s n="unk"/></r></p></e>
 
     <!-- икмәк [ikmek] ekmek; икмәк ara-чы [ikmek agaçı] ekmek ağacı; ик-   | мәк катысы [ikmek katısı] ekmek   i kabuğu O икмәк бүсере (убыры) [ikmek   büsere   (ubırı)]   ekmek oburu, tembel O икмәк йөзен (чы­раен) күрмим [ikmek yözen (çı ra­yın) kürmim] ekmek yüzü görme­yeyim (yemin sözü) икмәкле [ikmekle] ekmekli икмәкләтә  [ikmeklete]  ekmek olarak -->
-    <e><p><l>ekmek<b/><b/><b/>i<b/>kabuğu<s n="unk"/></l><r>ик-<b/><b/><b/><b/>мәк<b/>катысы<s n="unk"/></r></p></e>
     <e><p><l>ekmek<s n="unk"/></l><r>икмәк<s n="unk"/></r></p></e>
     <e><p><l>ekmek<b/>ağacı<s n="unk"/></l><r>икмәк<b/>-чы<s n="unk"/></r></p></e>
     <e><p><l>ekmek<b/>oburu<s n="unk"/></l><r>икмәк<b/>бүсере<s n="unk"/></r></p></e>
     <e><p><l>tembel<s n="unk"/></l><r>икмәк<b/>бүсере<s n="unk"/></r></p></e>
-    <e><p><l>ekmek<b/>yüzü<b/>görmeyeyim<s n="unk"/></l><r>икмәк<b/>йөзен<b/><b/>күрмим<s n="unk"/></r></p></e>
     <e><p><l>ekmekli<s n="unk"/></l><r>икмәкле<s n="unk"/></r></p></e>
     <e><p><l>ekmek<b/>olarak<s n="unk"/></l><r>икмәкләтә<s n="unk"/></r></p></e>
 
     <!-- икмәк-су: икмәк-суга утырту [ik-mek-su: ikmek-suga utırtu] ekmek su karın tokluğu; икмәк-тоз [ik-mek-toz] ekmek tuz O икмәк-тоз белән каршыла- [ikmek-toz belen karşıla-] ekmek tuz ile karşılamak -->
-    <e><p><l>ekmek<b/>su<b/>karın<b/>tokluğu<s n="unk"/></l><r>икмәк-су<b/>икмәк-суга<b/>утырту<s n="unk"/></r></p></e>
     <e><p><l>ekmek<b/>tuz<s n="unk"/></l><r>икмәк-тоз<s n="unk"/></r></p></e>
-    <e><p><l>ekmek<b/>tuz<b/>ile<b/>karşılamak<s n="v"/><s n="TD"/></l><r>икмәк-тоз<b/>белән<b/>каршыла-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- икра [ikra] havyar -->
     <e><p><l>havyar<s n="unk"/></l><r>икра<s n="unk"/></r></p></e>
@@ -10072,8 +9998,6 @@
     <e><p><l>eğmek<s n="v"/><s n="TD"/></l><r>и-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>bükmek<s n="v"/><s n="TD"/></l><r>и-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>söz<b/>dinlemeyen<s n="unk"/></l><r>игә<b/>килмәүче<s n="unk"/></r></p></e>
-    <e><p><l>uyumlu<b/>olsa<b/>da<b/>keyfi<b/>yok<s n="unk"/></l><r>ие<b/>килсә<s n="unk"/></r></p></e>
-    <e><p><l>uyumlu<b/>olsa<b/>da<b/>keyfi<b/>yok<s n="unk"/></l><r>көе<b/>килми<s n="unk"/></r></p></e>
 
     <!-- ибе-җебе: ибе-җебе күренми (юк) [ibe-cebe: ibe-cebe kürenmi (yuk)] düzeni olmayan -->
     <e><p><l>düzeni<b/>olmayan<s n="unk"/></l><r>ибе-җебе<b/>ибе-җебе<b/>күренми<s n="unk"/></r></p></e>
@@ -10082,7 +10006,6 @@
     <e><p><l>iblis<s n="unk"/></l><r>иблис<s n="unk"/></r></p></e>
     <e><p><l>ayartma<s n="unk"/></l><r>иблис<b/>вәс-вәсәсе<s n="unk"/></r></p></e>
     <e><p><l>ayartan<s n="unk"/></l><r>иблис<b/>көчеге<s n="unk"/></r></p></e>
-    <e><p><l>çok<b/>kurnaz<b/>ve<b/>kötü<b/>çocuk<s n="unk"/></l><r>иблис<b/>көчеге<s n="unk"/></r></p></e>
     <e><p><l>iblis<b/>tohumu<s n="unk"/></l><r>иблис<b/>токымы<s n="unk"/></r></p></e>
     <e><p><l>şeytan<b/>soyunnan<b/>olan<s n="unk"/></l><r>иблис<b/>токымы<s n="unk"/></r></p></e>
 
@@ -10280,8 +10203,6 @@
     <e><p><l>değişik<s n="unk"/></l><r>икенче<s n="unk"/></r></p></e>
     <e><p><l>ikinci<b/>bir<s n="unk"/></l><r>икенче<b/>бер<s n="unk"/></r></p></e>
     <e><p><l>ikincil<s n="unk"/></l><r>икенче<b/>дәрәҗәдәге<s n="unk"/></r></p></e>
-    <e><p><l>başka<b/>bir<b/>göz<b/>ile<s n="unk"/></l><r>икенче<b/>күз<b/>белән<s n="unk"/></r></p></e>
-    <e><p><l>horozların<b/>ikinci<b/>ötüşüne<b/>kadar<s n="unk"/></l><r>икенче<b/>әтәчкә<b/>кадәр<s n="unk"/></r></p></e>
     <e><p><l>geç<b/>vakte<b/>kadar<s n="unk"/></l><r>икенче<b/>әтәчкә<b/>кадәр<s n="unk"/></r></p></e>
 
     <!-- икенчел [ikençel] ikinci derece­de, ikincil -->
@@ -10312,15 +10233,12 @@
     <e><p><l>ekmek<b/>ağacı<s n="unk"/></l><r>икмәк<b/>агачы<s n="unk"/></r></p></e>
     <e><p><l>ekmek<b/>oburu<s n="unk"/></l><r>икмәк<b/>бүсере<s n="unk"/></r></p></e>
     <e><p><l>tembel<s n="unk"/></l><r>икмәк<b/>бүсере<s n="unk"/></r></p></e>
-    <e><p><l>ekmek<b/>yüzü<b/>görmeyeyim<s n="unk"/></l><r>икмәк<b/>йөзен<b/><b/>күрмим<s n="unk"/></r></p></e>
     <e><p><l>ekmek<b/>kabuğu<s n="unk"/></l><r>икмәк<b/>катысы<s n="unk"/></r></p></e>
     <e><p><l>ekmekli<s n="unk"/></l><r>икмәкле<s n="unk"/></r></p></e>
     <e><p><l>ekmek<b/>olarak<s n="unk"/></l><r>икмәкләтә<s n="unk"/></r></p></e>
 
     <!-- икмәк-су: икмәк-суга утырту [ik-mek-su: ikmek-suga utırtu] ekmek su karın tokluğu; икмәк-тоз [ik­in e k-toz] ekmek tuz O икмәк-тоз белән каршыла- [ikmek-toz belen karşıla-] ekmek tuz ile karşılamak -->
-    <e><p><l>ekmek<b/>su<b/>karın<b/>tokluğu<s n="unk"/></l><r>икмәк-су<b/>икмәк-суга<b/>утырту<s n="unk"/></r></p></e>
     <e><p><l>ekmek<b/>tuz<s n="unk"/></l><r>икмәк-тоз<s n="unk"/></r></p></e>
-    <e><p><l>ekmek<b/>tuz<b/>ile<b/>karşılamak<s n="v"/><s n="TD"/></l><r>икмәк-тоз<b/>белән<b/>каршыла-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- икра [ikra] havyar -->
     <e><p><l>havyar<s n="unk"/></l><r>икра<s n="unk"/></r></p></e>
@@ -10488,8 +10406,6 @@
     <e><p><l>elek<b/>elemek<s n="v"/><s n="TD"/></l><r>иләк<b/>илә-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>Ülker<b/>yıldızı<s n="unk"/></l><r>иләк<b/>йолдыз<s n="unk"/></r></p></e>
     <e><p><l>elek<b/>çemberi<s n="unk"/></l><r>иләк<b/>кысасы<s n="unk"/></r></p></e>
-    <e><p><l>elek<b/>sorana<b/>ağaç<b/>kova<b/>vermek<s n="v"/><s n="TD"/></l><r>иләк<b/>сораганда<b/>чиләк<b/>бир-<s n="v"/><s n="TD"/></r></p></e>
-    <e><p><l>sorulana<b/>başka<b/>cevap<b/>vermek<s n="v"/><s n="TD"/></l><r>иләк<b/>сораганда<b/>чиләк<b/>бир-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>elek<b/>üstü<s n="unk"/></l><r>иләк<b/>өсте<s n="unk"/></r></p></e>
     <e><p><l>kalbur<b/>üstü<s n="unk"/></l><r>иләк<b/>өсте<s n="unk"/></r></p></e>
     <e><p><l>saçma<b/>sapan<s n="unk"/></l><r>иләкнекен<b/>чиләккә<s n="unk"/></r></p></e>
@@ -10554,7 +10470,6 @@
     <e><p><l>tedavi<b/>etmek<s n="v"/><s n="TD"/></l><r>им<b/>имлә-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>tedavi<b/>bulmak<s n="v"/><s n="TD"/></l><r>им<b/>тап-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>şart<b/>değil<s n="unk"/></l><r>им<b/>түгел<s n="unk"/></r></p></e>
-    <e><p><l>zerresi<b/>yok<s n="unk"/></l><r>им<b/>өчен<b/><b/>дә<b/>юк<s n="unk"/></r></p></e>
     <e><p><l>emmek<s n="v"/><s n="TD"/></l><r>им-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>imam<s n="unk"/></l><r>имам<s n="unk"/></r></p></e>
     <e><p><l>imam<b/>olmak<s n="v"/><s n="TD"/></l><r>имам<b/>тор-<s n="v"/><s n="TD"/></r></p></e>
@@ -10600,7 +10515,6 @@
 
     <!-- им-том [im-tom] kocakarı ilâcı; им-том ит- [im-tom it-] kocakarı ilâcı ile tedavi etmek -->
     <e><p><l>kocakarı<b/>ilâcı<s n="unk"/></l><r>им-том<s n="unk"/></r></p></e>
-    <e><p><l>kocakarı<b/>ilâcı<b/>ile<b/>tedavi<b/>etmek<s n="v"/><s n="TD"/></l><r>им-том<b/>ит-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- им-томчылык [im-tomçılık] halk hekimliği имче [imce] emci, halkhekimi имчелек [imçelek] emcilik имчәк [imçek] meme ucu, em­zik -->
     <e><p><l>halk<b/>hekimliği<s n="unk"/></l><r>им-томчылык<s n="unk"/></r></p></e>
@@ -11062,7 +10976,6 @@
     <e><p><l>erken<s n="unk"/></l><r>иртә<s n="unk"/></r></p></e>
     <e><p><l>vaktinden<b/>önce<s n="unk"/></l><r>иртә<s n="unk"/></r></p></e>
     <e><p><l>sabahleyin<s n="unk"/></l><r>иртә<b/>белән<s n="unk"/></r></p></e>
-    <e><p><l>sabahtan<b/>akşama<b/>kadar<s n="unk"/></l><r>иртә<b/>таңнан<b/>кара<b/>төнгә<b/>чаклы<b/>иртәдән<b/>кичкә<b/>кадәр<s n="unk"/></r></p></e>
     <e><p><l>gecesi<b/>gündüzü<b/>yok<s n="unk"/></l><r>иртә<b/>юк<s n="unk"/></r></p></e>
     <e><p><l>gecesi<b/>gündüzü<b/>yok<s n="unk"/></l><r>кич<b/>юк<s n="unk"/></r></p></e>
     <e><p><l>sabahtan<b/>beri<s n="unk"/></l><r>иртәдән<b/>бирле<s n="unk"/></r></p></e>
@@ -11161,7 +11074,6 @@
     <e><p><l>esmek<s n="v"/><s n="TD"/></l><r>ис-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- ис-акыл: ис акылны ал- [is-akıl: is-akılnı al-] akıllara durgunluk ver­mek -->
-    <e><p><l>akıllara<b/>durgunluk<b/>vermek<s n="v"/><s n="TD"/></l><r>ис-акыл<b/>ис<b/>акылны<b/>ал-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- ис-аң: искә-аңга кил- [is-ang: is-ke-anga kil-] akılı başına gelmek; истә-аңда юк [iste-angda yuk] akılda yok -->
     <e><p><l>akılı<b/>başına<b/>gelmek<s n="v"/><s n="TD"/></l><r>ис-аң<b/>искә-аңга<b/>кил-<s n="v"/><s n="TD"/></r></p></e>
@@ -11186,9 +11098,6 @@
     <e><p><l>isimi<b/>mezkûr<s n="unk"/></l><r>исеме<b/>аталган<s n="unk"/></r></p></e>
     <e><p><l>adı<b/>var<b/>kendi<b/>yok<s n="unk"/></l><r>исеме<b/>бар<s n="unk"/></r></p></e>
     <e><p><l>ismi<b/>var<b/>cismi<b/>yok<s n="unk"/></l><r>исеме<b/>бар<s n="unk"/></r></p></e>
-    <e><p><l>adı<b/>var<b/>kendi<b/>yok<s n="unk"/></l><r>җисеме<b/>юк<b/>исеме<b/>генә<s n="unk"/></r></p></e>
-    <e><p><l>ismi<b/>var<b/>cismi<b/>yok<s n="unk"/></l><r>җисеме<b/>юк<b/>исеме<b/>генә<s n="unk"/></r></p></e>
-    <e><p><l>bir<b/>işi<b/>yapacağına<b/>inandırmak<b/>için<b/>söylenir<s n="unk"/></l><r>исемем<b/><b/>булмасын<s n="unk"/></r></p></e>
 
     <!-- исемендәге [isemendege] adın­daki -->
     <e><p><l>adındaki<s n="unk"/></l><r>исемендәге<s n="unk"/></r></p></e>
@@ -11224,7 +11133,6 @@
     <!-- исерткеч [isertkeç] alkollü içki иске [iske] eski; иске карашлы [iske karaşlı] gerici O иске авыз­дан яңа сүз [iske avızdan yanga süz] eski ağızdan yeni söz; иске чабата [iske çabata] malarya; peri искедән [iskeden] eskiden искелек [iskelek] eskilik, bakiye иске-москы   [iske-moskı]   eski püskü, hurda, paçavra -->
     <e><p><l>alkollü<b/>içki<s n="unk"/></l><r>исерткеч<s n="unk"/></r></p></e>
     <e><p><l>eski<s n="unk"/></l><r>иске<s n="unk"/></r></p></e>
-    <e><p><l>eski<b/>ağızdan<b/>yeni<b/>söz<s n="unk"/></l><r>иске<b/>авыздан<b/>яңа<b/>сүз<s n="unk"/></r></p></e>
     <e><p><l>gerici<s n="unk"/></l><r>иске<b/>карашлы<s n="unk"/></r></p></e>
     <e><p><l>malarya<s n="unk"/></l><r>иске<b/>чабата<s n="unk"/></r></p></e>
     <e><p><l>peri<s n="unk"/></l><r>иске<b/>чабата<s n="unk"/></r></p></e>
@@ -11340,7 +11248,6 @@
     <e><p><l>esen<s n="unk"/></l><r>исән<s n="unk"/></r></p></e>
     <e><p><l>hoşça<b/>kalın<s n="unk"/></l><r>исән<b/>бул<s n="unk"/></r></p></e>
     <e><p><l>sağlığın<b/>yerinde<b/>mi<s n="unk"/></l><r>исән<b/>генә<b/>торасыңмы<s n="unk"/></r></p></e>
-    <e><p><l>bu<b/>de<b/>nereden<b/>çıktı?<s n="unk"/></l><r>исән<b/>генә<b/>торасыңмы<s n="unk"/></r></p></e>
 
     <!-- исәнгерә- [isengâre-] sersem­leşmek -->
     <e><p><l>sersemleşmek<s n="v"/><s n="TD"/></l><r>исәнгерә-<s n="v"/><s n="TD"/></r></p></e>
@@ -11440,7 +11347,6 @@
     <e><p><l>etlenmek<s n="v"/><s n="TD"/></l><r>ит<b/>кун-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>faydasız<s n="unk"/></l><r>ит<b/>тә<b/>юк<s n="unk"/></r></p></e>
     <e><p><l>faydasız<s n="unk"/></l><r>йон<b/>да<b/>юк<s n="unk"/></r></p></e>
-    <e><p><l>iyisi<b/>olmadığında<s n="unk"/></l><r>ит<b/>югыңда<b/>үпкә<b/>дә<b/>тансык<s n="unk"/></r></p></e>
     <e><p><l>ur<b/>çıkmak<s n="v"/><s n="TD"/></l><r>ит<b/>үс-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>et<b/>bitmek<s n="v"/><s n="TD"/></l><r>ит<b/>үс-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>yara<b/>kapanmak<s n="v"/><s n="TD"/></l><r>ит<b/>үс-<s n="v"/><s n="TD"/></r></p></e>
@@ -11463,7 +11369,6 @@
     <e><p><l>çok<b/>etli<s n="unk"/></l><r>итләч<s n="unk"/></r></p></e>
 
     <!-- ит-май : ит-майда йөз- [it-may: it-mayda yöz-] et yag: ette yağda yüzmek -->
-    <e><p><l>et<b/>yag:<b/>ette<b/>yağda<b/>yüzmek<s n="v"/><s n="TD"/></l><r>ит-май<b/><b/>ит-майда<b/>йөз-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- итсез [itsez] etsiz -->
     <e><p><l>etsiz<s n="unk"/></l><r>итсез<s n="unk"/></r></p></e>
@@ -11478,8 +11383,6 @@
     <e><p><l>etek<s n="unk"/></l><r>итәк<s n="unk"/></r></p></e>
     <e><p><l>etek<b/>altından<s n="unk"/></l><r>итәк<b/>астыннан<s n="unk"/></r></p></e>
     <e><p><l>saman<b/>altından<s n="unk"/></l><r>итәк<b/>астыннан<s n="unk"/></r></p></e>
-    <e><p><l>etek<b/>kesip<b/>yen<b/>yamamak<s n="v"/><s n="TD"/></l><r>итәк<b/>кисеп<b/>җиң<b/>яма-<s n="v"/><s n="TD"/></r></p></e>
-    <e><p><l>bir<b/>yerden<b/>alıp<b/>diğer<b/>yerdeki<b/>açığı<b/>kapamak<s n="v"/><s n="TD"/></l><r>итәк<b/>кисеп<b/>җиң<b/>яма-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- ифрат [ifrat] ifrat -->
     <e><p><l>ifrat<s n="unk"/></l><r>ифрат<s n="unk"/></r></p></e>
@@ -11773,8 +11676,6 @@
     <!-- иң II [ing] en, çok; иң зур уртак бүлүче [ing zur urtak bülüçe] mat. en büyük ortak bölen; иң кечкенә уртак кабатлы [ing keçkene urtak kabatlı] mat. en küçük ortak katlı olan; иң элек [ing elek] birinci, ilk -->
     <e><p><l>en<s n="unk"/></l><r>иң<s n="unk"/></r></p></e>
     <e><p><l>çok<s n="unk"/></l><r>иң<s n="unk"/></r></p></e>
-    <e><p><l>mat.<b/>en<b/>büyük<b/>ortak<b/>bölen<s n="unk"/></l><r>иң<b/>зур<b/>уртак<b/>бүлүче<s n="unk"/></r></p></e>
-    <e><p><l>mat.<b/>en<b/>küçük<b/>ortak<b/>katlı<b/>olan<s n="unk"/></l><r>иң<b/>кечкенә<b/>уртак<b/>кабатлы<s n="unk"/></r></p></e>
     <e><p><l>birinci<s n="unk"/></l><r>иң<b/>элек<s n="unk"/></r></p></e>
     <e><p><l>ilk<s n="unk"/></l><r>иң<b/>элек<s n="unk"/></r></p></e>
 
@@ -12188,7 +12089,6 @@
     <e><p><l>yünlü<b/>pamuklu<s n="unk"/></l><r>йонмамык<s n="unk"/></r></p></e>
 
     <!-- йонсыз [yonsız] у ünsüz йонча I [yonca] burun ve kulak kılı -->
-    <e><p><l>burun<b/>ve<b/>kulak<b/>kılı<s n="unk"/></l><r>у<b/><b/>йонча<s n="unk"/></r></p></e>
 
     <!-- йонча II [yonca] bir tür yabani bitki -->
     <e><p><l>bir<b/>tür<b/>yabani<b/>bitki<s n="unk"/></l><r>йонча<s n="unk"/></r></p></e>
@@ -12369,7 +12269,6 @@
     <e><p><l>yüz<b/>yüze<b/>karşılaşmak<s n="v"/><s n="TD"/></l><r>ЙӨЗГӘ-ЙӨЗ<b/>очраш-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- йөзгәләк [yözgelek] su üstünde çok hızlı yüzen bir böcek -->
-    <e><p><l>su<b/>üstünde<b/>çok<b/>hızlı<b/>yüzen<b/>bir<b/>böcek<s n="unk"/></l><r>йөзгәләк<s n="unk"/></r></p></e>
 
     <!-- йөздер- [yözder-] yüzdürmek -->
     <e><p><l>yüzdürmek<s n="v"/><s n="TD"/></l><r>йөздер-<s n="v"/><s n="TD"/></r></p></e>
@@ -12553,7 +12452,6 @@
 
     <!-- кабан: кабан дуңгызы [kaban: kaban dunggızı] yaban domuzu; кабан теш [kaban teş] yaban do­muzu dişi gibi diş -->
     <e><p><l>yaban<b/>domuzu<s n="unk"/></l><r>кабан<b/>кабан<b/>дуңгызы<s n="unk"/></r></p></e>
-    <e><p><l>yaban<b/>domuzu<b/>dişi<b/>gibi<b/>diş<s n="unk"/></l><r>кабан<b/>теш<s n="unk"/></r></p></e>
 
     <!-- кабар: кабар агачы [kabar: ka­bar agaçı] kauçuk, kauçuk ağacı -->
     <e><p><l>kauçuk<s n="unk"/></l><r>кабар<b/>кабар<b/>агачы<s n="unk"/></r></p></e>
@@ -13089,7 +12987,6 @@
     <e><p><l>bi-leğileyici<s n="unk"/></l><r>кайраучы<s n="unk"/></r></p></e>
 
     <!-- кайры [kayrı] ıhlamur vb. ağacın işlenmeğe yarar kabuğu; katılaş-tirilmiş deri; кайры корты [kayrı korti] kabuk kurdu; кайры кабык [kayrı kabık] sert kabuk; кайры тун [kayrı tun] sert deriden yapı­lan elbise -->
-    <e><p><l>ıhlamur<b/>vb.<b/>ağacın<b/>işlenmeğe<b/>yarar<b/>kabuğu<s n="unk"/></l><r>кайры<s n="unk"/></r></p></e>
     <e><p><l>katılaş-tirilmiş<b/>deri<s n="unk"/></l><r>кайры<s n="unk"/></r></p></e>
     <e><p><l>sert<b/>kabuk<s n="unk"/></l><r>кайры<b/>кабык<s n="unk"/></r></p></e>
     <e><p><l>kabuk<b/>kurdu<s n="unk"/></l><r>кайры<b/>корты<s n="unk"/></r></p></e>
@@ -13181,7 +13078,6 @@
     <!-- калайлы [kalaylı] tenekeli калайчы [kalaycı] tenekeci калак [kalak] yassı ve uzun olup kısa saplı tahta kürek; калак сөяге [kalak söyege] kürek kemiği каламбур [kalambur] kalambor каланча [kalanca] kule (itfaiye vb. için) -->
     <e><p><l>tenekeli<s n="unk"/></l><r>калайлы<s n="unk"/></r></p></e>
     <e><p><l>tenekeci<s n="unk"/></l><r>калайчы<s n="unk"/></r></p></e>
-    <e><p><l>yassı<b/>ve<b/>uzun<b/>olup<b/>kısa<b/>saplı<b/>tahta<b/>kürek<s n="unk"/></l><r>калак<s n="unk"/></r></p></e>
     <e><p><l>kürek<b/>kemiği<s n="unk"/></l><r>калак<b/>сөяге<s n="unk"/></r></p></e>
     <e><p><l>kalambor<s n="unk"/></l><r>каламбур<s n="unk"/></r></p></e>
     <e><p><l>kule<s n="unk"/></l><r>каланча<s n="unk"/></r></p></e>
@@ -13215,7 +13111,6 @@
     <e><p><l>çap<s n="unk"/></l><r>калибр<s n="unk"/></r></p></e>
     <e><p><l>kalibre<b/>ölçüsü<s n="unk"/></l><r>калибр<b/>үлчәгеч<s n="unk"/></r></p></e>
     <e><p><l>çap<b/>ölçmek<s n="v"/><s n="TD"/></l><r>калибрла-<s n="v"/><s n="TD"/></r></p></e>
-    <e><p><l>kalibre<b/>veya<b/>çapı<b/>aynı<b/>hâle<b/>getiren<b/>âlet<s n="unk"/></l><r>калибрлагыч<s n="unk"/></r></p></e>
 
     <!-- калибрлаучы [kalibrlauçı] kalib­re ustası калий [kaliy] potasyum калийлы [kaliylı] potasyumlu калкавыч [kalkavıç] olta mantarı калкан [kalkan] kalkan калкансыман [kalkansıman] kal­kan gibi -->
     <e><p><l>kalibre<b/>ustası<s n="unk"/></l><r>калибрлаучы<s n="unk"/></r></p></e>
@@ -13228,7 +13123,6 @@
     <!-- калку [kalku] kalkık, yüksek O калку итеп күрсәт- [kalku itep kür-set-] bir tarafını ayırıp daha iyi göstermek -->
     <e><p><l>kalkık<s n="unk"/></l><r>калку<s n="unk"/></r></p></e>
     <e><p><l>yüksek<s n="unk"/></l><r>калку<s n="unk"/></r></p></e>
-    <e><p><l>bir<b/>tarafını<b/>ayırıp<b/>daha<b/>iyi<b/>göstermek<s n="v"/><s n="TD"/></l><r>калку<b/>итеп<b/>күрсәт-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- калкулы [kalkulı] üstün olan, yüksek -->
     <e><p><l>üstün<b/>olan<s n="unk"/></l><r>калкулы<s n="unk"/></r></p></e>
@@ -13356,7 +13250,6 @@
     <e><p><l>su<b/>samuru<s n="unk"/></l><r>кама<s n="unk"/></r></p></e>
     <e><p><l>yaka<b/>veya<b/>etek<b/>postu<s n="unk"/></l><r>кама<s n="unk"/></r></p></e>
     <e><p><l>elbise<b/>yakasına<s n="unk"/></l><r>кама<b/>тот-<s n="unk"/></r></p></e>
-    <e><p><l>eteklerine<b/>ve<b/>börke<b/>su<b/>samuru<b/>kürkü<b/>geçirmek<s n="v"/><s n="TD"/></l><r>кама<b/>тот-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- кама- [kama-] kapamak, kuşat­mak -->
     <e><p><l>kapamak<s n="v"/><s n="TD"/></l><r>кама-<s n="v"/><s n="TD"/></r></p></e>
@@ -13380,14 +13273,12 @@
     <e><p><l>kuşatma<s n="unk"/></l><r>камау<s n="unk"/></r></p></e>
 
     <!-- камау II [kamau] güveğiye oyun etmek ve onu büyülemek -->
-    <e><p><l>güveğiye<b/>oyun<b/>etmek<b/>ve<b/>onu<b/>büyülemek<s n="unk"/></l><r>камау<s n="unk"/></r></p></e>
 
     <!-- камаулы I [kamaulı] 1. kuşatma-lı; 2. mat. kapalı -->
     <e><p><l>kuşatma-lı<s n="unk"/></l><r>камаулы<s n="unk"/></r></p></e>
     <e><p><l>mat.<b/>kapalı<s n="unk"/></l><r>камаулы<s n="unk"/></r></p></e>
 
     <!-- камаулы II [kamaulı] birinci ve dördüncü mısralı aynı kafiyeli kıt'a -->
-    <e><p><l>birinci<b/>ve<b/>dördüncü<b/>mısralı<b/>aynı<b/>kafiyeli<b/>kıt'a<s n="unk"/></l><r>камаулы<s n="unk"/></r></p></e>
 
     <!-- камаш- [kamaş-] kamaşmak -->
     <e><p><l>kamaşmak<s n="v"/><s n="TD"/></l><r>камаш-<s n="v"/><s n="TD"/></r></p></e>
@@ -13406,7 +13297,6 @@
 
     <!-- камертон [kamerton] diyapazon камзул [kamzul] gömlek üstüne giyilen yensiz ve yakasız üst giyi­mi, yelek камил [kamil] kâmil камиллек [kamillek] kâmillik камилләш- [kamilleş-] olgunlaş­mak, yetkinleşmek -->
     <e><p><l>diyapazon<s n="unk"/></l><r>камертон<s n="unk"/></r></p></e>
-    <e><p><l>gömlek<b/>üstüne<b/>giyilen<b/>yensiz<b/>ve<b/>yakasız<b/>üst<b/>giyimi<s n="unk"/></l><r>камзул<s n="unk"/></r></p></e>
     <e><p><l>yelek<s n="unk"/></l><r>камзул<s n="unk"/></r></p></e>
     <e><p><l>kâmil<s n="unk"/></l><r>камил<s n="unk"/></r></p></e>
     <e><p><l>kâmillik<s n="unk"/></l><r>камиллек<s n="unk"/></r></p></e>
@@ -13435,9 +13325,7 @@
     <e><p><l>Kamçatka<b/>yarımadasında<b/>yaşayan<b/>kişi<s n="unk"/></l><r>камчадал<s n="unk"/></r></p></e>
 
     <!-- камчат [kamçat] 1. kenarına su samuru kürkü dikilmiş börk; 2. bir cins su samuru; камчат бүрек [kamçat bürek] su samuru kürkün­den yapılmış börk камчы [kamçı] kamçı камчыла- [kamçıla-] kamçıla­mak -->
-    <e><p><l>kenarına<b/>su<b/>samuru<b/>kürkü<b/>dikilmiş<b/>börk<s n="unk"/></l><r>камчат<s n="unk"/></r></p></e>
     <e><p><l>bir<b/>cins<b/>su<b/>samuru<s n="unk"/></l><r>камчат<s n="unk"/></r></p></e>
-    <e><p><l>su<b/>samuru<b/>kürkünden<b/>yapılmış<b/>börk<s n="unk"/></l><r>камчат<b/>бүрек<s n="unk"/></r></p></e>
     <e><p><l>kamçı<s n="unk"/></l><r>камчы<s n="unk"/></r></p></e>
     <e><p><l>kamçılamak<s n="v"/><s n="TD"/></l><r>камчыла-<s n="v"/><s n="TD"/></r></p></e>
 
@@ -13621,7 +13509,6 @@
     <e><p><l>kantat<s n="unk"/></l><r>кантата<s n="unk"/></r></p></e>
     <e><p><l>kanton<s n="unk"/></l><r>кантон<s n="unk"/></r></p></e>
     <e><p><l>XVIII-XIX<b/>asırlarda<b/>Başkurt<s n="unk"/></l><r>кантон<s n="unk"/></r></p></e>
-    <e><p><l>Mişer<b/>ve<b/>Tatarlar'dan<b/>alınıp<b/>eğitilen<b/>asker<s n="unk"/></l><r>кантон<s n="unk"/></r></p></e>
 
     <!-- канун [kanun] kanun канунлаш- [kanunlaş-] kanun­laşmak -->
     <e><p><l>kanun<s n="unk"/></l><r>канун<s n="unk"/></r></p></e>
@@ -13820,7 +13707,6 @@
     <!-- кар [kar] kar; кар базы [kar bazı] kar kuyusu; кар суы белән юыл­ган [kar suı belen yuılgan] erimiş kar suyu ile yıkanmış; кардай ак [karday ak] kar gibi beyaz, bem­beyaz -->
     <e><p><l>kar<s n="unk"/></l><r>кар<s n="unk"/></r></p></e>
     <e><p><l>kar<b/>kuyusu<s n="unk"/></l><r>кар<b/>базы<s n="unk"/></r></p></e>
-    <e><p><l>erimiş<b/>kar<b/>suyu<b/>ile<b/>yıkanmış<s n="unk"/></l><r>кар<b/>суы<b/>белән<b/>юылган<s n="unk"/></r></p></e>
     <e><p><l>kar<b/>gibi<b/>beyaz<s n="unk"/></l><r>кардай<b/>ак<s n="unk"/></r></p></e>
     <e><p><l>bembeyaz<s n="unk"/></l><r>кардай<b/>ак<s n="unk"/></r></p></e>
 
@@ -13893,7 +13779,6 @@
     <e><p><l>karaağaç<s n="unk"/></l><r>карагач<s n="unk"/></r></p></e>
 
     <!-- карагруһ [karagruh] eski Rus-yada çar ve Ortodoksluğa düşkün olanlar grubu -->
-    <e><p><l>eski<b/>Rus-yada<b/>çar<b/>ve<b/>Ortodoksluğa<b/>düşkün<b/>olanlar<b/>grubu<s n="unk"/></l><r>карагруһ<s n="unk"/></r></p></e>
 
     <!-- карагруһчы [karagruhçı] çar ve Ortodoksluk taraftarı -->
     <e><p><l>çar<b/>ve<b/>Ortodoksluk<b/>taraftarı<s n="unk"/></l><r>карагруһчы<s n="unk"/></r></p></e>
@@ -13912,7 +13797,6 @@
     <!-- кара-каршы [kara-karşı] karşı karşıya; кара-каршы кил- [kara-karşı kil-] karşı karşıya gelmek; кара-каршы өй [kara karşı öy] adamlarının kapısı karşı karşıya bakan ve aynı salona açılan odalı ev -->
     <e><p><l>karşı<b/>karşıya<s n="unk"/></l><r>кара-каршы<s n="unk"/></r></p></e>
     <e><p><l>karşı<b/>karşıya<b/>gelmek<s n="v"/><s n="TD"/></l><r>кара-каршы<b/>кил-<s n="v"/><s n="TD"/></r></p></e>
-    <e><p><l>adamlarının<b/>kapısı<b/>karşı<b/>karşıya<b/>bakan<b/>ve<b/>aynı<b/>salona<b/>açılan<b/>odalı<b/>ev<s n="unk"/></l><r>кара-каршы<b/>өй<s n="unk"/></r></p></e>
 
     <!-- караклык [karaklık] hırsızlık; ка­раклык ит- [karaklık it-] hırsızlık etmek -->
     <e><p><l>hırsızlık<s n="unk"/></l><r>караклык<s n="unk"/></r></p></e>
@@ -14079,7 +13963,6 @@
     <e><p><l>hısımsız<b/>akrabasız<s n="unk"/></l><r>кардәш-ырусыз<s n="unk"/></r></p></e>
 
     <!-- каре [kare] dirsekten parmak ucuna kadar ölçü biriminin dört kat uzunluğu -->
-    <e><p><l>dirsekten<b/>parmak<b/>ucuna<b/>kadar<b/>ölçü<b/>biriminin<b/>dört<b/>kat<b/>uzunluğu<s n="unk"/></l><r>каре<s n="unk"/></r></p></e>
 
     <!-- карендәш [karendeş] bk. кар­дәш -->
     <e><p><l>bk.<s n="unk"/></l><r>карендәш<s n="unk"/></r></p></e>
@@ -14401,7 +14284,6 @@
     <e><p><l>katletme<s n="unk"/></l><r>кател<s n="unk"/></r></p></e>
     <e><p><l>öldürme<s n="unk"/></l><r>кател<s n="unk"/></r></p></e>
     <e><p><l>sürat<b/>motoru<s n="unk"/></l><r>катер<s n="unk"/></r></p></e>
-    <e><p><l>dik<b/>üçgende<b/>bir<b/>birine<b/>dik<b/>kenarlar<s n="unk"/></l><r>катет<s n="unk"/></r></p></e>
     <e><p><l>sonda<s n="unk"/></l><r>катетер<s n="unk"/></r></p></e>
     <e><p><l>sekreter<s n="unk"/></l><r>катиб<s n="unk"/></r></p></e>
     <e><p><l>sekreter<b/>kız<s n="unk"/></l><r>катибә<s n="unk"/></r></p></e>
@@ -14779,7 +14661,6 @@
     <e><p><l>ev<s n="unk"/></l><r>квартир<s n="unk"/></r></p></e>
     <e><p><l>kuvars<s n="unk"/></l><r>кварц<s n="unk"/></r></p></e>
     <e><p><l>kuvarslı<s n="unk"/></l><r>кварцлы<s n="unk"/></r></p></e>
-    <e><p><l>içine<b/>ekmek<b/>konularak<b/>yapılan<b/>alkolsüz<b/>içki<s n="unk"/></l><r>квас<s n="unk"/></r></p></e>
     <e><p><l>müz.<b/>beşli<s n="unk"/></l><r>квинтет<s n="unk"/></r></p></e>
     <e><p><l>makbuz<s n="unk"/></l><r>квитанция<s n="unk"/></r></p></e>
     <e><p><l>alındı<s n="unk"/></l><r>квитанция<s n="unk"/></r></p></e>
@@ -14835,7 +14716,6 @@
     <e><p><l>dilenmek<s n="v"/><s n="TD"/></l><r>келән-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>dilenci<s n="unk"/></l><r>келәнче<s n="unk"/></r></p></e>
     <e><p><l>dilenmeğe<b/>düşkün<s n="unk"/></l><r>келәнчел<s n="unk"/></r></p></e>
-    <e><p><l>kendi<b/>kendine<b/>eğilip<b/>kalkan<b/>bir<b/>tür<b/>bitki<s n="unk"/></l><r>келәнчел<s n="unk"/></r></p></e>
     <e><p><l>kiler<s n="unk"/></l><r>келәт<s n="unk"/></r></p></e>
     <e><p><l>gerdek<s n="unk"/></l><r>келәт<s n="unk"/></r></p></e>
     <e><p><l>kilerci<s n="unk"/></l><r>келәтче<s n="unk"/></r></p></e>
@@ -14851,7 +14731,6 @@
     <e><p><l>kimse<s n="unk"/></l><r>кемсә<s n="unk"/></r></p></e>
     <e><p><l>göbek<s n="unk"/></l><r>кендек<s n="unk"/></r></p></e>
     <e><p><l>göbek<b/>kesen<b/>ebe<s n="unk"/></l><r>кендек<b/>әбисе<s n="unk"/></r></p></e>
-    <e><p><l>bir<b/>birinden<b/>ayrılmayan<b/>iki<b/>kimse<s n="unk"/></l><r>кендекләре<b/>ябышкан<s n="unk"/></r></p></e>
     <e><p><l>göbek<b/>ebesi<s n="unk"/></l><r>кендекче<s n="unk"/></r></p></e>
 
     <!-- кенә [kene] ancak, yalnız, sade­ce -->
@@ -14911,7 +14790,6 @@
     <e><p><l>kirlenmeye<b/>meyilli<s n="unk"/></l><r>керләнүчән<s n="unk"/></r></p></e>
 
     <!-- керн [kârn] tahlil için yer altın­dan boru ile alınan toprak -->
-    <e><p><l>tahlil<b/>için<b/>yer<b/>altından<b/>boru<b/>ile<b/>alınan<b/>toprak<s n="unk"/></l><r>керн<s n="unk"/></r></p></e>
 
     <!-- керогаз [kârogaz] motorin ile su ısıtıcısı -->
     <e><p><l>motorin<b/>ile<b/>su<b/>ısıtıcısı<s n="unk"/></l><r>керогаз<s n="unk"/></r></p></e>
@@ -15551,7 +15429,6 @@
     <e><p><l>kısmak<s n="v"/><s n="TD"/></l><r>кис-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>bozmak<s n="v"/><s n="TD"/></l><r>кис-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>yok<b/>etmek<s n="v"/><s n="TD"/></l><r>кис-<s n="v"/><s n="TD"/></r></p></e>
-    <e><p><l>tırnağı<b/>da<b/>olmaz<s n="unk"/></l><r>кисеп<b/>ташлаган<b/>тырнагына<b/>да<b/>тормый<s n="unk"/></r></p></e>
 
     <!-- кисап [kisap] dibek veya havan tokmağı кисек [kisek] kesik кисел- [kisel-] kesilmek киселеш [kiseleş] kesilme, ke­siliş -->
     <e><p><l>dibek<b/>veya<b/>havan<b/>tokmağı<s n="unk"/></l><r>кисап<s n="unk"/></r></p></e>
@@ -15570,14 +15447,12 @@
     <e><p><l>ormanın<b/>kesilen<b/>kısmı<s n="unk"/></l><r>кисенте<s n="unk"/></r></p></e>
 
     <!-- кисентек [kisentek] ormanın ke­sildikten sonra açık kalan kısmı -->
-    <e><p><l>ormanın<b/>kesildikten<b/>sonra<b/>açık<b/>kalan<b/>kısmı<s n="unk"/></l><r>кисентек<s n="unk"/></r></p></e>
 
     <!-- кисентеле [kisentele] kesintili, ormanda ağaç kesilen (yer) -->
     <e><p><l>kesintili<s n="unk"/></l><r>кисентеле<s n="unk"/></r></p></e>
     <e><p><l>ormanda<b/>ağaç<b/>kesilen<s n="unk"/></l><r>кисентеле<s n="unk"/></r></p></e>
 
     <!-- кисентелек [kisentelek] orman­da ağaç kesmeğe el verişti yer -->
-    <e><p><l>ormanda<b/>ağaç<b/>kesmeğe<b/>el<b/>verişti<b/>yer<s n="unk"/></l><r>кисентелек<s n="unk"/></r></p></e>
 
     <!-- кисет [kiset] kemere takılan kü­çük torba -->
     <e><p><l>kemere<b/>takılan<b/>küçük<b/>torba<s n="unk"/></l><r>кисет<s n="unk"/></r></p></e>
@@ -15654,7 +15529,6 @@
     <e><p><l>resim<b/>fırçası<s n="unk"/></l><r>кисточка<s n="unk"/></r></p></e>
 
     <!-- кистән [kisten] parmaklara ge­çirilerek dövüşte kullanılan demi-ryumruk âleti -->
-    <e><p><l>parmaklara<b/>geçirilerek<b/>dövüşte<b/>kullanılan<b/>demi-ryumruk<b/>âleti<s n="unk"/></l><r>кистән<s n="unk"/></r></p></e>
 
     <!-- кисәк [kısek] parça, kısım; ke­sek -->
     <e><p><l>parça<s n="unk"/></l><r>кисәк<s n="unk"/></r></p></e>
@@ -15684,10 +15558,8 @@
 
     <!-- кисәтүле [kisetüle] tehditli кисәү [kiseü] 1. ocak ateşini ka­rıştırmaya yarayan demir âlet; 2. yarı yanmış odun; кисәү агачы [ki­seü agaçı] yarı yanmış odun; ки­сәү гөмбәсе [kiseü göm beşe] çav­dar vb. başağında biten mantar, rastık -->
     <e><p><l>tehditli<s n="unk"/></l><r>кисәтүле<s n="unk"/></r></p></e>
-    <e><p><l>ocak<b/>ateşini<b/>karıştırmaya<b/>yarayan<b/>demir<b/>âlet<s n="unk"/></l><r>кисәү<s n="unk"/></r></p></e>
     <e><p><l>yarı<b/>yanmış<b/>odun<s n="unk"/></l><r>кисәү<s n="unk"/></r></p></e>
     <e><p><l>yarı<b/>yanmış<b/>odun<s n="unk"/></l><r>кисәү<b/>агачы<s n="unk"/></r></p></e>
-    <e><p><l>çavdar<b/>vb.<b/>başağında<b/>biten<b/>mantar<s n="unk"/></l><r>кисәү<b/>гөмбәсе<s n="unk"/></r></p></e>
     <e><p><l>rastık<s n="unk"/></l><r>кисәү<b/>гөмбәсе<s n="unk"/></r></p></e>
 
     <!-- кисүче [kisüçe] kesici -->
@@ -15858,14 +15730,12 @@
     <e><p><l>evli<s n="unk"/></l><r>кияүдә<s n="unk"/></r></p></e>
 
     <!-- киҗе [kice] fabrikada imal edi­len ince pamuk iplik киҗеле [kicele] pamuk iplikli киҗе-мамык [kice-mamık] ip ip­lik -->
-    <e><p><l>fabrikada<b/>imal<b/>edilen<b/>ince<b/>pamuk<b/>iplik<s n="unk"/></l><r>киҗе<s n="unk"/></r></p></e>
     <e><p><l>ip<b/>iplik<s n="unk"/></l><r>киҗе-мамык<s n="unk"/></r></p></e>
     <e><p><l>pamuk<b/>iplikli<s n="unk"/></l><r>киҗеле<s n="unk"/></r></p></e>
 
     <!-- киң [king] geniş; киң битле [king bitle] geniş yüzlü; киң рәтле [king retle] geniş sıralı; киң яфраклы [king yafraklı] geniş yapraklı O киң колач алу [king kolaç alu] çok ge­niş kulaç alma; киң колачлы [king kolaçlı] geniş kulaçlı; киң күңелле [king küngelle] geniş gönüllü киңлек [kinglek] genişlik киңсу [kingsu] bir az geniş киңчә [kingçe] bir az genişlen­miş -->
     <e><p><l>geniş<s n="unk"/></l><r>киң<s n="unk"/></r></p></e>
     <e><p><l>geniş<b/>yüzlü<s n="unk"/></l><r>киң<b/>битле<s n="unk"/></r></p></e>
-    <e><p><l>çok<b/>geniş<b/>kulaç<b/>alma<s n="unk"/></l><r>киң<b/>колач<b/>алу<s n="unk"/></r></p></e>
     <e><p><l>geniş<b/>kulaçlı<s n="unk"/></l><r>киң<b/>колачлы<s n="unk"/></r></p></e>
     <e><p><l>geniş<b/>gönüllü<s n="unk"/></l><r>киң<b/>күңелле<s n="unk"/></r></p></e>
     <e><p><l>geniş<b/>sıralı<s n="unk"/></l><r>киң<b/>рәтле<s n="unk"/></r></p></e>
@@ -16248,10 +16118,8 @@
 
     <!-- колакла- [kolakia-] kulak yap­mak; kova vb. kulağa benzer hal­ka yapmak -->
     <e><p><l>kulak<b/>yapmak<s n="v"/><s n="TD"/></l><r>колакла-<s n="v"/><s n="TD"/></r></p></e>
-    <e><p><l>kova<b/>vb.<b/>kulağa<b/>benzer<b/>halka<b/>yapmak<s n="v"/><s n="TD"/></l><r>колакла-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- колакса [kolaksa] duvar örülür­ken köşelerde bırakılan tomruk çı­kıntısı, çıkıntı -->
-    <e><p><l>duvar<b/>örülürken<b/>köşelerde<b/>bırakılan<b/>tomruk<b/>çıkıntısı<s n="unk"/></l><r>колакса<s n="unk"/></r></p></e>
     <e><p><l>çıkıntı<s n="unk"/></l><r>колакса<s n="unk"/></r></p></e>
 
     <!-- колакчын [kolakçın] başlıkta ku­lağı örten kısım -->
@@ -16476,7 +16344,6 @@
 
     <!-- комай [komay] göze görünme­yen mitolojik köpek; комай үләне [komay ülene] sulu yerlerde biten bir cins bitki -->
     <e><p><l>göze<b/>görünmeyen<b/>mitolojik<b/>köpek<s n="unk"/></l><r>комай<s n="unk"/></r></p></e>
-    <e><p><l>sulu<b/>yerlerde<b/>biten<b/>bir<b/>cins<b/>bitki<s n="unk"/></l><r>комай<b/>үләне<s n="unk"/></r></p></e>
 
     <!-- комак [komak] büyük sıçan, fare -->
     <e><p><l>büyük<b/>sıçan<s n="unk"/></l><r>комак<s n="unk"/></r></p></e>
@@ -16586,7 +16453,6 @@
     <e><p><l>tulum<s n="unk"/></l><r>комбинезон<s n="unk"/></r></p></e>
 
     <!-- комбисилос [kombisilos] tarım ürünlerinden silo deposında hazır­lanan hayvan yemi -->
-    <e><p><l>tarım<b/>ürünlerinden<b/>silo<b/>deposında<b/>hazırlanan<b/>hayvan<b/>yemi<s n="unk"/></l><r>комбисилос<s n="unk"/></r></p></e>
 
     <!-- комбриг [kombrig] tugay komu­tanı -->
     <e><p><l>tugay<b/>komutanı<s n="unk"/></l><r>комбриг<s n="unk"/></r></p></e>
@@ -17383,7 +17249,6 @@
     <e><p><l>iş<b/>ortaklığı<s n="unk"/></l><r>кооперация<s n="unk"/></r></p></e>
 
     <!-- кооптация [kooptatsiye] (birinin) seçim yapılmadan bir meclise üye olarak alınması -->
-    <e><p><l>seçim<b/>yapılmadan<b/>bir<b/>meclise<b/>üye<b/>olarak<b/>alınması<s n="unk"/></l><r>кооптация<s n="unk"/></r></p></e>
 
     <!-- координат [koordinat] koordinat -->
     <e><p><l>koordinat<s n="unk"/></l><r>координат<s n="unk"/></r></p></e>
@@ -17564,7 +17429,6 @@
     <!-- корык [korık] ucuna ilmik takılıp düşman askerini, at, vb. hayvan­ları tutup düşürmeğe yarayan sırık корыл- [koni-] kurulmak корылай [korılay] kuru şekilde, kuru halde корылан- [korılan-] kurulaşmak корылата [konlata] kuru halde корылда- [korılda-] koruldamak (civcivyürüten tavuk hakkında) корылма I [konİma] kurulma корылма II [korılma] elektrik yü­kü -->
     <e><p><l>ucuna<b/>ilmik<b/>takılıp<b/>düşman<b/>askerini<s n="unk"/></l><r>корык<s n="unk"/></r></p></e>
     <e><p><l>at<s n="unk"/></l><r>корык<s n="unk"/></r></p></e>
-    <e><p><l>vb.<b/>hayvanları<b/>tutup<b/>düşürmeğe<b/>yarayan<b/>sırık<s n="unk"/></l><r>корык<s n="unk"/></r></p></e>
     <e><p><l>kurulmak<s n="v"/><s n="TD"/></l><r>корыл-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>kuru<b/>şekilde<s n="unk"/></l><r>корылай<s n="unk"/></r></p></e>
     <e><p><l>kuru<b/>halde<s n="unk"/></l><r>корылай<s n="unk"/></r></p></e>
@@ -17767,7 +17631,6 @@
     <e><p><l>kuş<b/>yavrusu<s n="unk"/></l><r>кош<b/>баласы<s n="unk"/></r></p></e>
     <e><p><l>kuş<b/>besleyici<s n="unk"/></l><r>кош<b/>караучы<s n="unk"/></r></p></e>
     <e><p><l>kuşçu<s n="unk"/></l><r>кош<b/>караучы<s n="unk"/></r></p></e>
-    <e><p><l>yumurtalı<b/>hamurdan<b/>dil<b/>gibi<b/>hazırlanıp<b/>yağda<b/>pişirilen<b/>bir<b/>cins<b/>börek<s n="unk"/></l><r>кош<b/>теле<s n="unk"/></r></p></e>
     <e><p><l>evcil<b/>hayvanlar<s n="unk"/></l><r>кош-корт<s n="unk"/></r></p></e>
     <e><p><l>kızak<s n="unk"/></l><r>кошевка<s n="unk"/></r></p></e>
 
@@ -18008,7 +17871,6 @@
     <e><p><l>birlikte<b/>sevinmek<s n="v"/><s n="TD"/></l><r>куаныш-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- куас [kuas] 1. içine ekmek ko­nularak yapılan bozaya benzer al­kolsüz içki; 2. hamur leğeni -->
-    <e><p><l>içine<b/>ekmek<b/>konularak<b/>yapılan<b/>bozaya<b/>benzer<b/>alkolsüz<b/>içki<s n="unk"/></l><r>куас<s n="unk"/></r></p></e>
     <e><p><l>hamur<b/>leğeni<s n="unk"/></l><r>куас<s n="unk"/></r></p></e>
 
     <!-- куб I [kub] küp; куб метр [kub metr] küp metre, metre küp куб II [kub] küp кубалак [kubalak] kavlak кубалаклан- [kubalaklan-] kav-laklanmak кубар- [kubar-] koparmak кубарыл- [kubarıl-] 1. koparıl­mak; 2. kıyamet gününden dirilip ayağa kalkmak кубатура [kubatura] hacim кубик I [kübik] küçük küp кубик II [kübik] kübik, küp şek­linde -->
@@ -18044,7 +17906,6 @@
 
     <!-- куга [kuga] 1. bir cins sazlık otu; 2. nehrin kenarına biriken ot ve çöp -->
     <e><p><l>bir<b/>cins<b/>sazlık<b/>otu<s n="unk"/></l><r>куга<s n="unk"/></r></p></e>
-    <e><p><l>nehrin<b/>kenarına<b/>biriken<b/>ot<b/>ve<b/>çöp<s n="unk"/></l><r>куга<s n="unk"/></r></p></e>
 
     <!-- кугын I [kugın] takipçiler, kova­layanlar -->
     <e><p><l>takipçiler<s n="unk"/></l><r>кугын<s n="unk"/></r></p></e>
@@ -18184,7 +18045,6 @@
     <e><p><l>gereksiz<b/>görmek<s n="v"/><s n="TD"/></l><r>кул<b/>селтә-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>el<b/>uzatmak<s n="v"/><s n="TD"/></l><r>кул<b/>суз-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>yüz<b/>yüze<b/>savaş<s n="unk"/></l><r>кул<b/>сулышы<s n="unk"/></r></p></e>
-    <e><p><l>el<b/>ile<b/>dövme<b/>cezası<b/>verme<s n="unk"/></l><r>кул<b/>хөкеме<s n="unk"/></r></p></e>
     <e><p><l>el<b/>çırpmak<s n="v"/><s n="TD"/></l><r>кул<b/>чап-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>alkışlamak<s n="v"/><s n="TD"/></l><r>кул<b/>чап-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>el<s n="unk"/></l><r>кул<b/>чугы<s n="unk"/></r></p></e>
@@ -18252,7 +18112,6 @@
     <e><p><l>korkuluklu<s n="unk"/></l><r>култыксалы<s n="unk"/></r></p></e>
     <e><p><l>kulvar<s n="unk"/></l><r>кулуар<s n="unk"/></r></p></e>
     <e><p><l>koridor<s n="unk"/></l><r>кулуар<s n="unk"/></r></p></e>
-    <e><p><l>el<b/>yıkamak<b/>için<b/>altından<b/>çivi<b/>ile<b/>tıkalı<b/>su<b/>haz-neli<b/>âlet.<s n="unk"/></l><r>кулъюгыч<s n="unk"/></r></p></e>
 
     <!-- кулъязма [kulyazma] yazma, el yazma -->
     <e><p><l>yazma<s n="unk"/></l><r>кулъязма<s n="unk"/></r></p></e>
@@ -18351,7 +18210,6 @@
     <e><p><l>misafirperverlik<s n="unk"/></l><r>кунакчыллык<s n="unk"/></r></p></e>
     <e><p><l>tünek<s n="unk"/></l><r>кунача<s n="unk"/></r></p></e>
     <e><p><l>kondurmak<s n="v"/><s n="TD"/></l><r>кундыр-<s n="v"/><s n="TD"/></r></p></e>
-    <e><p><l>konmuş<b/>küçük<b/>parçacık<b/>vb.<b/>toz<b/>toprak<s n="unk"/></l><r>кунык<s n="unk"/></r></p></e>
     <e><p><l>konç<s n="unk"/></l><r>куныч<s n="unk"/></r></p></e>
     <e><p><l>kopmak<s n="v"/><s n="TD"/></l><r>куп-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>kibirli<s n="unk"/></l><r>купай<s n="unk"/></r></p></e>
@@ -18443,7 +18301,6 @@
     <e><p><l>korku<s n="unk"/></l><r>курку<s n="unk"/></r></p></e>
 
     <!-- куркулык [kurkulık] kurşun dök­me yolu ile tedavi etmek куркусыз [kurkusız] korkusuz куркучан [kurkuçan] korkak куркучанлык [kurkuçanlık] kor­kaklık -->
-    <e><p><l>kurşun<b/>dökme<b/>yolu<b/>ile<b/>tedavi<b/>etmek<s n="unk"/></l><r>куркулык<s n="unk"/></r></p></e>
     <e><p><l>korkusuz<s n="unk"/></l><r>куркусыз<s n="unk"/></r></p></e>
     <e><p><l>korkak<s n="unk"/></l><r>куркучан<s n="unk"/></r></p></e>
     <e><p><l>korkaklık<s n="unk"/></l><r>куркучанлык<s n="unk"/></r></p></e>
@@ -18510,7 +18367,6 @@
     <e><p><l>krem<s n="unk"/></l><r>кершән<s n="unk"/></r></p></e>
 
     <!-- керән [keren] yemeğe lezzet ve­ren bir cins köklü bitki, acırga -->
-    <e><p><l>yemeğe<b/>lezzet<b/>veren<b/>bir<b/>cins<b/>köklü<b/>bitki<s n="unk"/></l><r>керән<s n="unk"/></r></p></e>
     <e><p><l>acırga<s n="unk"/></l><r>керән<s n="unk"/></r></p></e>
 
     <!-- керәнлә- [kerenle-] acırga koy­mak -->
@@ -18585,7 +18441,6 @@
     <e><p><l>kikirdemek<s n="v"/><s n="TD"/></l><r>кеткелдә-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- кетәк [ketek] tavuk ve tavşan gibi hayvanlar için yapılan küçük-kulübe, tünek -->
-    <e><p><l>tavuk<b/>ve<b/>tavşan<b/>gibi<b/>hayvanlar<b/>için<b/>yapılan<b/>küçük-kulübe<s n="unk"/></l><r>кетәк<s n="unk"/></r></p></e>
     <e><p><l>tünek<s n="unk"/></l><r>кетәк<s n="unk"/></r></p></e>
 
     <!-- кетәклек [keteklek] tüneklik -->
@@ -18893,7 +18748,6 @@
     <!-- кушканатлылар   [kuşkanatlılar] -->
 
     <!-- кушметаллар [kuşmetallar] bir tarafı başka maden ile kaplı ma­denî eşyalar -->
-    <e><p><l>bir<b/>tarafı<b/>başka<b/>maden<b/>ile<b/>kaplı<b/>madenî<b/>eşyalar<s n="unk"/></l><r>кушметаллар<s n="unk"/></r></p></e>
 
     <!-- кушсузык [kuşsuzık] gr. çift ses, diftong -->
     <e><p><l>gr.<b/>çift<b/>ses<s n="unk"/></l><r>кушсузык<s n="unk"/></r></p></e>
@@ -19290,7 +19144,6 @@
     <e><p><l>kı-zılımsı<s n="unk"/></l><r>кызылсу<s n="unk"/></r></p></e>
 
     <!-- кызылтамыр [kızıltamır] kökleri kırmızı olan bir cins ot -->
-    <e><p><l>kökleri<b/>kırmızı<b/>olan<b/>bir<b/>cins<b/>ot<s n="unk"/></l><r>кызылтамыр<s n="unk"/></r></p></e>
 
     <!-- кызылтүш [kızıltüş] serçe cin­sinden göğsü kızıl kuş -->
     <e><p><l>serçe<b/>cinsinden<b/>göğsü<b/>kızıl<b/>kuş<s n="unk"/></l><r>кызылтүш<s n="unk"/></r></p></e>
@@ -19299,7 +19152,6 @@
     <e><p><l>kızılcık<b/>hastalığı<s n="unk"/></l><r>кызылча<s n="unk"/></r></p></e>
 
     <!-- кызылча II [kızılca] sarı çiçekli funda cinsinden bir bitki; onun ekşi meyvesi, kızılcık -->
-    <e><p><l>sarı<b/>çiçekli<b/>funda<b/>cinsinden<b/>bir<b/>bitki<s n="unk"/></l><r>кызылча<s n="unk"/></r></p></e>
     <e><p><l>onun<b/>ekşi<b/>meyvesi<s n="unk"/></l><r>кызылча<s n="unk"/></r></p></e>
     <e><p><l>kızılcık<s n="unk"/></l><r>кызылча<s n="unk"/></r></p></e>
 
@@ -19317,7 +19169,6 @@
 
     <!-- кыйбат [kıybat] pahalı O кый­бат алма- [kıybat alma-] dövdü­ğüm için para almam demek -->
     <e><p><l>pahalı<s n="unk"/></l><r>кыйбат<s n="unk"/></r></p></e>
-    <e><p><l>dövdüğüm<b/>için<b/>para<b/>almam<b/>demek<s n="v"/><s n="TD"/></l><r>кыйбат<b/>алма-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- кыйбатлан- [kıybatlan-] pahalan­mak -->
     <e><p><l>pahalanmak<s n="v"/><s n="TD"/></l><r>кыйбатлан-<s n="v"/><s n="TD"/></r></p></e>
@@ -19352,7 +19203,6 @@
     <!-- кыйгылдаш- [kıygıldaş-] hafif ve ince sesle (kat) gaklaşmak кыйгыр [kıygır] akdoğan кый-ку [kıy-ku] yaygara; bağırıp çağırma -->
     <e><p><l>yaygara<s n="unk"/></l><r>кый-ку<s n="unk"/></r></p></e>
     <e><p><l>bağırıp<b/>çağırma<s n="unk"/></l><r>кый-ку<s n="unk"/></r></p></e>
-    <e><p><l>hafif<b/>ve<b/>ince<b/>sesle<b/><b/>gaklaşmak<s n="v"/><s n="TD"/></l><r>кыйгылдаш-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>akdoğan<s n="unk"/></l><r>кыйгыр<s n="unk"/></r></p></e>
 
     <!-- кыйммәт [kıymmet] 1. değer, kı­ymet; 2. kıymetli, pahalı, fiyat -->
@@ -19394,7 +19244,6 @@
     <e><p><l>kımıldanmak<s n="v"/><s n="TD"/></l><r>кыймылда-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- кыймылдагыз! [kıymıldagız] kı-m ı Iday ı n ız! (çabuk çalışınız I) -->
-    <e><p><l>kı-m<b/>ı<b/>Iday<b/>ı<b/>n<b/>ız!<s n="unk"/></l><r>кыймылдагыз<s n="unk"/></r></p></e>
 
     <!-- кыймылдат- [kıymıldat-] kımıl­datmak -->
     <e><p><l>kımıldatmak<s n="v"/><s n="TD"/></l><r>кыймылдат-<s n="v"/><s n="TD"/></r></p></e>
@@ -19534,7 +19383,6 @@
     <e><p><l>kımız<s n="unk"/></l><r>кымыз<s n="unk"/></r></p></e>
 
     <!-- кымызлык [kımızlık] kımız tadı veren bir cins bitki -->
-    <e><p><l>kımız<b/>tadı<b/>veren<b/>bir<b/>cins<b/>bitki<s n="unk"/></l><r>кымызлык<s n="unk"/></r></p></e>
 
     <!-- кымызчы [kımızçı] kımızçı -->
     <e><p><l>kımızçı<s n="unk"/></l><r>кымызчы<s n="unk"/></r></p></e>
@@ -19578,7 +19426,6 @@
     <e><p><l>yabani<b/>kına<s n="unk"/></l><r>кыр<b/>кынасы<s n="unk"/></r></p></e>
     <e><p><l>yabani<b/>göğertin<s n="unk"/></l><r>кыр<b/>күгәрчене<s n="unk"/></r></p></e>
     <e><p><l>yabani<b/>keçi<s n="unk"/></l><r>кыр<b/>кәҗәсе<s n="unk"/></r></p></e>
-    <e><p><l>sabun<b/>gibi<b/>köpüren<b/>yabani<b/>ot<s n="unk"/></l><r>кыр<b/>сабыны<s n="unk"/></r></p></e>
     <e><p><l>yabani<b/>tavuk<s n="unk"/></l><r>кыр<b/>тавыгы<s n="unk"/></r></p></e>
     <e><p><l>akça<b/>ağaç<s n="unk"/></l><r>кыр<b/>чаганы<s n="unk"/></r></p></e>
     <e><p><l>kırmak<s n="v"/><s n="TD"/></l><r>кыр-<s n="v"/><s n="TD"/></r></p></e>
@@ -19589,7 +19436,6 @@
     <!-- кыран [kıran] kıran, bulaşıcı hastalık O кыран да булмас [kıran da bulmas] hiç bir şey olmaz -->
     <e><p><l>kıran<s n="unk"/></l><r>кыран<s n="unk"/></r></p></e>
     <e><p><l>bulaşıcı<b/>hastalık<s n="unk"/></l><r>кыран<s n="unk"/></r></p></e>
-    <e><p><l>hiç<b/>bir<b/>şey<b/>olmaz<s n="unk"/></l><r>кыран<b/>да<b/>булмас<s n="unk"/></r></p></e>
 
     <!-- кырау [kırau] kırağı; кырау төш-[kırau töş-] kırağı düşmek -->
     <e><p><l>kırağı<s n="unk"/></l><r>кырау<s n="unk"/></r></p></e>
@@ -19651,7 +19497,6 @@
     <e><p><l>kışın<b/>en<b/>soğuk<b/>zamanı<s n="unk"/></l><r>кырлач<s n="unk"/></r></p></e>
 
     <!-- кырлач II [kırlaç] 1. bataklık ve sazlık ortasında bulunan ada; 2. tarlada sürülmeden kalan yer; 3. sazlık adasında bulunan bir ot -->
-    <e><p><l>bataklık<b/>ve<b/>sazlık<b/>ortasında<b/>bulunan<b/>ada<s n="unk"/></l><r>кырлач<s n="unk"/></r></p></e>
     <e><p><l>tarlada<b/>sürülmeden<b/>kalan<b/>yer<s n="unk"/></l><r>кырлач<s n="unk"/></r></p></e>
     <e><p><l>sazlık<b/>adasında<b/>bulunan<b/>bir<b/>ot<s n="unk"/></l><r>кырлач<s n="unk"/></r></p></e>
 
@@ -19689,7 +19534,6 @@
 
     <!-- кырпу [kırpu] börk, şapka veya elbise kenarına dikilen deri kırpıntı -->
     <e><p><l>börk<s n="unk"/></l><r>кырпу<s n="unk"/></r></p></e>
-    <e><p><l>şapka<b/>veya<b/>elbise<b/>kenarına<b/>dikilen<b/>deri<b/>kırpıntı<s n="unk"/></l><r>кырпу<s n="unk"/></r></p></e>
 
     <!-- кырпула- [kırpula-] kırpıntı ek­lemek -->
     <e><p><l>kırpıntı<b/>eklemek<s n="v"/><s n="TD"/></l><r>кырпула-<s n="v"/><s n="TD"/></r></p></e>
@@ -19731,7 +19575,6 @@
     <e><p><l>çok<b/>aldatıcı<s n="unk"/></l><r>кырыгалдар<s n="unk"/></r></p></e>
 
     <!-- кырыгы [kırığı] ölen için kırkıncı gün yapılan dua merasimi -->
-    <e><p><l>ölen<b/>için<b/>kırkıncı<b/>gün<b/>yapılan<b/>dua<b/>merasimi<s n="unk"/></l><r>кырыгы<s n="unk"/></r></p></e>
 
     <!-- кырый [kırıу] kenar -->
     <e><p><l>kenar<s n="unk"/></l><r>кырый<s n="unk"/></r></p></e>
@@ -19771,7 +19614,6 @@
 
     <!-- кырын [kırın] yan; кырын (күз белән) кара- [kırın (küz belen) ka­ra-] yan göz ile bakmak кырын- [kırın-] tıraş olmak кырынай- [kırınay-] yatıklaşmak, eğilmek -->
     <e><p><l>yan<s n="unk"/></l><r>кырын<s n="unk"/></r></p></e>
-    <e><p><l>yan<b/>göz<b/>ile<b/>bakmak<s n="v"/><s n="TD"/></l><r>кырын<b/><b/>кара-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>tıraş<b/>olmak<s n="v"/><s n="TD"/></l><r>кырын-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>yatıklaşmak<s n="v"/><s n="TD"/></l><r>кырынай-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>eğilmek<s n="v"/><s n="TD"/></l><r>кырынай-<s n="v"/><s n="TD"/></r></p></e>
@@ -19836,7 +19678,6 @@
     <e><p><l>zorlamak<s n="v"/><s n="TD"/></l><r>кыста-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- кыстыбый [kıstıbıy] yufka ile ya­pılan bir cins börek -->
-    <e><p><l>yufka<b/>ile<b/>yapılan<b/>bir<b/>cins<b/>börek<s n="unk"/></l><r>кыстыбый<s n="unk"/></r></p></e>
 
     <!-- кыстыргыч [kıstırgıç] kıstırıcı. toka, mandal -->
     <e><p><l>kıstırıcı.<b/>toka<s n="unk"/></l><r>кыстыргыч<s n="unk"/></r></p></e>
@@ -19897,7 +19738,6 @@
     <e><p><l>Çin'den<b/>gelen<b/>sıkı<s n="unk"/></l><r>кытат<s n="unk"/></r></p></e>
 
     <!-- кыткылда- [kıtkılda-] 1. bk. кы­такла-; 2. kıkır kıkiK gülmek O кы­ткылдап тор- [kıtkıldap tor-] bir işi yapmağa hazır olduğunu defalar­ca bildirmek -->
-    <e><p><l>bir<b/>işi<b/>yapmağa<b/>hazır<b/>olduğunu<b/>defalarca<b/>bildirmek<s n="v"/><s n="TD"/></l><r>кытакла-<b/><b/><b/><b/><b/><b/>кыткылдап<b/>тор-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>bk.<s n="unk"/></l><r>кыткылда-<s n="unk"/></r></p></e>
 
     <!-- КЫТ-КЫТЫК, кыт-кытый [kıt-kıtık, kıt-kıtıy] git gıdak! -->
@@ -20051,7 +19891,6 @@
 
     <!-- кыяк [kıyak] uzun ve dar yap­rak; кыяк гөл [kıyak göl] uzun ve dar yapraklı çiçek; кыяклы суган [kıyaklı sugan] yapraklı soğan -->
     <e><p><l>uzun<b/>ve<b/>dar<b/>yaprak<s n="unk"/></l><r>кыяк<s n="unk"/></r></p></e>
-    <e><p><l>uzun<b/>ve<b/>dar<b/>yapraklı<b/>çiçek<s n="unk"/></l><r>кыяк<b/>гөл<s n="unk"/></r></p></e>
     <e><p><l>yapraklı<b/>soğan<s n="unk"/></l><r>кыяклы<b/>суган<s n="unk"/></r></p></e>
 
     <!-- кыякла- [kıyakla-] sıvışmak, kaçmak -->
@@ -20059,13 +19898,11 @@
     <e><p><l>kaçmak<s n="v"/><s n="TD"/></l><r>кыякла-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- кыяклык [kıyaklık] uzun ve dar yapraklıların bittiği yer -->
-    <e><p><l>uzun<b/>ve<b/>dar<b/>yapraklıların<b/>bittiği<b/>yer<s n="unk"/></l><r>кыяклык<s n="unk"/></r></p></e>
 
     <!-- кыякпылар [kıyaklılar] buğday­giller -->
     <e><p><l>buğdaygiller<s n="unk"/></l><r>кыякпылар<s n="unk"/></r></p></e>
 
     <!-- кыялаш [kıyalaş] yukarıdan aşa­ğıya yan ve doğru çizgi şeklinde -->
-    <e><p><l>yukarıdan<b/>aşağıya<b/>yan<b/>ve<b/>doğru<b/>çizgi<b/>şeklinde<s n="unk"/></l><r>кыялаш<s n="unk"/></r></p></e>
 
     <!-- кыялы [kıyalı] kayalı -->
     <e><p><l>kayalı<s n="unk"/></l><r>кыялы<s n="unk"/></r></p></e>
@@ -20354,10 +20191,8 @@
     <e><p><l>asit<s n="unk"/></l><r>кәрчемә<s n="unk"/></r></p></e>
     <e><p><l>petek<s n="unk"/></l><r>кәрәз<s n="unk"/></r></p></e>
     <e><p><l>petekli<s n="unk"/></l><r>кәрәзле<s n="unk"/></r></p></e>
-    <e><p><l>sazangillerden<b/>bir<b/>tür<b/>tatlı<b/>su<b/>balığı<s n="unk"/></l><r>кәрәкә<s n="unk"/></r></p></e>
 
     <!-- кәс [kes] sürüldüğünde çimen­leri ile birlikte yatmış toprak -->
-    <e><p><l>sürüldüğünde<b/>çimenleri<b/>ile<b/>birlikte<b/>yatmış<b/>toprak<s n="unk"/></l><r>кәс<s n="unk"/></r></p></e>
 
     <!-- кәсеп [kesep] kesp; kazanma; кәсеп ит- [kesep it-] kesp etmek, kazanmak -->
     <e><p><l>kesp<s n="unk"/></l><r>кәсеп<s n="unk"/></r></p></e>
@@ -20389,7 +20224,6 @@
     <e><p><l>kefen<s n="unk"/></l><r>кәфен<s n="unk"/></r></p></e>
     <e><p><l>kefenlik<s n="unk"/></l><r>кәфенлек<s n="unk"/></r></p></e>
     <e><p><l>kefenlemek<s n="v"/><s n="TD"/></l><r>кәфенлә-<s n="v"/><s n="TD"/></r></p></e>
-    <e><p><l>yeni<b/>doğmuş<b/>bebeğin<b/>sırtında<b/>çıkan<b/>kıl<s n="unk"/></l><r>кәчеркә<s n="unk"/></r></p></e>
 
     <!-- кәшемир [keşemir] kaşmir, keş-mir kumaşı -->
     <e><p><l>kaşmir<s n="unk"/></l><r>кәшемир<s n="unk"/></r></p></e>
@@ -20407,7 +20241,6 @@
 
     <!-- кәүсәр [keüser] kevser кәҗә [keçe] keçi; кәҗә бәтие (бәрәне) [keçe betiye (berene)] oğlak; кәҗә гөмбәсе [keçe göm-bese] keçi mantarı; кәҗә имчәге [keçe imçege] keçi memesi bitkisi; кәҗә мөгезе [keçe mögeze] keçi boynuzu; кәҗә тәкәсе [keçe te-kese] erkek keçi, teke ❖ кәҗә би­леты [keçe bileti] devlet işinde ça­lışmayı engelleyen belge; кәҗә -->
     <e><p><l>keçi<s n="unk"/></l><r>кәҗә<s n="unk"/></r></p></e>
-    <e><p><l>devlet<b/>işinde<b/>çalışmayı<b/>engelleyen<b/>belge<s n="unk"/></l><r>кәҗә<b/>билеты<s n="unk"/></r></p></e>
     <e><p><l>oğlak<s n="unk"/></l><r>кәҗә<b/>бәтие<s n="unk"/></r></p></e>
     <e><p><l>keçi<b/>mantarı<s n="unk"/></l><r>кәҗә<b/>гөмбәсе<s n="unk"/></r></p></e>
     <e><p><l>keçi<b/>memesi<b/>bitkisi<s n="unk"/></l><r>кәҗә<b/>имчәге<s n="unk"/></r></p></e>
@@ -20809,12 +20642,10 @@
     <e><p><l>evvelki<b/>gün<s n="unk"/></l><r>көнәген<s n="unk"/></r></p></e>
 
     <!-- көпә [köpe] içi yün veya pamuk ile doldurulup yorgan gibi dikilen yelek -->
-    <e><p><l>içi<b/>yün<b/>veya<b/>pamuk<b/>ile<b/>doldurulup<b/>yorgan<b/>gibi<b/>dikilen<b/>yelek<s n="unk"/></l><r>көпә<s n="unk"/></r></p></e>
 
     <!-- көпчәк [köpçek] teker, düzen-teker; көпчәк бүкәне [köpçek bü-kene] parmaklıklı ağaç tekerin mil kısmı -->
     <e><p><l>teker<s n="unk"/></l><r>көпчәк<s n="unk"/></r></p></e>
     <e><p><l>düzen-teker<s n="unk"/></l><r>көпчәк<s n="unk"/></r></p></e>
-    <e><p><l>parmaklıklı<b/>ağaç<b/>tekerin<b/>mil<b/>kısmı<s n="unk"/></l><r>көпчәк<b/>бүкәне<s n="unk"/></r></p></e>
 
     <!-- көпчәкле [köpçekle] ağaçtan dolu tekerli -->
     <e><p><l>ağaçtan<b/>dolu<b/>tekerli<s n="unk"/></l><r>көпчәкле<s n="unk"/></r></p></e>
@@ -20844,7 +20675,6 @@
     <e><p><l>yumuşaklanmak<s n="v"/><s n="TD"/></l><r>көпшәклән-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- көпшәле [köşpele] içi boş boru gibi gövdesi olan -->
-    <e><p><l>içi<b/>boş<b/>boru<b/>gibi<b/>gövdesi<b/>olan<s n="unk"/></l><r>көпшәле<s n="unk"/></r></p></e>
 
     <!-- көпшәлән- [köpşelen-] içi boşa­lıp boru gibi gövdelenmek -->
     <e><p><l>içi<b/>boşalıp<b/>boru<b/>gibi<b/>gövdelenmek<s n="v"/><s n="TD"/></l><r>көпшәлән-<s n="v"/><s n="TD"/></r></p></e>
@@ -20882,18 +20712,14 @@
 
     <!-- көрпә I [körpe] 1. yeni doğan kuzu; 2. yeni doğan kuzu yünü ve benzeri yumşak yünler; 3. yumşak minder ❖ көрпә баш [körpe baş] 1. yumşak ve kısa saçlı kimse; 2. günahsız ve ahmak -->
     <e><p><l>yeni<b/>doğan<b/>kuzu<s n="unk"/></l><r>көрпә<s n="unk"/></r></p></e>
-    <e><p><l>yeni<b/>doğan<b/>kuzu<b/>yünü<b/>ve<b/>benzeri<b/>yumşak<b/>yünler<s n="unk"/></l><r>көрпә<s n="unk"/></r></p></e>
     <e><p><l>yumşak<b/>minder<s n="unk"/></l><r>көрпә<s n="unk"/></r></p></e>
-    <e><p><l>yumşak<b/>ve<b/>kısa<b/>saçlı<b/>kimse<s n="unk"/></l><r>көрпә<b/>баш<s n="unk"/></r></p></e>
     <e><p><l>günahsız<b/>ve<b/>ahmak<s n="unk"/></l><r>көрпә<b/>баш<s n="unk"/></r></p></e>
 
     <!-- көрпә II [körpe] un elendiğinde elekte kalan un ve kepek kalıntısı -->
-    <e><p><l>un<b/>elendiğinde<b/>elekte<b/>kalan<b/>un<b/>ve<b/>kepek<b/>kalıntısı<s n="unk"/></l><r>көрпә<s n="unk"/></r></p></e>
 
     <!-- көрсен- [korsen-] kaygılanma, kederlenme, mahzun olma gibi halleri ünlem ile bildirmek, ah, of, vah demek -->
     <e><p><l>kaygılanma<s n="unk"/></l><r>көрсен-<s n="unk"/></r></p></e>
     <e><p><l>kederlenme<s n="unk"/></l><r>көрсен-<s n="unk"/></r></p></e>
-    <e><p><l>mahzun<b/>olma<b/>gibi<b/>halleri<b/>ünlem<b/>ile<b/>bildirmek<s n="v"/><s n="TD"/></l><r>көрсен-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>ah<s n="unk"/></l><r>көрсен-<s n="unk"/></r></p></e>
     <e><p><l>of<s n="unk"/></l><r>көрсен-<s n="unk"/></r></p></e>
     <e><p><l>vah<b/>demek<s n="v"/><s n="TD"/></l><r>көрсен-<s n="v"/><s n="TD"/></r></p></e>
@@ -20937,7 +20763,6 @@
     <e><p><l>güreş<s n="unk"/></l><r>көрәш<s n="unk"/></r></p></e>
     <e><p><l>yarış<s n="unk"/></l><r>көрәш<s n="unk"/></r></p></e>
     <e><p><l>güreşmek<s n="v"/><s n="TD"/></l><r>көрәш-<s n="v"/><s n="TD"/></r></p></e>
-    <e><p><l>aynı<b/>safta<b/>yer<b/>alan<b/>yarışçılardan<b/>her<b/>biri<s n="unk"/></l><r>көрәштәш<s n="unk"/></r></p></e>
 
     <!-- көрәшче [köreşçe] güreşçi, ya­rışçı -->
     <e><p><l>güreşçi<s n="unk"/></l><r>көрәшче<s n="unk"/></r></p></e>
@@ -20946,7 +20771,6 @@
     <!-- көрҗә [körce] güleç çocuk кәс [kös] küçük balıklar sürüsü көсмән [kösmen] kayık kıçında bulunup dümen vazifesi gören kü­rek -->
     <e><p><l>küçük<b/>balıklar<b/>sürüsü<s n="unk"/></l><r>кәс<s n="unk"/></r></p></e>
     <e><p><l>güleç<b/>çocuk<s n="unk"/></l><r>көрҗә<s n="unk"/></r></p></e>
-    <e><p><l>kayık<b/>kıçında<b/>bulunup<b/>dümen<b/>vazifesi<b/>gören<b/>kürek<s n="unk"/></l><r>көсмән<s n="unk"/></r></p></e>
 
     <!-- көсән- [kösen-] istemek -->
     <e><p><l>istemek<s n="v"/><s n="TD"/></l><r>көсән-<s n="v"/><s n="TD"/></r></p></e>
@@ -21095,7 +20919,6 @@
     <e><p><l>terazili<s n="unk"/></l><r>көянтәле<s n="unk"/></r></p></e>
 
     <!-- кәҗәлә [köcele] hayvanlarda deri hastalıkları tedavi etmekte kullanılan bir cins ağaç ve bu ağa­cın öz suyu -->
-    <e><p><l>hayvanlarda<b/>deri<b/>hastalıkları<b/>tedavi<b/>etmekte<b/>kullanılan<b/>bir<b/>cins<b/>ağaç<b/>ve<b/>bu<b/>ağacın<b/>öz<b/>suyu<s n="unk"/></l><r>кәҗәлә<s n="unk"/></r></p></e>
 
     <!-- күбавыз [kübavız] çok ağızlı parazit -->
     <e><p><l>çok<b/>ağızlı<b/>parazit<s n="unk"/></l><r>күбавыз<s n="unk"/></r></p></e>
@@ -21136,7 +20959,6 @@
     <e><p><l>çoğalmak<s n="v"/><s n="TD"/></l><r>күбәй-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>çoğaltmak<s n="v"/><s n="TD"/></l><r>күбәйт-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>çoğaltma<s n="unk"/></l><r>күбәйтү<s n="unk"/></r></p></e>
-    <e><p><l>ekini<b/>bacağından<b/>ayırmağa<b/>yarayan<b/>sopanın<b/>sapı<s n="unk"/></l><r>күбәк<s n="unk"/></r></p></e>
 
     <!-- күбәлә- [kübele-] küçük yığın­lar yapmak -->
     <e><p><l>küçük<b/>yığınlar<b/>yapmak<s n="v"/><s n="TD"/></l><r>күбәлә-<s n="v"/><s n="TD"/></r></p></e>
@@ -21145,7 +20967,6 @@
     <e><p><l>kelebek<s n="unk"/></l><r>күбәләк<s n="unk"/></r></p></e>
     <e><p><l>kelebek<b/>ömrü<s n="unk"/></l><r>күбәләк<b/>гомере<s n="unk"/></r></p></e>
     <e><p><l>az<b/>ömür<s n="unk"/></l><r>күбәләк<b/>гомере<s n="unk"/></r></p></e>
-    <e><p><l>ilk<b/>baharda<b/>yağan<b/>geniş<b/>yapraklı<b/>kar<s n="unk"/></l><r>күбәләк<b/>кар<s n="unk"/></r></p></e>
     <e><p><l>kelebek<b/>kurdu<s n="unk"/></l><r>күбәләк<b/>корты<s n="unk"/></r></p></e>
     <e><p><l>kelebek<b/>çiçeği<s n="unk"/></l><r>күбәләк<b/>чәчәк<s n="unk"/></r></p></e>
 
@@ -21190,7 +21011,6 @@
     <e><p><l>göz<b/>yuvarlağı<s n="unk"/></l><r>күз<b/>алмасы<s n="unk"/></r></p></e>
     <e><p><l>karşılıkllı<b/>bakışmak<s n="v"/><s n="TD"/></l><r>күз<b/>алыш-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>göz<b/>açtırmaz<b/>]<s n="unk"/></l><r>күз<b/>ачкысыз<s n="unk"/></r></p></e>
-    <e><p><l>göz<b/>açıp<b/>yumuncaya<b/>kadar<s n="unk"/></l><r>күз<b/>ачып<b/>йомганчы<s n="unk"/></r></p></e>
     <e><p><l>göz<b/>bağlamak<s n="v"/><s n="TD"/></l><r>күз<b/>бу-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>göz<b/>bağcı<s n="unk"/></l><r>күз<b/>буучы<s n="unk"/></r></p></e>
     <e><p><l>göz<b/>boyamak<s n="v"/><s n="TD"/></l><r>күз<b/>буя-<s n="v"/><s n="TD"/></r></p></e>
@@ -21204,7 +21024,6 @@
     <e><p><l>göz<b/>yummadan<s n="unk"/></l><r>күз<b/>дә<b/>йоммыйча<s n="unk"/></r></p></e>
     <e><p><l>göz<b/>kapağı<s n="unk"/></l><r>күз<b/>кабагы<s n="unk"/></r></p></e>
     <e><p><l>göz<b/>karası<s n="unk"/></l><r>күз<b/>карасы<s n="unk"/></r></p></e>
-    <e><p><l>göz<b/>bebeği<b/>gibi<b/>saklamak<s n="v"/><s n="TD"/></l><r>күз<b/>карасы<b/>кебек<b/>сакла-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>güz<b/>bakışı<s n="unk"/></l><r>күз<b/>карашы<s n="unk"/></r></p></e>
     <e><p><l>göz<b/>atmak<s n="v"/><s n="TD"/></l><r>күз<b/>кыс-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>göz<b/>kırpmak<s n="v"/><s n="TD"/></l><r>күз<b/>кыс-<s n="v"/><s n="TD"/></r></p></e>
@@ -21243,7 +21062,6 @@
 
     <!-- күзелдерек [küzelderek] at gözlüğü; toz vb. den korumak için takılan gözlük -->
     <e><p><l>at<b/>gözlüğü<s n="unk"/></l><r>күзелдерек<s n="unk"/></r></p></e>
-    <e><p><l>toz<b/>vb.<b/>den<b/>korumak<b/>için<b/>takılan<b/>gözlük<s n="unk"/></l><r>күзелдерек<s n="unk"/></r></p></e>
 
     <!-- күзикмәк [küzikmek] köz ekme­ği -->
     <e><p><l>köz<b/>ekmeği<s n="unk"/></l><r>күзикмәк<s n="unk"/></r></p></e>
@@ -21334,7 +21152,6 @@
     <!-- күк I [kük] gök, gök yüzü; күк гөмбәзе [kük göm beze] gök kub­besi O күк белән җир арасын­да [kük belen cir arasında] gök ile yer arasında; күк күкрә [kük kükre-] gök gürlemek; күк терәве [kük tereve] gök direği, uzun boylu kimse; күккә күтәр- [kükke küter-] -->
     <e><p><l>gök<s n="unk"/></l><r>күк<s n="unk"/></r></p></e>
     <e><p><l>gök<b/>yüzü<s n="unk"/></l><r>күк<s n="unk"/></r></p></e>
-    <e><p><l>gök<b/>ile<b/>yer<b/>arasında<s n="unk"/></l><r>күк<b/>белән<b/>җир<b/>арасында<s n="unk"/></r></p></e>
     <e><p><l>gök<b/>kubbesi<s n="unk"/></l><r>күк<b/>гөмбәзе<s n="unk"/></r></p></e>
     <e><p><l>gök<b/>gürlemek<s n="unk"/></l><r>күк<b/>күкрә<s n="unk"/></r></p></e>
     <e><p><l>gök<b/>direği<s n="unk"/></l><r>күк<b/>терәве<s n="unk"/></r></p></e>
@@ -21357,14 +21174,12 @@
     <e><p><l>peygamber<b/>çiçeği<s n="unk"/></l><r>күкбаш<s n="unk"/></r></p></e>
 
     <!-- күкбүз [kükbüz] gök boz (at) O Күкбүз ат [Kükbüz at] kutup yıl­dızı yanındaki bir yıldız -->
-    <e><p><l>kutup<b/>yıldızı<b/>yanındaki<b/>bir<b/>yıldız<s n="unk"/></l><r>Күкбүз<b/>ат<s n="unk"/></r></p></e>
     <e><p><l>gök<b/>boz<s n="unk"/></l><r>күкбүз<s n="unk"/></r></p></e>
 
     <!-- күке [küke] guguk kuşu; күке сабыны  [küke sabini] biber gibi kırmızı çiçeklerini çıkaran bir cins çiçek; күке яше [küke yese] orki­de; күке җитене [küke cifene] bir cins yosun ❖ күке баш [küke baş] çok yanılan kimse, dikkatsiz күкебаш [kükebaş] ciğer otu күкелдә- [kükelde-] guguklamak күкерт [kükert] 1. kükürt; 2. gök gürültüsü; күкерт үләне [kükert ülene] kükürt otu күкертле [kükertle] kükürtlü күкертлә- [kükertle-] kükürtle-mek -->
     <e><p><l>guguk<b/>kuşu<s n="unk"/></l><r>күке<s n="unk"/></r></p></e>
     <e><p><l>çok<b/>yanılan<b/>kimse<s n="unk"/></l><r>күке<b/>баш<s n="unk"/></r></p></e>
     <e><p><l>dikkatsiz<s n="unk"/></l><r>күке<b/>баш<s n="unk"/></r></p></e>
-    <e><p><l>biber<b/>gibi<b/>kırmızı<b/>çiçeklerini<b/>çıkaran<b/>bir<b/>cins<b/>çiçek<s n="unk"/></l><r>күке<b/>сабыны<s n="unk"/></r></p></e>
     <e><p><l>orkide<s n="unk"/></l><r>күке<b/>яше<s n="unk"/></r></p></e>
     <e><p><l>bir<b/>cins<b/>yosun<s n="unk"/></l><r>күке<b/>җитене<s n="unk"/></r></p></e>
     <e><p><l>ciğer<b/>otu<s n="unk"/></l><r>күкебаш<s n="unk"/></r></p></e>
@@ -21436,7 +21251,6 @@
     <e><p><l>gölcük<s n="unk"/></l><r>күлдәвек<s n="unk"/></r></p></e>
 
     <!-- күлем [kulem] 1. işe ara vererek azıcık yemek yemek; 2. bir sü-rümlük yer -->
-    <e><p><l>işe<b/>ara<b/>vererek<b/>azıcık<b/>yemek<b/>yemek<s n="unk"/></l><r>күлем<s n="unk"/></r></p></e>
     <e><p><l>bir<b/>sü-rümlük<b/>yer<s n="unk"/></l><r>күлем<s n="unk"/></r></p></e>
 
     <!-- күлләвек [kullevek] su birikinti­si, gölcük -->
@@ -21668,7 +21482,6 @@
     <e><p><l>çoktan<b/>beri<b/>beklenen<s n="unk"/></l><r>күптән<b/>көтелгән<s n="unk"/></r></p></e>
 
     <!-- тән үткән заман [küpten utken zaman] gr. çoktan geçmiş zaman -->
-    <e><p><l>gr.<b/>çoktan<b/>geçmiş<b/>zaman<s n="unk"/></l><r>тән<b/>үткән<b/>заман<s n="unk"/></r></p></e>
 
     <!-- күптәнге [küptenge] çok za­mandan beri (gelen) -->
     <e><p><l>çok<b/>zamandan<b/>beri<s n="unk"/></l><r>күптәнге<s n="unk"/></r></p></e>
@@ -21874,7 +21687,6 @@
     <e><p><l>kopya<b/>etmek<s n="v"/><s n="TD"/></l><r>күчер-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>şablon<s n="unk"/></l><r>күчергеч<s n="unk"/></r></p></e>
     <e><p><l>menkul<s n="unk"/></l><r>күчерелмә<s n="unk"/></r></p></e>
-    <e><p><l>fidanı<b/>bir<b/>yerden<b/>bir<b/>başka<b/>yere<b/>dikmek<s n="v"/><s n="TD"/></l><r>күчереп<b/>утырт-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>kopya<b/>etmek<s n="v"/><s n="TD"/></l><r>күчереп<b/>яз-<s n="v"/><s n="TD"/></r></p></e>
     <e><p><l>fidan<s n="unk"/></l><r>күчереп<b/>ялга-<s n="unk"/></r></p></e>
     <e><p><l>ağaç<b/>aşılamak<s n="v"/><s n="TD"/></l><r>күчереп<b/>ялга-<s n="v"/><s n="TD"/></r></p></e>
@@ -21917,7 +21729,6 @@
     <e><p><l>üstünde<b/>yarım<b/>kapalı<b/>kısmı<b/>olan<s n="unk"/></l><r>күшле<s n="unk"/></r></p></e>
 
     <!-- күшә [küşe] 1. dokumada arış iplikleriyle meydana getirilmiş sa­çak örmesi; 2. bitki kökü -->
-    <e><p><l>dokumada<b/>arış<b/>iplikleriyle<b/>meydana<b/>getirilmiş<b/>saçak<b/>örmesi<s n="unk"/></l><r>күшә<s n="unk"/></r></p></e>
     <e><p><l>bitki<b/>kökü<s n="unk"/></l><r>күшә<s n="unk"/></r></p></e>
 
     <!-- күшә- [küşe-] geviş getirmek -->
@@ -21977,7 +21788,6 @@
     <e><p><l>alçak<b/>gönüllü<s n="unk"/></l><r>күңелчәк<s n="unk"/></r></p></e>
 
     <!-- ла / лә- [la/le] söz ve fiil sonla­rında şüphe, belki fonksiyonlu edat лабиаль [labial'] dudaksıl лабиринт [labirint] lâbirent лаборант [laborant] laborant лаборатор [laborator] laboratu­ar ~ (s)i -->
-    <e><p><l>söz<b/>ve<b/>fiil<b/>sonlarında<b/>şüphe<s n="unk"/></l><r>ла<b/><b/>лә-<s n="unk"/></r></p></e>
     <e><p><l>belki<b/>fonksiyonlu<b/>edat<s n="unk"/></l><r>ла<b/><b/>лә-<s n="unk"/></r></p></e>
     <e><p><l>dudaksıl<s n="unk"/></l><r>лабиаль<s n="unk"/></r></p></e>
     <e><p><l>lâbirent<s n="unk"/></l><r>лабиринт<s n="unk"/></r></p></e>
@@ -22120,7 +21930,6 @@
     <e><p><l>çok<b/>ıslak<s n="unk"/></l><r>лач<s n="unk"/></r></p></e>
 
     <!-- лач(т) II [laç (t)] ıslak bir nesne ile vurulduğunda çıkan ses, vıç, vıç sesi -->
-    <e><p><l>ıslak<b/>bir<b/>nesne<b/>ile<b/>vurulduğunda<b/>çıkan<b/>ses<s n="unk"/></l><r>лач<s n="unk"/></r></p></e>
     <e><p><l>vıç<s n="unk"/></l><r>лач<s n="unk"/></r></p></e>
     <e><p><l>vıç<b/>sesi<s n="unk"/></l><r>лач<s n="unk"/></r></p></e>
 
@@ -22134,11 +21943,9 @@
     <e><p><l>lâçın<s n="unk"/></l><r>лачын<s n="unk"/></r></p></e>
 
     <!-- лашман [laşman] esk. ağaç kesmek ve sal yapmak ile meşgul olma, tomrukçuluk -->
-    <e><p><l>esk.<b/>ağaç<b/>kesmek<b/>ve<b/>sal<b/>yapmak<b/>ile<b/>meşgul<b/>olma<s n="unk"/></l><r>лашман<s n="unk"/></r></p></e>
     <e><p><l>tomrukçuluk<s n="unk"/></l><r>лашман<s n="unk"/></r></p></e>
 
     <!-- лашманчы [laşmançı] ağaç kesmek ve sal yapmak üzere kul­lanılan mahkûm, tomrukçu -->
-    <e><p><l>ağaç<b/>kesmek<b/>ve<b/>sal<b/>yapmak<b/>üzere<b/>kullanılan<b/>mahkûm<s n="unk"/></l><r>лашманчы<s n="unk"/></r></p></e>
     <e><p><l>tomrukçu<s n="unk"/></l><r>лашманчы<s n="unk"/></r></p></e>
 
     <!-- лашманчылык [laşmançılık] bk. лашман -->
@@ -22185,7 +21992,6 @@
 
     <!-- легионер [legioner] asker er легирла- [legirla-] esas metale başka metaller katarak sağlamlaş­tırmak -->
     <e><p><l>asker<b/>er<s n="unk"/></l><r>легионер<s n="unk"/></r></p></e>
-    <e><p><l>esas<b/>metale<b/>başka<b/>metaller<b/>katarak<b/>sağlamlaştırmak<s n="v"/><s n="TD"/></l><r>легирла-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- ледерин [lederin] sentetik gön -->
     <e><p><l>sentetik<b/>gön<s n="unk"/></l><r>ледерин<s n="unk"/></r></p></e>
@@ -22347,7 +22153,6 @@
     <e><p><l>mantık<s n="unk"/></l><r>логика<s n="unk"/></r></p></e>
     <e><p><l>mantıklı<s n="unk"/></l><r>логикалы<s n="unk"/></r></p></e>
     <e><p><l>mantıksız<s n="unk"/></l><r>логикасыз<s n="unk"/></r></p></e>
-    <e><p><l>kötü<b/>konuşan<b/>çocuklara<b/>konuşma<b/>öğreten<b/>hekim<s n="unk"/></l><r>логопед<s n="unk"/></r></p></e>
 
     <!-- логопедия [logopediya] konuş­mayan çocuklara konuşma öğret­me ilmi -->
     <e><p><l>konuşmayan<b/>çocuklara<b/>konuşma<b/>öğretme<b/>ilmi<s n="unk"/></l><r>логопедия<s n="unk"/></r></p></e>
@@ -22389,14 +22194,12 @@
     <e><p><l>rehin<b/>sandığı<s n="unk"/></l><r>ломбард<s n="unk"/></r></p></e>
 
     <!-- лопырда- [lopırda-] rüzgâr te­siriyle asılı çamaşırların çıkardığı sesi bildirir; hışırdamak -->
-    <e><p><l>rüzgâr<b/>tesiriyle<b/>asılı<b/>çamaşırların<b/>çıkardığı<b/>sesi<b/>bildirir<s n="unk"/></l><r>лопырда-<s n="unk"/></r></p></e>
     <e><p><l>hışırdamak<s n="v"/><s n="TD"/></l><r>лопырда-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- лорд [lord] lord -->
     <e><p><l>lord<s n="unk"/></l><r>лорд<s n="unk"/></r></p></e>
 
     <!-- лорнет [lornet] tiyatro vb. seyir işlerinde kullanılan saplı gözlük -->
-    <e><p><l>tiyatro<b/>vb.<b/>seyir<b/>işlerinde<b/>kullanılan<b/>saplı<b/>gözlük<s n="unk"/></l><r>лорнет<s n="unk"/></r></p></e>
 
     <!-- лотерея [lotereya] piyango -->
     <e><p><l>piyango<s n="unk"/></l><r>лотерея<s n="unk"/></r></p></e>
@@ -22473,7 +22276,6 @@
     <e><p><l>lüter<b/>dini<s n="unk"/></l><r>лютеран<b/>дине<s n="unk"/></r></p></e>
     <e><p><l>yonca<s n="unk"/></l><r>люцерна<s n="unk"/></r></p></e>
     <e><p><l>cehennem<b/>taşı<s n="unk"/></l><r>ляпис<s n="unk"/></r></p></e>
-    <e><p><l>söz<b/>ve<b/>fiil<b/>sonunda<b/>şüphe<s n="unk"/></l><r>лә<b/><b/>ла<s n="unk"/></r></p></e>
     <e><p><l>belki<b/>fonksiyonlu<b/>edat.<s n="unk"/></l><r>лә<b/><b/>ла<s n="unk"/></r></p></e>
 
     <!-- ләбаса [lebasa] tasdik, inkâr, soru, ümit, şüphe fonksiyonlu ki, ya, yani ile paralel bir edat ләвәш [leveş] lavaş yemeği ләгънәт [legnet] lanet O ләгъ­нәт ор- [legnet or-] lanete uğra­mak; ләгънәт укы [legnet ukı-] la­net okumak ләгънәтле [legnetle] lânetli ләгънәтлә- [legnetle-] lanetle­mek -->
@@ -22518,10 +22320,8 @@
 
     <!-- ләкшә [lekşe] 1. erişte; 2. geli­nin kocası evinde pişirdiği ilk çor­ba -->
     <e><p><l>erişte<s n="unk"/></l><r>ләкшә<s n="unk"/></r></p></e>
-    <e><p><l>gelinin<b/>kocası<b/>evinde<b/>pişirdiği<b/>ilk<b/>çorba<s n="unk"/></l><r>ләкшә<s n="unk"/></r></p></e>
 
     <!-- ләкәтә [lekete] olmayan bir iş ve netice için övünme, çalım ❖ ләкәтә сат- (сук-) [lekete sat-(suk-)] çalım satmak (vurmak) -->
-    <e><p><l>olmayan<b/>bir<b/>iş<b/>ve<b/>netice<b/>için<b/>övünme<s n="unk"/></l><r>ләкәтә<s n="unk"/></r></p></e>
     <e><p><l>çalım<s n="unk"/></l><r>ләкәтә<s n="unk"/></r></p></e>
     <e><p><l>çalım<b/>satmak<s n="v"/><s n="TD"/></l><r>ләкәтә<b/>сат-<s n="v"/><s n="TD"/></r></p></e>
 
@@ -22532,9 +22332,7 @@
     <e><p><l>su<b/>dibinde<b/>biriken<b/>mineralli<b/>tortu<s n="unk"/></l><r>ләм<s n="unk"/></r></p></e>
 
     <!-- ләмкә [lemke] esk. nehir gemi­lerini akıntıya karşı yürütmek için at ile çekerken kullanılan geniş ve kalın kayış O ләмкә тарт [lemke tart-] kayış çekmek, işin en ağır tarafını yüklenip yürütmek -->
-    <e><p><l>esk.<b/>nehir<b/>gemilerini<b/>akıntıya<b/>karşı<b/>yürütmek<b/>için<b/>at<b/>ile<b/>çekerken<b/>kullanılan<b/>geniş<b/>ve<b/>kalın<b/>kayış<s n="unk"/></l><r>ләмкә<s n="unk"/></r></p></e>
     <e><p><l>kayış<b/>çekmek<s n="unk"/></l><r>ләмкә<b/>тарт<s n="unk"/></r></p></e>
-    <e><p><l>işin<b/>en<b/>ağır<b/>tarafını<b/>yüklenip<b/>yürütmek<s n="unk"/></l><r>ләмкә<b/>тарт<s n="unk"/></r></p></e>
 
     <!-- ләм-мим [lem-mim] Lâm Mim, hiç bir şey deme! O ләм-мим әйтмә- [lem-mim eytme-] hiç bir şey dememek -->
     <e><p><l>Lâm<b/>Mim<s n="unk"/></l><r>ләм-мим<s n="unk"/></r></p></e>
@@ -22565,7 +22363,6 @@
     <e><p><l>ejderha<b/>yılı<s n="unk"/></l><r>ләү<b/>елы<s n="unk"/></r></p></e>
 
     <!-- ләүкә [leüke] hamamda göbek taşı vazifesi gören seki -->
-    <e><p><l>hamamda<b/>göbek<b/>taşı<b/>vazifesi<b/>gören<b/>seki<s n="unk"/></l><r>ләүкә<s n="unk"/></r></p></e>
 
     <!-- ләүхә [leühe] levha -->
     <e><p><l>levha<s n="unk"/></l><r>ләүхә<s n="unk"/></r></p></e>
@@ -22644,7 +22441,6 @@
     <e><p><l>tıka<b/>basa<s n="unk"/></l><r>маемлат-<s n="unk"/></r></p></e>
 
     <!-- маемсыра- [mayımsıra-] çok yi­yerek içi bayılacak hâle gelmek -->
-    <e><p><l>çok<b/>yiyerek<b/>içi<b/>bayılacak<b/>hâle<b/>gelmek<s n="v"/><s n="TD"/></l><r>маемсыра-<s n="v"/><s n="TD"/></r></p></e>
 
     <!-- маза [maza] rahatlık, keyif; me­ze -->
     <e><p><l>rahatlık<s n="unk"/></l><r>маза<s n="unk"/></r></p></e>
@@ -22677,6 +22473,6 @@
   </section>
   <!--
        Пропущеные строки: 1095 82.429
-       Строки: 12393
+       Строки: 12189
   -->
 </dictionary>

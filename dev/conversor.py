@@ -11,6 +11,7 @@ import sys, codecs, copy, re;
 # мазлум [mazlum] mazlum
 # абайлау [abaylau] 1. dikkatli ol­mak; 2. sezmek, farkına varmak
 
+MAX_SPACES = 2;
 skipped = 0;
 
 def cleanTrad(s): #{
@@ -188,7 +189,11 @@ with open(filename, 'r') as infile: #{
 								tag = '<s n="unk"/>';
 							#}
 							dixline = '    <e><p><l>' + xw + tag + '</l><r>' + xword + tag + '</r></p></e>\n';
-							dixout = dixout + dixline;
+							if dixline.count('<b/>') > (MAX_SPACES * 2): #{
+								print('OVER_MAX_SPACES: ' + dixline, file=logfile);
+							else: #{
+								dixout = dixout + dixline;
+							#}
 						#}
 		
 					else: #{
@@ -197,7 +202,12 @@ with open(filename, 'r') as infile: #{
 						if xword[-1] == '-' and (xtr.count('mek') > 0 or xtr.count('mak') > 0): #{
 							tag = '<s n="v"/><s n="TD"/>';
 						#}
-						dixout = dixout + '    <e><p><l>' + xtr + tag + '</l><r>' + xword + tag + '</r></p></e>\n';
+						dixline = '    <e><p><l>' + xtr + tag + '</l><r>' + xword + tag + '</r></p></e>\n';
+						if dixline.count('<b/>') > (MAX_SPACES * 2): #{
+							print('OVER_MAX_SPACES: ' + dixline, file=logfile);
+						else: #{
+							dixout = dixout + dixline;
+						#}
 					#}
 				#}
 			#}
