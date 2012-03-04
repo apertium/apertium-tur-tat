@@ -4,12 +4,6 @@
 
 import sys, codecs, copy, re;
 
-#sys.stdin  = codecs.getreader('utf-8')(sys.stdin)
-#sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
-#sys.stderr = codecs.getwriter('utf-8')(sys.stderr)
-
-#print('test')
-
 # Example input:
 #
 # абориген [aborigen] yerli аборт [abort] kürtaj
@@ -48,7 +42,7 @@ def cleanLine(s): #{
 
 lineno = 0; 					# Total number of lines in the source file
 dixlines = 0; 					# Number out lines we're going to output in .dix format
-cyr = re.compile('[Ё-ӿ]'); 	# A regular expression to test if a character is Cyrillic or not.
+cyr = re.compile('[Ё-ӿ]'); 			# A regular expression to test if a character is Cyrillic or not.
 logfile = open(sys.argv[1] + ".log", 'w+'); 	# The log file 
 
 header = '<dictionary>\n\
@@ -58,26 +52,29 @@ header = '<dictionary>\n\
     <sdef n="TD"    c="Неизвестная переходность"/>\n\
     <sdef n="unk"   c="Неизвестная часть речи"/>\n\
   </sdefs>\n\
-  <section id="unchecked" type="standard">\n'
+  <section id="unchecked" type="standard">\n';
 
-print(header)
+print(header);
 
-filename = sys.argv[1]
+filename = sys.argv[1];
 
-with open(filename, 'r') as infile:
-	for line in infile:
+with open(filename, 'r') as infile: #{
+	for line in infile: #{
 		lineno += 1
 		line = cleanLine(line)
+
 		# Skip lines: 
 		#   without '['
 		#   with unbalanced '[ ]'
 		#   with unbalanced '( )'
 		#   with '{'
 		#   where the first character is not cyrillic
+
 		if line.count('[') < 1 or (line.count('[') != line.count(']')) or (line.count('(') != line.count(')')) or line.count('{') > 0 or cyr.match(line[0]) == None: #{
 			skipped = skipped + 1;
 			print(line, file=sys.stderr);
 			continue;
+		#}
 
 		i = 0; 			# The current (char) index of the line
 		c = line[i]; 		# The current character we are processing
@@ -99,6 +96,7 @@ with open(filename, 'r') as infile:
 				isCyr = True;
 				current_lemma = current_lemma + c;
 				state = 0;
+			#}
 			# If the current character is not cyrillic and it is '('
 			elif cyr.match(c) == None and c == '(': #{
 				# Skip until ')', e.g. discard the contents of parentheses
@@ -106,13 +104,15 @@ with open(filename, 'r') as infile:
 					i = i + 1;
 					c = line[i];
 				#}
+			#}
 			# If the current character is cyrillic and we are in the final state
 			elif cyr.match(c) != None and state == 2: #{
 				current_lemma = '';
 				current_lemma = current_lemma + c;
 				lindex += 1;
 				state = 0;
-			# IF the current character is not cyrillic, we are in the initial state and the character is '['
+			#}
+			# If the current character is not cyrillic, we are in the initial state and the character is '['
 			elif cyr.match(c) == None and state == 0 and c == '[': #{
 				# We have read a headword, this is the pronunciation, we want to discard it, and then
 				#   move onto the translations
@@ -127,6 +127,7 @@ with open(filename, 'r') as infile:
 					#}
 				#}
 				state = 2;
+			#}
 			# If the current character is not cyrillic and we are in the final state
 			elif cyr.match(c) == None and state == 2: #{
 				if c == ';': #{
@@ -136,6 +137,7 @@ with open(filename, 'r') as infile:
 					line_words[current_lemma][tindex] = '';
 				#}
 				line_words[current_lemma][tindex] += c;
+			#}
 			elif (c == ' ' or c == '-') and state == 2: #{
 				isCyr = True;
 				line_words[current_lemma][tindex] += c;
@@ -151,9 +153,9 @@ with open(filename, 'r') as infile:
 		#}
 	
 		#print line_words;
-		print('    <!--' , line.strip() , '-->')
-		print('    <!--' , line.strip() , '-->', file=logfile)
-		words = list(line_words.keys())
+		print('    <!--' , line.strip() , '-->');
+		print('    <!--' , line.strip() , '-->', file=logfile);
+		words = list(line_words.keys());
 		words.sort();
 		dixout = '';
 	
@@ -190,7 +192,7 @@ with open(filename, 'r') as infile:
 						#}
 		
 					else: #{
-						print('+' , lineno, lindex , sw, s , ii , tr, file=logfile) 
+						print('+' , lineno, lindex , sw, s , ii , tr, file=logfile);
 						xtr = tr.strip().replace(' ', '<b/>');
 						if xword[-1] == '-' and (xtr.count('mek') > 0 or xtr.count('mak') > 0): #{
 							tag = '<s n="v"/><s n="TD"/>';
@@ -200,16 +202,17 @@ with open(filename, 'r') as infile:
 				#}
 			#}
 		#}
-		print(dixout)
+		print(dixout);
 		dixlines = dixlines + dixout.count('<e>');
 	#}
-	logfile.close();
-	footer = '  </section>\n\
+#}
+logfile.close();
+
+footer = '  </section>\n\
   <!--\n\
        Пропущеные строки: %s %s\n\
        Строки: %s\n\
   -->\n\
 </dictionary>'
 
-	print(footer % (skipped , ''.join(str((100.0-(float(skipped)/float(lineno)*100.0)))[0:6]), dixlines))
-
+print(footer % (skipped , ''.join(str((100.0-(float(skipped)/float(lineno)*100.0)))[0:6]), dixlines));
