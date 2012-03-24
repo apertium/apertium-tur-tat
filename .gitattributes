@@ -30,6 +30,5 @@ dev/skipped.txt -text
 /modes.xml -text
 texts/tr.txt -text
 texts/tt.txt -text svneol=unset#application/octet-stream
-tmp/tr.txt -text
 /tr-tt.prob -text svneol=unset#unset
 /tt-tr.prob -text svneol=unset#unset
