@@ -12,6 +12,7 @@
     <sdef n="tv"  c="Переходный"/>
     <sdef n="iv"  c="Непереходный"/>
     <sdef n="ind"  c=""/>
+    <sdef n="num"  c=""/>
     <sdef n="dem"  c=""/>
     <sdef n="cnjcoo"  c="Имя существительное"/>
     <sdef n="postadv"  c="Имя существительное"/>
@@ -131,6 +132,8 @@
     <e><p><l>—<s n="guio"/></l><r>—<s n="guio"/></r></p></e>
 
     <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+
+    <e c=""><re>%?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
 
   </section>
