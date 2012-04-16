@@ -48,9 +48,22 @@
 
     <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
+  
+    <e><p><l><s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
 
-
-    <!-- Раздел: Определения -->
+    <!-- Раздел: Числителные -->
+    <e><p><l>bir<s n="num"/></l><r>бер<s n="num"/></r></p></e>
+    <e><p><l>iki<s n="num"/></l><r>ике<s n="num"/></r></p></e>
+    <e><p><l>üç<s n="num"/></l><r>өч<s n="num"/></r></p></e>
+    <e><p><l>dört<s n="num"/></l><r>дүрт<s n="num"/></r></p></e>
+    <e><p><l>beş<s n="num"/></l><r>биш<s n="num"/></r></p></e>
+    <e><p><l>altı<s n="num"/></l><r>алты<s n="num"/></r></p></e>
+    <e><p><l>yedi<s n="num"/></l><r>җиңе<s n="num"/></r></p></e>
+    <e><p><l>sekiz<s n="num"/></l><r>сигез<s n="num"/></r></p></e>
+    <e><p><l>dokuz<s n="num"/></l><r>тугыз<s n="num"/></r></p></e>
+    <e><p><l>sıfır<s n="num"/></l><r>ноль<s n="num"/></r></p></e>
+    
+     <!-- Раздел: Определения -->
 
     <e><p><l>bir<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>bu<s n="det"/><s n="dem"/></l><r>бу<s n="det"/><s n="dem"/></r></p></e>
@@ -69,15 +82,17 @@
     <e><p><l>şey<s n="n"/></l><r>зат<s n="n"/></r></p></e>
     <e><p><l>zaman<s n="n"/></l><r>заман<s n="n"/></r></p></e>
     <e><p><l>kuş<s n="n"/></l><r>кош<s n="n"/></r></p></e>
-    <e><p><l>cevap<s n="n"/></l><r>жавап<s n="n"/></r></p></e>
-
-
+    <e><p><l>cevap<s n="n"/></l><r>җавап<s n="n"/></r></p></e>
+    <e><p><l>kız<s n="n"/></l><r>кыз<s n="n"/></r></p></e>
+    <e><p><l>kedi<s n="n"/></l><r>песи<s n="n"/></r></p></e>
+    <e><p><l>kız<b />kardeş<s n="n"/></l><r>сеңле<s n="n"/></r></p></e>
+  
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Ana<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
     <e><p><l>bugün<s n="n"/></l><r>бүген<s n="adv"/></r></p></e>
 	 <!-- FIXME: bugün is a n and adv; here it should be adv -->
-    <e><p><l>çok<s n="det"/><s n="qnt"/></l><r>бик<s n="adv"/></r></p></e>
+    <e><p><l>çok<s n="adv"/><s n="qnt"/></l><r>бик<s n="adv"/></r></p></e>
 	 <!-- FIXME: çok is adv here -->
     <e><p><l>fakat<s n="cnjcoo"/></l><r>тик<s n="adv"/></r></p></e>
 	 <!-- FIXME: fakat is adv also -->
@@ -99,7 +114,7 @@
     <e><p><l>mutlu<s n="adj"/></l><r>бәхетле<s n="adj"/></r></p></e>
     <e><p><l>yaşlı<s n="adj"/></l><r>карт<s n="adj"/></r></p></e>
     
-    <e><p><l>çok<s n="adj"/></l><r>бик<s n="adj"/></r></p></e>
+
 
 
 
