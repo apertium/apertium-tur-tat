@@ -69,7 +69,7 @@
     <e><p><l>şey<s n="n"/></l><r>зат<s n="n"/></r></p></e>
     <e><p><l>zaman<s n="n"/></l><r>заман<s n="n"/></r></p></e>
     <e><p><l>kuş<s n="n"/></l><r>кош<s n="n"/></r></p></e>
-
+    <e><p><l>cevap<s n="n"/></l><r>жавап<s n="n"/></r></p></e>
 
 
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -98,6 +98,8 @@
 
     <e><p><l>mutlu<s n="adj"/></l><r>бәхетле<s n="adj"/></r></p></e>
     <e><p><l>yaşlı<s n="adj"/></l><r>карт<s n="adj"/></r></p></e>
+    
+    <e><p><l>çok<s n="adj"/></l><r>бик<s n="adj"/></r></p></e>
 
 
 
