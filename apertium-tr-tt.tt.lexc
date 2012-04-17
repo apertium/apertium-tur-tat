@@ -12,6 +12,7 @@ Multichar_Symbols
 %<num%>        ! Numeral                    ! Сан               ! Числительное   
 %<prn%>        ! Pronoun                    ! Алмашлык          ! Местоимение
 %<det%>        ! Determiner                 ! ?Детерминатив?
+%<v%>          ! Verb                       ! Фигыль            ! Глагол
 %<vaux%>       ! Auxilary verb              ! Ярдәмче фигыль    ! Вспомогательный гл.
 %<adv%>        ! Adverb                     ! Рәвеш             ! Наречие
 %<post%>       ! Postposition               ! Бәйлек            ! Послелог
