@@ -48,6 +48,14 @@
 
     <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
+    
+    <e><p><l>ben<s n="prn"/></l><r>мин<s n="prn"/></r></p></e>
+    <e><p><l>sen<s n="prn"/></l><r>син<s n="prn"/></r></p></e>
+    <e><p><l>o<s n="prn"/></l><r>ул<s n="prn"/></r></p></e>
+    <e><p><l>biz<s n="prn"/></l><r>без<s n="prn"/></r></p></e>
+    <e><p><l>siz<s n="prn"/></l><r>сез<s n="prn"/></r></p></e>
+    <e><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/></r></p></e>
+    
   
     <e><p><l><s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
 
@@ -68,7 +76,6 @@
     <e><p><l>bir<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>bu<s n="det"/><s n="dem"/></l><r>бу<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="det"/><s n="dem"/></l><r>шул<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/></r></p></e>
 
     <!-- Раздел: Имя Существительное -->
 
@@ -86,6 +93,17 @@
     <e><p><l>kız<s n="n"/></l><r>кыз<s n="n"/></r></p></e>
     <e><p><l>kedi<s n="n"/></l><r>песи<s n="n"/></r></p></e>
     <e><p><l>kız<b />kardeş<s n="n"/></l><r>сеңле<s n="n"/></r></p></e>
+    <e><p><l>masa<s n="n"/></l><r>өстәл<s n="n"/></r></p></e>
+    <e><p><l>sandalye<s n="n"/></l><r>урындык<s n="n"/></r></p></e>
+    <e><p><l>çocuk<s n="n"/></l><r>бала<s n="n"/></r></p></e>
+    <e><p><l>yaş<s n="n"/></l><r>яшь<s n="n"/></r></p></e>
+    <e><p><l>pencere<s n="n"/></l><r>тәрәзә<s n="n"/></r></p></e>
+    <e><p><l>ağaç<s n="n"/></l><r>агач<s n="n"/></r></p></e>
+    <e><p><l>el<s n="n"/></l><r>кул<s n="n"/></r></p></e>
+    <e><p><l>pencere<s n="n"/></l><r>тәрәзә<s n="n"/></r></p></e>
+    <e><p><l>ses<s n="n"/></l><r>тавыш<s n="n"/></r></p></e>
+    <e><p><l>kafa<s n="n"/></l><r>баш<s n="n"/></r></p></e>
+    <e><p><l>su<s n="n"/></l><r>су<s n="n"/></r></p></e>
   
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Ana<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -123,7 +141,6 @@
     <e><p><l>bu<b/>yüzden<s n="adv"/></l><r>шул<b/>сәбәпле<s n="adv"/></r></p></e>
     <e><p><l>her<b />zaman<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
     <e><p><l>beraber<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
-    <e><p><l>beraber<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>sonra<s n="adv"/></l><r>аннары<s n="adv"/></r></p></e>
     <e><p><l>hayır<s n="adv"/></l><r>игелек<s n="adv"/></r></p></e>
 
@@ -132,7 +149,30 @@
     <e><p><l>ol<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>oyna<s n="v"/><s n="tv"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>sev<s n="v"/><s n="tv"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
+    
+    <e><p><l>var<s n="v"/></l><r>бар<s n="v"/></r></p></e>
+    <e><p><l>bak<s n="v"/></l><r>кара<s n="v"/></r></p></e>
+    <e><p><l>koş<s n="v"/></l><r>йөгер<s n="v"/></r></p></e>
+    <e><p><l>sakla<s n="v"/></l><r>яшерә<s n="v"/></r></p></e>
+    <e><p><l>bil<s n="v"/></l><r>бел<s n="v"/></r></p></e>
+    <e><p><l>otur<s n="v"/></l><r>утыр<s n="v"/></r></p></e>
+    <e><p><l>gör<s n="v"/></l><r>күр<s n="v"/></r></p></e>
+    <e><p><l>say<s n="v"/></l><r>сайла<s n="v"/></r></p></e>
+    <e><p><l>bakın<s n="v"/></l><r>карагыз<s n="v"/></r></p></e>
+    <e><p><l>git<s n="v"/></l><r>бар<s n="v"/></r></p></e>
+    <e><p><l>al<s n="v"/></l><r>ал<s n="v"/></r></p></e>
+    <e><p><l>düşün<s n="v"/></l><r>уйла<s n="v"/></r></p></e>
+    <e><p><l>ver<s n="v"/></l><r>бир<s n="v"/></r></p></e>
+    <e><p><l>iste<s n="v"/></l><r>телә<s n="v"/></r></p></e>
+    <e><p><l>gezin<s n="v"/></l><r>йөрегез<s n="v"/></r></p></e>
+    <e><p><l>duy<s n="v"/></l><r>ишет<s n="v"/></r></p></e>
+    <e><p><l>git<s n="v"/></l><r>кит<s n="v"/></r></p></e>
+    <e><p><l>Gül<s n="v"/></l><r>көл<s n="v"/></r></p></e>
+    <e><p><l>ye<s n="v"/></l><r>аша<s n="v"/></r></p></e>
 
+
+    <e><p><l>iç<s n="v"/></l><r>өч<s n="v"/></r></p></e>
+  
 	 
 
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
