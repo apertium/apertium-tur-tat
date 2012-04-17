@@ -48,6 +48,9 @@
 
     <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>ne<s n="prn"/><s n="dem"/></l><r>нәрсә<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>nere<s n="prn"/></l><r>кай<s n="prn"/></r></p></e>
+    <e><p><l>kim<s n="prn"/><s n="dem"/></l><r>кем<s n="prn"/><s n="dem"/></r></p></e>
     
     <e><p><l>ben<s n="prn"/></l><r>мин<s n="prn"/></r></p></e>
     <e><p><l>sen<s n="prn"/></l><r>син<s n="prn"/></r></p></e>
@@ -104,6 +107,7 @@
     <e><p><l>ses<s n="n"/></l><r>тавыш<s n="n"/></r></p></e>
     <e><p><l>kafa<s n="n"/></l><r>баш<s n="n"/></r></p></e>
     <e><p><l>su<s n="n"/></l><r>су<s n="n"/></r></p></e>
+    <e><p><l>soru<s n="n"/></l><r>сорау<s n="n"/></r></p></e>
   
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Ana<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -144,6 +148,13 @@
     <e><p><l>beraber<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>sonra<s n="adv"/></l><r>аннары<s n="adv"/></r></p></e>
     <e><p><l>hayır<s n="adv"/></l><r>игелек<s n="adv"/></r></p></e>
+    <e><p><l>yavaşça<s n="adv"/></l><r>әкрен<b />генә<s n="adv"/></r></p></e>
+    <e><p><l>dikkatlice<s n="adv"/></l><r>игтибарлы<s n="adv"/></r></p></e>
+    <e><p><l>birlikte<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
+    
+    
+    
+    
 
 
 
