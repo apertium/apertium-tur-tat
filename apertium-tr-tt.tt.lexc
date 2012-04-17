@@ -14,6 +14,7 @@ Multichar_Symbols
 %<det%>        ! Determiner                 ! ?Детерминатив?
 %<v%>          ! Verb                       ! Фигыль            ! Глагол
 %<vaux%>       ! Auxilary verb              ! Ярдәмче фигыль    ! Вспомогательный гл.
+%<v%>          ! Verb                       ! Фигыль            ! Глагол
 %<adv%>        ! Adverb                     ! Рәвеш             ! Наречие
 %<post%>       ! Postposition               ! Бәйлек            ! Послелог
 %<postadv%>    ! Postadverb                 !                   ! "Посленаречие"       !# "гына"
@@ -3016,7 +3017,6 @@ LEXICON Adjectives
 LEXICON Adverbs 
 
 мы:мы QSTLEX ; ! ""
-шул% сәбәпле:шул% сәбәпле ADV ; ! ""
 кайда:кайда ADVITGLEX ; ! ""
 кая:кая ADVITGLEX ; ! ""
 кайчан:кайчан ADVITGLEX ; ! ""
@@ -3025,6 +3025,7 @@ LEXICON Adverbs
 
 түгел:түгел ADVLEX ; ! ""
 
+шул% сәбәпле:шул% сәбәпле ADVLEX ; ! ""
 хәзер:хәзер ADVLEX ; ! ""
 әле:әле ADVLEX ; ! ""
 иң:иң ADVLEX ; ! ""
