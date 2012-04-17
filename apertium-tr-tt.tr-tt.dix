@@ -48,9 +48,9 @@
 
     <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
-    <e><p><l>ne<s n="prn"/><s n="dem"/></l><r>нәрсә<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>ne<s n="prn"/></l><r>нәрсә<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>nere<s n="prn"/></l><r>кай<s n="prn"/></r></p></e>
-    <e><p><l>kim<s n="prn"/><s n="dem"/></l><r>кем<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>kim<s n="prn"/></l><r>кем<s n="prn"/><s n="dem"/></r></p></e>
     
     <e><p><l>ben<s n="prn"/></l><r>мин<s n="prn"/></r></p></e>
     <e><p><l>sen<s n="prn"/></l><r>син<s n="prn"/></r></p></e>
@@ -99,6 +99,8 @@
     <e><p><l>masa<s n="n"/></l><r>өстәл<s n="n"/></r></p></e>
     <e><p><l>sandalye<s n="n"/></l><r>урындык<s n="n"/></r></p></e>
     <e><p><l>çocuk<s n="n"/></l><r>бала<s n="n"/></r></p></e>
+    <e><p><l>oğlan<s n="n"/></l><r>малай<s n="n"/></r></p></e>
+    <e><p><l>an<s n="n"/></l><r>мизгел<s n="n"/></r></p></e>
     <e><p><l>yaş<s n="n"/></l><r>яшь<s n="n"/></r></p></e>
     <e><p><l>pencere<s n="n"/></l><r>тәрәзә<s n="n"/></r></p></e>
     <e><p><l>ağaç<s n="n"/></l><r>агач<s n="n"/></r></p></e>
@@ -108,7 +110,10 @@
     <e><p><l>kafa<s n="n"/></l><r>баш<s n="n"/></r></p></e>
     <e><p><l>su<s n="n"/></l><r>су<s n="n"/></r></p></e>
     <e><p><l>soru<s n="n"/></l><r>сорау<s n="n"/></r></p></e>
-  
+    <e><p><l>an<s n="n"/></l><r>мизгел<s n="n"/></r></p></e>
+    <e><p><l>etraf<s n="n"/></l><r>тирә<s n="n"/></r></p></e>
+    <e><p><l>hayvan<s n="n"/></l><r>хайван<s n="n"/></r></p></e>
+    
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Ana<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
@@ -139,7 +144,7 @@
     <e><p><l>var<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
     <e><p><l>eski<s n="adj"/></l><r>иске<s n="adj"/></r></p></e>  
     <e><p><l>büyük<s n="adj"/></l><r>бөек<s n="adj"/></r></p></e>    
-
+    <e><p><l>hiçbir<s n="adj"/></l><r>бернинди<s n="adj"/></r></p></e>  
 
 
 
@@ -154,6 +159,7 @@
     <e><p><l>dikkatlice<s n="adv"/></l><r>игтибарлы<s n="adv"/></r></p></e>
     <e><p><l>birlikte<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>
+    <e><p><l>içinde<s n="adv"/></l><r>өчендә<s n="adv"/></r></p></e>
     
     
     
