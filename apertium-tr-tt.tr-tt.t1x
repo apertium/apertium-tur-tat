@@ -43,6 +43,7 @@
       <attr-item tags="px1sg"/>
       <attr-item tags="px2sg"/>
       <attr-item tags="px3sg"/>
+      <attr-item tags="px3sp"/>
       <attr-item tags="px1pl"/>
       <attr-item tags="px2pl"/>
       <attr-item tags="px3pl"/>
@@ -78,6 +79,20 @@
         </when>
       </choose>
     </def-macro>
+    <def-macro n="poss1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <or>
+              <equal><clip pos="1" side="sl" part="a_poss"/><lit-tag v="px3sg"/></equal>
+              <equal><clip pos="1" side="sl" part="a_poss"/><lit-tag v="px3pl"/></equal>
+            </or>
+          </test>
+          <let><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px3sp"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
     <def-macro n="case1" npar="1">
       <let><var n="case"/><lit v=""/></let>
       <choose>
@@ -97,6 +112,9 @@
         <pattern-item n="dem"/>
       </pattern>
       <action>
+        <call-macro n="poss1">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="case1">
           <with-param pos="1"/>
         </call-macro>
@@ -120,6 +138,9 @@
         <pattern-item n="pers"/>
       </pattern>
       <action>
+        <call-macro n="poss1">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="case1">
           <with-param pos="1"/>
         </call-macro>
@@ -143,6 +164,9 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <call-macro n="poss1">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="case1">
           <with-param pos="1"/>
         </call-macro>
@@ -166,6 +190,9 @@
         <pattern-item n="v"/>
       </pattern>
       <action>
+        <call-macro n="poss1">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="tense1">
           <with-param pos="1"/>
         </call-macro>
