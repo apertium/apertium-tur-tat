@@ -31,13 +31,16 @@
     <sdef n="lquot" />
     <sdef n="rquot" />
     <sdef n="cm" />
+    <sdef n="qst" />
 
   </sdefs>
   <section id="main" type="standard">
-    <e><p><l>0<s n="cop"/></l><r>и<s n="pred"/></r></p></e>
+    <e><p><l>i<s n="cop"/></l><r>и<s n="pred"/></r></p></e>
 
     <e><p><l>var<s n="pred"/></l><r>бар<s n="pred"/></r></p></e>
-    <e><p><l>yok<s n="pred"/></l><r>юҡ<s n="pred"/></r></p></e>
+    <e><p><l>yok<s n="pred"/></l><r>юк<s n="pred"/></r></p></e>
+
+    <e><p><l>mi<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
 
 
     <!-- Раздел: Союзы -->
