@@ -6,6 +6,7 @@
       <cat-item tags="v.*"/>
     </def-cat>
     <def-cat n="nom">
+      <cat-item tags="n"/>
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
