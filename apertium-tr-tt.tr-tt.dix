@@ -23,6 +23,9 @@
     <sdef n="ant"  c=""/>
     <sdef n="sg"  c=""/>
 
+    <sdef n="subst"  c=""/>
+    <sdef n="attr"  c=""/>
+
     <sdef n="apos" />
     <sdef n="guio" />
     <sdef n="sent" />
@@ -136,7 +139,7 @@
 
     <e><p><l>güzel<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e>
     <e><p><l>güzel<s n="n"/></l><r>әйбәт<s n="adj"/></r></p></e>
-    <e><p><l>sıcak<s n="adj"/></l><r>җылы<s n="adj"/></r></p></e>
+    <e><p><l>sıcak<s n="adj"/></l><r>җылы<s n="n"/><s n="attr"/></r></p></e>
     <e><p><l>soğuk<s n="adj"/></l><r>суык<s n="adj"/></r></p></e>
     <e><p><l>soğuk<s n="n"/></l><r>суык<s n="n"/></r></p></e>
 
