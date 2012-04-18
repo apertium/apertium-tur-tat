@@ -32,6 +32,7 @@
       <attr-item tags="n"/>
       <attr-item tags="prn"/>
       <attr-item tags="adj.subst"/>
+      <attr-item tags="num.subst"/>
       <attr-item tags="np.top"/>
       <attr-item tags="np"/>
     </def-attr>
