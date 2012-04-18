@@ -679,3 +679,6 @@ SELECT (imp) IF (0 (imp p2 sg)) (0 (ger1)) (1 ("!" sent));
 
 SELECT A IF (-1 ("en")) (0 A OR Adv) (1 N);
     ## En [0]güzel kız evime geldi.
+
+REMOVE Imper IF (-1 Det) (0 Imper OR N);
+   ## Bu bir oyna[0].
