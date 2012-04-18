@@ -497,7 +497,7 @@ LEXICON VINFL-COMMON
 %<gna1%>:%>%{bY%}%{I%}p clit-cop ;
 
 %<cont%>:%>%{bI%}yor V-PERS-COP-G2 ;
-%<cont%>:%>%{bI%}yor clit-cop ; ! This should be renamed e.g. <cont><past> 
+!%<cont%>:%>%{bI%}yor clit-cop ; ! This should be renamed e.g. <cont><past> 
 %<opt%>:%>%{bY%}%{A%} V-PERS-OPT-G3 ;
 %<past%>:%>%{D%}%{I%} V-PERS-G1 ;
 %<evid%>:%>m%{I%}ş V-PERS-COP-G2 ;
