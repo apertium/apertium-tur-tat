@@ -141,6 +141,7 @@ Multichar_Symbols
 %{in%}
 
 %>            ! Morpheme boundary
+% 
 
 LEXICON Root
 Nouns ; 
@@ -184,7 +185,7 @@ LEXICON clit-cop
 %+%i%<cop%>%<evid%>:%>%{bY%}m%{I%}ş V-PERS-COP-G2 ;
 %+%i%<cop%>%<rel%>:%>ken #  ;
 clit ; 
-# ;
+!# ;
 
 LEXICON DAKI
 
@@ -395,6 +396,7 @@ LEXICON NUMINFL
 
 %<num%>: # ;
 %<num%>%<subst%>: NINFL-COMMON ;
+%<num%>%<ord%>:%>%{bI%}nc%{I%} # ; ! This is <D_IncI> in TRmorph
 %<num%>%<ord%>:%>%{bI%}nc%{I%} NINFL-COMMON ; ! This is <D_IncI> in TRmorph
 
 LEXICON NUMERAL-LOOP
@@ -19082,7 +19084,7 @@ LEXICON Adverbs
 
 en:en ADVINFL ; ! "most"
 daha:daha ADVINFL ; ! "more"
-bu% yüzden:bu% yüzden ADVINFL ; ! ""
+
 o% sıralarda:o% sıralarda ADVINFL ; ! ""
 evvel% zaman% içinde:evvel% zaman% içinde ADVINFL ; ! ""
 o% zaman:o% zaman ADVINFL ; ! ""
@@ -19999,7 +20001,7 @@ listele:listele VTVINFL-CAUS_T-AOR_IR  ; ! "list"
 mahmuzla:mahmuzla VTVINFL-CAUS_T-AOR_IR  ; ! "rowel"
 mahvet:mahvet VTVINFL-CAUS_DIR-AOR_AR  ; ! "ruin"
 mahvol:mahvol VIVINFL-CAUS_DIR-AOR_IR  ; ! "be spoiled"
-manevra:manevra yap VIVINFL-CAUS_DIR-AOR_AR  ; ! "manoeuver"
+manevra% yap:manevra% yap VIVINFL-CAUS_DIR-AOR_AR  ; ! "manoeuver"
 mayala:mayala VTVINFL-CAUS_T-AOR_IR  ; ! "ferment"
 menet:menet VTVINFL-CAUS_DIR-AOR_AR  ; ! "preclude"
 mevzilen:mevzilen VIVINFL-CAUS_DIR-AOR_IR  ; ! "deploy"
@@ -20071,7 +20073,7 @@ parala:parala VTVINFL-CAUS_T-AOR_IR  ; ! "rip up"
 parçala:parçala VTVINFL-CAUS_T-AOR_IR  ; ! "pull something to pieces"
 parılda:parılda VIVINFL-CAUS_T-AOR_IR  ; ! "gleam"
 parla:parla VIVINFL-CAUS_T-AOR_IR  ; ! "shine"
-pasta:pasta yap VIVINFL-CAUS_DIR-AOR_AR  ; ! "make a cake"
+pasta% yap:pasta% yap VIVINFL-CAUS_DIR-AOR_AR  ; ! "make a cake"
 patla:patla VIVINFL-CAUS_T-AOR_IR  ; ! "explode"
 payla:payla VTVINFL-CAUS_T-AOR_IR  ; ! "rag"
 paylaş:paylaş VTVINFL-CAUS_DIR-AOR_IR  ; ! "share"
@@ -20345,7 +20347,6 @@ yanıl:yanıl VIVINFL-CAUS_T-AOR_IR  ; ! "be mistaken"
 yanıtla:yanıtla VTVINFL-CAUS_T-AOR_IR  ; ! "answer"
 yankıla:yankıla VIVINFL-CAUS_T-AOR_IR  ; ! "resonate"
 yansı:yansı VIVINFL-CAUS_T-AOR_IR  ; ! "be reflected"
-yap:yap VTVINFL-CAUS_DIR-AOR_AR  ; ! "do, make"
 yapış:yapış VIVINFL-CAUS_DIR-AOR_IR  ; ! "adhere"
 yar:yar VTVINFL-CAUS_DIR-AOR_AR  ; ! "split"
 yara:yara VIVINFL-CAUS_T-AOR_IR  ; ! "benefit from"
