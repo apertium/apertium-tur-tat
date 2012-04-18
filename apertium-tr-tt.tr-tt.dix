@@ -35,6 +35,7 @@
     <sdef n="rquot" />
     <sdef n="cm" />
     <sdef n="qst" />
+    <sdef n="nom" />
 
   </sdefs>
   <section id="main" type="standard">
