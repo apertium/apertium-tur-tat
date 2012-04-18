@@ -15,6 +15,8 @@
     <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
+      <cat-item tags="num.subst.*"/>
+      <cat-item tags="adj.subst.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
     <def-cat n="cop_pres">
