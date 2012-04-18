@@ -119,6 +119,7 @@
     <e><p><l>yer<s n="n"/></l><r>җир<s n="n"/></r></p></e>
     <e><p><l>ana<s n="n"/></l><r>әни<s n="n"/></r></p></e>
     <e><p><l>anne<s n="n"/></l><r>әни<s n="n"/></r></p></e>
+    <e><p><l>insan<s n="n"/></l><r>кеше<s n="n"/></r></p></e>
     
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Ayşe<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -168,8 +169,8 @@
     <e><p><l>birlikte<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>
     <e><p><l>içinde<s n="adv"/></l><r>өчендә<s n="adv"/></r></p></e>
-    <e><p><l>tabii<s n="adv"/></l><r>әлбәттә<s n="adv"/></r></p></e>
-    
+    <e><p><l>tabii<b />ki<s n="adv"/></l><r>әлбәттә<s n="adj"/></r></p></e>
+    <!-- FIXME: may be әлбәттә инде-->
     
     
 
@@ -213,6 +214,7 @@
     <e><p><l>söyle<s n="v"/></l><r>әйт<s n="v"/></r></p></e>
     <e><p><l>uy<s n="v"/></l><r>йокла<s n="v"/></r></p></e>
     <e><p><l>yap<s n="v"/></l><r>эшлә<s n="v"/></r></p></e>
+    <e><p><l>konuş<s n="v"/></l><r>сөйләш<s n="v"/></r></p></e>
       
       
       
