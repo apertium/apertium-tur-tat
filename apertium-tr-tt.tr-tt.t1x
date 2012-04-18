@@ -31,6 +31,7 @@
     </def-attr>
     <def-attr n="a_tns">
       <attr-item tags="pres"/>
+      <attr-item tags="cont"/>
       <attr-item tags="aor"/>
       <attr-item tags="past"/>
       <attr-item tags="ifi"/>
@@ -68,7 +69,10 @@
       <choose>
         <when>
           <test>
-            <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="aor"/></equal>
+            <or>
+              <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="aor"/></equal>
+             <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="cont"/></equal>
+            </or>
           </test>
           <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
         </when>
