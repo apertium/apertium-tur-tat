@@ -5,6 +5,9 @@
     <def-cat n="v">
       <cat-item tags="v.*"/>
     </def-cat>
+    <def-cat n="pers">
+      <cat-item tags="prn.pers.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
@@ -80,6 +83,29 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+
+    <rule comment="REGLA: ">
+      <pattern>
+        <pattern-item n="pers"/>
+      </pattern>
+      <action>
+        <call-macro n="case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="prn" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+              <var n="case"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: ">
       <pattern>
