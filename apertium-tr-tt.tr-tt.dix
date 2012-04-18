@@ -126,7 +126,7 @@
 
     <e><p><l>bugün<s n="n"/></l><r>бүген<s n="adv"/></r></p></e>
 	 <!-- FIXME: bugün is a n and adv; here it should be adv -->
-    <e><p><l>çok<s n="adv"/><s n="qnt"/></l><r>бик<s n="adv"/></r></p></e>
+    <e><p><l>çok<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
 	 <!-- FIXME: çok is adv here -->
     <e><p><l>fakat<s n="cnjcoo"/></l><r>тик<s n="adv"/></r></p></e>
 	 <!-- FIXME: fakat is adv also -->
