@@ -96,7 +96,6 @@
     <e><p><l>dışarı<s n="n"/></l><r>тыш<s n="n"/></r></p></e>
     <e><p><l>ev<s n="n"/></l><r>өй<s n="n"/></r></p></e>
     <e><p><l>ön<s n="n"/></l><r>алд<s n="n"/></r></p></e>
-    <e><p><l>anne<s n="n"/></l><r>инә<s n="n"/></r></p></e>
     <e><p><l>şey<s n="n"/></l><r>зат<s n="n"/></r></p></e>
     <e><p><l>zaman<s n="n"/></l><r>заман<s n="n"/></r></p></e>
     <e><p><l>kuş<s n="n"/></l><r>кош<s n="n"/></r></p></e>
@@ -122,7 +121,7 @@
     <e><p><l>etraf<s n="n"/></l><r>тирә<s n="n"/></r></p></e>
     <e><p><l>hayvan<s n="n"/></l><r>хайван<s n="n"/></r></p></e>
     <e><p><l>yer<s n="n"/></l><r>җир<s n="n"/></r></p></e>
-    <e><p><l>ana<s n="n"/></l><r>әни<s n="n"/></r></p></e>
+    <e><p><l>ana<s n="n"/></l><r>ана<s n="n"/></r></p></e>
     <e><p><l>anne<s n="n"/></l><r>әни<s n="n"/></r></p></e>
     <e><p><l>insan<s n="n"/></l><r>кеше<s n="n"/></r></p></e>
     <e><p><l>oyun<s n="n"/></l><r>уен<s n="n"/></r></p></e>
@@ -224,7 +223,7 @@
       
       
       
-    <e><p><l>ya<s n="cnjcoo"/></l><r>яисә<s n="v"/></r></p></e>
+    <e><p><l>ya<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
   
 	 
 
