@@ -933,12 +933,11 @@ yaklaşık:yaklaşık POSTINFL ; ! "about, circa"
 
 içinde:içinde POSTINFL ; ! "in"
 altında:altında POSTINFL ; ! "in"
+arka:arka POSTINFL ; ! "in"
 
 LEXICON Pronouns
 
 PRONPERS ;
-
-o:o PRONPERS ; ! "he she it"
 
 bu%<prn%>%<dem%>:bu # ; ! "this"
 bu:bun PRONDEM ; ! "this"
