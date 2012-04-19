@@ -26,6 +26,9 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+    <def-cat n="ins">
+      <cat-item tags="ins"/>
+    </def-cat>
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">
@@ -66,11 +69,12 @@
       <attr-item tags="ins"/>
       <attr-item tags="abl"/>
     </def-attr>
-
+    
   </section-def-attrs>
   <section-def-vars>
     <def-var n="case"/>
     <def-var n="current_verb"/>
+    <def-var n="postposition"/>
   </section-def-vars>
   <section-def-macros>
     <def-macro n="tense1" npar="1">
@@ -114,6 +118,15 @@
             </and>
           </test>
           <let><var n="case"/><lit-tag v="nom"/></let>
+        </when>
+      </choose>
+      <let><var n="postposition"/><lit v=""/></let>
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="a_cas"/><lit v="ins"/></equal>
+          </test>
+          <let><var n="postposition"/><concat><lit v="^белән"/><lit-tag v="post"/><lit v="$"/></concat></let>
         </when>
       </choose>
     </def-macro>
@@ -258,6 +271,7 @@
         </out>
       </action>
     </rule>
+    
 
   </section-rules>
 </transfer>
