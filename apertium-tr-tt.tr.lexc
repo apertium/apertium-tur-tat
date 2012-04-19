@@ -938,6 +938,8 @@ LEXICON Pronouns
 
 PRONPERS ;
 
+o:o PRONPERS ; ! "he she it"
+
 bu%<prn%>%<dem%>:bu # ; ! "this"
 bu:bun PRONDEM ; ! "this"
 şu%<prn%>%<dem%>:şu # ; ! "that"

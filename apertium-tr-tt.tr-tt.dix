@@ -23,6 +23,7 @@
     <sdef n="ant"  c=""/>
     <sdef n="sg"  c=""/>
     <sdef n="post"  c=""/>
+    <sdef n="ij"  c=""/>
 
     <sdef n="subst"  c=""/>
     <sdef n="attr"  c=""/>
@@ -126,6 +127,7 @@
     <e><p><l>anne<s n="n"/></l><r>әни<s n="n"/></r></p></e>
     <e><p><l>insan<s n="n"/></l><r>кеше<s n="n"/></r></p></e>
     <e><p><l>oyun<s n="n"/></l><r>уен<s n="n"/></r></p></e>
+    <e><p><l>göz<s n="n"/></l><r>күз<s n="n"/></r></p></e>
     
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Ayşe<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -178,7 +180,7 @@
     <e><p><l>birlikte<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>
     <e><p><l>içinde<s n="post"/></l><r>өчендә<s n="adv"/></r></p></e>
-    <e><p><l>tabii<b />ki<s n="adv"/></l><r>әлбәттә<s n="adj"/></r></p></e>
+    <e><p><l>tabii<b />ki<s n="ij"/></l><r>әлбәттә<s n="adj"/></r></p></e>
     <!-- FIXME: may be әлбәттә инде-->
     
     
