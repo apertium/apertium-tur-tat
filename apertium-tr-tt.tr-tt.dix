@@ -108,7 +108,7 @@
     <e><p><l>çocuk<s n="n"/></l><r>бала<s n="n"/></r></p></e>
     <e><p><l>oğlan<s n="n"/></l><r>малай<s n="n"/></r></p></e>
     <e><p><l>an<s n="n"/></l><r>мизгел<s n="n"/></r></p></e>
-    <e><p><l>yaş<s n="n"/></l><r>яш<s n="n"/></r></p></e>
+    <e><p><l>yaş<s n="n"/></l><r>яшь<s n="n"/></r></p></e>
     <e><p><l>pencere<s n="n"/></l><r>тәрәзә<s n="n"/></r></p></e>
     <e><p><l>ağaç<s n="n"/></l><r>агач<s n="n"/></r></p></e>
     <e><p><l>el<s n="n"/></l><r>кул<s n="n"/></r></p></e>
@@ -145,11 +145,12 @@
     <e><p><l>soğuk<s n="adj"/></l><r>суык<s n="adj"/></r></p></e>
     <e><p><l>soğuk<s n="n"/></l><r>суык<s n="n"/></r></p></e>
 
+    
     <e><p><l>küçük<s n="adj"/></l><r>борчак<b/>кадәр<s n="adj"/></r></p></e>
     <e><p><l>küçük<s n="adj"/></l><r>бәләкәй<s n="adj"/></r></p></e>
-    <e><p><l>küçük<s n="adj"/></l><r>кечкенә<s n="adj"/></r></p></e>
     <e><p><l>küçük<s n="adj"/></l><r>кече<s n="adj"/></r></p></e>
     <e><p><l>küçük<s n="adj"/></l><r>кечек<s n="adj"/></r></p></e>
+    <e><p><l>küçük<s n="adj"/></l><r>кечкенә<s n="adj"/></r></p></e>
 
     <e><p><l>mutlu<s n="adj"/></l><r>бәхетле<s n="adj"/></r></p></e>
     <e><p><l>yaşlı<s n="adj"/></l><r>карт<s n="adj"/></r></p></e>
@@ -171,7 +172,7 @@
     <e><p><l>hayır<s n="adv"/></l><r>юк<s n="adv"/></r></p></e>
     <!-- FIXME: hayır means 'no' but I dont know whıch part of speech ıs it-->
     <e><p><l>yavaşça<s n="adv"/></l><r>әкрен<b />генә<s n="adv"/></r></p></e>
-    <e><p><l>dikkatlice<s n="adv"/></l><r>игтибарлы<s n="adv"/></r></p></e>
+    <e><p><l>dikkatlice<s n="adv"/></l><r>игтибарлы<s n="adj"/></r></p></e>
     <e><p><l>birlikte<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>
     <e><p><l>içinde<s n="adv"/></l><r>өчендә<s n="adv"/></r></p></e>
