@@ -184,6 +184,7 @@
     <e><p><l>altın<s n="n"/></l><r>асты<s n="post"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
     <e><p><l>arka<s n="n"/></l><r>арка<s n="adj"/></r></p></e>
+    <e><p><l>arka<s n="adj"/></l><r>арка<s n="adj"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
     <e><p><l>rağmen<s n="post"/></l><r>карамастан<s n="cnjcoo"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
