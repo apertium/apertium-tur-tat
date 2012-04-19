@@ -121,12 +121,13 @@
         </when>
       </choose>
       <let><var n="postposition"/><lit v=""/></let>
-      <choose>
+      <choose> <!-- Convert 'instrumental' to postposition -->
         <when>
           <test>
-            <equal><clip pos="1" side="sl" part="a_cas"/><lit v="ins"/></equal>
+            <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="ins"/></equal>
           </test>
-          <let><var n="postposition"/><concat><lit v="^белән"/><lit-tag v="post"/><lit v="$"/></concat></let>
+          <let><var n="postposition"/><concat><lit v=" ^белән"/><lit-tag v="post"/><lit v="$"/></concat></let>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let>
         </when>
       </choose>
     </def-macro>
@@ -205,6 +206,7 @@
               <clip pos="1" side="tl" part="whole"/>
               <var n="case"/>
             </lu>
+            <var n="postposition"/>
           </chunk>
         </out>
       </action>
