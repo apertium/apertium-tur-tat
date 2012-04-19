@@ -58,6 +58,7 @@
 
     <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>ora<s n="prn"/></l><r>анда<s n="prn"/></r></p></e>
     <e><p><l>ne<s n="prn"/></l><r>нәрсә<s n="prn"/></r></p></e>
     <e><p><l>nere<s n="prn"/></l><r>кай<s n="prn"/></r></p></e>
     <e><p><l>kim<s n="prn"/></l><r>кем<s n="prn"/><s n="dem"/></r></p></e>
@@ -70,7 +71,7 @@
     <e><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/></r></p></e>
     
   
-    <e><p><l><s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
+    
 
     <!-- Раздел: Числителные -->
     <e><p><l>bir<s n="num"/></l><r>бер<s n="num"/></r></p></e>
@@ -180,8 +181,8 @@
     <e><p><l>birlikte<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>
     <e><p><l>içinde<s n="post"/></l><r>өчендә<s n="adv"/></r></p></e>
-    <e><p><l>altın<s n="post"/></l><r>астында<s n="post"/></r></p></e>
-    <e><p><l>arka<s n="adj"/></l><r>арка<s n="adj"/></r></p></e>
+    <e><p><l>altın<s n="n"/></l><r>асты<s n="post"/></r></p></e>
+    <e><p><l>arka<s n="n"/></l><r>арка<s n="adj"/></r></p></e>
     <e><p><l>rağmen<s n="post"/></l><r>карамастан<s n="cnjcoo"/></r></p></e>
     <e><p><l>tabii<b />ki<s n="ij"/></l><r>әлбәттә<s n="adj"/></r></p></e>
     <!-- FIXME: may be әлбәттә инде-->
