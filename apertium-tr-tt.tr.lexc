@@ -311,6 +311,11 @@ case2 ;
 poss12-2 ;
 poss3-2; 
 
+LEXICON CASE-ONLY
+
+case1 ; 
+case2 ;
+
 LEXICON CASE 
 
 CASE1 ; 
@@ -321,6 +326,13 @@ LEXICON NINFL-COMMON
 POSS ;
 CASE1 ; 
 CASE2 ; 
+
+LEXICON CASE-DEM 
+
+case1 ; 
+case2 ; 
+
+
 
 LEXICON SUBST
 
@@ -391,6 +403,7 @@ LEXICON AINFL-NAT
 LEXICON ADVINFL
 
 %<adv%>: # ; 
+
 
 LEXICON NUMINFL
 
@@ -827,9 +840,9 @@ onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlarda # ;
 
 LEXICON PRONDEM
 
-%<prn%>%<dem%>: NINFL-COMMON ; 
+%<prn%>%<dem%>: CASE-DEM ; 
 %<prn%>%<dem%>%<pl%>:%>l%{A%}r # ; 
-%<prn%>%<dem%>%<pl%>:%>l%{A%}r NINFL-COMMON ; 
+%<prn%>%<dem%>%<pl%>:%>l%{A%}r CASE-DEM ; 
 
 LEXICON PRONITG
 
@@ -891,6 +904,7 @@ ne:ne CCINFL ; ! "neither/nor"
 da:da CCINFL ; ! ""
 da:de CCINFL ; ! "" ! Dir/LR
 fakat:fakat CCINFL ; ! ""
+ya% da:ya% da CCINFL ; ! ""
 
 şöyle% ki:şöyle% ki CAINFL ; ! "so that"
 
@@ -898,7 +912,7 @@ ki:ki CSINFL ; ! "that"
 
 LEXICON Postpositions
 
-için:için POSTINFL ; ! "for"
+!için:için POSTINFL ; ! "for"
 ile:ile POSTINFL ; ! "with"
 doğru:doğru POSTINFL ; ! "towards"
 karşı:karşı POSTINFL ; ! "against"
@@ -931,9 +945,7 @@ yukarı:yukarı POSTINFL ; ! ""
 yaklaşık:yaklaşık POSTINFL ; ! "about, circa"
 
 
-içinde:içinde POSTINFL ; ! "in"
-altın:altın POSTINFL ; ! "in"
-arka:arka POSTINFL ; ! "in"
+!içinde:içinde POSTINFL ; ! "in"
 
 LEXICON Pronouns
 
@@ -945,6 +957,7 @@ bu:bun PRONDEM ; ! "this"
 şu:şun PRONDEM ; ! "that"
 
 ne:ne PRONITG ; ! "what" ***CHECK*** adverb ?
+ne% için:ne% için PRONITG ; ! "what" ***CHECK*** adverb ?
 hangi:hangi PRONITG ; ! ""
 nere:ner PRONITG-NERE ; ! ""
 kim:kim PRONITG ; ! "who"
@@ -1826,7 +1839,7 @@ anatomist:anatomist NINFL ; ! ""
 anavaşya:anavaşya NINFL ; ! ""
 anayasa:anayasa NINFL ; ! ""
 andaç:andaç NINFL ; ! ""
-anda:anda NINFL ; ! "time"
+an:an NINFL ; ! ""
 andezit:andezi%{t%} NINFL ; ! ""
 andezit:andezit NINFL ; ! ""
 andropoz:andropoz NINFL ; ! ""
@@ -2505,7 +2518,7 @@ balıkçın:balıkçın NINFL ; ! ""
 bambu:bambu NINFL ; ! ""
 bambul:bambul NINFL ; ! ""
 bamya:bamya NINFL ; ! ""
-ban:ban NINFL ; ! ""
+!ban:ban NINFL ; ! ""
 banak:bana%{k%} NINFL ; ! ""
 bandaj:bandaj NINFL ; ! ""
 bando:bando NINFL ; ! ""
@@ -2893,7 +2906,6 @@ beyaban:beyaban NINFL ; ! ""
 beyan:beyan NINFL ; ! ""
 beyanat:beyanat NINFL ; ! ""
 beyanname:beyanname NINFL ; ! ""
-beyaz:beyaz NINFL ; ! ""
 beyazlık:beyazlı%{k%} NINFL ; ! ""
 beyazsinek:beyazsine%{k%} NINFL ; ! ""
 beyaztilki:beyaztilki NINFL ; ! ""
@@ -2917,7 +2929,7 @@ bezirgan:bezirgan NINFL ; ! ""
 bezzaz:bezzaz NINFL ; ! ""
 beğence:beğence NINFL ; ! ""
 beğeni:beğeni NINFL ; ! ""
-beş:beş NINFL ; ! ""
+!beş:beş NINFL ; ! ""
 beşaret:beşaret NINFL ; ! ""
 beşbıyık:beşbıyı%{k%} NINFL ; ! ""
 beşeriyet:beşeriyet NINFL ; ! ""
@@ -6297,8 +6309,8 @@ yoğrum:yoğrum NINFL ; ! ""
 yoğunlukölçer:yoğunlukölçer NINFL ; ! ""
 yoğurt:yoğur%{t%} NINFL ; ! ""
 yoğurthane:yoğurthane NINFL ; ! ""
-yok:yok NINFL ; ! ""
-yok:yo%{k%} NINFL ; ! ""
+!yok:yok NINFL ; ! ""
+!yok:yo%{k%} NINFL ; ! ""
 yoklamacı:yoklamacı NINFL ; ! ""
 yokuş:yokuş NINFL ; ! ""
 yol:yol NINFL ; ! ""
@@ -8304,7 +8316,7 @@ hadis:hadis NINFL ; ! ""
 hadise:hadise NINFL ; ! ""
 hac:ha%{dup%}c NINFL ; ! ""
 hak:ha%{dup%}k NINFL ; ! ""
-hal:ha%{dup%}l NINFL ; ! ""
+! hal:ha%{dup%}l NINFL ; ! ""
 hat:ha%{dup%}t NINFL ; ! ""
 haz:ha%{dup%}z NINFL ; ! ""
 hafakan:hafakan NINFL ; ! ""
@@ -9553,7 +9565,7 @@ ivme:ivme NINFL ; ! ""
 ivmeölçer:ivmeölçer NINFL ; ! ""
 ivmeyazar:ivmeyazar NINFL ; ! ""
 iye:iye NINFL ; ! ""
-iyi:iyi NINFL ; ! ""
+!iyi:iyi NINFL ; ! ""
 iyodür:iyodür NINFL ; ! ""
 iyon:iyon NINFL ; ! ""
 iyonlanma:iyonlanma NINFL ; ! ""
@@ -15980,7 +15992,7 @@ rölativizm:rölativizm NINFL ; ! ""
 hükümet:hükümet NINFL ; ! "government"
 üyelik:üyelik NINFL ; ! "membership"
 
-an:an NINFL ; ! ""
+!an:an NINFL ; ! ""
 
 
 LEXICON ProperNouns
@@ -18168,6 +18180,7 @@ bTV:bTV%{nin%} NPACRINFL ; ! "bTV'nin"
 
 LEXICON Adjectives 
 
+beyaz:beyaz AINFL ; ! "white"
 özel:özel AINFL ; ! "special, private"
 kırmızı:kırmızı AINFL ; ! "red"
 genel:genel AINFL ; ! "general"
@@ -18325,7 +18338,7 @@ balaban:balaban AINFL ; ! ""
 balıketi:balıketi AINFL ; ! ""
 barbar:barbar AINFL ; ! ""
 basit:basit AINFL ; ! ""
-başka:başka AINFL ; ! ""
+!başka:başka AINFL ; ! ""
 bayat:bayat AINFL ; ! ""
 baygın:baygın AINFL ; ! ""
 bedeni:bedeni AINFL ; ! ""
@@ -19089,6 +19102,7 @@ LEXICON Adverbs
 
 en:en ADVINFL ; ! "most"
 daha:daha ADVINFL ; ! "more"
+böyle:böyle ADVINFL ; ! "this way!"
 
 o% sıralarda:o% sıralarda ADVINFL ; ! ""
 evvel% zaman% içinde:evvel% zaman% içinde ADVINFL ; ! ""
@@ -19102,7 +19116,6 @@ yavaşça:yavaşça ADVINFL ; ! "slowly"
 çabukça:çabukça ADVINFL ; ! "promptly"
 tedbiren:tedbiren ADVINFL ; ! ""
 dikkatlice:dikkatlice ADVINFL ; ! "carefully"
-hayır:hayır ADVINFL ; ! ""
 olabildiğince:olabildiğince ADVINFL ; ! ""
 öldüresiye:öldüresiye ADVINFL ; ! ""
 bazen:bazen ADVINFL ; ! ""
@@ -19288,7 +19301,7 @@ ismen:ismen ADVINFL ; ! ""
 istinaden:istinaden ADVINFL ; ! ""
 itibaren:itibaren ADVINFL ; ! ""
 ivedilikle:ivedilikle ADVINFL ; ! ""
-iyi:iyi ADVINFL ; ! ""
+!iyi:iyi ADVINFL ; ! ""
 kaçak:kaça%{k%} ADVINFL ; ! ""
 yeni:yeni ADVINFL ; ! ""
 şöyle:şöyle ADVINFL ; ! ""
@@ -19497,7 +19510,8 @@ uç:uç VIVINFL-CAUS_IR-AOR_AR ; ! ""
 ver:ver VTVINFL-CAUS_DIR-AOR_IR ; ! ""
 vur:vur VTVINFL-CAUS_DIR-AOR_IR ; ! ""
 yar:yar VTVINFL-CAUS_DIR-AOR_AR ; ! ""
-yat:yat VIVINFL-CAUS_IR-AOR_AR ; ! ""
+yat:yat VIVINFL-CAUS_DIR-AOR_AR  ; ! "lie up"
+!yat:yat VIVINFL-CAUS_IR-AOR_AR ; ! ""
 ye:y%{e%} VTVINFL-CAUS_DIR-AOR_IR ; ! ""
 yel:yel VTVINFL-CAUS_DIR-AOR_AR ; ! ""
 yer% ver:yer% ver VTVINFL-CAUS_DIR-AOR_IR ; ! ""
@@ -19604,7 +19618,7 @@ geçiş:geçiş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 giyin:giyin VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 homurdan:homurdan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 san:san VIVINFL-CAUS_DIR-AOR_IR ; ! ""
-yakın:yakın VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+! yakın:yakın VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 çözün:çözün VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 çırpın:çırpın VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 
@@ -20368,7 +20382,6 @@ yaşa:yaşa VTVINFL-CAUS_T-AOR_IR  ; ! "live"
 yasakla:yasakla VTVINFL-CAUS_T-AOR_IR  ; ! "forbid"
 yasla:yasla VTVINFL-CAUS_T-AOR_IR  ; ! "prop"
 yaşlan:yaşlan VIVINFL-CAUS_DIR-AOR_IR  ; ! "get old"
-yat:yat VIVINFL-CAUS_DIR-AOR_AR  ; ! "lie up"
 yatış:yatış VIVINFL-CAUS_DIR-AOR_IR  ; ! "quiet down"
 yavaşla:yavaşla VIVINFL-CAUS_T-AOR_IR  ; ! "slow down"
 yay:yay VTVINFL-CAUS_DIR-AOR_AR  ; ! "spread"
@@ -20732,7 +20745,6 @@ esirge:esirge VTVINFL-CAUS_T-AOR_IR ; ! "be sparing"
 eşitle:eşitle VTVINFL-CAUS_T-AOR_IR ; ! "make equal"
 eski:eski VIVINFL-CAUS_T-AOR_IR ; ! "become old"
 eşle:eşle VTVINFL-CAUS_T-AOR_IR ; ! "match"
-et:et VTVINFL-CAUS_DIR-AOR_AR ; ! "do"
 etiketle:etiketle VTVINFL-CAUS_T-AOR_IR ; ! "tag"
 etkile:etkile VTVINFL-CAUS_T-AOR_IR ; ! "impress"
 ever:ever VTVINFL-CAUS_DIR-AOR_IR ; ! "give somebody in marriage"
@@ -20948,7 +20960,8 @@ tabi% ki:tabi% ki INTERJ ; ! ""
 tabii% ki:tabii% ki INTERJ ; ! ""
 şöyle:şöyle INTERJ ; ! ""
 peki:peki INTERJ ; ! ""
-evet:evet INTERJ ; ! ""
+evet:evet INTERJ ; ! "YES!"
+hayır:hayır INTERJ ; ! "NO!"
 
 LEXICON Particles 
 
