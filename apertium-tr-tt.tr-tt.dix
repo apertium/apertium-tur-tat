@@ -185,6 +185,7 @@
     <e><p><l>birlikte<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>
     <e><p><l>içinde<s n="post"/></l><r>өчендә<s n="adv"/></r></p></e>
+    <e><p><l>iç<s n="post"/></l><r>өч<s n="adv"/></r></p></e>
     <e><p><l>altın<s n="n"/></l><r>асты<s n="post"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
     <e><p><l>arka<s n="n"/></l><r>арка<s n="adj"/></r></p></e>
@@ -243,6 +244,9 @@
       
       
     <e><p><l>ya<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
 
 
     <e><p><l>her<s n="det"/></l><r>һәр<s n="prn"/></r></p></e>
