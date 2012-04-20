@@ -45,7 +45,8 @@
 
     <e><p><l>var<s n="pred"/></l><r>бар<s n="pred"/></r></p></e>
     <e><p><l>yok<s n="pred"/></l><r>юк<s n="pred"/></r></p></e>
-
+    <e><p><l>yok<s n="n"/></l><r>юк<s n="pred"/></r></p></e>
+    <!-- FIXME: review yok!!! -->
     <e><p><l>mi<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
 
 
@@ -59,6 +60,7 @@
     <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>ora<s n="prn"/></l><r>анда<s n="prn"/></r></p></e>
+    <e><p><l>ne<s n="adv"/></l><r>нәрсә<s n="prn"/></r></p></e>
     <e><p><l>ne<s n="prn"/></l><r>нәрсә<s n="prn"/></r></p></e>
     <e><p><l>nere<s n="prn"/></l><r>кай<s n="prn"/></r></p></e>
     <e><p><l>kim<s n="prn"/></l><r>кем<s n="prn"/><s n="dem"/></r></p></e>
