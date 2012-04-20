@@ -14,7 +14,6 @@ Multichar_Symbols
 %<det%>        ! Determiner                 ! ?Детерминатив?
 %<v%>          ! Verb                       ! Фигыль            ! Глагол
 %<vaux%>       ! Auxilary verb              ! Ярдәмче фигыль    ! Вспомогательный гл.
-%<v%>          ! Verb                       ! Фигыль            ! Глагол
 %<adv%>        ! Adverb                     ! Рәвеш             ! Наречие
 %<post%>       ! Postposition               ! Бәйлек            ! Послелог
 %<postadv%>    ! Postadverb                 !                   ! "Посленаречие"       !# "гына"
@@ -355,7 +354,7 @@ LEXICON V-COMMON-LEX
 
 V-FINITE-FORMS ; 
 
-%<ger%>:%{U%} POSS ;
+%<ger%>:%>%{U%} POSS ;
 %<ger1%>:%>м%{A%}%{K%} POSS ; 
 %<ger2%>:%>%{I%}п POSS ; 
 %<ger3%>:%>%{G%}%{A%}ч POSS ; 
@@ -374,8 +373,9 @@ LEXICON V-COMMON-PASSIVE
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-FUT-IR ; 
 
 LEXICON V-NEG
-
-%<neg%>:%>м%{A%} V-COMMON-LEX ; 
+%<neg%>:%>м%{A%} V-COMMON-LEX ;
+%<neg%>%<ger2%>:%>м%{A%}%>%{E%}%>ч%{A%} POSS ;
+ 
 
 V-COMMON-LEX ; 
 
@@ -613,10 +613,8 @@ LEXICON Pronouns
 PRNLEX-PERS ; 
 
 ни:ни PRNITGLEX ; ! ""
-нәрсә:нәрсә PRNITGLEX ; ! ""
 нимә:нимә PRNITGLEX ; ! ""
 кем:кем PRNITGLEX ; ! ""
-һичбер:һичбер PRNITGLEX ; ! ""
 
 бу: PRNDEM-BU ; ! ""
 шул: PRNDEM-ŠUL ; ! ""
@@ -965,6 +963,7 @@ LEXICON Nouns
 ерткыч:ерткыч NLEX ; ! ""
 әти:әти NLEX ; ! ""
 әфәнде:әфәнде NLEX ; ! "" 
+
 җавап:җавап NLEX ; ! ""
 җавап:җавап NLEX ; ! "" 
 җанвар:җанвар NLEX ; ! ""
@@ -1004,6 +1003,7 @@ LEXICON Nouns
 җылылык:җылылык NLEX ; ! ""
 җыр:җыр NLEX ; ! ""
 җыр:җыр NLEX ; ! ""
+
 завод:завод NLEX ; ! ""
 зал:зал NLEX ; ! "" 
 заман:заман NLEX ; ! "" 
@@ -1014,6 +1014,7 @@ LEXICON Nouns
 зона:зона NLEX ; ! ""
 зона:зона NLEX ; ! ""
 зурлык:зурлык NLEX ; ! ""
+
 игелек:игелек NLEX ; ! ""
 игътибар:игътибар NLEX ; ! "" 
 идарә:идарә NLEX ; ! ""
@@ -1047,14 +1048,11 @@ LEXICON Nouns
 иртә:иртә NLEX ; ! "" 
 ир% туган:ир% туган NLEX ; ! ""        ! FIXME: adj
 исем:исем NLEX ; ! ""
-исем:исем NLEX ; ! "" 
 исемлек:исемлек NLEX ; ! ""
 исәп:исәп NLEX ; ! "" 
 исәпләшү:исәпләшү NLEX ; ! ""
 исәп-хисап:исәп-хисап NLEX ; ! ""
 ис:ис NLEX ; ! ""
-ис:ис NLEX ; ! ""
-ис:ис NLEX ; ! "" 
 ис% китү:ис% китү NLEX ; ! ""
 истәлек:истәлек NLEX ; ! ""
 итек:итек NLEX ; ! ""
@@ -1067,10 +1065,10 @@ LEXICON Nouns
 ишек:ишек NLEX ; ! "" 
 ишетү:ишетү NLEX ; ! ""
 иш:иш NLEX ; ! "" 
+
 йогынты:йогынты NLEX ; ! ""
 йодрык:йодрык NLEX ; ! ""
 йозак:йозак NLEX ; ! ""
-йөз:йөз NLEX ; ! ""
 йөз:йөз NLEX ; ! ""
 йөзлек:йөзлек NLEX ; ! ""
 йөзьел:йөзьел NLEX ; ! "" 
@@ -1087,6 +1085,7 @@ LEXICON Nouns
 йорт:йорт NLEX ; ! "" 
 йорт-кура:йорт-кура NLEX ; ! "" 
 йөртүче:йөртүче NLEX ; ! ""
+
 кабер:кабер NLEX ; ! ""
 кабинет:кабинет NLEX ; ! "" 
 кабул% итү:кабул% итү NLEX ; ! ""
@@ -1202,7 +1201,7 @@ LEXICON Nouns
 көтүче:көтүче NLEX ; ! ""
 кофе:кофе NLEX ; ! ""
 көч:көч NLEX ; ! ""
-көч:көч NLEX ; ! "" 
+көчек:көчек NLEX ; ! ""
 кош:кош NLEX ; ! ""
 кош:кош NLEX ; ! ""
 кояш:кояш NLEX ; ! "" 
@@ -3019,7 +3018,7 @@ LEXICON Adjectives
 LEXICON Adverbs 
 
 мы:мы QSTLEX ; ! ""
-ме:ме QSTLEX ; ! ""
+
 кайда:кайда ADVITGLEX ; ! ""
 кая:кая ADVITGLEX ; ! ""
 кайчан:кайчан ADVITGLEX ; ! ""
@@ -3027,8 +3026,7 @@ LEXICON Adverbs
 ни% өчен:ни% өчен ADVITGLEX ; ! ""
 
 түгел:түгел ADVLEX ; ! ""
-шактый:шактый ADVLEX ; ! ""
-шул% сәбәпле:шул% сәбәпле ADVLEX ; ! ""
+
 хәзер:хәзер ADVLEX ; ! ""
 әле:әле ADVLEX ; ! ""
 иң:иң ADVLEX ; ! ""
@@ -3078,8 +3076,8 @@ LEXICON Adverbs
 бүгеннән:бүгеннән ADVLEX ; ! ""
 бөтенләй:бөтенләй ADVLEX ; ! ""
 былтыр:былтыр ADVLEX ; ! ""
-суык:суык ADVLEX ; ! ""
 
+шул% сәбәпле:шул% сәбәпле ADVLEX ; ! "" 
 
 LEXICON Verbs
 
@@ -3481,6 +3479,7 @@ LEXICON Verbs
 бүлеш:бүлеш V-TV-IR-LEX ; ! ""
 бүлеш:бүлеш V-IV-IR-LEX ; ! ""
 пычран:пычран V-IV-IR-LEX ; ! ""
+капла:капла V-TV-IR-LEX ; ! ""
 
 !! added for testing twol rules
 куй:куй V-TV-AR-LEX ; ! ""
@@ -3489,6 +3488,7 @@ LEXICON Verbs
 җый:җый V-TV-IR-LEX ; ! ""
 
 яу:яу V-IV-AR-LEX ; ! ""
+бае:бае V-IV-IR-LEX ; ! ""
 
 LEXICON Abbreviations
 
