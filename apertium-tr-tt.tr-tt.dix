@@ -33,6 +33,10 @@
     <sdef n="advl"  c=""/>
     <sdef n="attr"  c=""/>
 
+    <sdef n="itg"  c=""/>
+    <sdef n="loc"  c=""/>
+    <sdef n="dat"  c=""/>
+
     <sdef n="apos" />
     <sdef n="guio" />
     <sdef n="sent" />
@@ -71,7 +75,8 @@
     <e><p><l>ora<s n="prn"/></l><r>анда<s n="prn"/></r></p></e>
     <e><p><l>ne<s n="adv"/></l><r>нәрсә<s n="prn"/></r></p></e>
     <e><p><l>ne<s n="prn"/></l><r>нәрсә<s n="prn"/></r></p></e>
-    <e><p><l>nere<s n="prn"/></l><r>кай<s n="prn"/></r></p></e>
+    <e><p><l>nere<s n="prn"/><s n="itg"/><s n="loc"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>nere<s n="prn"/><s n="itg"/><s n="dat"/></l><r>кая<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>kim<s n="prn"/></l><r>кем<s n="prn"/><s n="dem"/></r></p></e>
     
     <e><p><l>ben<s n="prn"/></l><r>мин<s n="prn"/></r></p></e>
