@@ -193,7 +193,6 @@
     <e><p><l>her<b/>zaman<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
     <e><p><l>beraber<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>sonra<s n="adv"/></l><r>аннары<s n="adv"/></r></p></e>
-    <!-- FIXME: hayır means 'no' but I dont know whıch part of speech ıs it-->
     <e><p><l>yavaşça<s n="adv"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e>
     <e><p><l>dikkatlice<s n="adv"/></l><r>игътибарлы<s n="adj"/></r></p></e>
     <e><p><l>birlikte<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
@@ -201,10 +200,9 @@
     <e><p><l>çabukça<s n="adv"/></l><r>тиз<s n="adj"/><s n="advl"/></r></p></e>
     <e><p><l>içinde<s n="post"/></l><r>өчендә<s n="adv"/></r></p></e>
     <e><p><l>iç<s n="n"/></l><r>өч<s n="n"/></r></p></e>
-    <e><p><l>altın<s n="n"/></l><r>асты<s n="post"/></r></p></e>
+    <e><p><l>altın<s n="n"/><s n="dat"/></l><r>астына<s n="post"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
     <e><p><l>arka<s n="n"/></l><r>арка<s n="n"/></r></p></e>
-    <!-- FIXME: review which part of speech is it-->
     <!-- FIXME: review which part of speech is it-->
     <e><p><l>tabii<b/>ki<s n="ij"/></l><r>әлбәттә<s n="adv"/></r></p></e>
     <!-- FIXME: may be әлбәттә инде-->
@@ -228,7 +226,8 @@
     <e><p><l>say<s n="v"/></l><r>сайла<s n="v"/></r></p></e>
     <e><p><l>bakın<s n="v"/></l><r>карагыз<s n="v"/></r></p></e>
     <e><p><l>git<s n="v"/></l><r>бар<s n="v"/></r></p></e>
-    <e><p><l>al<s n="v"/></l><r>ал<s n="v"/></r></p></e>
+    <e><p><l>al<s n="v"/><s n="iv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv-->
+    <e><p><l>al<s n="v"/><s n="tv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>düşün<s n="v"/></l><r>уйла<s n="v"/></r></p></e>
     <e><p><l>ver<s n="v"/><s n="iv"/></l><r>бир<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv -->
     <e><p><l>iste<s n="v"/></l><r>телә<s n="v"/></r></p></e>
