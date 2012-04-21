@@ -41,11 +41,11 @@
 
   </sdefs>
   <section id="main" type="standard">
-    <e><p><l>i<s n="cop"/></l><r>и<s n="pred"/></r></p></e>
+    <e><p><l>i<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
 
-    <e><p><l>var<s n="pred"/></l><r>бар<s n="pred"/></r></p></e>
-    <e><p><l>yok<s n="pred"/></l><r>юк<s n="pred"/></r></p></e>
-    <e><p><l>yok<s n="n"/></l><r>юк<s n="pred"/></r></p></e>
+    <e><p><l>var<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
+    <e><p><l>yok<s n="adj"/></l><r>юк<s n="adj"/></r></p></e>
+
     <!-- FIXME: review yok!!! -->
     <e><p><l>mi<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
 
