@@ -22,6 +22,14 @@
       <cat-item tags="n.*"/>
       <cat-item tags="num.subst.*"/>
       <cat-item tags="adj.subst.*"/>
+      <cat-item tags="v.*.ger1"/>
+      <cat-item tags="v.*.ger2"/>
+      <cat-item tags="v.*.ger3"/>
+      <cat-item tags="v.*.ger5"/>
+      <cat-item tags="v.*.ger1.*"/>
+      <cat-item tags="v.*.ger2.*"/>
+      <cat-item tags="v.*.ger3.*"/>
+      <cat-item tags="v.*.ger5.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
     <def-cat n="cop_pres">
@@ -41,6 +49,14 @@
       <attr-item tags="prn"/>
       <attr-item tags="adj.subst"/>
       <attr-item tags="num.subst"/>
+      <attr-item tags="v.tv.ger1"/>
+      <attr-item tags="v.iv.ger1"/>
+      <attr-item tags="v.tv.ger2"/>
+      <attr-item tags="v.iv.ger2"/>
+      <attr-item tags="v.tv.ger3"/>
+      <attr-item tags="v.iv.ger3"/>
+      <attr-item tags="v.tv.ger5"/>
+      <attr-item tags="v.iv.ger5"/>
       <attr-item tags="np.top"/>
       <attr-item tags="np"/>
     </def-attr>

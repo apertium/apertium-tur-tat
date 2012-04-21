@@ -4,6 +4,7 @@
     <sdef n="n"  c="Имя существительное"/>
     <sdef n="np"  c="Имя существительное"/>
     <sdef n="adv"  c="Имя существительное"/>
+    <sdef n="cnjadv"  c="Имя существительное"/>
     <sdef n="det"  c="Имя существительное"/>
     <sdef n="adj"  c="Имя существительное"/>
     <sdef n="prn"  c="Имя существительное"/>
@@ -26,6 +27,7 @@
     <sdef n="ij"  c=""/>
 
     <sdef n="subst"  c=""/>
+    <sdef n="advl"  c=""/>
     <sdef n="attr"  c=""/>
 
     <sdef n="apos" />
@@ -54,6 +56,9 @@
 
     <e><p><l>ve<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
     <e><p><l>da<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+
+    <!-- Раздел: Послелоги -->
+    <e><p><l>ile<s n="post"/></l><r>белән<s n="post"/></r></p></e>
 
     <!-- Раздел: Местоимения -->
 
@@ -171,20 +176,20 @@
     <e><p><l>ulu<s n="adj"/></l><r>олы<s n="adj"/></r></p></e>  
     <e><p><l>başka<s n="det"/><s n="ind"/></l><r>бүтән<s n="det"/><s n="ind"/></r></p></e>  
 
-    <e><p><l>iyi<s n="adv"/></l><r>яхшы<s n="adv"/></r></p></e>  
+    <e><p><l>iyi<s n="adv"/></l><r>яхшы<s n="adj"/><s n="advl"/></r></p></e>  
     <e><p><l>hâlâ<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e>  
     <e><p><l>yine<s n="adv"/></l><r>тагын<s n="adv"/></r></p></e>  
     <e><p><l>yeterince<s n="adv"/></l><r>шактый<s n="adv"/></r></p></e>
-    <e><p><l>bu<b/>yüzden<s n="adv"/></l><r>шул<b/>сәбәпле<s n="adv"/></r></p></e>
+    <e><p><l>bu<b/>yüzden<s n="adv"/></l><r>шул<b/>сәбәпле<s n="cnjadv"/></r></p></e>
     <e><p><l>her<b/>zaman<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
     <e><p><l>beraber<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>sonra<s n="adv"/></l><r>аннары<s n="adv"/></r></p></e>
-    <e><p><l>hayır<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
     <!-- FIXME: hayır means 'no' but I dont know whıch part of speech ıs it-->
     <e><p><l>yavaşça<s n="adv"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e>
     <e><p><l>dikkatlice<s n="adv"/></l><r>игътибарлы<s n="adj"/></r></p></e>
     <e><p><l>birlikte<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
-    <e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>
+    <!--<e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>-->
+    <e><p><l>çabukça<s n="adv"/></l><r>тиз<s n="adj"/><s n="advl"/></r></p></e>
     <e><p><l>içinde<s n="post"/></l><r>өчендә<s n="adv"/></r></p></e>
     <e><p><l>iç<s n="post"/></l><r>өч<s n="adv"/></r></p></e>
     <e><p><l>altın<s n="n"/></l><r>асты<s n="post"/></r></p></e>
@@ -194,9 +199,10 @@
     <!-- FIXME: review which part of speech is it-->
     <e><p><l>rağmen<s n="post"/></l><r>карамастан<s n="cnjcoo"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
-    <e><p><l>tabii<b/>ki<s n="ij"/></l><r>әлбәттә<s n="adj"/></r></p></e>
+    <e><p><l>tabii<b/>ki<s n="ij"/></l><r>әлбәттә<s n="adv"/></r></p></e>
     <!-- FIXME: may be әлбәттә инде-->
     
+    <e><p><l>hayır<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
     
 
 

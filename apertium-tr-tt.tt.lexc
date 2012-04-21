@@ -2,6 +2,8 @@
 !!   M O R P H O L O G I C A L · T R A N S D U C E R · F O R · T A T A R     !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+! See http://wiki.apertium.org/wiki/Turkic_lexicon
+
 Multichar_Symbols
 ! Followed http://wiki.apertium.org/wiki/Turkic_languages
 
@@ -31,7 +33,8 @@ Multichar_Symbols
 %<top%>            ! Toponym      ! Географик атама
 %<ant%>            ! Anthroponym  ! Кеше исеме
 %<cog%>            ! Cognomen     ! Фамилия
-%<org%>            ! Organization ! Оешма исеме
+%<org%>            ! Organization ! Оешма исеме      !! FIXME: not sure if this of any use (I.S.)
+
 !! gender of anthroponyms and cognoms
 %<m%>              ! Masculine    ! Мужской род
 %<f%>              ! Feminine     ! Женский род
@@ -69,7 +72,6 @@ Multichar_Symbols
 !обладательный !# -лы/-ле   !! not used after posessives
 
 ! Levels of comparison of adjectives ! Сыйфат дәрәҗәләре ! Степени сравнения прилагательных
-%<pst%>            ! Positive     ! Төп дәрәҗә           FIXME: not needed actually
 %<comp%>           ! Comparative  ! Чагыштыру дәрәҗәсе
 %<sup%>            ! Superlative  ! Артыклык дәрәҗәсе
 !! "weakening" form is not regular. So "weakened" :) adj are added as base lemmas.
@@ -152,7 +154,7 @@ Multichar_Symbols
 %{ъ%}              ! disappears and makes back harmony
 %{т%}              ! Realised as т before vowels, 0 otherwise
 
-%>                 !
+%>                 ! Morpheme boundary
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -575,9 +577,11 @@ LEXICON Conjunctions
 да:та CCLEX ; ! "" Dir/LR
 да:дә CCLEX ; ! "" Dir/LR
 да:тә CCLEX ; ! "" Dir/LR
+шул% сәбәпле:шул% сәбәпле CALEX ; ! ""
 
 LEXICON Postpositions
 
+белән:белән POSTLEX ; ! ""
 
 LEXICON Postadverbs
 
@@ -678,6 +682,7 @@ LEXICON Nouns
 җавап:җавап NLEX ; ! ""
 җавап:җавап NLEX ; ! ""
 җир:җир NLEX ; ! ""
+җылы:җылы NLEX ; ! ""
 заман:заман NLEX ; ! ""
 зат:зат NLEX ; ! ""
 кеше:кеше NLEX ; ! ""
@@ -733,14 +738,17 @@ LEXICON Adjectives
 бар:бар A2 ; ! ""
 юк:юк A2 ; ! ""
 карт:карт A1 ; ! ""
+яхшы:яхшы A1 ; ! ""
 иске:иске A1 ; ! ""
 бәләкәй:бәләкәй A1 ; ! ""
 кече:кече A1 ; ! ""
 кечкенә:кечкенә A1 ; ! ""
 бөек:бөек A1 ; ! ""
+тиз:тиз A1 ; ! ""
 якын:якын A1 ; ! ""
 олы:олы A1 ; ! ""
 суык:суык A1 ; ! ""
+тиз:тиз A1 ; ! ""
 бәхетле:бәхетле A1 ; ! ""
 әйбәт:әйбәт A1 ; ! ""
 бәләкәй:бәләкәй A1 ; ! ""
@@ -761,6 +769,7 @@ LEXICON Adverbs
 тагын:тагын ADVLEX ; ! ""
 һәрвакыт:һәрвакыт ADVLEX ; ! ""
 һаман:һаман ADVLEX ; ! "" FIXME: Check
+әлбәттә:әлбәттә ADVLEX ; ! ""
 аннары:аннары ADVLEX ; ! ""
 
 LEXICON Verbs
