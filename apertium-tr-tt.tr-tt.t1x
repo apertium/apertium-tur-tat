@@ -15,11 +15,16 @@
       <cat-item tags="prn.ind"/>
       <cat-item tags="prn.ind.*"/>
     </def-cat>
+    <def-cat n="itg">
+      <cat-item tags="prn.itg"/>
+      <cat-item tags="prn.itg.*"/>
+    </def-cat>
 
     <def-cat n="dem">
       <cat-item tags="prn.dem"/>
       <cat-item tags="prn.dem.*"/>
     </def-cat>
+
     <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
@@ -177,6 +182,32 @@
     <rule comment="REGLA: ">
       <pattern>
         <pattern-item n="ind"/>
+      </pattern>
+      <action>
+        <call-macro n="poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="prn" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+              <var n="case"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: ">
+      <pattern>
+        <pattern-item n="itg"/>
       </pattern>
       <action>
         <call-macro n="poss1">

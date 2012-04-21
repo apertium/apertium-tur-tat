@@ -891,6 +891,7 @@ ya% da:ya% da CC ; ! ""
 
 LEXICON Postpositions
 
+ile:ile POST ; ! "with"
 rağmen:rağmen POST ; ! ""
 
 LEXICON Pronouns
@@ -1095,7 +1096,6 @@ yok:yok A2 ; ! ""
 büyük:büyük A1 ; ! "big"
 yaşlı:yaşlı A1 ; ! "old"
 küçük:küçü%{k%} A1 ; ! ""
-arka:arka A1 ; ! ""
 büyük:büyü%{k%} A1 ; ! ""
 eski:eski A1 ; ! ""
 güzel:güzel A1 ; ! ""
@@ -1117,7 +1117,6 @@ beraber:beraber ADV ; ! ""
 birlikte:birlikte ADV ; ! ""
 güzel:güzel ADV ; ! ""
 her% zaman:her% zaman ADV ; ! ""
-ne:ne ADV ; ! ""
 sonra:sonra ADV ; ! ""
 yine:yine ADV ; ! ""
 çok:çok ADV ; ! ""

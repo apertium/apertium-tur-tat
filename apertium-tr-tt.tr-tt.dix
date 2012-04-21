@@ -73,8 +73,8 @@
     <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>ora<s n="prn"/></l><r>анда<s n="prn"/></r></p></e>
-    <e><p><l>ne<s n="adv"/></l><r>нәрсә<s n="prn"/></r></p></e>
-    <e><p><l>ne<s n="prn"/></l><r>нәрсә<s n="prn"/></r></p></e>
+    <e><p><l>ne<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
+    <!--<e><p><l>ne<s n="prn"/></l><r>нәрсә<s n="prn"/></r></p></e>-->
     <e><p><l>nere<s n="prn"/><s n="itg"/><s n="loc"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>nere<s n="prn"/><s n="itg"/><s n="dat"/></l><r>кая<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>kim<s n="prn"/></l><r>кем<s n="prn"/><s n="dem"/></r></p></e>
