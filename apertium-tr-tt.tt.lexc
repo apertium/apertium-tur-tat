@@ -400,6 +400,18 @@ LEXICON V-IV-IR-LEX
 %<v%>%<iv%>: V-FUT-IR;
 %<v%>%<iv%>: V-DER;
 
+LEXICON V-TV-NOPASS-IR-LEX
+
+%<v%>%<tv%>: V-COMMON-LEX ;
+%<v%>%<tv%>: V-FUT-IR;
+%<v%>%<tv%>: V-DER;
+
+LEXICON V-TV-PASS-IR-LEX
+
+%<v%>%<tv%>%<pass%>: V-COMMON-LEX ;
+%<v%>%<tv%>%<pass%>: V-FUT-IR;
+%<v%>%<tv%>%<pass%>: V-DER;
+
 LEXICON V-TV-IR-LEX
 
 %<v%>%<tv%>: V-COMMON-LEX ;
@@ -782,7 +794,10 @@ LEXICON Verbs
 бар:бар V-IV-IR-LEX ; ! ""
 бул:бул V-IV-IR-LEX ; ! ""
 эч:эч V-TV-AR-LEX ; ! ""
-күр:күр V-TV-IR-LEX ; ! ""
+күр:күр V-TV-NOPASS-IR-LEX ; ! ""
+күр:күр V-TV-NOPASS-IR-LEX ; ! ""
+күр:күрен V-TV-PASS-IR-LEX ; ! ""
+күр:күрен V-TV-PASS-IR-LEX ; ! ""
 эзлә:эзлә V-TV-IR-LEX ; ! ""
 кит:кит V-IV-AR-LEX ; ! ""
 кил:кил V-IV-IR-LEX ; ! ""
@@ -828,8 +843,6 @@ LEXICON Verbs
 эшлә:эшлә V-TV-IR-LEX ; ! ""
 әйт:әйт V-TV-IR-LEX ; ! ""
 бел:бел V-TV-IR-LEX ; ! ""
-күр:күр V-TV-IR-LEX ; ! ""
-күр:күр V-TV-IR-LEX ; ! ""
 бир:бир V-TV-IR-LEX ; ! ""
 бир:бир V-TV-IR-LEX ; ! ""
 ярат:ярат V-TV-IR-LEX ; ! ""

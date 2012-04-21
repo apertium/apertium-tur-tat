@@ -26,6 +26,9 @@
     <sdef n="post"  c=""/>
     <sdef n="ij"  c=""/>
 
+    <sdef n="pass"  c=""/>
+    <sdef n="caus"  c=""/>
+
     <sdef n="subst"  c=""/>
     <sdef n="advl"  c=""/>
     <sdef n="attr"  c=""/>
@@ -238,7 +241,7 @@
     <e><p><l>bul<s n="v"/></l><r>тап<s n="v"/></r></p></e>
     <e><p><l>çalış<s n="v"/><s n="iv"/></l><r>эшлә<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv -->
     <e><p><l>dinle<s n="v"/></l><r>тыңла<s n="v"/></r></p></e>
-    <e><p><l>görün<s n="v"/></l><r>күрен<s n="v"/></r></p></e>
+    <e><p><l>görün<s n="v"/><s n="iv"/></l><r>күр<s n="v"/><s n="tv"/><s n="pass"/></r></p></e>
     <e><p><l>gel<s n="v"/></l><r>кил<s n="v"/></r></p></e>
     <e><p><l>iç<s n="v"/></l><r>эч<s n="v"/></r></p></e>
     <e><p><l>söyle<s n="v"/></l><r>әйт<s n="v"/></r></p></e>
