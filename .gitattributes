@@ -26,7 +26,10 @@ dev/README -text
 dev/Tt-Tr_Dict_A-K.dix -text
 dev/Tt-Tr_Dict_A-K.txt -text
 dev/conversor.py -text
+dev/inconsistency-summary.sh -text
+dev/inconsistency.sh -text
 dev/skipped.txt -text
+dev/testvoc.sh -text
 /modes.xml -text
 texts/tr.txt -text
 texts/tt.txt -text svneol=unset#application/octet-stream
