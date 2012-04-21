@@ -103,6 +103,8 @@ Multichar_Symbols
 %<fut%>            ! -{I}р
 %<ifi%>            ! -{D}{I}
 
+%<prc2%>           ! -{I}п
+
 %<ger%>            ! -{U}
 %<ger1%>           ! -м{A}{K}
 %<ger2%>           ! -{I}п
@@ -358,6 +360,8 @@ LEXICON V-COMMON-LEX
 
 V-FINITE-FORMS ;
 
+%<prc2%>:%>%{I%}п # ;
+
 %<ger%>:%>%{U%} POSS ;
 %<ger1%>:%>м%{A%}%{K%} POSS ;
 %<ger2%>:%>%{I%}п POSS ;
@@ -582,6 +586,7 @@ LEXICON Conjunctions
 LEXICON Postpositions
 
 белән:белән POSTLEX ; ! ""
+карамастан:карамастан POSTLEX ; ! ""
 
 LEXICON Postadverbs
 
@@ -672,6 +677,7 @@ LEXICON Nouns
 агач:агач NLEX ; ! ""
 алд:алд NLEX ; ! ""                      FIXME: seems to be similar to "дус{т}"
 ана:ана NLEX ; ! ""
+арка:арка NLEX ; ! ""
 бакча:бакча NLEX ; ! ""
 бакча:бакча NLEX ; ! ""
 бала:бала NLEX ; ! ""
@@ -707,7 +713,6 @@ LEXICON Nouns
 песи:песи NLEX ; ! ""
 сеңел:сеңел NLEX ; ! ""
 сеңел:сеңел NLEX ; ! ""
-сорау:сорау NLEX ; ! ""
 сорау:сорау NLEX ; ! ""
 су:су NLEX ; ! ""
 суык:суык NLEX ; ! ""
@@ -776,6 +781,7 @@ LEXICON Verbs
 
 бар:бар V-IV-IR-LEX ; ! ""
 бул:бул V-IV-IR-LEX ; ! ""
+эч:эч V-TV-AR-LEX ; ! ""
 күр:күр V-TV-IR-LEX ; ! ""
 эзлә:эзлә V-TV-IR-LEX ; ! ""
 кит:кит V-IV-AR-LEX ; ! ""
@@ -787,8 +793,10 @@ LEXICON Verbs
 бел:бел V-TV-IR-LEX ; ! ""
 уйна:уйна V-TV-IR-LEX ; ! ""
 уйна:уйна V-TV-IR-LEX ; ! ""
+сора:сора V-TV-IR-LEX ; ! ""
 әйт:әйт V-TV-IR-LEX ; ! ""
 тыңла:тыңла V-TV-IR-LEX ; ! ""
+эшлә:эшлә V-TV-IR-LEX ; ! ""
 эшлә:эшлә V-TV-IR-LEX ; ! ""
 ишет:ишет V-TV-IR-LEX ; ! ""
 ал:ал V-TV-IR-LEX ; ! ""
@@ -804,13 +812,19 @@ LEXICON Verbs
 кит:кит V-IV-AR-LEX ; ! ""
 телә:телә V-TV-IR-LEX ; ! ""
 уйла:уйла V-TV-IR-LEX ; ! ""
+сора:сора V-TV-IR-LEX ; ! ""
 кара:кара V-TV-IR-LEX ; ! ""
+эшлә:эшлә V-TV-IR-LEX ; ! ""
 эшлә:эшлә V-TV-IR-LEX ; ! ""
 кара:кара V-TV-IR-LEX ; ! ""
 тап:тап V-TV-AR-LEX ; ! ""
 тыңла:тыңла V-TV-IR-LEX ; ! ""
+сора:сора V-TV-IR-LEX ; ! ""
 эзлә:эзлә V-TV-IR-LEX ; ! ""
+эч:эч V-TV-AR-LEX ; ! ""
+эч:эч V-TV-AR-LEX ; ! ""
 тап:тап V-TV-AR-LEX ; ! ""
+эшлә:эшлә V-TV-IR-LEX ; ! ""
 эшлә:эшлә V-TV-IR-LEX ; ! ""
 әйт:әйт V-TV-IR-LEX ; ! ""
 бел:бел V-TV-IR-LEX ; ! ""
@@ -826,6 +840,8 @@ LEXICON Verbs
 бир:бир V-TV-IR-LEX ; ! ""
 әйт:әйт V-TV-IR-LEX ; ! ""
 бир:бир V-TV-IR-LEX ; ! ""
+эч:эч V-TV-IR-LEX ; ! ""
+эч:эч V-TV-IR-LEX ; ! ""
 бир:бир V-TV-IR-LEX ; ! ""
 әйт:әйт V-TV-IR-LEX ; ! ""
 бел:бел V-TV-IR-LEX ; ! ""
@@ -838,6 +854,7 @@ LEXICON Verbs
 бир:бир V-TV-IR-LEX ; ! ""
 бетер:бетер V-TV-IR-LEX ; ! ""
 бул:бул V-IV-IR-LEX ; ! ""
+яшер:яшер V-TV-IR-LEX ; ! ""
 
 LEXICON Interjections
 

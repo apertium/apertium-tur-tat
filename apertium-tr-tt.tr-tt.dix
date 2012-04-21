@@ -59,6 +59,7 @@
 
     <!-- Раздел: Послелоги -->
     <e><p><l>ile<s n="post"/></l><r>белән<s n="post"/></r></p></e>
+    <e><p><l>rağmen<s n="post"/></l><r>карамастан<s n="post"/></r></p></e>
 
     <!-- Раздел: Местоимения -->
 
@@ -191,13 +192,11 @@
     <!--<e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>-->
     <e><p><l>çabukça<s n="adv"/></l><r>тиз<s n="adj"/><s n="advl"/></r></p></e>
     <e><p><l>içinde<s n="post"/></l><r>өчендә<s n="adv"/></r></p></e>
-    <e><p><l>iç<s n="post"/></l><r>өч<s n="adv"/></r></p></e>
+    <e><p><l>iç<s n="n"/></l><r>өч<s n="n"/></r></p></e>
     <e><p><l>altın<s n="n"/></l><r>асты<s n="post"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
-    <e><p><l>arka<s n="n"/></l><r>арка<s n="adj"/></r></p></e>
-    <e><p><l>arka<s n="adj"/></l><r>арка<s n="adj"/></r></p></e>
+    <e><p><l>arka<s n="n"/></l><r>арка<s n="n"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
-    <e><p><l>rağmen<s n="post"/></l><r>карамастан<s n="cnjcoo"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
     <e><p><l>tabii<b/>ki<s n="ij"/></l><r>әлбәттә<s n="adv"/></r></p></e>
     <!-- FIXME: may be әлбәттә инде-->
@@ -214,7 +213,7 @@
     <e><p><l>var<s n="v"/></l><r>бар<s n="v"/></r></p></e>
     <e><p><l>bak<s n="v"/></l><r>кара<s n="v"/></r></p></e>
     <e><p><l>koş<s n="v"/></l><r>йөгер<s n="v"/></r></p></e>
-    <e><p><l>sakla<s n="v"/></l><r>яшерә<s n="v"/></r></p></e>
+    <e><p><l>sakla<s n="v"/></l><r>яшер<s n="v"/></r></p></e>
     <e><p><l>bil<s n="v"/></l><r>бел<s n="v"/></r></p></e>
     <e><p><l>otur<s n="v"/></l><r>утыр<s n="v"/></r></p></e>
     <e><p><l>gör<s n="v"/></l><r>күр<s n="v"/></r></p></e>
@@ -223,7 +222,7 @@
     <e><p><l>git<s n="v"/></l><r>бар<s n="v"/></r></p></e>
     <e><p><l>al<s n="v"/></l><r>ал<s n="v"/></r></p></e>
     <e><p><l>düşün<s n="v"/></l><r>уйла<s n="v"/></r></p></e>
-    <e><p><l>ver<s n="v"/></l><r>бир<s n="v"/></r></p></e>
+    <e><p><l>ver<s n="v"/><s n="iv"/></l><r>бир<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv -->
     <e><p><l>iste<s n="v"/></l><r>телә<s n="v"/></r></p></e>
     <e><p><l>gezin<s n="v"/></l><r>йөрегез<s n="v"/></r></p></e>
     <e><p><l>duy<s n="v"/></l><r>ишет<s n="v"/></r></p></e>
@@ -234,19 +233,19 @@
     <e><p><l>oy<s n="v"/></l><r>уйна<s n="v"/></r></p></e>
     <e><p><l>ara<s n="v"/></l><r>эзлә<s n="v"/></r></p></e>
     <e><p><l>bil<s n="v"/></l><r>бел<s n="v"/></r></p></e>
-    <e><p><l>sor<s n="v"/></l><r>сор<s n="v"/></r></p></e>
+    <e><p><l>sor<s n="v"/></l><r>сора<s n="v"/></r></p></e>
     <e><p><l>de<s n="v"/></l><r>әйт<s n="v"/></r></p></e>
     <e><p><l>bul<s n="v"/></l><r>тап<s n="v"/></r></p></e>
-    <e><p><l>çalış<s n="v"/></l><r>эшлә<s n="v"/></r></p></e>
+    <e><p><l>çalış<s n="v"/><s n="iv"/></l><r>эшлә<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv -->
     <e><p><l>dinle<s n="v"/></l><r>тыңла<s n="v"/></r></p></e>
     <e><p><l>görün<s n="v"/></l><r>күрен<s n="v"/></r></p></e>
     <e><p><l>gel<s n="v"/></l><r>кил<s n="v"/></r></p></e>
-    <e><p><l>iç<s n="v"/></l><r>өч<s n="v"/></r></p></e>
+    <e><p><l>iç<s n="v"/></l><r>эч<s n="v"/></r></p></e>
     <e><p><l>söyle<s n="v"/></l><r>әйт<s n="v"/></r></p></e>
     <e><p><l>uy<s n="v"/></l><r>йокла<s n="v"/></r></p></e>
     <e><p><l>yap<s n="v"/></l><r>эшлә<s n="v"/></r></p></e>
     <e><p><l>konuş<s n="v"/></l><r>сөйләш<s n="v"/></r></p></e>
-    <e><p><l>bit<s n="v"/></l><r>бетер<s n="v"/></r></p></e>
+    <e><p><l>bit<s n="v"/><s n="iv"/></l><r>бетер<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: tv/iv -->
       
       
       

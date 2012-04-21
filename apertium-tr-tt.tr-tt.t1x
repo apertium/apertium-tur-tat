@@ -2,6 +2,9 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="abil">
+      <cat-item tags="v.*.abil.*"/>
+    </def-cat>
     <def-cat n="v">
       <cat-item tags="v.*"/>
     </def-cat>
@@ -90,6 +93,22 @@
       <attr-item tags="ins"/>
       <attr-item tags="abl"/>
     </def-attr>
+
+    <def-attr n="trans">
+      <attr-item tags="tv"/>
+      <attr-item tags="iv"/>
+    </def-attr>
+         
+    <def-attr n="neg">
+      <attr-item tags="neg"/>
+    </def-attr>
+       
+    <def-attr n="deriv">
+      <attr-item tags="abil"/>
+      <attr-item tags="pass"/>
+      <attr-item tags="caus"/>
+    </def-attr>
+
     
   </section-def-attrs>
   <section-def-vars>
@@ -259,6 +278,47 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: v.abil → v bil-"> 
+      <pattern>
+        <pattern-item n="abil"/>
+      </pattern>
+      <action>
+        <call-macro n="tense1">
+          <with-param pos="1"/>
+        </call-macro>
+        <let>
+          <clip pos="1" side="tl" part="deriv"/>
+          <lit v=""/>
+        </let>
+        <let>
+          <clip pos="1" side="sl" part="trans"/>
+          <clip pos="1" side="tl" part="trans"/>
+        </let>
+        <let>
+          <clip pos="1" side="tl" part="trans"/>
+          <lit-tag v="tv"/>
+        </let>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <lit-tag v="v"/>
+              <clip pos="1" side="sl" part="trans"/>
+              <lit-tag v="prc2"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="ал"/>
+              <clip pos="1" side="tl" part="tags"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: ">
       <pattern>
@@ -283,6 +343,8 @@
         </out>
       </action>
     </rule>
+
+
 
     <rule comment="REGLA: cop_pres">
       <pattern>
