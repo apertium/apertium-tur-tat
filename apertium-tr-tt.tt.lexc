@@ -171,6 +171,7 @@ ProperNouns ;
 Adjectives ; 
 Adverbs ; 
 Verbs ; 
+Interjections ; 
 Abbreviations ; 
 Punctuation ; 
 
@@ -497,7 +498,6 @@ LEXICON PRNREFLEX
 
 %<prn%>%<ref%>: POSS ; 
 
-
 LEXICON DETINDLEX
 
 %<det%>%<ind%>: # ; 
@@ -519,7 +519,6 @@ LEXICON POSTADVLEX
 
 %<postadv%>: # ; 
 
-
 LEXICON ADVITGLEX
 
 %<adv%>%<itg%>: # ; 
@@ -536,7 +535,6 @@ LEXICON CALEX
 
 %<cnjadv%>: # ; 
 
-
 LEXICON PREDLEX
 
 %<pred%>: CLIT ; 
@@ -546,10 +544,13 @@ LEXICON PREDLEX-I
 %<pred%>%<ger5%>:%>кән POSS ;
 %<pred%>%<ifi%>:%>де V-PERS-S2 ;        
 
-
 LEXICON QSTLEX
 
 %<qst%>: # ; 
+
+LEXICON INTERJ
+
+%<ij%>: # ;
 
 LEXICON ABBR 
 
@@ -565,6 +566,8 @@ LEXICON Conjunctions
 һәм:һәм CCLEX ; ! ""
 ә:ә CCLEX ; ! ""
 әмма:әмма CCLEX ; ! ""
+я:я CCLEX ; ! ""
+яисә:яисә CCLEX ; ! ""
 
 да:да CCLEX ; ! "" Dir/RL
 да:да CCLEX ; ! "" Dir/LR
@@ -573,6 +576,7 @@ LEXICON Conjunctions
 да:тә CCLEX ; ! "" Dir/LR
 
 шуңа% күрә:шуңа% күрә CALEX ; ! ""
+шул% сәбәпле:шул% сәбәпле CALEX ; ! ""
 
 LEXICON Postpositions 
 
@@ -637,9 +641,15 @@ LEXICON Determiners
 барлык:барлык DETQNTLEX ; ! ""
 
 бер:бер DETINDLEX ; ! ""
+бернинди:бернинди DETINDLEX ; ! ""
+бүтән:бүтән DETINDLEX ; ! "other"
+башка:башка DETINDLEX ; ! "other"
 
 LEXICON Numerals 
 
+нуль:нуль NUMLEX ; ! ""
+нуль:ноль NUMLEX ; ! "" ! Dir/LR
+нуль:нол NUMLEX ; ! "" ! Dir/LR
 бер:бер NUMLEX ; ! ""
 ике:ике NUMLEX ; ! ""
 өч:өч NUMLEX ; ! ""
@@ -1614,6 +1624,7 @@ LEXICON Nouns
 тип:тип NLEX ; ! ""
 тирәнлек:тирәнлек NLEX ; ! ""
 тире:тире NLEX ; ! ""
+тирә:тирә NLEX ; ! ""
 тирә-юнь:тирә-юнь NLEX ; ! ""
 товар:товар NLEX ; ! ""
 тоем:тоем NLEX ; ! ""
@@ -2410,6 +2421,7 @@ LEXICON Adjectives
 
 сәбәпле:сәбәпле ALEX ; ! ""
 
+карт:карт ALEX ; ! ""
 зур:зур ALEX ; ! ""
 күп:күп ALEX ; ! ""
 тиешле:тиешле ALEX ; ! ""
@@ -3012,21 +3024,25 @@ LEXICON Adjectives
 берләштерелгән:берләштерелгән ALEX ; ! ""
 бөтен:бөтен ALEX ; ! ""
 былтыргы:былтыргы ALEX ; ! ""
-
-
+кече:кече ALEX ; ! ""
+кечек:кечек ALEX ; ! ""
+игътибарлы:игътибарлы ALEX ; ! ""
 
 LEXICON Adverbs 
 
 мы:мы QSTLEX ; ! ""
 
-кайда:кайда ADVITGLEX ; ! ""
 кая:кая ADVITGLEX ; ! ""
+кайдан:кайдан ADVITGLEX ; ! ""
+кайда:кайда ADVITGLEX ; ! ""
 кайчан:кайчан ADVITGLEX ; ! ""
 ничек:ничек ADVITGLEX ; ! ""
 ни% өчен:ни% өчен ADVITGLEX ; ! ""
 
 түгел:түгел ADVLEX ; ! ""
 
+бергә:бергә ADVLEX ; ! "together"
+шактый:шактый ADVLEX ; ! "довольно, заметно"
 хәзер:хәзер ADVLEX ; ! ""
 әле:әле ADVLEX ; ! ""
 иң:иң ADVLEX ; ! ""
@@ -3076,8 +3092,6 @@ LEXICON Adverbs
 бүгеннән:бүгеннән ADVLEX ; ! ""
 бөтенләй:бөтенләй ADVLEX ; ! ""
 былтыр:былтыр ADVLEX ; ! ""
-
-шул% сәбәпле:шул% сәбәпле ADVLEX ; ! "" 
 
 LEXICON Verbs
 
@@ -3480,6 +3494,7 @@ LEXICON Verbs
 бүлеш:бүлеш V-IV-IR-LEX ; ! ""
 пычран:пычран V-IV-IR-LEX ; ! ""
 капла:капла V-TV-IR-LEX ; ! ""
+яшер:яшер V-TV-IR-LEX ; ! ""
 
 !! added for testing twol rules
 куй:куй V-TV-AR-LEX ; ! ""
@@ -3489,6 +3504,10 @@ LEXICON Verbs
 
 яу:яу V-IV-AR-LEX ; ! ""
 бае:бае V-IV-IR-LEX ; ! ""
+
+LEXICON Interjections 
+
+юк:юк INTERJ ; 
 
 LEXICON Abbreviations
 

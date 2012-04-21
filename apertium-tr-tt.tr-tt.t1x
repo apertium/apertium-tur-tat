@@ -8,6 +8,11 @@
     <def-cat n="pers">
       <cat-item tags="prn.pers.*"/>
     </def-cat>
+    <def-cat n="ind">
+      <cat-item tags="prn.ind"/>
+      <cat-item tags="prn.ind.*"/>
+    </def-cat>
+
     <def-cat n="dem">
       <cat-item tags="prn.dem"/>
       <cat-item tags="prn.dem.*"/>
@@ -133,6 +138,32 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+
+    <rule comment="REGLA: ">
+      <pattern>
+        <pattern-item n="ind"/>
+      </pattern>
+      <action>
+        <call-macro n="poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="prn" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+              <var n="case"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: ">
       <pattern>

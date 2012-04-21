@@ -161,6 +161,7 @@
 
     <e><p><l>mutlu<s n="adj"/></l><r>бәхетле<s n="adj"/></r></p></e>
     <e><p><l>yaşlı<s n="adj"/></l><r>карт<s n="adj"/></r></p></e>
+    <e><p><l>yaşlı<s n="adj"/></l><r>иске<s n="adj"/></r></p></e>
     <e><p><l>çok<s n="adj"/></l><r>бик<s n="adj"/></r></p></e>  
     <e><p><l>var<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
     <e><p><l>eski<s n="adj"/></l><r>иске<s n="adj"/></r></p></e>  
@@ -168,7 +169,7 @@
     <e><p><l>yakın<s n="adj"/></l><r>якын<s n="adj"/></r></p></e>    
      
     <e><p><l>ulu<s n="adj"/></l><r>олы<s n="adj"/></r></p></e>  
-    <e><p><l>başka<s n="adj"/></l><r>бүтән<s n="adj"/></r></p></e>  
+    <e><p><l>başka<s n="det"/><s n="ind"/></l><r>бүтән<s n="det"/><s n="ind"/></r></p></e>  
 
     <e><p><l>iyi<s n="adv"/></l><r>яхшы<s n="adv"/></r></p></e>  
     <e><p><l>hâlâ<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e>  
@@ -178,7 +179,7 @@
     <e><p><l>her<b />zaman<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
     <e><p><l>beraber<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>sonra<s n="adv"/></l><r>аннары<s n="adv"/></r></p></e>
-    <e><p><l>hayır<s n="adv"/></l><r>юк<s n="adv"/></r></p></e>
+    <e><p><l>hayır<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
     <!-- FIXME: hayır means 'no' but I dont know whıch part of speech ıs it-->
     <e><p><l>yavaşça<s n="adv"/></l><r>әкрен<b />генә<s n="adv"/></r></p></e>
     <e><p><l>dikkatlice<s n="adv"/></l><r>игтибарлы<s n="adj"/></r></p></e>

@@ -195,11 +195,12 @@ Cx:Cy <=> :CnsVoiceless/[ %>: | %  | :0 | :ь | :ъ ] _ ;
 %{U%}:ю <=> й: %>: _ ;
 ! сөй+у : сөю, куй+у : кую
 
-"word-final у or ү becomes в when a vowel-initial suffix follows"
-Vu:в <=> _ [ :BeginVow ]/[ %>: | :0 ] ;
+"word-final у or ү becomes в when a vowel-initial suffix follows and a vowel precedes"
+Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
          where Vu in ( у ү ) matched;
 !у:в <=> _ :Vow/:0 ;
 ! яу, яварга, яву
+! but not суы:свы !!
 
 !!!! й stuff !!!!
 

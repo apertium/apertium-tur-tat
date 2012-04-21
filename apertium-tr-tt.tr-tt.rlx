@@ -19,8 +19,8 @@
 DELIMITERS = "<.>" "<!>" "<?>" ;
 SOFT-DELIMITERS = "<,>" ;
 
-LIST BOS = (>>>) (sent) ; # Beginning of sentence
-LIST EOS = (<<<) (sent) ; # End of sentence
+LIST BOS = (>>>) sent ; # Beginning of sentence
+LIST EOS = (<<<) sent ; # End of sentence
 
 ### POS ###
 
@@ -45,6 +45,7 @@ LIST V/SP = (exist) (nexist) ;
 LIST PUNCT = pnct ;
 LIST A = adj ;
 LIST KI = attr ;
+LIST Pred = pred ;
 LIST Adv = adv ;
 LIST Prop = np ;
 LIST Det = det ;
@@ -58,6 +59,7 @@ LIST IJ = ij ;
 LIST NOT = ("yok" pred) ;
 LIST NP = np ;
 LIST Plu = pl ;
+LIST Qst = qst ;
 LIST Neg = neg ;
 LIST Cm = cm ("," cm);
 
@@ -483,7 +485,7 @@ REMOVE N IF (0 ("verdi"i)) ((-2 Dat) OR (-1 Dat)) ;
   ## Bana [0]verdi
   ## This rule removes the reading of verdi as <n> in case we have a dative in -2 or -1 position
     
-SELECT V IF (NOT -1* FINITE-NOSUB BARRIER CLB) (0 FINITE-NOSUB) (NOT 1* FINITE-NOSUB BARRIER EOS) ;
+SELECT V IF (NOT 0 Imper) (NOT -1* FINITE-NOSUB BARRIER CLB) (0 FINITE-NOSUB) (NOT 1* FINITE-NOSUB BARRIER EOS) ;
 
   ## Rule 25
   ## This rule, where there is ambiguity for the [0]word, checks if any word preceding [0]
@@ -504,13 +506,13 @@ SELECT Poss IF (1 V/SP) ;
    ## If the following word is V/SP (i.e. var or yok), Poss is selected over the verb "to be" (in the morph
    ## analyzer 1s2s3s 1p2p3p
    
-REMOVE Acc IF (0 PxSg3) (-1 ABS) (-1 N) ;
+#REMOVE Acc IF (0 PxSg3) (-1 ABS) (-1 N) ;
 
   ## Rule 28
   ## This rule should select Possessive for patterns like N + N+poss. This patterns are called "unmarked compound noun"
   ## i.e. compound nouns where the first noun is not marked with GEN. N has to be replaced with ABS later on.
   ## Doesn't work well: bu aksam disari cikiyoruz
-
+  ##                    Neden bunu yapıyor?
 
 SELECT Dat if (0 N) (1 POST-DAT) ;
 
@@ -673,12 +675,28 @@ REMOVE CA IF (0 ("ki"i)) (0 CA OR CS) (-1 V-REPORTED-SPEECH);
 REMOVE CS IF (0 ("ki"i)) (0 CA OR CS) (NOT -1 V-REPORTED-SPEECH);
 ## Gözlerimi açtım [0]ki hastanedeyim.
 
-REMOVE (imp) (0 (imp) OR (acr)) (0 ("<[A-Z]\+>"r));
+REMOVE Imper (0 Imper OR (acr)) (0 ("<[A-Z]\+>"r));
 
-SELECT (imp) IF (0 (imp p2 sg)) (0 (ger1)) (1 ("!" sent));
+SELECT Imper IF (0 (imp p2 sg)) (0 (ger1)) (1 ("!" sent));
+
+REMOVE Imper IF (0 (imp p2 sg)) (0 (pred)) (NOT 1* ("!" sent) BARRIER (sent));
 
 SELECT A IF (-1 ("en")) (0 A OR Adv) (1 N);
     ## En [0]güzel kız evime geldi.
 
-REMOVE Imper IF (-1 Det) (0 Imper OR N);
-   ## Bu bir oyna[0].
+REMOVE Imper IF (1 Qst);
+    ## Ana'nın de köpeği var mı? 
+
+REMOVE Imper IF (-1 Det);
+    ## Bu bir oyun.
+
+REMOVE Adv IF (0 Adv OR A) (-1 ("çok"));
+    ## Hava bugün çok güzel, yeterince sıcak.
+
+SELECT Prop IF (0 ("<[A-Z]\+>"r)) (0 A OR Prop) (NOT 1C N);
+
+SELECT Pred IF (0 Pred OR N) (1 (sent));
+    ## O gün paramız yoktu.
+    
+SELECT Det if (0 ("bir")) (1C N) ;
+    ## O başka bir hayvan ya da bir kuş 
