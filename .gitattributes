@@ -29,6 +29,8 @@ dev/conversor.py -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
 dev/skipped.txt -text
+dev/testvoc-summary.tr-tt.txt -text
+dev/testvoc-summary.tt-tr.txt -text
 dev/testvoc.sh -text
 /modes.xml -text
 texts/tr.txt -text
