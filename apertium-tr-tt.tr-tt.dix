@@ -209,7 +209,7 @@
     <!--<e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>-->
     <e><p><l>çabukça<s n="adv"/></l><r>тиз<s n="adj"/><s n="advl"/></r></p></e>
     <e><p><l>seri<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e>
-    <e><p><l>iç<s n="n"/></l><r>өч<s n="n"/></r></p></e>
+    <e><p><l>iç<s n="n"/></l><r>эч<s n="n"/></r></p></e>
     <e><p><l>altın<s n="n"/><s n="dat"/></l><r>астына<s n="post"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
     <e><p><l>arka<s n="n"/></l><r>арка<s n="n"/></r></p></e>

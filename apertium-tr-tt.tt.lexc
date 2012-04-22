@@ -750,10 +750,12 @@ LEXICON Nouns
 һава:һава NLEX ; ! ""
 хайван:хайван NLEX ; ! ""
 эт:эт NLEX ; ! ""
+эч:эч NLEX ; ! ""
+эч:эч NLEX ; ! ""
 яшь:яшь NLEX ; ! ""
 яшь:яшь NLEX ; ! ""
 тыш:тыш NLEX ; ! ""
-өч:өч NLEX ; ! "" ! FIXME: Check
+эч:эч NLEX ; ! "" ! FIXME: Check
 
 LEXICON ProperNouns
 
