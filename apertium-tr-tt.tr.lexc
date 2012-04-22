@@ -46,6 +46,7 @@ Multichar_Symbols
 %<p1%>        ! First person
 %<p2%>        ! Second person
 %<p3%>        ! Third person
+%<frm%>       ! Formal
 
 %<sg%>        ! Singular
 %<pl%>        ! Plural
@@ -402,6 +403,7 @@ LEXICON A3
 LEXICON ADV
 
 %<adv%>: # ;
+%<adv%>%<attr%>: # ;  ! <adv> as <adj> function
 
 LEXICON DIGITLEX
 
