@@ -73,6 +73,8 @@
       <attr-item tags="cont"/>
       <attr-item tags="aor"/>
       <attr-item tags="past"/>
+      <attr-item tags="ger1.acc"/> <!-- FIXME: don't like this -->
+      <attr-item tags="inf"/>
       <attr-item tags="ifi"/>
       <attr-item tags="fut"/>
     </def-attr>
@@ -133,6 +135,7 @@
           </test>
           <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="pres"/></let>
         </when>
+
       </choose>
     </def-macro>
     <def-macro n="poss1" npar="1">

@@ -22,6 +22,10 @@
       <cat-item tags="np.*"/>
     </def-cat>
 
+    <def-cat n="ref">
+      <cat-item tags="prn.ref.*"/>
+    </def-cat>
+
     <def-cat n="itg">
       <cat-item tags="prn.itg.*"/>
     </def-cat>
@@ -82,6 +86,8 @@
       <attr-item tags="cont"/>
       <attr-item tags="aor"/>
       <attr-item tags="past"/>
+      <attr-item tags="inf"/>
+      <attr-item tags="ger1.acc"/> <!-- FIXME: don't like this -->
       <attr-item tags="ifi"/>
       <attr-item tags="fut"/>
     </def-attr>
@@ -113,6 +119,13 @@
           </test>
           <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="cont"/></let>
         </when>
+        <when>
+          <test>
+             <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="inf"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="ger1.acc"/></let>
+        </when>
+
       </choose>
     </def-macro>
 
@@ -186,6 +199,28 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: ref">
+      <pattern>
+        <pattern-item n="ref"/>
+      </pattern>
+      <action>
+        <call-macro n="case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="prn" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: itg">
       <pattern>

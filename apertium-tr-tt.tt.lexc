@@ -592,6 +592,7 @@ LEXICON Copula
 LEXICON Conjunctions
 
 һәм:һәм CCLEX ; ! ""
+әмма:әмма CCLEX ; ! ""
 я:я CCLEX ; ! ""
 яисә:яисә CCLEX ; ! ""
 да:да CCLEX ; ! "" Dir/RL
@@ -648,6 +649,7 @@ LEXICON Determiners
 бернинди:бернинди DETINDLEX ; ! ""
 бүтән:бүтән DETINDLEX ; ! "other"
 башка:башка DETINDLEX ; ! "other"
+берәр:берәр DETINDLEX ; ! "some" ! FIXME: JNW to check this
 
 LEXICON Numerals
 
@@ -769,9 +771,11 @@ LEXICON Adjectives
 кечкенә:кечкенә A1 ; ! ""
 бөек:бөек A1 ; ! ""
 тиз:тиз A1 ; ! ""
+тиз:тиз A1 ; ! ""
 якын:якын A1 ; ! ""
 олы:олы A1 ; ! ""
 суык:суык A1 ; ! ""
+тиз:тиз A1 ; ! ""
 тиз:тиз A1 ; ! ""
 бәхетле:бәхетле A1 ; ! ""
 әйбәт:әйбәт A1 ; ! ""

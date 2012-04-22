@@ -14,7 +14,6 @@
     <sdef n="iv"  c="Непереходный"/>
     <sdef n="ind"  c=""/>
     <sdef n="num"  c=""/>
-    <sdef n="dem"  c=""/>
     <sdef n="cnjcoo"  c="Имя существительное"/>
     <sdef n="postadv"  c="Имя существительное"/>
     <sdef n="m"  c=""/>
@@ -36,6 +35,10 @@
     <sdef n="itg"  c=""/>
     <sdef n="loc"  c=""/>
     <sdef n="dat"  c=""/>
+
+    <sdef n="ref"  c=""/>
+    <sdef n="dem"  c=""/>
+    <sdef n="pers"  c=""/>
 
     <sdef n="apos" />
     <sdef n="guio" />
@@ -82,12 +85,14 @@
     <e><p><l>nere<s n="prn"/><s n="itg"/><s n="dat"/></l><r>кая<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>kim<s n="prn"/></l><r>кем<s n="prn"/><s n="dem"/></r></p></e>
     
-    <e><p><l>ben<s n="prn"/></l><r>мин<s n="prn"/></r></p></e>
-    <e><p><l>sen<s n="prn"/></l><r>син<s n="prn"/></r></p></e>
-    <e><p><l>o<s n="prn"/></l><r>ул<s n="prn"/></r></p></e>
-    <e><p><l>biz<s n="prn"/></l><r>без<s n="prn"/></r></p></e>
-    <e><p><l>siz<s n="prn"/></l><r>сез<s n="prn"/></r></p></e>
-    <e><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/></r></p></e>
+    <e><p><l>ben<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>sen<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>o<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>biz<s n="prn"/><s n="pers"/></l><r>без<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>siz<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
+    <e><p><l>onlar<s n="prn"/><s n="pers"/></l><r>алар<s n="prn"/><s n="pers"/></r></p></e>
+
+    <e><p><l>öz<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>
     
   
     
@@ -157,7 +162,8 @@
 	 <!-- FIXME: bugün is a n and adv; here it should be adv -->
     <e><p><l>çok<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
 	 <!-- FIXME: çok is adv here -->
-    <e><p><l>fakat<s n="cnjcoo"/></l><r>тик<s n="adv"/></r></p></e>
+    <e><p><l>fakat<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
+    <e><p><l>fakat<s n="adv"/></l><r>тик<s n="adv"/></r></p></e>
 	 <!-- FIXME: fakat is adv also -->
     <e><p><l>dün<s n="n"/></l><r>кичә<s n="adv"/></r></p></e>
 	 <!-- FIXME: dün is adv and n; here it should be adv-->
@@ -201,6 +207,7 @@
     <e><p><l>birlikte<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <!--<e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>-->
     <e><p><l>çabukça<s n="adv"/></l><r>тиз<s n="adj"/><s n="advl"/></r></p></e>
+    <e><p><l>seri<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e>
     <e><p><l>içinde<s n="post"/></l><r>өчендә<s n="adv"/></r></p></e>
     <e><p><l>iç<s n="n"/></l><r>өч<s n="n"/></r></p></e>
     <e><p><l>altın<s n="n"/><s n="dat"/></l><r>астына<s n="post"/></r></p></e>
@@ -265,7 +272,7 @@
     <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
 
 
-    <e><p><l>her<s n="det"/></l><r>һәр<s n="prn"/></r></p></e>
+    <e><p><l>her<s n="det"/></l><r>бөтен<s n="det"/></r></p></e>
     
     
 	 
