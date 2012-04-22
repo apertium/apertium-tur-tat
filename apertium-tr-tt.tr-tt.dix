@@ -116,7 +116,8 @@
     <e><p><l>bir<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>bu<s n="det"/><s n="dem"/></l><r>бу<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="det"/><s n="dem"/></l><r>шул<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>hiçbir<s n="det"/></l><r>һичбер<s n="prn"/></r></p></e> 
+    <e><p><l>hiçbir<s n="det"/><s n="ind"/></l><r>һичбер<s n="det"/><s n="ind"/></r></p></e> 
+
     <!-- Раздел: Имя Существительное -->
 
     <e><p><l>köpek<s n="n"/></l><r>эт<s n="n"/></r></p></e>
