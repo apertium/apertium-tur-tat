@@ -23,6 +23,7 @@
     <sdef n="ant"  c=""/>
     <sdef n="sg"  c=""/>
     <sdef n="post"  c=""/>
+    <sdef n="p3"  c=""/>
     <sdef n="ij"  c=""/>
 
     <sdef n="pass"  c=""/>
@@ -78,7 +79,6 @@
 
     <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
-    <e><p><l>ora<s n="prn"/></l><r>анда<s n="prn"/></r></p></e>
     <e><p><l>ne<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
     <!--<e><p><l>ne<s n="prn"/></l><r>нәрсә<s n="prn"/></r></p></e>-->
     <e><p><l>nere<s n="prn"/><s n="itg"/><s n="loc"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e>
@@ -94,6 +94,7 @@
 
     <e><p><l>öz<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>
     
+    <e r="LR"><p><l>ora<s n="prn"/><s n="adv"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
   
     
 
