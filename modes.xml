@@ -7,11 +7,8 @@
       <program name="hfst-proc -w">
         <file name="tr-tt.automorf.hfst"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -n -1">
         <file name="tr-tt.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tr-tt.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -40,11 +37,8 @@
       <program name="hfst-proc -w">
         <file name="tr-tt.automorf.hfst"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -n -1">
         <file name="tr-tt.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tr-tt.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -82,11 +76,8 @@
       <program name="hfst-proc -w">
         <file name="tr-tt.automorf.hfst"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -n -1">
         <file name="tr-tt.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tr-tt.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
@@ -97,11 +88,8 @@
       <program name="hfst-proc -w">
         <file name="tr-tt.automorf.hfst"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -n -1">
         <file name="tr-tt.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tr-tt.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -115,11 +103,8 @@
       <program name="hfst-proc -w">
         <file name="tr-tt.automorf.hfst"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -n -1">
         <file name="tr-tt.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tr-tt.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -137,11 +122,8 @@
       <program name="hfst-proc -w">
         <file name="tr-tt.automorf.hfst"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -n -1">
         <file name="tr-tt.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tr-tt.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -162,11 +144,8 @@
       <program name="hfst-proc -w">
         <file name="tr-tt.automorf.hfst"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -n -1">
         <file name="tr-tt.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tr-tt.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -191,11 +170,8 @@
       <program name="hfst-proc -w">
         <file name="tr-tt.automorf.hfst"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -n -1">
         <file name="tr-tt.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tr-tt.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -226,8 +202,8 @@
       <program name="hfst-proc">
         <file name="tt-tr.automorf.hfst"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tt-tr.prob"/>
+      <program name="cg-proc -w -n -1">
+        <file name="tt-tr.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -256,8 +232,8 @@
       <program name="hfst-proc">
         <file name="tt-tr.automorf.hfst"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tt-tr.prob"/>
+      <program name="cg-proc -w -n -1">
+        <file name="tt-tr.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -294,8 +270,8 @@
       <program name="hfst-proc">
         <file name="tt-tr.automorf.hfst"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tt-tr.prob"/>
+      <program name="cg-proc -w -n -1">
+        <file name="tt-tr.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
@@ -306,8 +282,8 @@
       <program name="hfst-proc">
         <file name="tt-tr.automorf.hfst"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tt-tr.prob"/>
+      <program name="cg-proc -w -n -1">
+        <file name="tt-tr.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -321,8 +297,8 @@
       <program name="hfst-proc">
         <file name="tt-tr.automorf.hfst"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tt-tr.prob"/>
+      <program name="cg-proc -w -n -1">
+        <file name="tt-tr.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -358,8 +334,8 @@
       <program name="hfst-proc">
         <file name="tt-tr.automorf.hfst"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tt-tr.prob"/>
+      <program name="cg-proc -w -n -1">
+        <file name="tt-tr.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">

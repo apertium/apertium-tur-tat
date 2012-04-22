@@ -68,6 +68,9 @@
     <e><p><l>ile<s n="post"/></l><r>белән<s n="post"/></r></p></e>
     <e><p><l>rağmen<s n="post"/></l><r>карамастан<s n="post"/></r></p></e>
 
+    <!-- Раздел: Посленаречия -->
+    <e><p><l>yeterince<s n="adv"/></l><r>гына<s n="postadv"/></r></p></e>
+
     <!-- Раздел: Местоимения -->
 
     <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
@@ -163,7 +166,7 @@
     <e><p><l>güzel<s n="n"/></l><r>әйбәт<s n="adj"/></r></p></e>
     <e><p><l>güzel<s n="adv"/></l><r>әйбәт<s n="adj"/></r></p></e>
     <e><p><l>sıcak<s n="adj"/></l><r>җылы<s n="n"/><s n="attr"/></r></p></e>
-    <e><p><l>soğuk<s n="adj"/></l><r>суык<s n="adj"/></r></p></e>
+    <e><p><l>soğuk<s n="n"/><s n="attr"/></l><r>суык<s n="adj"/></r></p></e>
     <e><p><l>soğuk<s n="n"/></l><r>суык<s n="n"/></r></p></e>
 
     
@@ -222,7 +225,7 @@
     <e><p><l>sakla<s n="v"/></l><r>яшер<s n="v"/></r></p></e>
     <e><p><l>bil<s n="v"/></l><r>бел<s n="v"/></r></p></e>
     <e><p><l>otur<s n="v"/></l><r>утыр<s n="v"/></r></p></e>
-    <e><p><l>gör<s n="v"/></l><r>күр<s n="v"/></r></p></e>
+    <e><p><l>gör<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>say<s n="v"/></l><r>сайла<s n="v"/></r></p></e>
     <e><p><l>bakın<s n="v"/></l><r>карагыз<s n="v"/></r></p></e>
     <e><p><l>git<s n="v"/></l><r>бар<s n="v"/></r></p></e>

@@ -59,7 +59,6 @@ Multichar_Symbols
 %<ins%>       ! Instrumental
 
 %<attr%>      ! Attributive: -{k}{I}
-%<locattr%>   ! Locative attributive: -{D}{A}{k}{I}
 
 %<px1sg%>     ! First person singular possessive
 %<px2sg%>     ! Second person singular possessive
@@ -331,14 +330,14 @@ case2 ;
 
 LEXICON SUBST
 
-: # ;
-: clit-cop ;
+# ;
+clit-cop ;
 %<attr%>: clit-cop ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
 !%<n%>%<attr%>:%>k%{I%} # ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
 !%<n%>%<attr%>:%>k%{I%} NINFL-COMMON ; ! This is the attribute adjective 0 derived into a noun, TRmorph <ki>
 %<loc%>:%>%{D%}%{A%}%{k%}i DAKI ; ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
 %<pl%>:%>l%{A%}r clit ;
-: NINFL-COMMON  ;
+NINFL-COMMON  ;
 
 
 
@@ -991,7 +990,6 @@ dışarı:dışarı N1 ; ! ""
 yaş:yaş N1 ; ! "year"
 yer:yer N1 ; ! ""
 zaman:zaman N1 ; ! ""
-dışarı:dışarı:%{%} N1 ; ! ""
 dün:dün N1 ; ! ""
 ev:ev N1 ; ! ""
 göz:göz N1 ; ! ""
@@ -1008,6 +1006,7 @@ kuş:kuş N1 ; ! ""
 sandalye:sandalye N1 ; ! ""
 ses:ses N1 ; ! ""
 şey:şey N1 ; ! ""
+soğuk:soğu%{k%} N1 ; ! ""
 soğuk:soğu%{k%} N1 ; ! ""
 soru:soru N1 ; ! ""
 masa:masa N1 ; ! ""
