@@ -12,9 +12,18 @@
       <cat-item lemma="de" tags="v.*.gna9"/>
     </def-cat>
 
+    <def-cat n="cont-p3-sg">
+      <cat-item tags="v.*.cont.p3.sg"/>
+    </def-cat>
+
+    <def-cat n="qst-pers">
+      <cat-item tags="qst.*"/>
+    </def-cat>
+
     <def-cat n="pers">
       <cat-item tags="prn.pers.*"/>
     </def-cat>
+
     <def-cat n="ind">
       <cat-item tags="prn.ind"/>
       <cat-item tags="prn.ind.*"/>
@@ -81,6 +90,22 @@
       <attr-item tags="inf"/>
       <attr-item tags="ifi"/>
       <attr-item tags="fut"/>
+    </def-attr>
+
+
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+
+
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="p2.frm"/>
     </def-attr>
 
 
@@ -386,6 +411,43 @@
       </action>
     </rule>
 
+
+
+    <rule comment="REGLA: cont-p3-sg qst-pers">
+      <pattern>
+        <pattern-item n="cont-p3-sg"/>
+        <pattern-item n="qst-pers"/>
+      </pattern>
+      <action>
+        <call-macro n="tense1">
+          <with-param pos="1"/>
+        </call-macro>
+        <let>
+          <clip pos="1" side="tl" part="a_pers"/>
+          <clip pos="2" side="tl" part="a_pers"/>
+        </let>
+        <let>
+          <clip pos="1" side="tl" part="a_nbr"/>
+          <clip pos="2" side="tl" part="a_nbr"/>
+        </let>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <mlu>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <lu>
+                <clip pos="2" side="tl" part="lem"/>
+                <lit-tag v="qst"/>
+              </lu>
+            </mlu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
     <rule comment="REGLA: ">
