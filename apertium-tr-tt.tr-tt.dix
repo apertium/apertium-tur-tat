@@ -16,6 +16,8 @@
     <sdef n="num"  c=""/>
     <sdef n="cnjcoo"  c="Имя существительное"/>
     <sdef n="postadv"  c="Имя существительное"/>
+    <sdef n="qst" />
+
     <sdef n="m"  c=""/>
     <sdef n="pred"  c=""/>
     <sdef n="cop"  c=""/>
@@ -33,10 +35,11 @@
     <sdef n="advl"  c=""/>
     <sdef n="attr"  c=""/>
 
-    <sdef n="itg"  c=""/>
-    <sdef n="loc"  c=""/>
+    <sdef n="nom"  c=""/>
     <sdef n="dat"  c=""/>
+    <sdef n="loc"  c=""/>
 
+    <sdef n="itg"  c=""/>
     <sdef n="ref"  c=""/>
     <sdef n="dem"  c=""/>
     <sdef n="pers"  c=""/>
@@ -49,30 +52,36 @@
     <sdef n="lquot" />
     <sdef n="rquot" />
     <sdef n="cm" />
-    <sdef n="qst" />
-    <sdef n="nom" />
 
   </sdefs>
   <section id="main" type="standard">
+
+    <!-- Раздел: Частицы и разное -->
+
     <e><p><l>i<s n="cop"/></l><r>и<s n="cop"/></r></p></e>
 
     <e><p><l>var<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
     <e><p><l>yok<s n="adj"/></l><r>юк<s n="adj"/></r></p></e>
 
-    <!-- FIXME: review yok!!! -->
     <e><p><l>mi<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
-
 
     <!-- Раздел: Союзы -->
 
     <e><p><l>ve<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
     <e><p><l>da<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+    <e><p><l>fakat<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ya<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
 
     <!-- Раздел: Послелоги -->
+
     <e><p><l>ile<s n="post"/></l><r>белән<s n="post"/></r></p></e>
     <e><p><l>rağmen<s n="post"/></l><r>карамастан<s n="post"/></r></p></e>
 
     <!-- Раздел: Посленаречия -->
+
     <e><p><l>yeterince<s n="adv"/></l><r>гына<s n="postadv"/></r></p></e>
 
     <!-- Раздел: Местоимения -->
@@ -95,10 +104,18 @@
     <e><p><l>öz<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>
     
     <e r="LR"><p><l>ora<s n="prn"/><s n="adv"/></l><r>ул<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
-  
-    
+ 
+     <!-- Раздел: Определения -->
+
+    <e><p><l>bir<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>bu<s n="det"/><s n="dem"/></l><r>бу<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>şu<s n="det"/><s n="dem"/></l><r>шул<s n="det"/><s n="dem"/></r></p></e>
+    <e><p><l>hiçbir<s n="det"/><s n="ind"/></l><r>һичбер<s n="det"/><s n="ind"/></r></p></e> 
+    <e><p><l>her<s n="det"/></l><r>бөтен<s n="det"/></r></p></e>
+    <e><p><l>başka<s n="det"/><s n="ind"/></l><r>бүтән<s n="det"/><s n="ind"/></r></p></e>  
 
     <!-- Раздел: Числителные -->
+
     <e><p><l>bir<s n="num"/></l><r>бер<s n="num"/></r></p></e>
     <e><p><l>iki<s n="num"/></l><r>ике<s n="num"/></r></p></e>
     <e><p><l>üç<s n="num"/></l><r>өч<s n="num"/></r></p></e>
@@ -110,13 +127,6 @@
     <e><p><l>dokuz<s n="num"/></l><r>тугыз<s n="num"/></r></p></e>
     <e><p><l>on<s n="num"/></l><r>ун<s n="num"/></r></p></e>
     <e><p><l>sıfır<s n="num"/></l><r>ноль<s n="num"/></r></p></e>
-    
-     <!-- Раздел: Определения -->
-
-    <e><p><l>bir<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
-    <e><p><l>bu<s n="det"/><s n="dem"/></l><r>бу<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>şu<s n="det"/><s n="dem"/></l><r>шул<s n="det"/><s n="dem"/></r></p></e>
-    <e><p><l>hiçbir<s n="det"/><s n="ind"/></l><r>һичбер<s n="det"/><s n="ind"/></r></p></e> 
 
     <!-- Раздел: Имя Существительное -->
 
@@ -157,28 +167,21 @@
     <e><p><l>insan<s n="n"/></l><r>кеше<s n="n"/></r></p></e>
     <e><p><l>oyun<s n="n"/></l><r>уен<s n="n"/></r></p></e>
     <e><p><l>göz<s n="n"/></l><r>күз<s n="n"/></r></p></e>
+    <e><p><l>soğuk<s n="n"/></l><r>суык<s n="n"/></r></p></e>
+    <e><p><l>iç<s n="n"/></l><r>эч<s n="n"/></r></p></e>
     
+    <!-- Раздел: Имя собственное -->
+
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Ayşe<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
-    <e><p><l>bugün<s n="n"/></l><r>бүген<s n="adv"/></r></p></e>
-	 <!-- FIXME: bugün is a n and adv; here it should be adv -->
-    <e><p><l>çok<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
-	 <!-- FIXME: çok is adv here -->
-    <e><p><l>fakat<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
-    <e><p><l>fakat<s n="adv"/></l><r>тик<s n="adv"/></r></p></e>
-	 <!-- FIXME: fakat is adv also -->
-    <e><p><l>dün<s n="n"/></l><r>кичә<s n="adv"/></r></p></e>
-	 <!-- FIXME: dün is adv and n; here it should be adv-->
+    <!-- Раздел: Прилагательные -->
 
     <e><p><l>güzel<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e>
-    <e><p><l>güzel<s n="n"/></l><r>әйбәт<s n="adj"/></r></p></e>
-    <e><p><l>güzel<s n="adv"/></l><r>әйбәт<s n="adj"/></r></p></e>
+    <e><p><l>güzel<s n="n"/><s n="attr"/></l><r>әйбәт<s n="adj"/></r></p></e>
     <e><p><l>sıcak<s n="adj"/></l><r>җылы<s n="n"/><s n="attr"/></r></p></e>
     <e><p><l>sıcak<s n="adj"/><s n="subst"/></l><r>җылы<s n="n"/></r></p></e>
     <e><p><l>soğuk<s n="n"/><s n="attr"/></l><r>суык<s n="adj"/></r></p></e>
-    <e><p><l>soğuk<s n="n"/></l><r>суык<s n="n"/></r></p></e>
-
     
     <e><p><l>küçük<s n="adj"/></l><r>борчак<b/>кадәр<s n="adj"/></r></p></e>
     <e><p><l>küçük<s n="adj"/></l><r>бәләкәй<s n="adj"/></r></p></e>
@@ -194,10 +197,12 @@
     <e><p><l>eski<s n="adj"/></l><r>иске<s n="adj"/></r></p></e>  
     <e><p><l>büyük<s n="adj"/></l><r>бөек<s n="adj"/></r></p></e>    
     <e><p><l>yakın<s n="adj"/></l><r>якын<s n="adj"/></r></p></e>    
-     
     <e><p><l>ulu<s n="adj"/></l><r>олы<s n="adj"/></r></p></e>  
-    <e><p><l>başka<s n="det"/><s n="ind"/></l><r>бүтән<s n="det"/><s n="ind"/></r></p></e>  
+    <e><p><l>seri<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e>
 
+    <!-- Раздел: Наречия -->
+    
+    <e><p><l>fakat<s n="adv"/></l><r>тик<s n="adv"/></r></p></e>
     <e><p><l>iyi<s n="adv"/></l><r>яхшы<s n="adj"/><s n="advl"/></r></p></e>  
     <e><p><l>iyi<s n="adv"/><s n="attr"/></l><r>яхшы<s n="adj"/></r></p></e>  
     <e><p><l>hâlâ<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e>  
@@ -212,19 +217,9 @@
     <e><p><l>birlikte<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <!--<e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>-->
     <e><p><l>çabukça<s n="adv"/></l><r>тиз<s n="adj"/><s n="advl"/></r></p></e>
-    <e><p><l>seri<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e>
-    <e><p><l>iç<s n="n"/></l><r>эч<s n="n"/></r></p></e>
-    <e><p><l>altın<s n="n"/><s n="dat"/></l><r>астына<s n="post"/></r></p></e>
-    <!-- FIXME: review which part of speech is it-->
-    <e><p><l>arka<s n="n"/></l><r>арка<s n="n"/></r></p></e>
-    <!-- FIXME: review which part of speech is it-->
-    <e><p><l>tabii<b/>ki<s n="ij"/></l><r>әлбәттә<s n="adv"/></r></p></e>
-    <!-- FIXME: may be әлбәттә инде-->
-    
-    <e><p><l>hayır<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
-    
+    <e><p><l>güzel<s n="adv"/></l><r>әйбәт<s n="adj"/><s n="advl"/></r></p></e>
 
-
+    <!-- Раздел: Глаголы -->
 
     <e><p><l>ol<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>oyna<s n="v"/><s n="tv"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
@@ -267,19 +262,12 @@
     <e><p><l>yap<s n="v"/></l><r>эшлә<s n="v"/></r></p></e>
     <e><p><l>konuş<s n="v"/></l><r>сөйләш<s n="v"/></r></p></e>
     <e><p><l>bit<s n="v"/><s n="iv"/></l><r>бетер<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: tv/iv -->
-      
-      
-      
-    <e><p><l>ya<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
-    <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
-    <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
-    <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
 
-
-    <e><p><l>her<s n="det"/></l><r>бөтен<s n="det"/></r></p></e>
+    <!-- Раздел: -->    
     
-    
+    <e><p><l>hayır<s n="ij"/></l><r>юк<s n="ij"/></r></p></e>
 	 
+    <!-- Раздел: Пунктуация -->    
 
     <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
     <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
@@ -297,7 +285,21 @@
     <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 
     <e c=""><re>%?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
-
+ 
+    <!-- Раздел: FIXME -->      
+      
+    <e><p><l>bugün<s n="n"/></l><r>бүген<s n="adv"/></r></p></e>
+	 <!-- FIXME: bugün is a n and adv; here it should be adv -->
+    <e><p><l>çok<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
+	 <!-- FIXME: çok is adv here -->
+    <e><p><l>dün<s n="n"/></l><r>кичә<s n="adv"/></r></p></e>
+	 <!-- FIXME: dün is adv and n; here it should be adv-->
+    <e><p><l>altın<s n="n"/><s n="dat"/></l><r>астына<s n="post"/></r></p></e>
+    <!-- FIXME: review which part of speech is it-->
+    <e><p><l>arka<s n="n"/></l><r>арка<s n="n"/></r></p></e>
+    <!-- FIXME: review which part of speech is it-->
+    <e><p><l>tabii<b/>ki<s n="ij"/></l><r>әлбәттә<s n="adv"/></r></p></e>
+    <!-- FIXME: may be әлбәттә инде-->
 
   </section>
 </dictionary>
