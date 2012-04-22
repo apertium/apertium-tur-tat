@@ -209,7 +209,6 @@
     <!--<e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>-->
     <e><p><l>çabukça<s n="adv"/></l><r>тиз<s n="adj"/><s n="advl"/></r></p></e>
     <e><p><l>seri<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e>
-    <e><p><l>içinde<s n="post"/></l><r>өчендә<s n="adv"/></r></p></e>
     <e><p><l>iç<s n="n"/></l><r>өч<s n="n"/></r></p></e>
     <e><p><l>altın<s n="n"/><s n="dat"/></l><r>астына<s n="post"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
@@ -252,7 +251,7 @@
     <e><p><l>ara<s n="v"/></l><r>эзлә<s n="v"/></r></p></e>
     <e><p><l>bil<s n="v"/></l><r>бел<s n="v"/></r></p></e>
     <e><p><l>sor<s n="v"/></l><r>сора<s n="v"/></r></p></e>
-    <e><p><l>de<s n="v"/></l><r>әйт<s n="v"/></r></p></e>
+    <e><p><l>de<s n="v"/></l><r>ди<s n="v"/></r></p></e>
     <e><p><l>bul<s n="v"/></l><r>тап<s n="v"/></r></p></e>
     <e><p><l>çalış<s n="v"/><s n="iv"/></l><r>эшлә<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv -->
     <e><p><l>dinle<s n="v"/></l><r>тыңла<s n="v"/></r></p></e>

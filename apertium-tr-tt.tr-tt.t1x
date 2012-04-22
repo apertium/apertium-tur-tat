@@ -8,6 +8,10 @@
     <def-cat n="v">
       <cat-item tags="v.*"/>
     </def-cat>
+    <def-cat n="quot">
+      <cat-item lemma="de" tags="v.*.gna9"/>
+    </def-cat>
+
     <def-cat n="pers">
       <cat-item tags="prn.pers.*"/>
     </def-cat>
@@ -101,6 +105,12 @@
       <attr-item tags="abl"/>
     </def-attr>
 
+    <def-attr n="a_nonfin">
+      <attr-item tags="gna9"/>
+      <attr-item tags="gna2"/>
+      <attr-item tags="prc2"/> 
+    </def-attr>
+       
     <def-attr n="trans">
       <attr-item tags="tv"/>
       <attr-item tags="iv"/>
@@ -312,6 +322,28 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: quot">
+      <pattern>
+        <pattern-item n="quot"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="a_nonfin"/>
+          <lit-tag v="prc2"/> <!-- should be gna2 -->
+        </let>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: v.abil → v bil-"> 
       <pattern>
         <pattern-item n="abil"/>
@@ -353,6 +385,8 @@
         </out>
       </action>
     </rule>
+
+
 
     <rule comment="REGLA: ">
       <pattern>

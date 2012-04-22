@@ -67,7 +67,7 @@ Multichar_Symbols
 
 !! some additional ~cases
 %<locattr%>    ! Relativised locative=Locative attribute=Местно-временной2 !# DAGI !! FIXME:Not needed anymore, bcs we switched to <loc><attr>
-%<sim%>        ! Similative !# DAй (-дай/-дәй, -тай, -тәй) FIXME: here it is something else, used with <num>
+%<sim%>        ! Similative !# DAй (-дай/-дәй, -тай, -тәй)
 !лишительный   !# -сыз/-сез !! not used after posessives
 !обладательный !# -лы/-ле   !! not used after posessives
 
@@ -89,6 +89,7 @@ Multichar_Symbols
 
 ! Numeral types
 %<ord%>            ! Ordinal
+%<part%>           ! Partitive !# берәр, икешәр
 
 ! Tense, aspect, mood
 %<imp%>            ! Imperative
@@ -250,8 +251,7 @@ LEXICON NUMLEX
 %<num%>: # ;
 %<num%>%<subst%>: SUBST ;
 %<num%>%<ord%>:%>%{I%}нч%{I%} SUBST ;
-%<num%>%<sim%>:%>%{A%}р SUBST ;
-
+%<num%>%<part%>:%>%{A%}р SUBST ;
 
 LEXICON NPCOGMLEX
 
@@ -753,6 +753,7 @@ LEXICON Nouns
 яшь:яшь NLEX ; ! ""
 яшь:яшь NLEX ; ! ""
 тыш:тыш NLEX ; ! ""
+өч:өч NLEX ; ! "" ! FIXME: Check
 
 LEXICON ProperNouns
 
@@ -831,6 +832,7 @@ LEXICON Verbs
 ярат:ярат V-TV-IR-LEX ; ! ""
 күзәт:күзәт V-TV-IR-LEX ; ! ""
 бир:бир V-TV-IR-LEX ; ! ""
+ди:ди V-TV-IR-LEX ; ! ""
 йөгер:йөгер V-IV-IR-LEX ; ! ""
 аша:аша V-TV-IR-LEX ; ! ""
 кит:кит V-IV-AR-LEX ; ! ""
@@ -882,6 +884,8 @@ LEXICON Verbs
 бул:бул V-IV-IR-LEX ; ! ""
 яшер:яшер V-TV-IR-LEX ; ! ""
 сөйләш:сөйләш V-IV-IR-LEX ; ! "" ! FIXME: Check
+карагыз:карагыз V-TV-AR-LEX ; ! "" ! FIXME: Check
+йөрегез:йөрегез V-IV-IR-LEX ; ! "" ! FIXME: Check
 
 LEXICON Interjections
 
