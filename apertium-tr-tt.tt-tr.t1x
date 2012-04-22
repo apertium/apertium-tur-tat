@@ -2,8 +2,17 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="cop">
+      <cat-item tags="cop.*"/>
+    </def-cat>
+
     <def-cat n="v">
       <cat-item tags="v.*"/>
+    </def-cat>
+
+    <def-cat n="attr">
+      <cat-item tags="adj"/>
+      <cat-item tags="n.attr"/>
     </def-cat>
 
     <def-cat n="nom">
@@ -289,7 +298,32 @@
       </action>
     </rule>
 
-
+    <rule comment="REGLA: attr + cop ">
+      <pattern>
+        <pattern-item n="attr"/>
+        <pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <call-macro n="tense1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="attr" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <mlu>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </mlu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
     <rule comment="REGLA: SENT">
       <pattern>
         <pattern-item n="sent"/>
