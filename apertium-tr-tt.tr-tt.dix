@@ -68,6 +68,7 @@
     <!-- Раздел: Союзы -->
 
     <e><p><l>ve<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ama<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>da<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
     <e><p><l>fakat<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>ya<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
@@ -169,6 +170,11 @@
     <e><p><l>göz<s n="n"/></l><r>күз<s n="n"/></r></p></e>
     <e><p><l>soğuk<s n="n"/></l><r>суык<s n="n"/></r></p></e>
     <e><p><l>iç<s n="n"/></l><r>эч<s n="n"/></r></p></e>
+    <e><p><l>kova<s n="n"/></l><r>чиләк<s n="n"/></r></p></e>
+    <e><p><l>bira<s n="n"/></l><r>пиво<s n="n"/></r></p></e>
+    <e><p><l>bira<s n="n"/></l><r>сыра<s n="n"/></r></p></e>
+
+    <e><p><l>yarın<s n="n"/></l><r>иртәгә<s n="adv"/></r></p></e> <!-- FIXME: Check -->
     
     <!-- Раздел: Имя собственное -->
 
