@@ -244,7 +244,7 @@
     <e><p><l>al<s n="v"/><s n="iv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv-->
     <e><p><l>al<s n="v"/><s n="tv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>düşün<s n="v"/></l><r>уйла<s n="v"/></r></p></e>
-    <e><p><l>ver<s n="v"/><s n="iv"/></l><r>бир<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv -->
+    <e><p><l>ver<s n="v"/><s n="tv"/></l><r>бир<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv -->
     <e><p><l>iste<s n="v"/></l><r>телә<s n="v"/></r></p></e>
     <e><p><l>gezin<s n="v"/></l><r>йөрегез<s n="v"/></r></p></e>
     <e><p><l>duy<s n="v"/></l><r>ишет<s n="v"/></r></p></e>
@@ -264,7 +264,7 @@
     <e><p><l>gel<s n="v"/></l><r>кил<s n="v"/></r></p></e>
     <e><p><l>iç<s n="v"/></l><r>эч<s n="v"/></r></p></e>
     <e><p><l>söyle<s n="v"/></l><r>әйт<s n="v"/></r></p></e>
-    <e><p><l>uy<s n="v"/></l><r>йокла<s n="v"/></r></p></e>
+    <e><p><l>uyu<s n="v"/></l><r>йокла<s n="v"/></r></p></e>
     <e><p><l>yap<s n="v"/></l><r>эшлә<s n="v"/></r></p></e>
     <e><p><l>konuş<s n="v"/></l><r>сөйләш<s n="v"/></r></p></e>
     <e><p><l>bit<s n="v"/><s n="iv"/></l><r>бетер<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: tv/iv -->

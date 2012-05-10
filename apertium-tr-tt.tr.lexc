@@ -1209,6 +1209,7 @@ gül:gül VIVINFL-CAUS_DIR-AOR_AR ; ! "laugh"
 iç:iç VTVINFL-CAUS_DIR-AOR_AR ; ! "drink"
 iste:iste VTVINFL-CAUS_T-AOR_IR ; ! "want"
 bakın:bakın VTVINFL-CAUS_T-AOR_IR ; ! "??"
+uyu:uyu VIVINFL-CAUS_T-AOR_IR  ; ! "sleep"
 
 LEXICON Interjections
 
