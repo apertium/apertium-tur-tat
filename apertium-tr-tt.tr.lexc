@@ -1183,6 +1183,7 @@ sev:sev VTVINFL-CAUS_DIR-AOR_AR  ; ! "love"
 seyret:seyre%{t%} VTVINFL-CAUS_DIR-AOR_AR  ; ! "watch"
 sor:sor VTVINFL-CAUS_DIR-AOR_AR  ; ! "ask"
 söyle:söyle VTVINFL-CAUS_T-AOR_IR  ; ! "tell"
+uyu:uyu VIVINFL-CAUS_T-AOR_IR  ; ! "sleep"
 var:var VIVINFL-CAUS_DIR-AOR_IR  ; ! "arrive"
 ver:ver VTVINFL-CAUS_DIR-AOR_IR  ; ! "give up"
 ye:ye VTVINFL-CAUS_DIR-AOR_IR  ; ! "ear"
@@ -1209,7 +1210,6 @@ gül:gül VIVINFL-CAUS_DIR-AOR_AR ; ! "laugh"
 iç:iç VTVINFL-CAUS_DIR-AOR_AR ; ! "drink"
 iste:iste VTVINFL-CAUS_T-AOR_IR ; ! "want"
 bakın:bakın VTVINFL-CAUS_T-AOR_IR ; ! "??"
-uyu:uyu VIVINFL-CAUS_T-AOR_IR  ; ! "sleep"
 
 LEXICON Interjections
 
