@@ -239,7 +239,7 @@
     <e><p><l>otur<s n="v"/></l><r>утыр<s n="v"/></r></p></e>
     <e><p><l>gör<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>say<s n="v"/></l><r>сайла<s n="v"/></r></p></e>
-    <e><p><l>bakın<s n="v"/></l><r>карагыз<s n="v"/></r></p></e>
+    <e><p><l>bakın<s n="v"/></l><r>каран<s n="v"/></r></p></e>
     <e><p><l>git<s n="v"/></l><r>бар<s n="v"/></r></p></e>
     <e><p><l>al<s n="v"/><s n="iv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv-->
     <e><p><l>al<s n="v"/><s n="tv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
@@ -263,7 +263,7 @@
     <e><p><l>görün<s n="v"/><s n="iv"/></l><r>күр<s n="v"/><s n="tv"/><s n="pass"/></r></p></e>
     <e><p><l>gel<s n="v"/></l><r>кил<s n="v"/></r></p></e>
     <e><p><l>iç<s n="v"/></l><r>эч<s n="v"/></r></p></e>
-    <e><p><l>söyle<s n="v"/></l><r>әйт<s n="v"/></r></p></e>
+    <e><p><l>söyle<s n="v"/><s n="tv"/></l><r>әйт<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>uyu<s n="v"/></l><r>йокла<s n="v"/></r></p></e>
     <e><p><l>yap<s n="v"/></l><r>эшлә<s n="v"/></r></p></e>
     <e><p><l>konuş<s n="v"/></l><r>сөйләш<s n="v"/></r></p></e>
