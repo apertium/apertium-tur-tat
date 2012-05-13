@@ -793,6 +793,7 @@ PRN-PERS ;
 нәрсә:нәрсә PRNITGLEX ; ! "what"
 кем:кем PRNITGLEX ; ! ""
 
+
 бу: PRNDEM-BU ; ! ""
 шул: PRNDEM-ŠUL ; ! ""
 ул: PRNDEM-UL ; ! ""
@@ -801,6 +802,7 @@ PRN-PERS ;
                                !TODO:maybe it is possible to link all PRNDEMs to one Continuation class?
 
 һичнәрсә:һичнәрсә PRNNEG ; ! ""
+бернәрсә:бернәрсә PRNNEG ; ! ""
 
 үз:үз PRNREFLEX ; ! ""
 
