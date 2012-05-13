@@ -910,6 +910,7 @@ LEXICON Nouns
 мизгел:мизгел NLEX ; ! "" 
 песи:песи NLEX ; ! "cat"
 пиво:пиво NLEX ; ! ""
+сеңел:сеңел NLEX ; ! "" ! Dir/LR
 сеңел:сең%{е%}л%{е%} NLEX ; ! ""
 сорау:сорау NLEX ; ! ""
 су:су NLEX ; ! "" 
@@ -999,7 +1000,7 @@ LEXICON Verbs
 аша:аша V-TV-IR-LEX ; ! ""
 бар:бар V-IV-IR-LEX ; ! ""
 бел:бел V-TV-IR-LEX ; ! ""
-бетер:бетер V-TV-IR-LEX ; ! ""
+бетер:бетер V-TV-IR-LEX ; ! "" ! FIXME: causative
 бир:бир V-TV-IR-LEX ; ! ""
 бул:бул V-IV-IR-LEX ; ! ""
 ди:ди V-TV-IR-LEX ; ! ""
@@ -1052,6 +1053,7 @@ LEXICON Verbs
 яшер:яшер V-TV-IR-LEX ; ! ""
 әйт:әйт V-TV-IR-LEX ; ! ""
 ал:ал VAUX ; ! ""
+бетер:бетер VAUX ; ! "" ! FIXME:causative
 бир:бир VAUX ; ! ""
 бул:бул VAUX ; ! ""
 кит:кит VAUX ; ! ""
