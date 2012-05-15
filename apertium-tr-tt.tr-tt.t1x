@@ -5,6 +5,9 @@
     <def-cat n="abil">
       <cat-item tags="v.*.abil.*"/>
     </def-cat>
+    <def-cat n="oblig">
+      <cat-item tags="v.*.oblig.*"/>
+    </def-cat>
     <def-cat n="v">
       <cat-item tags="v.*"/>
     </def-cat>
@@ -167,6 +170,18 @@
     <def-var n="postposition"/>
   </section-def-vars>
   <section-def-macros>
+    <def-macro n="oblig1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="oblig"/><lit-tag v="oblig"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="oblig"/><concat><lit v="^"/><lit-tag v="ger6"/><lit v=" белән$"/></concat></let>
+        </when>
+
+      </choose>
+    </def-macro>
+    
     <def-macro n="tense1" npar="1">
       <choose>
         <when>
@@ -222,6 +237,7 @@
         </when>
       </choose>
       
+         
       <choose> <!-- Convert ger2 to inf -->
         <when>
           <test>
@@ -423,6 +439,31 @@
             <lu>
               <lit v="ал"/>
               <clip pos="1" side="tl" part="tags"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+     <rule comment="REGLA: v.oblig → v+тиеш"> 
+      <pattern>
+        <pattern-item n="oblig"/>
+      </pattern>
+      <action>
+        <call-macro n="oblig1">
+          <with-param pos="1"/>
+        </call-macro>
+        <let>
+          <clip pos="1" side="tl" part="oblig"/>
+        </let>
+   
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+               <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
