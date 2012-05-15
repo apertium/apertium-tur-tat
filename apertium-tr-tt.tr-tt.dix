@@ -248,8 +248,8 @@
     <e><p><l>düşün<s n="v"/></l><r>уйла<s n="v"/></r></p></e>
     <e><p><l>ver<s n="v"/><s n="tv"/></l><r>бир<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv -->
     <e><p><l>iste<s n="v"/></l><r>телә<s n="v"/></r></p></e>
-    <e><p><l>gezin<s n="v"/></l><r>йөрегез<s n="v"/></r></p></e>
-    <e><p><l>duy<s n="v"/></l><r>ишет<s n="v"/></r></p></e>
+    <e><p><l>gezin<s n="v"/><s n="iv"/></l><r>биләмдә<b/>йөр<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>duy<s n="v"/><s n="iv"/></l><r>ишет<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>git<s n="v"/></l><r>кит<s n="v"/></r></p></e>
     <e><p><l>gül<s n="v"/></l><r>көл<s n="v"/></r></p></e>
     <e><p><l>ye<s n="v"/></l><r>аша<s n="v"/></r></p></e>
