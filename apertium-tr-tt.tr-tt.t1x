@@ -170,17 +170,6 @@
     <def-var n="postposition"/>
   </section-def-vars>
   <section-def-macros>
-    <def-macro n="oblig1" npar="1">
-      <choose>
-        <when>
-          <test>
-            <equal><clip pos="1" side="sl" part="oblig"/><lit-tag v="oblig"/></equal>
-          </test>
-          <let><clip pos="1" side="tl" part="oblig"/><concat><lit v="^"/><lit-tag v="ger6"/><lit v=" белән$"/></concat></let>
-        </when>
-
-      </choose>
-    </def-macro>
     
     <def-macro n="tense1" npar="1">
       <choose>
@@ -445,26 +434,36 @@
       </action>
     </rule>
     
-     <rule comment="REGLA: v.oblig → v+тиеш"> 
+    <rule comment="regla: v+oblig  → v+тиеш">
       <pattern>
         <pattern-item n="oblig"/>
       </pattern>
       <action>
-        <call-macro n="oblig1">
-          <with-param pos="1"/>
-        </call-macro>
+        <let>
+          <clip pos="1" side="tl" part="a_pers"/>
+          <lit v=""/>
+        </let>
+        <let>
+          <clip pos="1" side="tl" part="a_nbr"/>
+          <lit v=""/>
+        </let>
         <let>
           <clip pos="1" side="tl" part="oblig"/>
+          <lit v="inf"/>
         </let>
-   
         <out>
-          <chunk name="v" case="caseFirstWord">
+         <chunk name="v" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
             </tags>
-            <lu>
-               <clip pos="1" side="tl" part="whole"/>
-            </lu>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+            <lit v="тиеш"/>
+            <lit-tag v="adj"/>
+          </lu>
           </chunk>
         </out>
       </action>
