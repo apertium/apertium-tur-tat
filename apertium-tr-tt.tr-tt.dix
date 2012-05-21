@@ -7,6 +7,7 @@
     <sdef n="cnjadv"  c="Имя существительное"/>
     <sdef n="det"  c="Имя существительное"/>
     <sdef n="adj"  c="Имя существительное"/>
+    <sdef n="neg"  c="юклык"/>
     <sdef n="prn"  c="Имя существительное"/>
     <sdef n="qnt"  c="Имя существительное"/>
     <sdef n="v"  c="Имя существительное"/>
@@ -102,7 +103,7 @@
     <e><p><l>siz<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>onlar<s n="prn"/><s n="pers"/></l><r>алар<s n="prn"/><s n="pers"/></r></p></e>
     
-    <e><p><l>hiçbir şey<s n="prn"/><s n="ind"/></l><r>бернәрсә<s n="prn"/></r></p></e>
+    <e><p><l>hiçbir şey<s n="prn"/><s n="ind"/></l><r>бернәрсә<s n="prn"/><s n="neg"/></r></p></e>
 
     <e><p><l>öz<s n="prn"/><s n="ref"/></l><r>үз<s n="prn"/><s n="ref"/></r></p></e>
     
