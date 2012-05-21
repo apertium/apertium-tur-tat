@@ -158,6 +158,7 @@
        
     <def-attr n="deriv">
       <attr-item tags="abil"/>
+      <attr-item tags="oblig"/>
       <attr-item tags="pass"/>
       <attr-item tags="caus"/>
     </def-attr>
@@ -448,8 +449,8 @@
           <lit v=""/>
         </let>
         <let>
-          <clip pos="1" side="tl" part="oblig"/>
-          <lit v="inf"/>
+          <clip pos="1" side="tl" part="deriv"/>
+          <lit-tag v="inf"/>
         </let>
         <out>
          <chunk name="v" case="caseFirstWord">
@@ -458,6 +459,7 @@
             </tags>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
+            
           </lu>
           <b/>
           <lu>
