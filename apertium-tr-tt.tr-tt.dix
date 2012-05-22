@@ -100,6 +100,10 @@
     <e><p><l>sen<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>o<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>o<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>
+    
+
+    
+    
     <e><p><l>biz<s n="prn"/><s n="pers"/></l><r>без<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>siz<s n="prn"/><s n="pers"/></l><r>сез<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>onlar<s n="prn"/><s n="pers"/></l><r>алар<s n="prn"/><s n="pers"/></r></p></e>
@@ -177,6 +181,7 @@
     <e><p><l>kova<s n="n"/></l><r>чиләк<s n="n"/></r></p></e>
     <e><p><l>bira<s n="n"/></l><r>пиво<s n="n"/></r></p></e>
     <e><p><l>bira<s n="n"/></l><r>сыра<s n="n"/></r></p></e>
+    <e><p><l>küçük<b/>kız<s n="n"/></l><r>кызыкай<s n="n"/></r></p></e>
 
     <e><p><l>yarın<s n="n"/></l><r>иртәгә<s n="adv"/></r></p></e> <!-- FIXME: Check -->
     
@@ -207,6 +212,7 @@
     <e><p><l>var<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
     <e><p><l>eski<s n="adj"/></l><r>иске<s n="adj"/></r></p></e>  
     <e><p><l>büyük<s n="adj"/></l><r>бөек<s n="adj"/></r></p></e>    
+    <e><p><l>büyük<s n="adj"/></l><r>зур<s n="adj"/></r></p></e>    
     <e><p><l>yakın<s n="adj"/></l><r>якын<s n="adj"/></r></p></e>    
     <e><p><l>ulu<s n="adj"/></l><r>олы<s n="adj"/></r></p></e>  
     <e><p><l>seri<s n="adj"/></l><r>тиз<s n="adj"/></r></p></e>
