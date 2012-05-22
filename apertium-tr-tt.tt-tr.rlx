@@ -6,11 +6,15 @@ SETS
 LIST BOS = (>>>) ;
 LIST EOS = (<<<) ;
 
+# Parts of speech
+# ---------------
+
 LIST A = adj ;
 LIST Adv = adv ;
 LIST Pron = prn ; 
 LIST N = n ; 
 LIST V = v ;
+LIST Vaux = vaux ;
 LIST Det = det ; 
 LIST CC = cnjcoo ;
 LIST CS = cnjsub ;
@@ -20,20 +24,44 @@ LIST Post = post ;
 LIST Postadv = postadv ; 
 LIST Cm = cm ; 
 
-LIST Pred = pred ;
-LIST Attr = attr ;
+# POS sub-categories
+# ------------------
 
+LIST Pers = pers ;
 LIST Interr = itg ;
 
+# "Syntactic" tags
+# ----------------
+
+LIST Advl = advl ;
+LIST Pred = pred ;
+LIST Attr = attr ;
+LIST Subst = subst ;
+
+# Morphosyntactic properties
+# --------------------------
+
+LIST Sg = sg ;
+LIST Pl = pl ;
+
+# Verbal Properties 
+# -----------------
+
+LIST Pres = pres ;
+LIST Prc = prc_impf prc2 ;
+LIST Prc-Impf = prc_impf ;
 LIST Inf = inf ;
+LIST Ger6 = ger6 ;
 
 # Semantic lists 
+# --------------
 
 LIST MOVEMENT-V = "йөгер" ; 
 
 LIST MOVEMENT-ADV = "тиз" "акрын" "әкрен" ; 
 
 # All possible word categories
+# ----------------------------
 
 SET WORD = N | V | A | Post | Postadv | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 
@@ -50,6 +78,7 @@ SET ADJ-MOD = Postadv | Adv ;
 SET NPMARK = N-MOD | ADJ-MOD ;
 
 # Categories which cannot be part of a noun phrase 
+# ------------------------------------------------
 
 SET NPNH = WORDMARK - PRE-N ;
 SET NPNHA = WORDMARK - PRE-N - Adv ;
@@ -57,6 +86,7 @@ SET NOT-ADV = WORDMARK - Adv ;
 
 
 # Barriers 
+# --------
 
 SET S-BOUNDARY = CS | Interr | EOS; 
 
@@ -65,15 +95,32 @@ SECTION
 SELECT Adv IF (0 MOVEMENT-ADV) (0 A OR Adv) (1* MOVEMENT-V BARRIER S-BOUNDARY);
 SELECT A IF (0 A OR Adv) (1* N BARRIER NPNHA); 
 SELECT Det IF (-1C A) (1 N); 
-    ## Әхмәт тиз генә иске зур бер агачка йөгерә.
-    ## Әхмәт акрын гына иске зур бер агачка йөгерә.
+    #! Әхмәт тиз генә иске зур бер агачка йөгерә.
+    #! Әхмәт акрын гына иске зур бер агачка йөгерә.
 
 SELECT Det IF (0 V OR Det OR Pred OR N) (1* NPMARK BARRIER N) ;
-    ## пример : Бар<det> җирдән карый, әмма Әхмәтне таба алмый.
-    ## Акча бармы? Бар<pred>.
-    ## Акча бармы? Бар<pred>, ләкин бик аз!
+    # FIXME: we don't have (or we won't have) "predicative words" in the
+    # Root Lexicon anymore (they are tagged as adjectives), so, the rule
+    # above should be modified a bit
+    #! пример : Бар<det> җирдән карый, әмма Әхмәтне таба алмый.
+    #! Акча бармы? Бар<pred>.
+    #! Акча бармы? Бар<pred>, ләкин бик аз!
+
+# Nouns 
+# -----
 
 REMOVE Attr IF (NOT 1 N); 
 
-SELECT Inf IF (1 ("ярат"));
-    ## Әхмәт һәм Гөлнара уйнарга яраталар
+# Verbs 
+# -----
+
+REMOVE Prc IF (NOT 1C V OR Vaux);
+
+SELECT Pres IF (0 Pres OR Prc-Impf) (-1C V);
+    #! Эт бу ике бала белән уйнарга ^ярата/ярат<v><tv><prc_impf>/ярат<v><tv><pres><p3><sg>$.
+
+###################   TEMPORARY HACKS TO GET THE STORY TRANSLATED   ####################
+###################   SOME SHOULD BE REWRITTEN LATER                ####################
+
+SELECT Inf IF (0 Inf OR Ger6) (1 ("ярат"));
+    #! Әхмәт һәм Гөлнара ^уйнарга/уйна<v><tv><ger6><dat>/уйна<v><tv><inf>$ яраталар.

@@ -8,7 +8,7 @@ Alphabet
 
  %{L%}:л %{G%}:г %{D%}:д %{K%}:к
 
- %{s%}:с %{j%}:0 %{w%}:0 %{n%}:0 %{l%}:л %{ъ%}:0 %{т%}:0 %{д%}:0
+ %{s%}:с %{j%}:0 %{w%}:0 %{n%}:0 %{l%}:л %{ъ%}:0 %{т%}:0 %{д%}:0 %{е%}:ы
 
  %>:0 %  ; 
 
@@ -68,16 +68,45 @@ Rules
             except
                                                      %{n%}: %>: н:0 _ .#. ;
 
+"Epenthetic {e} Vowel Harmony"
+%{е%}:е <=> [ :FrontVow :Cns* :Cns ]/[ %>: | %  | [ :0 - %{ъ%}: ] ] _ ;
+            _ %>: %{s%}: ;
+            except
+                              _ :Cns %>: :0* :Vow ;
+                              _ :Cns %>: %{s%}: ;
+                              _ :Cns %{е%}: %>: %{s%}: ;
+                              _ :Cns %{е%}: %>: %{I%}: ;
+                              _ .#. ;
+                              _ %>: [ ? - %{s%}: ] ;
+
+
+"Epenthetic {е} Deletion"
+%{е%}:0 <=> _ :Cns %>: :0* :Vow ;         ! ур{e}н>{s}{I}{n}:урны
+            _ :Cns %>: %{s%}: ;           ! ур{e}н>{s}{I}{n}>{D}{A}н:урнынан
+            _ :Cns %{е%}: %>: %{s%}: ;    ! сең{е}л{е}>{s}{I}{n}:сеңлесе
+            _ :Cns %{е%}: %>: %{I%}: ;    ! сең{е}л{е}>{I}м:сеңлем
+            _ .#. ;                       ! сең{е}л{е}:сеңел
+            _ %>: [ ? - %{s%}:] ;         ! сең{е}л{е}>{G}{A}:сеңелгә
+        except
+            _ %>: %{s%}: ;
+
 "Plural alternation after nasal"
 %{L%}:н <=> :NasalCns/[ %>: | :0 ] _ %{A%}: р ; 
 
 "Deletion of {s} after a consonant"
 %{s%}:0 <=> [ :Cns | %{j%}:0 | %{w%}:0 ]/[ %>: | :0 ] _ ;
 !               [ ю: | у: | ү: | %{U%}: ]/[ %>: | :0 ] _ ;
+            except
+                     %{е%}: %>: _ ;
 
 
-"Intervocalic voicing of к/п"
+"Voicing of к/п"
+! intervocalic:          ! before -рак/-рәк
+!! китап>{c}{I}          !! кызык>рак !! кысып>рак
+!! китабы                !! кызыграк  !! кысыбрак
+
 Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
+          _ %>: :р ;
           where Cx in ( п к )
                 Cy in ( б г )
                 matched;
@@ -221,10 +250,22 @@ Vu:в <=> :Vow/:0 _ %>: [ :BeginVow | %{U%}: ]/[ :0 ] ;
 ! allow analysis of "дусы", "асы" etc      !!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-"{т} surfaces before vowels"
-%{т%}:т <=> _ :Vow/[ %>: | :0 ] ;
-
 "{д} surfaces before vowels"
 ! ал%{д%}+{D}{A}н     ал%{д%}+{I}
-! алдан               алды
+! ал-дан               алд-ы
 %{д%}:д <=> _ :Vow/[ %>: | :0 ] ;
+
+"{т} surfaces before vowels"
+%{т%}:т <=> _ :Vow/[ %>: | :0 ] ;
+! ас%{т%}+{D}{A}н     ал%{д%}+{I}
+! ас-тан              аст-ы
+
+!"Soft sign deletion before suffix starting with a vowel" ! FIXME: J.N.W., please check this
+! яшь>{I}м      яшь>{s}{I}{n}   but  табигать>{D}{A}н
+! яш00-е-м      яш00-0--е--0-        табигать0-т--ә-н
+!
+! ь:0 <=> _ :Vow/[ %>: | :0 ] ;    ! They all lead to a rule conflict
+! ь:0 <=> _ %>: :Vow ;              
+!ь:0 <=> _ %>: %{I%}: ;            
+!        _ %>: %{s%}: ;
+
