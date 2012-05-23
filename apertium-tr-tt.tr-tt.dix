@@ -76,6 +76,7 @@
     <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
     <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
     <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
+  
 
     <!-- Раздел: Послелоги -->
 
@@ -155,6 +156,7 @@
     <e><p><l>kız<b/>kardeş<s n="n"/></l><r>сеңел<s n="n"/></r></p></e>
     <e><p><l>masa<s n="n"/></l><r>өстәл<s n="n"/></r></p></e>
     <e><p><l>sandalye<s n="n"/></l><r>урындык<s n="n"/></r></p></e>
+    <e><p><l>sandalye<s n="n"/></l><r>утыргыч<s n="n"/></r></p></e>
     <e><p><l>çocuk<s n="n"/></l><r>бала<s n="n"/></r></p></e>
     <e><p><l>oğlan<s n="n"/></l><r>малай<s n="n"/></r></p></e>
     <e><p><l>an<s n="n"/></l><r>мизгел<s n="n"/></r></p></e>
@@ -171,6 +173,7 @@
     <e><p><l>etraf<s n="n"/></l><r>тирә<s n="n"/></r></p></e>
     <e><p><l>hayvan<s n="n"/></l><r>хайван<s n="n"/></r></p></e>
     <e><p><l>yer<s n="n"/></l><r>җир<s n="n"/></r></p></e>
+    <e><p><l>yer<s n="n"/></l><r>урын<s n="n"/></r></p></e>
     <e><p><l>ana<s n="n"/></l><r>ана<s n="n"/></r></p></e>
     <e><p><l>anne<s n="n"/></l><r>әни<s n="n"/></r></p></e>
     <e><p><l>insan<s n="n"/></l><r>кеше<s n="n"/></r></p></e>
@@ -184,6 +187,7 @@
     <e><p><l>küçük<b/>kız<s n="n"/></l><r>кызыкай<s n="n"/></r></p></e>
 
     <e><p><l>yarın<s n="n"/></l><r>иртәгә<s n="adv"/></r></p></e> <!-- FIXME: Check -->
+    <e><p><l>dikkat<s n="n"/></l><r>игътибар<s n="n"/></r></p></e>
     
     <!-- Раздел: Имя собственное -->
 
@@ -206,6 +210,7 @@
     <e><p><l>küçük<s n="adj"/></l><r>кечкенә<s n="adj"/></r></p></e>
 
     <e><p><l>mutlu<s n="adj"/></l><r>бәхетле<s n="adj"/></r></p></e>
+    <e><p><l>mutlu<s n="adj"/></l><r>шат<s n="adj"/></r></p></e>
     <e><p><l>yaşlı<s n="adj"/></l><r>карт<s n="adj"/></r></p></e>
     <e><p><l>yaşlı<s n="adj"/></l><r>иске<s n="adj"/></r></p></e>
     <e><p><l>çok<s n="adj"/></l><r>бик<s n="adj"/></r></p></e>  
@@ -229,12 +234,18 @@
     <e><p><l>her<b/>zaman<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
     <e><p><l>beraber<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <e><p><l>sonra<s n="adv"/></l><r>аннары<s n="adv"/></r></p></e>
+    <e><p><l>sonra<s n="adv"/></l><r>соңрак<s n="adv"/></r></p></e>
+    <e><p><l>daha<b/>sonra<s n="adv"/></l><r>соңрак<s n="adv"/></r></p></e>
+    <e><p><l>sonra<s n="adv"/></l><r>соң<s n="adv"/></r></p></e>
     <e><p><l>yavaşça<s n="adv"/></l><r>әкрен<b/>генә<s n="adv"/></r></p></e>
     <e><p><l>dikkatlice<s n="adv"/></l><r>игътибарлы<s n="adj"/></r></p></e>
     <e><p><l>birlikte<s n="adv"/></l><r>бергә<s n="adv"/></r></p></e>
     <!--<e><p><l>çabukça<s n="adv"/></l><r>тизрәк<s n="adv"/></r></p></e>-->
     <e><p><l>çabukça<s n="adv"/></l><r>тиз<s n="adj"/><s n="advl"/></r></p></e>
     <e><p><l>güzel<s n="adv"/></l><r>әйбәт<s n="adj"/><s n="advl"/></r></p></e>
+    <e><p><l>şimdilik<s n="adv"/></l><r>әлеге<s n="adv"/></r></p></e>
+    <e><p><l>şimdi<s n="adv"/></l><r>әле<s n="adv"/></r></p></e>
+    <e><p><l>şimdi<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e>
 
     <!-- Раздел: Глаголы -->
 
@@ -250,6 +261,7 @@
     <e><p><l>otur<s n="v"/></l><r>утыр<s n="v"/></r></p></e>
     <e><p><l>gör<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>say<s n="v"/></l><r>сайла<s n="v"/></r></p></e>
+    <e><p><l>say<s n="v"/><s n="iv"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>bakın<s n="v"/></l><r>каран<s n="v"/></r></p></e>
     <e><p><l>git<s n="v"/></l><r>бар<s n="v"/></r></p></e>
     <e><p><l>al<s n="v"/><s n="iv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv-->
@@ -261,6 +273,7 @@
     <e><p><l>duy<s n="v"/><s n="iv"/></l><r>ишет<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>git<s n="v"/></l><r>кит<s n="v"/></r></p></e>
     <e><p><l>gül<s n="v"/></l><r>көл<s n="v"/></r></p></e>
+    <e><p><l>gül<s n="v"/></l><r>елмай<s n="v"/></r></p></e>
     <e><p><l>ye<s n="v"/></l><r>аша<s n="v"/></r></p></e>
     <e><p><l>seyret<s n="v"/></l><r>күзәт<s n="v"/></r></p></e>
     <e><p><l>oy<s n="v"/></l><r>уйна<s n="v"/></r></p></e>
@@ -277,8 +290,14 @@
     <e><p><l>söyle<s n="v"/><s n="tv"/></l><r>әйт<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>uyu<s n="v"/></l><r>йокла<s n="v"/></r></p></e>
     <e><p><l>yap<s n="v"/></l><r>эшлә<s n="v"/></r></p></e>
+    <e><p><l>dur<s n="v"/><s n="tv"/></l><r>тор<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>konuş<s n="v"/></l><r>сөйләш<s n="v"/></r></p></e>
     <e><p><l>bit<s n="v"/><s n="iv"/></l><r>бетер<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: tv/iv -->
+    <e><p><l>anla<s n="v"/><s n="tv"/></l><r>аңла<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>gez<s n="v"/><s n="tv"/></l><r>йөр<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>gayret<b/>et<s n="v"/><s n="tv"/></l><r>тырыш<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>dön<s n="v"/><s n="tv"/></l><r>кайт<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>dön<s n="v"/><s n="tv"/></l><r>әйлән<s n="v"/><s n="iv"/></r></p></e>
 
     <!-- Раздел: -->    
     
@@ -313,8 +332,10 @@
 	 <!-- FIXME: dün is adv and n; here it should be adv-->
     <e><p><l>altın<s n="n"/><s n="dat"/></l><r>астына<s n="post"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
+    <e><p><l>altın<s n="n"/><s n="dat"/></l><r>астына<s n="cnjadv"/></r></p></e>
     <e><p><l>arka<s n="n"/></l><r>арка<s n="n"/></r></p></e>
     <!-- FIXME: review which part of speech is it-->
+    <e><p><l>arka<s n="n"/></l><r>арты<s n="cnjadv"/></r></p></e>
     <e><p><l>tabii<b/>ki<s n="ij"/></l><r>әлбәттә<s n="adv"/></r></p></e>
     <!-- FIXME: may be әлбәттә инде-->
 

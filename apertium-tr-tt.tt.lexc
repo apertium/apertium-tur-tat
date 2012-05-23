@@ -764,6 +764,7 @@ LEXICON Conjunctions
 да:дә CCLEX ; ! "" Dir/LR
 да:тә CCLEX ; ! "" Dir/LR
 шул% сәбәпле:шул% сәбәпле CALEX ; ! ""
+арты:арты CALEX ; ! ""
 
 LEXICON Postpositions 
 
@@ -898,6 +899,7 @@ LEXICON Nouns
 вакыт:вакыт NLEX ; ! "" 
 заман:заман NLEX ; ! "" 
 зат:зат NLEX ; ! ""
+игътибар:игътибар NLEX ; ! "" 
 кеше:кеше NLEX ; ! ""
 кеше:кеше NLEX ; ! "" 
 кош:кош NLEX ; ! ""
@@ -927,7 +929,11 @@ LEXICON Nouns
 тыш:тыш NLEX ; ! ""
 тәрәзә:тәрәзә NLEX ; ! "" 
 уен:уен NLEX ; ! "" 
+урын:ур%{е%}н NLEX ; ! "" ! Dir/LR ! Spelling with 'ы' turned out to be a norm. And it is much more frequent 
+урын:урын NLEX ; ! ""              ! in the corpus. But the opposite is true for "халык, холык"  /I.S./     
 урындык:урындык NLEX ; ! ""
+утыргыч:утыргыч NLEX ; ! ""
+утыргыч:утыргыч NLEX ; ! ""
 хайван:хайван NLEX ; ! ""
 чиләк:чиләк NLEX ; ! ""
 эт:эт NLEX ; ! "" 
@@ -977,6 +983,7 @@ LEXICON Adjectives
 тиз:тиз A1 ; ! ""
 тиз:тиз A1 ; ! ""
 тиз:тиз A1 ; ! ""
+шат:шат A1 ; ! ""
 якын:якын A1 ; ! ""
 яхшы:яхшы A1 ; ! ""
 яхшы:яхшы A1 ; ! ""
@@ -993,28 +1000,37 @@ LEXICON Adverbs
 бүген:бүген ADVLEX ; ! ""
 иртәгә:иртәгә ADVLEX ; ! "tomorrow"
 кичә:кичә ADVLEX ; ! ""
+соң:соң ADVLEX ; ! ""
 тагын:тагын ADVLEX ; ! ""
 тик:тик ADVLEX ; ! ""
+хәзер:хәзер ADVLEX ; ! ""
 шактый:шактый ADVLEX ; ! "довольно, заметно"
 һаман:һаман ADVLEX ; ! ""
 һәрвакыт:һәрвакыт ADVLEX ; ! ""
 әлбәттә:әлбәттә ADVLEX ; ! ""
+әле:әле ADVLEX ; ! ""
+соңрак:соңрак ADVLEX ; ! ""
 әкрен% генә:әкрен% генә ADVLEX ; ! "" ! Use/MT
 
 LEXICON Verbs
 
 ал:ал V-TV-IR-LEX ; ! ""
 аша:аша V-TV-IR-LEX ; ! ""
+аңла:аңла V-TV-IR-LEX ; ! ""
 бар:бар V-IV-IR-LEX ; ! ""
 бел:бел V-TV-IR-LEX ; ! ""
 бетер:бетер V-TV-IR-LEX ; ! "" ! FIXME: causative
 бир:бир V-TV-IR-LEX ; ! ""
 бул:бул V-IV-IR-LEX ; ! ""
 ди:ди V-TV-IR-LEX ; ! ""
+елмай:елмай V-IV-IR-LEX ; ! ""
 ишет:ишет V-TV-IR-LEX ; ! ""
 йокла:йокла V-IV-IR-LEX ; ! ""
 йөгер:йөгер V-IV-IR-LEX ; ! ""
+йөр:йөр V-IV-IR-LEX ; ! ""
+йөр:йөр V-IV-IR-LEX ; ! ""
 биләмдә% йөр:биләмдә% йөр  V-IV-IR-LEX ; ! "gezinmek" ! Use/MT
+кайт:кайт V-IV-IR-LEX ; ! ""
 кара:кара V-TV-AR-LEX ; ! ""
 кара:кара V-TV-IR-LEX ; ! ""
 кара:кара V-TV-IR-LEX ; ! ""
@@ -1034,6 +1050,7 @@ LEXICON Verbs
 күр:күрен V-TV-PASS-IR-LEX ; ! ""
 көл:көл V-IV-IR-LEX ; ! ""
 сайла:сайла V-TV-IR-LEX ; ! ""
+сана:сана V-TV-IR-LEX ; ! ""
 сора:сора V-TV-IR-LEX ; ! ""
 сора:сора V-TV-IR-LEX ; ! ""
 сора:сора V-TV-IR-LEX ; ! ""
@@ -1042,6 +1059,8 @@ LEXICON Verbs
 тап:тап V-TV-AR-LEX ; ! ""
 тап:тап V-TV-AR-LEX ; ! ""
 телә:телә V-TV-IR-LEX ; ! ""
+тор:тор V-IV-IR-LEX ; ! ""
+тырыш:тырыш V-IV-IR-LEX ; ! ""
 тыңла:тыңла V-TV-IR-LEX ; ! ""
 тыңла:тыңла V-TV-IR-LEX ; ! ""
 уйла:уйла V-TV-IR-LEX ; ! ""
@@ -1060,11 +1079,13 @@ LEXICON Verbs
 ярат:ярат V-TV-IR-LEX ; ! ""
 ярат:ярат V-TV-IR-LEX ; ! ""
 яшер:яшер V-TV-IR-LEX ; ! ""
+әйлән:әйлән V-IV-AR-LEX ; ! ""
 әйт:әйт V-TV-IR-LEX ; ! ""
 ал:ал VAUX ; ! ""
 бетер:бетер VAUX ; ! "" ! FIXME:causative
 бир:бир VAUX ; ! ""
 бул:бул VAUX ; ! ""
+йөр:йөр VAUX ; ! ""
 кит:кит VAUX ; ! ""
 кил:кил VAUX ; ! ""
 
