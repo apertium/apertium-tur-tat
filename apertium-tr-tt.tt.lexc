@@ -721,6 +721,10 @@ LEXICON CCLEX
 
 %<cnjcoo%>: # ; 
 
+LEXICON CSLEX
+
+%<cnjsub%>: # ; 
+
 LEXICON CALEX
 
 %<cnjadv%>: # ; 
@@ -763,8 +767,7 @@ LEXICON Conjunctions
 да:та CCLEX ; ! "" Dir/LR
 да:дә CCLEX ; ! "" Dir/LR
 да:тә CCLEX ; ! "" Dir/LR
-шул% сәбәпле:шул% сәбәпле CALEX ; ! ""
-арты:арты CALEX ; ! ""
+шул% сәбәпле:шул% сәбәпле CALEX ; ! "therefore"
 
 LEXICON Postpositions 
 
@@ -786,7 +789,9 @@ LEXICON Postadverbs
 да:та POSTADVLEX ; ! ""       Dir/LR
 да:тә POSTADVLEX ; ! ""       Dir/LR
 
+бит:бит POSTADVLEX ; ! "ғой"
 карамастан:карамастан POSTADVLEX ; ! "in spite of"
+шул:шул POSTADVLEX ; ! "ғой"
 
 LEXICON Pronouns
 
