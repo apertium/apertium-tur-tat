@@ -860,6 +860,14 @@ onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlarda # ;
 LEXICON PRON-DEM
 
 %<prn%>%<dem%>: CASE-DEM ; 
+ 
+o%<prn%>%<dem%>:o # ;
+o%<prn%>%<dem%>%<dat%>:ona # ;
+o%<prn%>%<dem%>%<gen%>:onun # ;
+o%<prn%>%<dem%>%<acc%>:onu # ;
+o%<prn%>%<dem%>%<abl%>:ondan # ;
+o%<prn%>%<dem%>%<loc%>:onda # ;
+
 %<prn%>%<dem%>%<pl%>:%>l%{A%}r # ; 
 %<prn%>%<dem%>%<pl%>:%>l%{A%}r CASE-DEM ; 
 
@@ -934,6 +942,9 @@ bu%<prn%>%<dem%>:bu # ; ! "this"
 bu:bun PRON-DEM ; ! "this"
 şu%<prn%>%<dem%>:şu # ; ! "that"
 şu:şun PRON-DEM ; ! "that"
+
+o%<prn%>%<dem%>:bu # ; ! "this"
+o:on PRON-DEM ; ! "this"
 
 ne:ne PRON-ITG ; ! "what" ***CHECK*** adverb ?
 ne% için:ne% için PRON-ITG ; ! "what" ***CHECK*** adverb ?

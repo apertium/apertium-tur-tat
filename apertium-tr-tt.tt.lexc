@@ -18,16 +18,15 @@ Multichar_Symbols
 %<vaux%>       ! Auxilary verb              ! Ярдәмче фигыль    ! Вспомогательный гл.
 %<adv%>        ! Adverb                     ! Рәвеш             ! Наречие
 %<post%>       ! Postposition               ! Бәйлек            ! Послелог
-%<postadv%>    ! Postadverb                 ! "Арткы рәвеш"(*1) ! "Посленаречие"     !# "гына"
+%<postadv%>    ! Postadverb                 ! "Артрәвеш"(*1)    ! "Посленаречие"     !# "гына"
 %<cnjcoo%>     ! Co-ordinating conjunction  ! Тезүче теркәгеч   ! Сочинительный союз
 %<cnjsub%>     ! Sub-ordinating conjunction ! Ияртүче теркәгеч  ! Подчинительный союз
-%<cnjadv%>     ! Adverbial conjunction      !                   ! ~Союз 
+%<cnjadv%>     ! Adverbial conjunction      ! ~"рәвеш-теркәгеч" ! ~союз 
 %<part%>       ! Particle                   ! Кисәкчә           ! Частица
 %<ij%>         ! Interjection               ! Ымлык             ! Междометие
 %<abbr%>       ! Abbreviation               ! Кыскартылма       ! Аббревиатура 
 %<cop%>        ! Copula                     ! Копула            ! Связка
 !%<ideo%>       ! Ideophone                  ! Аваз ияртеме      ! (Звуко)подражательное слово
-!модаль сүз     ! модальное слово 
 
 ! *1. Ачыклаган сүзләренең артыннан килә торган рәвешләр/"кисәкчәләр" !# гына, ук
 
@@ -89,8 +88,7 @@ Multichar_Symbols
 %<ind%>            ! Indefinite
 %<itg%>            ! Interrogative
 %<qnt%>            ! Quantifier
-%<neg%>            ! Negative
-%<neg%>            ! Negative    ! FIXME:NOTE: also used for verbs
+%<neg%>            ! Negative    ! FIXME:NOTE: also used to denote negation in verbs
 
 ! Numeral types
 %<ord%>            ! Ordinal
@@ -107,6 +105,7 @@ Multichar_Symbols
 %<pres%>           ! -{A}
 %<past%>           ! -{G}{A}н 
 %<fut%>            ! -{I}р
+%<fut2%>           ! -{A}ч{A}к
 %<ifi%>            ! -{D}{I} 
 
 ! Non-Finite verb forms ! WARNING: Number part of the tags is subject to change :)
@@ -131,7 +130,7 @@ Multichar_Symbols
 %<ger4%>           ! -{G}{A}нч{I}
 %<ger5%>           ! -{G}{A}н
 %<ger6%>           ! -{I}р / -{A}р
-%<ger7%>           ! -{A}ч{A}к
+%<ger7%>           ! -{A}ч{A}к ! WARNING: Replaced with fut2
 %<inf%>            ! Infinitive! Инфинитив ! -{A/I}рг{A}
 
 !!! the next will be removed soon; kept to let others know about changes
@@ -147,12 +146,13 @@ Multichar_Symbols
 %<p1%>             ! First person
 %<p2%>             ! Second person
 %<p3%>             ! Third person
-%<frm%>            ! Formality FIXME: Check
+%<frm%>            ! Formality
 
 ! Clitics
 %<qst%>            ! Modal question particle
-%<mod_foc%>        ! focus thingy
-%<mod_ass%>        ! assertive
+%<mod_foc%>        ! "Particles of politeness and ardent desire" (as in [N. Poppe. Tatar Manual])
+%<mod_ass%>        ! Assertive modal particle
+%<mod_ind%>        ! Indefinite modal particle (expresses doubt)
 
 ! Punctuaton ! Пунктуация
 %<sent%>           ! Sentence marker
@@ -184,6 +184,7 @@ Multichar_Symbols
 %{е%}              ! Realised as е/ы in some contexts, 0 otherwise
 
 %>                 ! Morpheme boundary
+%                  ! Space
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -191,7 +192,7 @@ Multichar_Symbols
 
 LEXICON Root
 
-Particles ; 
+ModalParticles ; 
 Copula ; 
 Conjunctions ; 
 Postpositions ; 
@@ -217,29 +218,82 @@ N-INFL-COMMON ;
 
 ! NOTE: Some substantivized things might not have pl. form, numerals e.g. 
 ! (not too sure, because in Tatar they have it: 
-! #1 <11 ones meaning pupils from a given class: # өчләр = "pupils from the 3. class" 
-! #2 "Мин белгәндә аңа, мөгаен, _иллеләр_ тирәсе булгандыр."
+! #1 meaning an approximate number: #! "Мин белгәндә аңа, мөгаен, _иллеләр_ тирәсе булгандыр."
+! #2 <11 ones meaning pupils from a given class: #! өчләр = "pupils from the 3. class" 
 !
 ! If they don't have pl. form; link them to N-INFL-COMMON; if they do - to SUBST.
+! That's the only difference between N-INFL-COMMON and SUBST.
 !                                                                     /I.S./
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !!!!!!!!!!!!!!!!!!!!!!     CLITICS
 
-LEXICON CLIT-OTHER            !FIXME:DISCUSS: make from this a separate clitics class for verbs
+! FIXME: Might need some refactoring
+
+! FIXME: consider "әле" and "әллә"
+!
+! #1 "әле" after imperative and optative forms has a meaning somewhat similar to
+!     Russian "-ка" (e.g. "скажи-ка") - e.g. "әйт әле", "кайтыйк әле";           ?>> <mod_foc>
+! #2 Нәрсә булды соң әле? = Что же случилось?
+! 
+! #4 Күрешербез әле. = Еще увидимся.
+!
+! #3 Әле кичә генә. = Еще вчера; Только вчера.
+! 
+! But if for all above examples "әлі <-> әле" translation works, distinguishing between the meanings
+! might be not needed, we'll just have to choose an appropriate tag.
+!-----
+! "әллә" can appear both before and after the word it is related to:
+! 
+! #1 "- Абау, миңа әллә нәрсә булган!"
+! #2 "Канатлы дигәч тә, мин кошмы әллә?" 
+!-------------------------------------------------------------------
+
+! Modal/discourse particles
+
+LEXICON CLIT-IMP2P               ! These modal particles/clitics appear only after 2nd person imperatives,
+                                 ! and vice versa - 2nd person imperatives take only this clitics
+!! Politeness
 
 %+чы%<mod_foc%>:%>ч%{I%} # ;
+%+сана%<mod_foc%>:%>с%{A%}н%{A%} # ;
+
+CLIT-COMMON ;
 # ;
 
-LEXICON CLIT
+LEXICON CLIT-COMMON              ! These clitics can join as 2nd person imperatives as any other words (any POS, any form)
+
+!%+шул%<mod_ass%>:% шул # ;       ! FIXME:CHECK: #! Китте шул. ~ Да, уехал. FIXME: needs disambiguation (consider "шул<prn><dem>"). 
+
+LEXICON CLIT                     ! These citics can join words of any POS and of any form
+
+!! Question modal particles
+
+%+мы%<qst%>:%>м%{I%} # ;
+%+микән%<qst%>:% микән # ;       ! originated from "-мы икән"
+%+мыни%<qst%>:%>м%{I%}ни # ;
+
+!! Assertive (emphasizing) modal particles
+
+%+бит%<mod_ass%>:% бит # ;
+%+ич%<mod_ass%>:% ич # ;
+%+ла%<mod_ass%>:% л%{A%} # ;
+%+ласа%<mod_ass%>:% ласа # ;
+%+ләбаса%<mod_ass%>:% ләбаса # ;
+%+ләбаса%<mod_ass%>:% лабаса # ; ! Dir/LR
+
+!! Indefinite (expressing doubt) modal particles
+
+%+дыр%<mod_ind%>:%>%{D%}%{I%}р # ;
+
+CLIT-COMMON ;
+# ;
+
+!! FIXME:DISCUSS: maybe we should handle their harmonizing in postgenerator module,
+!!                and not attach them to the previous word
 
 %+да%<cnjcoo%>:% %{D%}%{A%} # ;
-%+мы%<qst%>:%>м%{I%} # ;
-%+дыр%<part%>:%>%{D%}%{I%}р # ;
-!%+сы%<part%>:%>с%{I%} # ;    ! FIXME: check
-CLIT-OTHER ;
-# ;
 
 !!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)
 
@@ -261,7 +315,8 @@ CLIT-OTHER ;
 ! *2. "дай" is considered to be an adverbializer, so no case endings after it (=no <subst> reading).
 ! *3. This doesn't work atm (it's recursive), but it doesn't seem to be very frequent also;
 !     Most likely it is restricted to px3sp.
- 
+!------------------------------------------- 
+
 LEXICON CASE 
 
 %<nom%>: CLIT ;               ! - - -
@@ -317,12 +372,62 @@ LEXICON N-INFL-COMMON
 POSS-REAL ;
 CASE-ETC ;
 
+!!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION (for verbal adjectives A2 should be used)
+!                                                               <s>(a separate ADJ-COMMON might be even better, see kaz.lexc)</s>
+! FIXME: this section needs refactoring
+!! e.g. change <adj><comp><subst> to <adj><subst><comp>
+!! and make use of ADJ-LEVELS class
+
+LEXICON ADJ-LEVELS
+
+%<comp%>:%>р%{A%}%{K%} CLIT ;
+CLIT ;
+
+LEXICON A1                 ! adjectives that can be both substantivized and andverbialized #! яхшы
+
+%<adj%>: CLIT ; 
+%<adj%>%<comp%>:%>р%{A%}%{K%} CLIT ; 
+
+%<adj%>%<subst%>: SUBST ;                             !# "Яхшы яхшыны тудыра." 
+%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;   !# яхшыракны таптым
+
+%<adj%>%<advl%>: CLIT ;                               !# "Тиз янган тиз сүнгән."
+%<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{K%} CLIT ;     !# "Бәла бәхеттән тизрәк йөри."
+
+LEXICON A2                 ! (derived/not fully lexicalized) adjectives without adverbial reading #! язгы
+
+%<adj%>: CLIT ;
+
+%<adj%>%<subst%>: SUBST ;  !# "Ул 14-25 яшьлекләргә бирелә."
+                           ! loc.subst form of them seems not to make sense:
+                           ! e.g. *язгыдагы (in this sense "яздагы" is what will be used instead)
+ 
+LEXICON A3                 ! adjectives with (only) predicative use !# бар, юк
+
+! FIXME:NOTE: Maybe this class is not really needed, because it turned out :) that
+!             even "бар" and "юк" can take case endings: !# "Хатыны юкның якыны юк."
+!                                                        !# "Эше барның ашы бар."   
+!             (that means that they should be linked to A2 - and they already are).
+! In the future A3 might stand for some other class of adjectives instead,
+! if we need to distinguish any other.
+                            
+%<adj%>: CLIT ;
+
 !!!!!!!!!!!!!!!!!!!!!!     PART-OF-SPEECH LEXICONS (beginning)
 
 LEXICON NLEX
 
 %<n%>%<attr%>: # ; 
 %<n%>: SUBST ;
+
+LEXICON N-COMPOUND-PX ! consider "N2" for the name
+                      ! equiv of kir:LEXICON N-INFL-3PX-COMPOUND
+                      ! FIXME: check this, leads to foo bar\/foo barсы :)
+
+!%{s%}%{I%}%{n%}%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
+!%{s%}%{I%}%{n%}%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
+%<n%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
+%<n%>: POSS-REAL ;     ! for stuff like "біздің ауа райымыз" and even "оның ауа райы", which should have a <px3sp> analysis
 
 LEXICON DIGITLEX
 
@@ -361,43 +466,12 @@ LEXICON NPANTFLEX
 
 LEXICON NPTOPLEX
 
-%<np%>%<top%>: CASE ; 
+%<np%>%<top%>: N-INFL-COMMON  ; ! FIXME:NOTE: this cont.class might lead to some overgeneration
+                                ! *Мәскәүдәй?             
 
-!!!!!!!!!!!!!!!!!!!!!!     ADJECTIVE'S (ADJECTIVIAL) INFLECTION (for verbal adjectives A2 should be used)
-!                                                               (a separate ADJ-COMMON might be even better, see kaz.lexc) 
-! FIXME: this section needs refactoring
-!! e.g. change <adj><comp><subst> to <adj><subst><comp>
-!! and make use of ADJ-LEVELS class
+LEXICON NPALLEX
 
-LEXICON ADJ-LEVELS
-
-%<comp%>:%>р%{A%}%{K%} CLIT ;
-CLIT ;
-
-LEXICON A1                 ! adjectives that can be both substantivized and andverbialized #! яхшы
-
-%<adj%>: CLIT ; 
-%<adj%>%<comp%>:%>р%{A%}%{K%} CLIT ; 
-
-%<adj%>%<subst%>: SUBST ;                             !# "Яхшы яхшыны тудыра." 
-!%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;  !# яхшыракны таптым
-
-%<adj%>%<advl%>: CLIT ;                               !# "Тиз янган тиз сүнгән."
-!%<adj%>%<comp%>%<advl%>:%>%{I%}р%{A%}%{K%} CLIT ;    !# "Бәла бәхеттән тизрәк йөри."
-
-LEXICON A2                 ! (?derived/not fully lexicalized) adjectives without adverbial reading #! язгы
-
-%<adj%>: CLIT ;
-!%<adj%>%<comp%>:%>%{I%}р%{A%}%{K%} CLIT ; ! they also seem not to take comp. level !# *язгырак
-
-%<adj%>%<subst%>: SUBST ;                             !# "Ул 14-25 яшьлекләргә бирелә." 
-!%<adj%>%<comp%>%<subst%>:%>%{I%}р%{A%}%{K%} SUBST ;
-
-LEXICON A3                 ! adjectives with (only) predicative use     !# бар, юк 
-                           ! FIXME:NOTE: Maybe this class is not really needed, because it turned out :) that
-                           ! even "бар" and "юк" can take case endings: !# "Хатыны юкның якыны юк."
-                                                                        !# "Эше барның ашы бар."   
-%<adj%>: CLIT ;
+%<np%>%<al%>: CASE ; 
 
 !!!!!!!!!!!!!!!!!!!!!!     VERBAL INFLECTION
 
@@ -408,7 +482,7 @@ LEXICON V-PERS-S1
 %<p2%>%<frm%>%<sg%>:%>с%{I%}з CLIT ; ! FIXME: Check 'Ни өчен беләсезме?' ! <frm><sg> and <frm><pl> are the same forms in Tatar; so maybe <frm><sp> would be better /I.S./
 %<p3%>%<sg%>:%> CLIT ;
 %<p1%>%<pl%>:%>б%{I%}з CLIT ;
-%<p2%>%<pl%>:%>г%{I%}з CLIT ;
+%<p2%>%<pl%>:%>c%{I%}з CLIT ;
 %<p3%>%<pl%>:%>%{L%}%{A%}р CLIT ;
 
 LEXICON V-PERS-S2
@@ -479,6 +553,7 @@ LEXICON V-FINITE-FORMS
 %<pres%>:%>%{E%} V-PERS-S1 ; 
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ; 
 %<past%>:%>%{G%}%{A%}н V-PERS-S3 ; 
+%<fut2%>:%>%{E%}%{A%}ч%{A%}к V-PERS-S3 ;
 
 LEXICON V-COMMON-LEX
 
@@ -495,9 +570,9 @@ V-FINITE-FORMS ;
 %<ger3%>:%>%{G%}%{A%}ч SUBST ; 
 %<ger4%>:%>%{G%}%{A%}нч%{I%} POSS-REAL ; 
 %<ger5%>:%>%{G%}%{A%}н POSS-REAL ;
-%<ger7%>:%>%{A%}ч%{A%}к POSS-REAL ;
 !! TO REMOVE
 !%<ger2%>:%>%{I%}п POSS-REAL ; 
+!%<ger7%>:%>%{A%}ч%{A%}к POSS-REAL ;
 !%<ger8%>:%>%{E%}с V-PERS-S4 ;
 
 ! Verbal adverbs
@@ -506,9 +581,12 @@ V-FINITE-FORMS ;
 
 %<cond%>:%>с%{A%} V-PERS-S2 ;
 
-%<imp%>%<p2%>%<sg%>: CLIT ;
-%<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з CLIT ;
-
+%<imp%>%<p2%>%<sg%>: CLIT-IMP2P ;
+%<imp%>%<p2%>%<pl%>:%{I%}г%{I%}з CLIT-IMP2P ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%{I%}г%{I%}з CLIT-IMP2P ; ! FIXME:NOTE: in fact, there is only one formal imperative in Tatar,
+%<imp%>%<p2%>%<frm%>%<pl%>:%{I%}г%{I%}з CLIT-IMP2P ; ! which should be tagged as <imp><frm><sp>. But in Kazakh there are both
+                                                     ! sg and pl forms, so I make it ambigitious here between sg/pl, maybe we could
+                                                     ! handle it somehow in CG later 
 LEXICON V-COMMON-PASSIVE
 
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-COMMON-LEX ; 
@@ -745,11 +823,15 @@ LEXICON ABBR
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON Particles
+LEXICON ModalParticles
 
-мы:мы QSTLEX ; ! ""
-!CLIT ;
-!CLIT-OTHER ;
+мы:мы QSTLEX ; ! "y/n question"
+ме:ме QSTLEX ; ! "y/n question" ! Dir/RL
+
+! Actually Tatar question modal particle is written with no space before it (read separately),
+! but there are sentences like the following (although not that much I guess):
+!# "Яңача түләү яки һәрвакыттагыча "Хотели как лучше, получилось как всегда"мы?" 
+! Just having a space before it while treating it as a clitic wouldn't work /I.S./
 
 LEXICON Copula
 
@@ -758,15 +840,16 @@ COP-I ; ! ""
 
 LEXICON Conjunctions
 
-я:я CCLEX ; ! ""
-яисә:яисә CCLEX ; ! ""
-һәм:һәм CCLEX ; ! ""
-әмма:әмма CCLEX ; ! ""
-да:да CCLEX ; ! "also" Dir/RL
+да:%~да CCLEX ; ! "also" Dir/RL
 да:да CCLEX ; ! "" Dir/LR
 да:та CCLEX ; ! "" Dir/LR
 да:дә CCLEX ; ! "" Dir/LR
 да:тә CCLEX ; ! "" Dir/LR
+һәм:һәм CCLEX ; ! "and"
+әмма:әмма CCLEX ; ! "but"
+я:я CCLEX ; ! "or"
+яисә:яисә CCLEX ; ! "or"
+яки:яки CCLEX ; ! "or"
 шул% сәбәпле:шул% сәбәпле CALEX ; ! "therefore"
 
 LEXICON Postpositions 
@@ -778,20 +861,20 @@ LEXICON Postpositions
 LEXICON Postadverbs
 
 гына:%~гына POSTADVLEX ; ! "only" Dir/RL
-гына:гына POSTADVLEX ; ! ""       Dir/LR
-гына:генә POSTADVLEX ; ! ""       Dir/LR
-гына:кына POSTADVLEX ; ! ""       Dir/LR
-гына:кенә POSTADVLEX ; ! ""       Dir/LR
+гына:гына POSTADVLEX ; ! "" Dir/LR
+гына:генә POSTADVLEX ; ! "" Dir/LR
+гына:кына POSTADVLEX ; ! "" Dir/LR
+гына:кенә POSTADVLEX ; ! "" Dir/LR
 
-да:%~да POSTADVLEX ; ! ""     Dir/RL
-да:да POSTADVLEX ; ! ""       Dir/LR
-да:дә POSTADVLEX ; ! ""       Dir/LR
-да:та POSTADVLEX ; ! ""       Dir/LR
-да:тә POSTADVLEX ; ! ""       Dir/LR
+да:%~да POSTADVLEX ; ! "1. even if" Dir/RL
+да:да POSTADVLEX ; ! "" Dir/LR
+да:дә POSTADVLEX ; ! "" Dir/LR
+да:та POSTADVLEX ; ! "" Dir/LR
+да:тә POSTADVLEX ; ! "" Dir/LR
 
-бит:бит POSTADVLEX ; ! "ғой"
-карамастан:карамастан POSTADVLEX ; ! "in spite of"
-шул:шул POSTADVLEX ; ! "ғой"
+ук:%~ук POSTADVLEX ; ! "же, даже" Dir/RL
+ук:ук POSTADVLEX ; ! "" Dir/LR
+ук:үк POSTADVLEX ; ! "" Dir/LR
 
 LEXICON Pronouns
 
@@ -811,6 +894,8 @@ PRN-PERS ;
 
 һичнәрсә:һичнәрсә PRNNEG ; ! ""
 бернәрсә:бернәрсә PRNNEG ; ! ""
+һичкем:һичкем PRNNEG ; ! ""
+беркем:беркем PRNNEG ; ! ""
 
 үз:үз PRNREFLEX ; ! ""
 
@@ -824,6 +909,8 @@ LEXICON Determiners
 бар:бар DETQNTLEX ; ! ""
 барлык:барлык DETQNTLEX ; ! ""
 бөтен:бөтен DETQNTLEX ; ! ""
+һәр:һәр DETQNTLEX ; ! ""
+һәрбер:һәрбер DETQNTLEX ; ! ""
 
 башка:башка DETINDLEX ; ! "other"
 бер:бер DETINDLEX ; ! ""
@@ -870,93 +957,77 @@ LEXICON Numerals
 туксан:туксан NUMLEX ; ! ""
 йөз:йөз NUMLEX ; ! ""
 
-мең:мең NUMLEX ; ! ""
+мең:мең NUMLEX ; ! "thousand"
 төмән:төмән NUMLEX ; ! "archaic for 10 000"
-түмән:түмән NUMLEX ; ! Dir/LR !"archaic for 10 000"
-миллион:миллион NUMLEX ; ! ""
-миллиард:миллиард NUMLEX ; ! ""
+төмән:түмән NUMLEX ; ! "archaic for 10 000" ! Dir/LR
+миллион:миллион NUMLEX ; ! "million"
+миллиард:миллиард NUMLEX ; ! "billion"
+триллион:триллион NUMLEX ; ! "trillion"
+
+!чирек:чирек NUM ; ! "quarter"         ! FIXME:DISCUSS: POS
+!ярым:ярым NUM ; ! "half"            ! (consider that they don't have ordinal form obviously)
+!ярты:ярты NUM ; ! "half"
 
 биш:бишәү NUM-COLL ;           
 ике:икәү NUM-COLL ;
 өч:өчәү NUM-COLL ;
 дүрт:дүртәү NUM-COLL ;
 биш:бишәү NUM-COLL ;
+алтау:алтау NUM-COLL ;
+җидәү:җидәү NUM-COLL ;
 
-! Technically this goes on to higher numbers  !! FIXME:DISCUSS: maybe we'll start derive them from the basic numerals
-! but its use beyond 5(?) is rare
-! and is of questionable grammaticality
+! In Tatar this goes on to higher numbers  !! FIXME:DISCUSS: a better idea is to derive them from cardinal numerals
 
 LEXICON Nouns 
 
-агач:агач NLEX ; ! "" 
+агач:агач NLEX ; ! ""
 алд:ал%{д%} NLEX ; ! ""
-ана:ана NLEX ; ! "" 
-арка:арка NLEX ; ! "" 
+ана:ана NLEX ; ! ""
 бакча:бакча NLEX ; ! ""
-бакча:бакча NLEX ; ! ""
-бала:бала NLEX ; ! "" 
+бала:бала NLEX ; ! ""
 баш:баш NLEX ; ! ""
-баш:баш NLEX ; ! ""
-баш:баш NLEX ; ! "" 
 вакыт:вакыт NLEX ; ! ""
-вакыт:вакыт NLEX ; ! ""
-вакыт:вакыт NLEX ; ! "" 
-вакыт:вакыт NLEX ; ! "" 
-заман:заман NLEX ; ! "" 
+әни:әни NLEX ; ! ""
+җавап:җавап NLEX ; ! ""
+җир:җир NLEX ; ! ""
+җылы:җылы NLEX ; ! ""
+җылы:җылы NLEX ; ! ""
+заман:заман NLEX ; ! ""
 зат:зат NLEX ; ! ""
-игътибар:игътибар NLEX ; ! "" 
+игътибар:игътибар NLEX ; ! ""
 кеше:кеше NLEX ; ! ""
-кеше:кеше NLEX ; ! "" 
 кош:кош NLEX ; ! ""
-кош:кош NLEX ; ! ""
-кул:кул NLEX ; ! "" 
-кыз:кыз NLEX ; ! ""
-кыз:кыз NLEX ; ! "" 
-кызыкай:кызыкай NLEX ; ! "" 
 күз:күз NLEX ; ! ""
-күз:күз NLEX ; ! "" 
+кул:кул NLEX ; ! ""
+кыз:кыз NLEX ; ! ""
+кызыкай:кызыкай NLEX ; ! ""
 малай:малай NLEX ; ! ""
-малай:малай NLEX ; ! "" 
 мизгел:мизгел NLEX ; ! ""
-мизгел:мизгел NLEX ; ! ""
-мизгел:мизгел NLEX ; ! "" 
+өй:өй NLEX ; ! ""
+өстәл:өстәл NLEX ; ! ""
 песи:песи NLEX ; ! "cat"
 пиво:пиво NLEX ; ! ""
 сеңел:сеңел NLEX ; ! "" ! Dir/LR
 сеңел:сең%{е%}л%{е%} NLEX ; ! ""
 сорау:сорау NLEX ; ! ""
-су:су NLEX ; ! "" 
-суык:суык NLEX ; ! ""
+су:су NLEX ; ! ""
 суык:суык NLEX ; ! ""
 сыра:сыра NLEX ; ! ""
 тавыш:тавыш NLEX ; ! ""
+тәрәзә:тәрәзә NLEX ; ! ""
 тирә:тирә NLEX ; ! ""
 тыш:тыш NLEX ; ! ""
-тәрәзә:тәрәзә NLEX ; ! "" 
-уен:уен NLEX ; ! "" 
-урын:ур%{е%}н NLEX ; ! "" ! Dir/LR ! Spelling with 'ы' turned out to be a norm. And it is much more frequent 
-урын:урын NLEX ; ! ""              ! in the corpus. But the opposite is true for "халык, холык"  /I.S./     
+уен:уен NLEX ; ! ""
 урындык:урындык NLEX ; ! ""
+урын:ур%{е%}н NLEX ; ! "" ! Dir/LR ! Spelling with 'ы' turned out to be a norm. And it is much more frequent
+урын:урын NLEX ; ! ""              ! in the corpus. But the opposite is true for "халык, холык"  /I.S./
 утыргыч:утыргыч NLEX ; ! ""
-утыргыч:утыргыч NLEX ; ! ""
+һава:һава NLEX ; ! ""
 хайван:хайван NLEX ; ! ""
 чиләк:чиләк NLEX ; ! ""
-эт:эт NLEX ; ! "" 
-эч:эч NLEX ; ! ""
-эч:эч NLEX ; ! ""
-эч:эч NLEX ; ! "" 
+эт:эт NLEX ; ! ""
 яшь:яшь NLEX ; ! ""
-яшь:яшь NLEX ; ! "" 
-җавап:җавап NLEX ; ! ""
-җавап:җавап NLEX ; ! "" 
-җир:җир NLEX ; ! "" 
-җылы:җылы NLEX ; ! ""
-җылы:җылы NLEX ; ! ""
-һава:һава NLEX ; ! "" 
-әни:әни NLEX ; ! "" 
-өй:өй NLEX ; ! "" 
-өстәл:өстәл NLEX ; ! ""
-өстәл:өстәл NLEX ; ! ""
+арка:арка NLEX ; ! "back; reason" 
 
 LEXICON ProperNouns
 
@@ -975,10 +1046,10 @@ LEXICON Adjectives
 зур:зур A1 ; ! ""
 игътибарлы:игътибарлы A1 ; ! ""
 иске:иске A1 ; ! ""
+якын:якын A1 ; ! ""
+яхшы:яхшы A1 ; ! ""
+яхшы:яхшы A1 ; ! ""
 карт:карт A1 ; ! ""
-кече:кече A1 ; ! ""
-кече:кече A1 ; ! ""
-кече:кече A1 ; ! ""
 кече:кече A1 ; ! ""
 кечек:кечек A1 ; ! ""
 кечкенә:кечкенә A1 ; ! ""
@@ -999,23 +1070,23 @@ LEXICON Adverbs
 
 кайда:кайда ADVITGLEX ; ! ""
 кая:кая ADVITGLEX ; ! ""
-аннары:аннары ADVLEX ; ! ""
+аннары:аннары ADVLEX ; ! "then"
 бергә:бергә ADVLEX ; ! "together"
-бик:бик ADVLEX ; ! ""
-бүген:бүген ADVLEX ; ! ""
+бик:бик ADVLEX ; ! "very"
+бүген:бүген ADVLEX ; ! "today"
 иртәгә:иртәгә ADVLEX ; ! "tomorrow"
-кичә:кичә ADVLEX ; ! ""
-соң:соң ADVLEX ; ! ""
-тагын:тагын ADVLEX ; ! ""
-тик:тик ADVLEX ; ! ""
-хәзер:хәзер ADVLEX ; ! ""
-шактый:шактый ADVLEX ; ! "довольно, заметно"
-һаман:һаман ADVLEX ; ! ""
-һәрвакыт:һәрвакыт ADVLEX ; ! ""
-әлбәттә:әлбәттә ADVLEX ; ! ""
-әле:әле ADVLEX ; ! ""
+кичә:кичә ADVLEX ; ! "yesterday"
 соңрак:соңрак ADVLEX ; ! ""
-әкрен% генә:әкрен% генә ADVLEX ; ! "" ! Use/MT
+тагын:тагын ADVLEX ; ! "more,again"
+тик:тик ADVLEX ; ! "only" FIXME:NOTE: also added as conj. -->"
+хәзер:хәзер ADVLEX ; ! "contrastive now"
+шактый:шактый ADVLEX ; ! "довольно, заметно"
+һаман:һаман ADVLEX ; ! "still"
+һәрвакыт:һәрвакыт ADVLEX ; ! "always"
+әкрен% генә:әкрен% генә ADVLEX ; ! "slowly" Use/MT
+әлбәттә:әлбәттә ADVLEX ; ! "certainly"
+әле:әле ADVLEX ; ! "now"
+әлегә:әлегә ADVLEX ; ! "for now"
 
 LEXICON Verbs
 
@@ -1096,16 +1167,26 @@ LEXICON Verbs
 
 LEXICON Interjections 
 
-димәк:димәк INTERJ ; 
-юк:юк INTERJ ; 
-әйе:әйе INTERJ ; 
-әлбәттә:әлбәттә INTERJ ; 
+димәк:димәк INTERJ ; ! "" 
+юк:юк INTERJ ; ! ""
+әйе:әйе INTERJ ; ! ""
+әлбәттә:әлбәттә INTERJ ; ! "" 
 
 LEXICON Abbreviations
 
-км:км ABBR ; 
-км²:км² ABBR ; 
-км³:км³ ABBR ; 
+УЕФА:УЕФА ABBR ; ! ""
+
+б%.э%.к:б%.э%.к ABBR ;  ! ""
+б%.э:б%.э ABBR ;  ! ""
+е%.:е%. ABBR ;  ! ""
+кг:кг ABBR ;  ! ""
+км:км ABBR ; ! ""
+км²:км² ABBR ;  ! ""
+км³:км³ ABBR ;  ! ""
+млн:млн ABBR ;  ! ""
+см:см ABBR ;  ! ""
+т%.:т%. ABBR ; ! ""
+һ%.б%.:һ%.б%. ABBR ; ! ""
 
 LEXICON Punctuation
 

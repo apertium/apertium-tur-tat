@@ -100,7 +100,7 @@
     <e><p><l>ben<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>sen<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>o<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="pers"/></r></p></e>
-    <e><p><l>o<s n="prn"/><s n="pers"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>o<s n="prn"/><s n="dem"/></l><r>ул<s n="prn"/><s n="dem"/></r></p></e>
     
 
     
@@ -245,6 +245,7 @@
     <e><p><l>güzel<s n="adv"/></l><r>әйбәт<s n="adj"/><s n="advl"/></r></p></e>
     <e><p><l>şimdilik<s n="adv"/></l><r>әлеге<s n="adv"/></r></p></e>
     <e><p><l>şimdi<s n="adv"/></l><r>әле<s n="adv"/></r></p></e>
+    <e><p><l>şimdi<s n="adv"/></l><r>әлегә<s n="adv"/></r></p></e>
     <e><p><l>şimdi<s n="adv"/></l><r>хәзер<s n="adv"/></r></p></e>
 
     <!-- Раздел: Глаголы -->
