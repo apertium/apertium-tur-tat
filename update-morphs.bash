@@ -9,7 +9,7 @@ cp ../../incubator/apertium-tur/tur.autogen.att.gz apertium-tur-tat.tat-tur.RL.a
 cp ../../languages/apertium-tat/tat.automorf.att.gz apertium-tur-tat.tat-tur.LR.att.gz
 cp ../../languages/apertium-tat/tat.autogen.att.gz apertium-tur-tat.tur-tat.RL.att.gz
 
-DIFF=$(diff ../../languages/apertium-tur/apertium-tur.tur.rlx apertium-tur-tat.tur-tat.rlx)
+DIFF=$(diff ../../incubator/apertium-tur/apertium-tur.tur.rlx apertium-tur-tat.tur-tat.rlx)
 if [ "$DIFF" != "" ]; then
         cp ../../incubator/apertium-tur/apertium-tur.tur.rlx apertium-tur-tat.tur-tat.rlx
 fi;
