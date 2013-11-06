@@ -2,379 +2,379 @@
 <modes>
   <!-- tr → tt --> 
 
-  <mode name="tr-tt" install="yes">
+  <mode name="tur-tat" install="yes">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tr-tt.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-tat.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
-        <file name="tr-tt.rlx.bin"/>
+        <file name="tur-tat.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tr-tt.autobil.bin"/>
+        <file name="tur-tat.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-tr-tt.tr-tt.t1x"/>
-        <file name="tr-tt.t1x.bin"/>
+        <file name="apertium-tur-tat.tur-tat.t1x"/>
+        <file name="tur-tat.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-tr-tt.tr-tt.t2x"/>
-        <file name="tr-tt.t2x.bin"/>
+        <file name="apertium-tur-tat.tur-tat.t2x"/>
+        <file name="tur-tat.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-tr-tt.tr-tt.t3x"/>
-        <file name="tr-tt.t3x.bin"/>
+        <file name="apertium-tur-tat.tur-tat.t3x"/>
+        <file name="tur-tat.t3x.bin"/>
       </program>
-      <program name="hfst-proc $1">
-        <file name="tr-tt.autogen.hfst"/>
+      <program name="lt-proc $1">
+        <file name="tur-tat.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="tr-tt-debug" install="no">
+  <mode name="tur-tat-debug" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tr-tt.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-tat.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
-        <file name="tr-tt.rlx.bin"/>
+        <file name="tur-tat.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tr-tt.autobil.bin"/>
+        <file name="tur-tat.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-tr-tt.tr-tt.t1x"/>
-        <file name="tr-tt.t1x.bin"/>
+        <file name="apertium-tur-tat.tur-tat.t1x"/>
+        <file name="tur-tat.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-tr-tt.tr-tt.t2x"/>
-        <file name="tr-tt.t2x.bin"/>
+        <file name="apertium-tur-tat.tur-tat.t2x"/>
+        <file name="tur-tat.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-tr-tt.tr-tt.t3x"/>
-        <file name="tr-tt.t3x.bin"/>
+        <file name="apertium-tur-tat.tur-tat.t3x"/>
+        <file name="tur-tat.t3x.bin"/>
       </program>
-      <program name="hfst-proc -d">
-        <file name="tr-tt.autogen.hfst"/>
+      <program name="lt-proc -d">
+        <file name="tur-tat.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
  
   
-  <mode name="tr-tt-morph" install="no">
+  <mode name="tur-tat-morph" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tr-tt.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-tat.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="tr-tt-tagger" install="no">
+  <mode name="tur-tat-tagger" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tr-tt.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-tat.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
-        <file name="tr-tt.rlx.bin"/>
+        <file name="tur-tat.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
 
-  <mode name="tr-tt-biltrans" install="no">
+  <mode name="tur-tat-biltrans" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tr-tt.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-tat.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
-        <file name="tr-tt.rlx.bin"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="tr-tt.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="tr-tt-lex" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tr-tt.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w -n -1">
-        <file name="tr-tt.rlx.bin"/>
+        <file name="tur-tat.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tr-tt.autobil.bin"/>
+        <file name="tur-tat.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="tur-tat-lex" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="tur-tat.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -n -1">
+        <file name="tur-tat.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="tur-tat.autobil.bin"/>
       </program>
       <program name="lrx-proc -t">
-        <file name="tr-tt.lrx.bin"/>
+        <file name="tur-tat.lrx.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="tr-tt-transfer" install="no">
+  <mode name="tr-tat-turansfer" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tr-tt.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-tat.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
-        <file name="tr-tt.rlx.bin"/>
+        <file name="tur-tat.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tr-tt.autobil.bin"/>
+        <file name="tur-tat.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="tr-tt.lrx.bin"/>
+        <file name="tur-tat.lrx.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-tr-tt.tr-tt.t1x"/>
-        <file name="tr-tt.t1x.bin"/>
+        <file name="apertium-tur-tat.tur-tat.t1x"/>
+        <file name="tur-tat.t1x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="tr-tt-interchunk" install="no">
+  <mode name="tur-tat-interchunk" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tr-tt.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-tat.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
-        <file name="tr-tt.rlx.bin"/>
+        <file name="tur-tat.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tr-tt.autobil.bin"/>
+        <file name="tur-tat.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="tr-tt.lrx.bin"/>
+        <file name="tur-tat.lrx.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-tr-tt.tr-tt.t1x"/>
-        <file name="tr-tt.t1x.bin"/>
+        <file name="apertium-tur-tat.tur-tat.t1x"/>
+        <file name="tur-tat.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-tr-tt.tr-tt.t2x"/>
-        <file name="tr-tt.t2x.bin"/>
+        <file name="apertium-tur-tat.tur-tat.t2x"/>
+        <file name="tur-tat.t2x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="tr-tt-postchunk" install="no">
+  <mode name="tur-tat-postchunk" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tr-tt.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-tat.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
-        <file name="tr-tt.rlx.bin"/>
+        <file name="tur-tat.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tr-tt.autobil.bin"/>
+        <file name="tur-tat.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="tr-tt.lrx.bin"/>
+        <file name="tur-tat.lrx.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-tr-tt.tr-tt.t1x"/>
-        <file name="tr-tt.t1x.bin"/>
+        <file name="apertium-tur-tat.tur-tat.t1x"/>
+        <file name="tur-tat.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-tr-tt.tr-tt.t2x"/>
-        <file name="tr-tt.t2x.bin"/>
+        <file name="apertium-tur-tat.tur-tat.t2x"/>
+        <file name="tur-tat.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-tr-tt.tr-tt.t3x"/>
-        <file name="tr-tt.t3x.bin"/>
+        <file name="apertium-tur-tat.tur-tat.t3x"/>
+        <file name="tur-tat.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
 
   <!-- tt → tr -->
 
-  <mode name="tt-tr" install="yes">
+  <mode name="tat-tur" install="yes">
     <pipeline>
-      <program name="hfst-proc">
-        <file name="tt-tr.automorf.hfst"/>
+      <program name="lt-proc">
+        <file name="tat-tur.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
-        <file name="tt-tr.rlx.bin"/>
+        <file name="tat-tur.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tt-tr.autobil.bin"/>
+        <file name="tat-tur.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-tr-tt.tt-tr.t1x"/>
-        <file name="tt-tr.t1x.bin"/>
+        <file name="apertium-tur-tat.tat-tur.t1x"/>
+        <file name="tat-tur.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-tr-tt.tt-tr.t2x"/>
-        <file name="tt-tr.t2x.bin"/>
+        <file name="apertium-tur-tat.tat-tur.t2x"/>
+        <file name="tat-tur.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-tr-tt.tt-tr.t3x"/>
-        <file name="tt-tr.t3x.bin"/>
+        <file name="apertium-tur-tat.tat-tur.t3x"/>
+        <file name="tat-tur.t3x.bin"/>
       </program>
-      <program name="hfst-proc $1">
-        <file name="tt-tr.autogen.hfst"/>
+      <program name="lt-proc $1">
+        <file name="tat-tur.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="tt-tr-debug" install="no">
+  <mode name="tat-tur-debug" install="no">
     <pipeline>
-      <program name="hfst-proc">
-        <file name="tt-tr.automorf.hfst"/>
+      <program name="lt-proc">
+        <file name="tat-tur.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
-        <file name="tt-tr.rlx.bin"/>
+        <file name="tat-tur.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tt-tr.autobil.bin"/>
+        <file name="tat-tur.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-tr-tt.tt-tr.t1x"/>
-        <file name="tt-tr.t1x.bin"/>
+        <file name="apertium-tur-tat.tat-tur.t1x"/>
+        <file name="tat-tur.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-tr-tt.tt-tr.t2x"/>
-        <file name="tt-tr.t2x.bin"/>
+        <file name="apertium-tur-tat.tat-tur.t2x"/>
+        <file name="tat-tur.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-tr-tt.tt-tr.t3x"/>
-        <file name="tt-tr.t3x.bin"/>
+        <file name="apertium-tur-tat.tat-tur.t3x"/>
+        <file name="tat-tur.t3x.bin"/>
       </program>
-      <program name="hfst-proc -d">
-        <file name="tt-tr.autogen.hfst"/>
+      <program name="lt-proc -d">
+        <file name="tat-tur.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
   
-  <mode name="tt-tr-morph" install="no">
+  <mode name="tat-tur-morph" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tt-tr.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tat-tur.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="tt-tr-tagger" install="no">
+  <mode name="tat-tur-tagger" install="no">
     <pipeline>
-      <program name="hfst-proc">
-        <file name="tt-tr.automorf.hfst"/>
+      <program name="lt-proc">
+        <file name="tat-tur.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
-        <file name="tt-tr.rlx.bin"/>
+        <file name="tat-tur.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
 
-  <mode name="tt-tr-biltrans" install="no">
+  <mode name="tat-tur-biltrans" install="no">
     <pipeline>
-      <program name="hfst-proc">
-        <file name="tt-tr.automorf.hfst"/>
+      <program name="lt-proc">
+        <file name="tat-tur.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
-        <file name="tt-tr.rlx.bin"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="tt-tr.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="tt-tr-lex" install="no">
-    <pipeline>
-      <program name="hfst-proc">
-        <file name="tt-tr.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w -n -1">
-        <file name="tt-tr.rlx.bin"/>
+        <file name="tat-tur.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tt-tr.autobil.bin"/>
+        <file name="tat-tur.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="tat-tur-lex" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="tat-tur.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w -n -1">
+        <file name="tat-tur.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="tat-tur.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="tt-tr.lrx.bin"/>
+        <file name="tat-tur.lrx.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="tt-tr-transfer" install="no">
+  <mode name="tat-tur-transfer" install="no">
     <pipeline>
-      <program name="hfst-proc">
-        <file name="tt-tr.automorf.hfst"/>
+      <program name="lt-proc">
+        <file name="tat-tur.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="tt-tr.prob"/>
+        <file name="tat-tur.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tt-tr.autobil.bin"/>
+        <file name="tat-tur.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-tr-tt.tt-tr.t1x"/>
-        <file name="tt-tr.t1x.bin"/>
+        <file name="apertium-tur-tat.tat-tur.t1x"/>
+        <file name="tat-tur.t1x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="tt-tr-interchunk" install="no">
+  <mode name="tat-tur-interchunk" install="no">
     <pipeline>
-      <program name="hfst-proc">
-        <file name="tt-tr.automorf.hfst"/>
+      <program name="lt-proc">
+        <file name="tat-tur.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
-        <file name="tt-tr.rlx.bin"/>
+        <file name="tat-tur.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tt-tr.autobil.bin"/>
+        <file name="tat-tur.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-tr-tt.tt-tr.t1x"/>
-        <file name="tt-tr.t1x.bin"/>
+        <file name="apertium-tur-tat.tat-tur.t1x"/>
+        <file name="tat-tur.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-tr-tt.tt-tr.t2x"/>
-        <file name="tt-tr.t2x.bin"/>
+        <file name="apertium-tur-tat.tat-tur.t2x"/>
+        <file name="tat-tur.t2x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="tt-tr-postchunk" install="no">
+  <mode name="tat-tur-postchunk" install="no">
     <pipeline>
-      <program name="hfst-proc">
-        <file name="tt-tr.automorf.hfst"/>
+      <program name="lt-proc">
+        <file name="tat-tur.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="tt-tr.prob"/>
+        <file name="tat-tur.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tt-tr.autobil.bin"/>
+        <file name="tat-tur.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-tr-tt.tt-tr.t1x"/>
-        <file name="tt-tr.t1x.bin"/>
+        <file name="apertium-tur-tat.tat-tur.t1x"/>
+        <file name="tat-tur.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-tr-tt.tt-tr.t2x"/>
-        <file name="tt-tr.t2x.bin"/>
+        <file name="apertium-tur-tat.tat-tur.t2x"/>
+        <file name="tat-tur.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-tr-tt.tt-tr.t3x"/>
-        <file name="tt-tr.t3x.bin"/>
+        <file name="apertium-tur-tat.tat-tur.t3x"/>
+        <file name="tat-tur.t3x.bin"/>
       </program>
     </pipeline>
   </mode>

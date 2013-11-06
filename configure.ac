@@ -1,7 +1,7 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-tr-tt], [0.1.0], [unknown@users.sourceforge.net])
-AM_INIT_AUTOMAKE([apertium-tr-tt], [0.1.0], no-define)
+AC_INIT([apertium-tur-tat], [0.2.0], [spectre360@users.sourceforge.net])
+AM_INIT_AUTOMAKE([apertium-tur-tat], [0.2.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
@@ -49,25 +49,41 @@ then
   AC_MSG_ERROR([You don't have cg-proc installed.])
 fi
 
-AC_PATH_PROG(LRXCOMP, apertium-lrx-comp, no)
+AC_PATH_PROG(LRXCOMP, lrx-comp, no)
 if test x$ac_cv_path_LRXCOMP = x
 then
-  AC_MSG_ERROR([You don't have apertium-lrx-comp installed.])
+  AC_MSG_ERROR([You don't have lrx-comp installed.])
 fi
 if test x$ac_cv_path_LRXCOMP = xno
 then
-  AC_MSG_ERROR([You don't have apertium-lrx-comp installed.])
+  AC_MSG_ERROR([You don't have lrx-comp installed.])
 fi
 
-AC_PATH_PROG(LRXPROC, apertium-lrx-proc, no)
+AC_PATH_PROG(LRXPROC, lrx-proc, no)
 if test x$ac_cv_path_LRXPROC = x
 then
-  AC_MSG_ERROR([You don't have apertium-lrx-proc installed.])
+  AC_MSG_ERROR([You don't have lrx-proc installed.])
 fi
 if test x$ac_cv_path_LRXPROC = xno
 then
-  AC_MSG_ERROR([You don't have apertium-lrx-proc installed.])
+  AC_MSG_ERROR([You don't have lrx-proc installed.])
 fi
+
+AC_PATH_PROG(GZCAT, gzcat, no)
+AC_PATH_PROG(ZCAT, zcat, no)
+
+if test x$ac_cv_path_GZCAT = xno
+then
+  if test x$ac_cv_path_ZCAT = xno
+  then
+    AC_MSG_ERROR([No working zcat installed.])
+  else
+    AC_SUBST(ZCAT,[zcat])
+  fi
+else
+  AC_SUBST(ZCAT,[gzcat])
+fi
+
 
 
 AC_OUTPUT([Makefile])
