@@ -6,11 +6,13 @@
 /NEWS -text
 /README -text
 /apertium-tur-tat.tat-tur.LR.att.gz -text
+/apertium-tur-tat.tat-tur.RL.att.gz -text
 /apertium-tur-tat.tat-tur.lrx -text
 /apertium-tur-tat.tat-tur.rlx -text
 /apertium-tur-tat.tat-tur.t1x -text
 /apertium-tur-tat.tat-tur.t2x -text
 /apertium-tur-tat.tat-tur.t3x -text
+/apertium-tur-tat.tur-tat.LR.att.gz -text
 /apertium-tur-tat.tur-tat.RL.att.gz -text
 /apertium-tur-tat.tur-tat.dix -text
 /apertium-tur-tat.tur-tat.lrx -text
