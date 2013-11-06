@@ -5,6 +5,8 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-tur-tat.post-tat.dix -text
+/apertium-tur-tat.post-tur.dix -text
 /apertium-tur-tat.tat-tur.LR.att.gz -text
 /apertium-tur-tat.tat-tur.RL.att.gz -text
 /apertium-tur-tat.tat-tur.lrx -text
