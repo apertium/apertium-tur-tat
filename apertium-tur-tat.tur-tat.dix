@@ -18,6 +18,7 @@
     <sdef n="cnjcoo"  c="Имя существительное"/>
     <sdef n="postadv"  c="Имя существительное"/>
     <sdef n="qst" />
+    <sdef n="top" />
 
     <sdef n="m"  c=""/>
     <sdef n="pred"  c=""/>
@@ -46,6 +47,7 @@
     <sdef n="pers"  c=""/>
 
     <sdef n="apos" />
+    <sdef n="px3sp" />
     <sdef n="guio" />
     <sdef n="sent" />
     <sdef n="lpar" />
@@ -82,6 +84,7 @@
 
     <e><p><l>ile<s n="post"/></l><r>белән<s n="post"/></r></p></e>
     <e><p><l>rağmen<s n="post"/></l><r>карамастан<s n="post"/></r></p></e>
+    <e r="RL"><p><l>hakk<s n="n"/><s n="px3sp"/><s n="loc"/></l><r>хакында<s n="post"/></r></p></e>
 
     <!-- Раздел: Посленаречия -->
 
@@ -140,6 +143,8 @@
 
     <!-- Раздел: Имя Существительное -->
 
+      <e><p><l>ilan<s n="n"/></l><r>игълан<s n="n"/></r></p></e>
+      <e><p><l>basın<s n="n"/></l><r>матбугат<s n="n"/></r></p></e>
     <e><p><l>köpek<s n="n"/></l><r>эт<s n="n"/></r></p></e>
     <e><p><l>bahçe<s n="n"/></l><r>бакча<s n="n"/></r></p></e>
     <e><p><l>hava<s n="n"/></l><r>һава<s n="n"/></r></p></e>
@@ -2064,15 +2069,33 @@
       <e><p><l>mağaza<s n="n"/></l><r>магазин<s n="n"/></r></p></e>
       <e><p><l>mıknatıs<s n="n"/></l><r>магнит<s n="n"/></r></p></e>
       <e><p><l>mezar<s n="n"/></l><r>мазар<s n="n"/></r></p></e>
+      <e><p><l>bakan<s n="n"/></l><r>министр<s n="n"/></r></p></e>
 
+      <e><p><l>yardım<s n="n"/></l><r>ярдәм<s n="n"/></r></p></e>
 
+      <e><p><l>bakanlık<s n="n"/></l><r>министрлык<s n="n"/></r></p></e>
 
+      <e><p><l>cumhuriyet<s n="n"/></l><r>республика<s n="n"/></r></p></e>
+
+      <e><p><l>şehir<s n="n"/></l><r>шәһәр<s n="n"/></r></p></e>
+      <e><p><l>taraf<s n="n"/></l><r>тараф<s n="n"/></r></p></e>
+
+      <e><p><l>hizmet<s n="n"/></l><r>хезмәт<s n="n"/></r></p></e>
+      <e><p><l>bölge<s n="n"/></l><r>район<s n="n"/></r></p></e>
+      <e><p><l>spor<s n="n"/></l><r>спорт<s n="n"/></r></p></e>
+      <e><p><l>bilgi<s n="n"/></l><r>мәгълүмат<s n="n"/></r></p></e>
     <!-- Раздел: Имя собственное -->
 
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>Ayşe<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Rüstem<s n="np"/><s n="ant"/><s n="m"/></l><r>Рөстәм<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
+    <e><p><l>Rusya<s n="np"/><s n="top"/></l><r>Русия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e><p><l>İran<s n="np"/><s n="top"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Avrupa<s n="np"/><s n="top"/></l><r>Европа<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Tataristan<s n="np"/><s n="top"/></l><r>Татарстан<s n="np"/><s n="top"/></r></p></e>
     <!-- Раздел: Прилагательные -->
+
+      <e><p><l>uluslararası<s n="adj"/></l><r>халыкара<s n="adj"/></r></p></e>
 
     <e><p><l>güzel<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e>
     <e><p><l>güzel<s n="n"/><s n="attr"/></l><r>әйбәт<s n="adj"/></r></p></e>
@@ -2081,6 +2104,10 @@
     <e><p><l>soğuk<s n="adj"/></l><r>суык<s n="adj"/></r></p></e>
     <e><p><l>lazım<s n="adj"/><s n="attr"/></l><r>тиеш<s n="adj"/></r></p></e>
     
+      <e><p><l>социаль<s n="adj"/></l><r>sosyal<s n="adj"/></r></p></e>
+      <e><p><l>социаль<s n="adj"/></l><r>toplumsal<s n="adj"/></r></p></e>
+      <e><p><l>mümkün<s n="adj"/></l><r>мөмкин<s n="adj"/></r></p></e>
+      <e><p><l>dış<s n="adj"/></l><r>тышкы<s n="adj"/></r></p></e>
     <e><p><l>küçük<s n="adj"/></l><r>борчак<b/>кадәр<s n="adj"/></r></p></e>
     <e><p><l>küçük<s n="adj"/></l><r>бәләкәй<s n="adj"/></r></p></e>
     <e><p><l>küçük<s n="adj"/></l><r>кече<s n="adj"/></r></p></e>
