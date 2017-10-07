@@ -86,7 +86,8 @@
     <e><p><l>ile<s n="post"/></l><r>белән<s n="post"/></r></p></e>
     <e><p><l>kadar<s n="post"/></l><r>кадәр<s n="post"/></r></p></e>
     <e><p><l>rağmen<s n="post"/></l><r>карамастан<s n="post"/></r></p></e>
-    <e r="RL"><p><l>hakk<s n="n"/><s n="px3sp"/><s n="loc"/></l><r>хакында<s n="post"/></r></p></e>
+    <e><p><l>hakkında<s n="post"/></l><r>хакында<s n="post"/></r></p></e>
+    <e><p><l>hakkında<s n="post"/></l><r>турында<s n="post"/></r></p></e>
 
     <!-- Раздел: Посленаречия -->
 
@@ -145,6 +146,7 @@
 
     <!-- Раздел: Имя Существительное -->
 
+      <e><p><l>başkan<s n="n"/></l><r>рәис<s n="n"/></r></p></e>
       <e><p><l>ilan<s n="n"/></l><r>игълан<s n="n"/></r></p></e>
       <e><p><l>hak<s n="n"/></l><r>хокук<s n="n"/></r></p></e>
       <e><p><l>basın<s n="n"/></l><r>матбугат<s n="n"/></r></p></e>
@@ -2106,6 +2108,7 @@
       <e><p><l>İran<s n="np"/><s n="top"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>Avrupa<s n="np"/><s n="top"/></l><r>Европа<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>Tataristan<s n="np"/><s n="top"/></l><r>Татарстан<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Moskova<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
     <!-- Раздел: Прилагательные -->
 
       <e><p><l>uluslararası<s n="adj"/></l><r>халыкара<s n="adj"/></r></p></e>
