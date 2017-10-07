@@ -143,7 +143,7 @@
       <choose>
         <when>
           <test>
-            <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="nom"/></equal>
+            <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="XXX"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
         </when>
@@ -154,7 +154,7 @@
       <choose>
         <when>
           <test>
-              <equal><clip pos="1" side="sl" part="a_poss"/><lit-tag v="px3sp"/></equal>
+              <equal><clip pos="1" side="sl" part="a_poss"/><lit-tag v="XXX"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px3sg"/></let>
         </when>
