@@ -84,6 +84,7 @@
     <!-- Раздел: Послелоги -->
 
     <e><p><l>ile<s n="post"/></l><r>белән<s n="post"/></r></p></e>
+    <e><p><l>kadar<s n="post"/></l><r>кадәр<s n="post"/></r></p></e>
     <e><p><l>rağmen<s n="post"/></l><r>карамастан<s n="post"/></r></p></e>
     <e r="RL"><p><l>hakk<s n="n"/><s n="px3sp"/><s n="loc"/></l><r>хакында<s n="post"/></r></p></e>
 
@@ -2089,6 +2090,13 @@
       <e><p><l>spor<s n="n"/></l><r>спорт<s n="n"/></r></p></e>
       <e><p><l>bilgi<s n="n"/></l><r>мәгълүмат<s n="n"/></r></p></e>
       <e><p><l>halk<s n="n"/></l><r>халык<s n="n"/></r></p></e>
+      <e><p><l>petrol<s n="n"/></l><r>нефть<s n="n"/></r></p></e>
+      <e><p><l>çalışan<s n="n"/></l><r>хезмәткәр<s n="n"/></r></p></e>
+      <e><p><l>bölge<s n="n"/></l><r>өлкә<s n="n"/></r></p></e>
+      <e><p><l>yönetici<s n="n"/></l><r>җитәкче<s n="n"/></r></p></e>
+
+      <e><p><l>hüküm<s n="n"/></l><r>хөкем<s n="n"/></r></p></e>
+
     <!-- Раздел: Имя собственное -->
 
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -2282,7 +2290,9 @@
 
       <e><p><l>resmi<s n="adj"/></l><r>рәсми<s n="adj"/></r></p></e>
 
-
+      <e><p><l>özel<s n="adj"/></l><r>махсус<s n="adj"/></r></p></e>
+      <e><p><l>federal<s n="adj"/></l><r>федераль<s n="adj"/></r></p></e>
+      <e><p><l>iç<s n="adj"/></l><r>эчке<s n="adj"/></r></p></e>
     <!-- Раздел: Наречия -->
     
     <e><p><l>fakat<s n="adv"/></l><r>тик<s n="adv"/></r></p></e>
@@ -2361,6 +2371,7 @@
     <e><p><l>ol<s n="v"/><s n="iv"/></l><r>бул<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>oyna<s n="v"/><s n="tv"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>sev<s n="v"/><s n="tv"/></l><r>ярат<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>çağır<s n="v"/><s n="tv"/></l><r>чакыр<s n="v"/><s n="tv"/></r></p></e>
     
     <e><p><l>var<s n="v"/></l><r>бар<s n="v"/></r></p></e>
     <e><p><l>bak<s n="v"/></l><r>кара<s n="v"/></r></p></e>
