@@ -71,6 +71,7 @@
     <!-- Раздел: Союзы -->
 
     <e><p><l>ve<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ve<s n="cnjcoo"/></l><r>вә<s n="cnjcoo"/></r></p></e>
     <e><p><l>ama<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>da<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
     <e><p><l>fakat<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
@@ -144,6 +145,7 @@
     <!-- Раздел: Имя Существительное -->
 
       <e><p><l>ilan<s n="n"/></l><r>игълан<s n="n"/></r></p></e>
+      <e><p><l>hak<s n="n"/></l><r>хокук<s n="n"/></r></p></e>
       <e><p><l>basın<s n="n"/></l><r>матбугат<s n="n"/></r></p></e>
     <e><p><l>köpek<s n="n"/></l><r>эт<s n="n"/></r></p></e>
     <e><p><l>bahçe<s n="n"/></l><r>бакча<s n="n"/></r></p></e>
@@ -189,6 +191,8 @@
     <e><p><l>kova<s n="n"/></l><r>чиләк<s n="n"/></r></p></e>
     <e><p><l>bira<s n="n"/></l><r>пиво<s n="n"/></r></p></e>
     <e><p><l>bira<s n="n"/></l><r>сыра<s n="n"/></r></p></e>
+      <e><p><l>netice<s n="n"/></l><r>нәтиҗә<s n="n"/></r></p></e>
+      <e><p><l>sonuç<s n="n"/></l><r>нәтиҗә<s n="n"/></r></p></e>
     <e><p><l>küçük<b/>kız<s n="n"/></l><r>кызыкай<s n="n"/></r></p></e>
 
     <e><p><l>yarın<s n="n"/></l><r>иртәгә<s n="adv"/></r></p></e> <!-- FIXME: Check -->
@@ -2084,6 +2088,7 @@
       <e><p><l>bölge<s n="n"/></l><r>район<s n="n"/></r></p></e>
       <e><p><l>spor<s n="n"/></l><r>спорт<s n="n"/></r></p></e>
       <e><p><l>bilgi<s n="n"/></l><r>мәгълүмат<s n="n"/></r></p></e>
+      <e><p><l>halk<s n="n"/></l><r>халык<s n="n"/></r></p></e>
     <!-- Раздел: Имя собственное -->
 
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Әхмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -2275,6 +2280,7 @@
     <e><p><l>sevinçli<s n="adj"/></l><r>күңелле<s n="adj"/></r></p></e>
     <e><p><l>lirik<s n="adj"/></l><r>лирик<s n="adj"/></r></p></e>
 
+      <e><p><l>resmi<s n="adj"/></l><r>рәсми<s n="adj"/></r></p></e>
 
 
     <!-- Раздел: Наречия -->
