@@ -2105,7 +2105,7 @@
     <e><p><l>Rüstem<s n="np"/><s n="ant"/><s n="m"/></l><r>Рөстәм<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Gölnara<s n="np"/><s n="ant"/><s n="f"/></l><r>Гөлнара<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
-    <e><p><l>Rusya<s n="np"/><s n="top"/></l><r>Русия<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+    <e><p><l>Rusya<s n="np"/><s n="top"/></l><r>Русия<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>İran<s n="np"/><s n="top"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>Avrupa<s n="np"/><s n="top"/></l><r>Европа<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>Tataristan<s n="np"/><s n="top"/></l><r>Татарстан<s n="np"/><s n="top"/></r></p></e>
@@ -2114,6 +2114,7 @@
 
       <e><p><l>uluslararası<s n="adj"/></l><r>халыкара<s n="adj"/></r></p></e>
 
+      <e><p><l>milli<s n="adj"/></l><r>милли<s n="adj"/></r></p></e>
     <e><p><l>güzel<s n="adj"/></l><r>әйбәт<s n="adj"/></r></p></e>
     <e><p><l>güzel<s n="n"/><s n="attr"/></l><r>әйбәт<s n="adj"/></r></p></e>
     <e><p><l>sıcak<s n="adj"/></l><r>җылы<s n="n"/><s n="attr"/></r></p></e>
@@ -3044,6 +3045,64 @@
     <e><p><l>arka<s n="n"/></l><r>арты<s n="post"/></r></p></e>
     <e><p><l>tabii<b/>ki<s n="cnjadv"/></l><r>әлбәттә<s n="adv"/></r></p></e>
     <!-- FIXME: may be әлбәттә инде-->
+
+
+   <!-- Not organized -->
+
+      <e><p><l>tatar<s n="n"/></l><r>татар<s n="n"/></r></p></e>
+      <e><p><l>cumhurbaşkan<s n="n"/></l><r>президент<s n="n"/></r></p></e>
+      <e><p><l>koru<s n="v"/><s n="tv"/></l><r>саклау<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>gibi<s n="post"/></l><r>кебек<s n="post"/></r></p></e>
+      <e><p><l>ev<s n="n"/></l><r>торак<s n="n"/></r></p></e>
+      <e><p><l>hal<s n="n"/></l><r>хәл<s n="n"/></r></p></e>
+      <e><p><l>güç<s n="n"/></l><r>хәл<s n="n"/></r></p></e>
+      <e><p><l>Vladimir<s n="np"/><s n="ant"/><s n="m"/></l><r>Владимир<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>talep<s n="n"/></l><r>таләп<s n="n"/></r></p></e>
+      <e><p><l>çaba<s n="n"/></l><r>чара<s n="n"/></r></p></e>
+      <e><p><l>çık<s n="v"/><s n="iv"/></l><r>чык<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>sebep<s n="n"/></l><r>сәбәп<s n="n"/></r></p></e>
+      <e><p><l>yan<s n="n"/></l><r>чит<s n="n"/></r></p></e>
+      <e><p><l>kenar<s n="n"/></l><r>чит<s n="n"/></r></p></e>
+      <e><p><l>Sergey<s n="np"/><s n="ant"/><s n="m"/></l><r>Сергей<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>şekil<s n="n"/></l><r>рәвеш<s n="n"/></r></p></e>
+      <e><p><l>Dmitri<s n="np"/><s n="ant"/><s n="m"/></l><r>Дмитрий<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>emniyet<s n="n"/></l><r>иминлек<s n="n"/></r></p></e>
+      <e><p><l>kadın<s n="n"/></l><r>хатын<s n="n"/></r></p></e>
+      <e><p><l>müracaat<s n="n"/></l><r>мөрәҗәгать<s n="n"/></r></p></e>
+      <e><p><l>finans<s n="n"/></l><r>финанс<s n="n"/></r></p></e>
+      <e><p><l>maliye<s n="n"/></l><r>финанс<s n="n"/></r></p></e>
+      <e><p><l>Türkiye<s n="np"/><s n="top"/></l><r>Төркия<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>alışveriş<s n="n"/></l><r>сәүдә<s n="n"/></r></p></e>
+      <e><p><l>ticaret<s n="n"/></l><r>сәүдә<s n="n"/></r></p></e>
+      <e><p><l>fikir<s n="n"/></l><r>фикер<s n="n"/></r></p></e>
+      <e><p><l>sanat<s n="n"/></l><r>сәнгать<s n="n"/></r></p></e>
+      <e><p><l>Ukrayna<s n="np"/><s n="top"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>polis<s n="n"/></l><r>полиция<s n="n"/></r></p></e>
+      <e><p><l>Çin<s n="np"/><s n="top"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Gürcistan<s n="np"/><s n="top"/></l><r>Грузия<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>bilim<s n="n"/></l><r>мәгариф<s n="n"/></r></p></e>
+      <e><p><l>kültür<s n="n"/></l><r>мәгариф<s n="n"/></r></p></e>
+      <e><p><l>Aleksandr<s n="np"/><s n="ant"/><s n="m"/></l><r>Александр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>bildir<s n="v"/><s n="tv"/></l><r>белдер<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>hükümet<s n="n"/></l><r>хөкүмәт<s n="n"/></r></p></e>
+      <e><p><l>cinayet<s n="n"/></l><r>җинаять<s n="n"/></r></p></e>
+      <e><p><l>okul<s n="n"/></l><r>мәктәп<s n="n"/></r></p></e>
+      <e><p><l>araba<s n="n"/></l><r>машина<s n="n"/></r></p></e>
+      <e><p><l>ulaşım<s n="n"/></l><r>транспорт<s n="n"/></r></p></e>
+      <e><p><l>Ferit<s n="np"/><s n="ant"/><s n="m"/></l><r>Фәрит<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>kurul<s n="n"/></l><r>совет<s n="n"/></r></p></e>
+      <e><p><l>meclis<s n="n"/></l><r>совет<s n="n"/></r></p></e>
+      <e><p><l>program<s n="n"/></l><r>программа<s n="n"/></r></p></e>
+      <e><p><l>sat<s n="v"/><s n="tv"/></l><r>сат<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>sekreter<s n="n"/></l><r>секретар<s n="n"/></r></p></e>
+      <e><p><l>bilim<s n="n"/></l><r>фән<s n="n"/></r></p></e>
+      <e><p><l>protesto<s n="n"/></l><r>протест<s n="n"/></r></p></e>
+      <e><p><l>meclis<s n="n"/></l><r>парламент<s n="n"/></r></p></e>
+      <e><p><l>yönetim<s n="n"/></l><r>хакимият<s n="n"/></r></p></e>
+      <e><p><l>muhalefet<s n="n"/></l><r>оппозиция<s n="n"/></r></p></e>
+      <e><p><l>ton<s n="n"/></l><r>тонна<s n="n"/></r></p></e>
+
+
 
   </section>
 </dictionary>
