@@ -2107,7 +2107,7 @@
 
     <e><p><l>Rusya<s n="np"/><s n="top"/></l><r>Русия<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>İran<s n="np"/><s n="top"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e>
-      <e><p><l>Avrupa<s n="np"/><s n="top"/></l><r>Европа<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Avrupa<s n="np"/><s n="top"/></l><r>Аурупа<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>Tataristan<s n="np"/><s n="top"/></l><r>Татарстан<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>Moskova<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
     <!-- Раздел: Прилагательные -->
@@ -3146,6 +3146,19 @@
       <e><p><l>birlik<s n="n"/></l><r>төркем<s n="n"/></r></p></e>
       <e><p><l>cemiyet<s n="n"/></l><r>төркем<s n="n"/></r></p></e>
       <e><p><l>sekreter<s n="n"/></l><r>секретар<s n="n"/></r></p></e>
+      <e><p><l>karşı<s n="post"/></l><r>каршы<s n="post"/></r></p></e>
+      <e><p><l>yeni<s n="adj"/></l><r>яңа<s n="adj"/></r></p></e>
+      <e><p><l>geç<s n="v"/><s n="tv"/></l><r>уз<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>iş<s n="n"/></l><r>эш<s n="n"/></r></p></e>
+      <e><p><l>vazife<s n="n"/></l><r>эш<s n="n"/></r></p></e>
+      <e><p><l>faaliyet<s n="n"/></l><r>эш<s n="n"/></r></p></e>
+      <e><p><l>üst<s n="adj"/></l><r>югары<s n="adj"/></r></p></e>
+      <e><p><l>ajans<s n="n"/></l><r>агентлык<s n="n"/></r></p></e>
+      <e><p><l>yol<s n="n"/></l><r>юл<s n="n"/></r></p></e>
+      <e><p><l>başbakan<s n="n"/></l><r>премьер<s n="n"/></r></p></e>
+      <e><p><l>sayı<s n="n"/></l><r>сан<s n="n"/></r></p></e>
+      <e><p><l>önce<s n="adv"/></l><r>элек<s n="adv"/></r></p></e>
+
 
 
 
