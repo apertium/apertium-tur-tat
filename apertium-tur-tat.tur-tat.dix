@@ -34,6 +34,7 @@
     <sdef n="caus"  c=""/>
 
     <sdef n="subst"  c=""/>
+    <sdef n="cnjsub"  c=""/>
     <sdef n="advl"  c=""/>
     <sdef n="attr"  c=""/>
 
@@ -71,6 +72,8 @@
     <!-- Раздел: Союзы -->
 
     <e><p><l>ve<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+    <e><p><l>yani<s n="cnjadv"/></l><r>ягъни<s n="cnjsub"/></r></p></e>
+    <e><p><l>çünkü<s n="cnjadv"/></l><r>чөнки<s n="cnjsub"/></r></p></e>
     <e><p><l>ve<s n="cnjcoo"/></l><r>вә<s n="cnjcoo"/></r></p></e>
     <e><p><l>ama<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>da<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
@@ -134,6 +137,7 @@
     <e><p><l>hiçbir<s n="det"/><s n="qnt"/></l><r>һичбер<s n="det"/><s n="ind"/></r></p></e> 
     <e><p><l>her<s n="det"/></l><r>бөтен<s n="det"/></r></p></e>
     <e><p><l>başka<s n="det"/><s n="ind"/></l><r>бүтән<s n="adj"/></r></p></e>  
+    <e><p><l>her<s n="det"/><s n="dem"/></l><r>һәр<s n="det"/><s n="qnt"/></r></p></e>  
 
     <!-- Раздел: Числителные -->
 
@@ -2305,6 +2309,7 @@
       <e><p><l>iç<s n="adj"/></l><r>эчке<s n="adj"/></r></p></e>
     <!-- Раздел: Наречия -->
     
+      <e><p><l>çok<s n="adv"/></l><r>ук<s n="postadv"/></r></p></e>
     <e><p><l>fakat<s n="adv"/></l><r>тик<s n="adv"/></r></p></e>
     <e><p><l>iyi<s n="adj"/></l><r>яхшы<s n="adj"/></r></p></e>  
     <e><p><l>hâlâ<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e>  
@@ -3315,6 +3320,24 @@
       <e><p><l>müze<s n="n"/></l><r>музей<s n="n"/></r></p></e>
       <e><p><l>İrina<s n="np"/><s n="ant"/><s n="f"/></l><r>Ирина<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e><p><l>edebi<s n="adj"/></l><r>әдәби<s n="adj"/></r></p></e>
+      <e><p><l>sınır<s n="n"/></l><r>кыса<s n="n"/></r></p></e>
+      <e><p><l>çerçeve<s n="n"/></l><r>кыса<s n="n"/></r></p></e>
+      <e><p><l>İdil<s n="np"/><s n="top"/></l><r>Идел<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>ortak<s n="adj"/></l><r>Бердәм<s n="adj"/></r></p></e>
+      <e><p><l>birleşik<s n="adj"/></l><r>Бердәм<s n="adj"/></r></p></e>
+      <e><p><l>birlik<s n="n"/></l><r>берлек<s n="n"/></r></p></e>
+      <e><p><l>başkent<s n="n"/></l><r>башкала<s n="n"/></r></p></e>
+      <e><p><l>sokak<s n="n"/></l><r>урам<s n="n"/></r></p></e>
+      <e><p><l>cadde<s n="n"/></l><r>урам<s n="n"/></r></p></e>
+      <e><p><l>layık<s n="adj"/></l><r>лаек<s n="adj"/></r></p></e>
+      <e><p><l>saat<s n="n"/></l><r>сәгать<s n="n"/></r></p></e>
+      <e><p><l>İsrail<s n="np"/><s n="top"/></l><r>Израил<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>şirket<s n="n"/></l><r>ширкәт<s n="n"/></r></p></e>
+      <e><p><l>firma<s n="n"/></l><r>ширкәт<s n="n"/></r></p></e>
+      <e><p><l>söyle<s n="v"/><s n="tv"/></l><r>сөйлә<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>ruhi<s n="adj"/></l><r>рухи<s n="adj"/></r></p></e>
+      <e><p><l>ruhsal<s n="adj"/></l><r>рухи<s n="adj"/></r></p></e>
+
 
 
 
