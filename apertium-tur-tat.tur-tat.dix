@@ -89,6 +89,7 @@
     <!-- Раздел: Послелоги -->
 
     <e><p><l>uyarınca<s n="post"/></l><r>буенча<s n="post"/></r></p></e>
+    <e r="RL"><p><l>son<s n="n"/><s n="px3sp"/><s n="loc"/></l><r>саен<s n="post"/></r></p></e>
     <e><p><l>boyunca<s n="post"/></l><r>буенча<s n="post"/></r></p></e>
     <e><p><l>ile<s n="post"/></l><r>белән<s n="post"/></r></p></e>
     <e><p><l>beri<s n="post"/></l><r>бирле<s n="post"/></r></p></e>
@@ -3377,6 +3378,34 @@
       <e><p><l>gönül<s n="n"/></l><r>үзәк<s n="n"/></r></p></e>
       <e><p><l>Yuri<s n="np"/><s n="ant"/><s n="m"/></l><r>Юрий<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Londra<s n="np"/><s n="top"/></l><r>Лондон<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>federasyon<s n="n"/></l><r>федерация<s n="n"/></r></p></e>
+      <e><p><l>Tübenkama<s n="np"/><s n="top"/></l><r>Түбән Кама<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>yan<s n="n"/></l><r>тур<s n="n"/></r></p></e>
+      <e><p><l>ön<s n="n"/></l><r>тур<s n="n"/></r></p></e>
+      <e><p><l>taraf<s n="n"/></l><r>тур<s n="n"/></r></p></e>
+      <e><p><l>yer<s n="n"/></l><r>тур<s n="n"/></r></p></e>
+      <e><p><l>an<s n="n"/></l><r>тур<s n="n"/></r></p></e>
+      <e><p><l>zaman<s n="n"/></l><r>тур<s n="n"/></r></p></e>
+      <e><p><l>Başkurtistan<s n="n"/></l><r>Башкортстан<s n="n"/></r></p></e>
+      <e><p><l>yüzde<s n="n"/></l><r>процент<s n="n"/></r></p></e>
+      <e><p><l>milyar<s n="num"/></l><r>миллиард<s n="num"/></r></p></e>
+      <e><p><l>bölüm<s n="n"/></l><r>бүлек<s n="n"/></r></p></e>
+      <e><p><l>vazife<s n="n"/></l><r>вазифа<s n="n"/></r></p></e>
+      <e><p><l>görev<s n="n"/></l><r>вазифа<s n="n"/></r></p></e>
+      <e><p><l>birleşik<s n="adj"/></l><r>бердәм<s n="adj"/></r></p></e>
+      <e><p><l>kuzey<s n="n"/></l><r>төньяк<s n="n"/></r></p></e>
+      <e><p><l>dil<s n="n"/></l><r>тел<s n="n"/></r></p></e>
+      <e><p><l>ek<s n="adj"/></l><r>өстәмә<s n="adj"/></r></p></e>
+      <e><p><l>ilave<s n="adj"/></l><r>өстәмә<s n="adj"/></r></p></e>
+      <e><p><l>eksik<s n="adj"/></l><r>ким<s n="adj"/></r></p></e>
+      <e><p><l>yetersiz<s n="adj"/></l><r>ким<s n="adj"/></r></p></e>
+      <e><p><l>bozuk<s n="adj"/></l><r>ким<s n="adj"/></r></p></e>
+      <e><p><l>kötü<s n="adj"/></l><r>ким<s n="adj"/></r></p></e>
+      <e><p><l>saniye<s n="n"/></l><r>секунд<s n="n"/></r></p></e>
+      <e><p><l>yöre<s n="n"/></l><r>төбәк<s n="n"/></r></p></e>
+      <e><p><l>semt<s n="n"/></l><r>төбәк<s n="n"/></r></p></e>
+      <e><p><l>bölge<s n="n"/></l><r>төбәк<s n="n"/></r></p></e>
+
 
   </section>
 </dictionary>
