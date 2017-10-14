@@ -76,6 +76,8 @@
     <e><p><l>ve<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
     <e><p><l>yani<s n="cnjadv"/></l><r>ягъни<s n="cnjsub"/></r></p></e>
     <e><p><l>çünkü<s n="cnjadv"/></l><r>чөнки<s n="cnjsub"/></r></p></e>
+    <e><p><l>eğer<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e>
+    <e><p><l>şayet<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e>
     <e><p><l>ve<s n="cnjcoo"/></l><r>вә<s n="cnjcoo"/></r></p></e>
     <e><p><l>ama<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
     <e><p><l>da<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
@@ -3282,7 +3284,7 @@
       <e><p><l>Marat<s n="np"/><s n="ant"/><s n="m"/></l><r>Марат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>kurul<s n="n"/></l><r>шура<s n="n"/></r></p></e>
       <e><p><l>yaşa<s n="v"/><s n="iv"/></l><r>яшә<s n="v"/><s n="iv"/></r></p></e>
-      <e><p><l>İsrail<s n="np"/><s n="top"/></l><r>Израил<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>İsrail<s n="np"/><s n="top"/></l><r>Исраил<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>dini<s n="adj"/></l><r>дини<s n="adj"/></r></p></e>
       <e><p><l>din<s n="n"/></l><r>дин<s n="n"/></r></p></e>
       <e><p><l>sağlık<s n="n"/></l><r>сәламәтлек<s n="n"/></r></p></e>
@@ -3408,6 +3410,10 @@
       <e><p><l>yöre<s n="n"/></l><r>төбәк<s n="n"/></r></p></e>
       <e><p><l>semt<s n="n"/></l><r>төбәк<s n="n"/></r></p></e>
       <e><p><l>bölge<s n="n"/></l><r>төбәк<s n="n"/></r></p></e>
+      <e><p><l>statü<s n="n"/></l><r>статус<s n="n"/></r></p></e>
+      <e><p><l>seviye<s n="n"/></l><r>мәртәбә<s n="n"/></r></p></e>
+      <e><p><l>defa<s n="n"/></l><r>мәртәбә<s n="n"/></r></p></e>
+      <e><p><l>meclis<s n="n"/></l><r>дума<s n="n"/></r></p></e>
 
 
   </section>

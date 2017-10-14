@@ -2,4 +2,10 @@
   <rule>
     <match lemma="эт" tags="n.*"><select lemma="köpek" tags="n.*"/></match>
   </rule>
+
+  <rule>
+    <or><match tags="num"/><match tags="num.*"/></or>
+    <match lemma="мәртәбә" tags="n.*"><select lemma="defa" tags="n.*"/></match>
+  </rule>
+
 </rules>
