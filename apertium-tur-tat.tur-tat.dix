@@ -29,6 +29,7 @@
     <sdef n="post"  c=""/>
     <sdef n="p3"  c=""/>
     <sdef n="ij"  c=""/>
+    <sdef n="sim"  c=""/>
 
     <sdef n="pass"  c=""/>
     <sdef n="caus"  c=""/>
@@ -110,6 +111,10 @@
     <!-- Раздел: Местоимения -->
 
     <e><p><l>birisi<s n="prn"/><s n="qnt"/></l><r>берсе<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>ne<s n="prn"/><s n="itg"/></l><r>нинди<s n="prn"/><s n="itg"/><s n="sim"/></r></p></e>
+    <e><p><l>kim<s n="prn"/><s n="itg"/></l><r>нинди<s n="prn"/><s n="itg"/><s n="sim"/></r></p></e>
+    <e><p><l>hangi<s n="prn"/><s n="itg"/></l><r>нинди<s n="prn"/><s n="itg"/><s n="sim"/></r></p></e>
+    <e><p><l>hangi<s n="prn"/><s n="itg"/></l><r>кайсы<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>ne<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
@@ -139,6 +144,7 @@
      <!-- Раздел: Определения -->
 
     <e><p><l>kendi<s n="det"/><s n="ref"/></l><r>үз<s n="det"/><s n="ref"/></r></p></e>
+    <e><p><l>hangi<s n="det"/><s n="itg"/></l><r>кайсы<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>bir<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>bu<s n="det"/><s n="dem"/></l><r>бу<s n="det"/><s n="dem"/></r></p></e>
     <e><p><l>bu<s n="det"/><s n="dem"/></l><r>шушы<s n="det"/><s n="dem"/></r></p></e>
@@ -3452,6 +3458,22 @@
       <e><p><l>aday<s n="n"/></l><r>намзәт<s n="n"/></r></p></e>
       <e><p><l>kararname<s n="n"/></l><r>фәрман<s n="n"/></r></p></e>
       <e><p><l>Mürteza<s n="np"/><s n="ant"/><s n="m"/></l><r>Мортаза<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Abdülkerim<s n="np"/><s n="ant"/><s n="m"/></l><r>Габделкәрим<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>operasyon<s n="n"/></l><r>операция<s n="n"/></r></p></e>
+      <e><p><l>Şerif<s n="np"/><s n="ant"/><s n="m"/></l><r>Шәриф<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>yetenek<s n="n"/></l><r>талант<s n="n"/></r></p></e>
+      <e><p><l>sür<s n="v"/><s n="tv"/></l><r>сөр<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>müzisyen<s n="n"/></l><r>музыкант<s n="n"/></r></p></e>
+      <e><p><l>diyanet<s n="n"/></l><r>диния<s n="n"/></r></p></e>
+      <e><p><l>öl<s n="v"/><s n="iv"/></l><r>үл<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>düzenle<s n="v"/><s n="tv"/></l><r>оештыр<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>örgütle<s n="v"/><s n="tv"/></l><r>оештыр<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>biyoloji<s n="n"/></l><r>биология<s n="n"/></r></p></e>
+      <e><p><l>yatırımcı<s n="n"/></l><r>инвестор<s n="n"/></r></p></e>
+      <e><p><l>nokta<s n="n"/></l><r>пункт<s n="n"/></r></p></e>
+      <e><p><l>yaşa<s n="v"/><s n="iv"/></l><r>яшә<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>yan<s n="n"/></l><r>як<s n="n"/></r></p></e>
+
 
 
 

@@ -17,7 +17,7 @@
 
 
     <def-cat n="хәзрәт">
-	<cat-item lemma="хәзрәт" tags="n.*"/>
+	<cat-item lemma="хәзрәт" tags="n.nom"/>
     </def-cat>
 
     <def-cat n="ant">
