@@ -153,6 +153,7 @@
     <e><p><l>her<s n="det"/></l><r>бөтен<s n="det"/></r></p></e>
     <e><p><l>başka<s n="det"/><s n="ind"/></l><r>бүтән<s n="adj"/></r></p></e>  
     <e><p><l>her<s n="det"/><s n="dem"/></l><r>һәр<s n="det"/><s n="qnt"/></r></p></e>  
+    <e><p><l>bütün<s n="det"/><s n="qnt"/></l><r>барлык<s n="det"/><s n="qnt"/></r></p></e> 
 
     <!-- Раздел: Числителные -->
 
@@ -576,13 +577,10 @@
       <e><p><l>top<s n="n"/></l><r>барабан<s n="n"/></r></p></e>
       <e><p><l>baraka<s n="n"/></l><r>барак<s n="n"/></r></p></e>
       <e><p><l>mavna<s n="n"/></l><r>баржа<s n="n"/></r></p></e>
-      <e><p><l>hepsi<s n="n"/></l><r>барлык<s n="n"/></r></p></e>
       <e><p><l>tamamı<s n="n"/></l><r>барлык<s n="n"/></r></p></e>
       <e><p><l>parmak<s n="n"/></l><r>бармак<s n="n"/></r></p></e>
       <e><p><l>baron<s n="n"/></l><r>барон<s n="n"/></r></p></e>
       <e><p><l>barikat<s n="n"/></l><r>баррикада<s n="n"/></r></p></e>
-      <e><p><l>hepsi<s n="n"/></l><r>бары<s n="n"/></r></p></e>
-      <e><p><l>tamamı<s n="n"/></l><r>бары<s n="n"/></r></p></e>
       <e><p><l>eşit<s n="n"/></l><r>барыбер<s n="n"/></r></p></e>
       <e><p><l>varış<s n="n"/></l><r>барыш<s n="n"/></r></p></e>
       <e><p><l>yürüyüş<s n="n"/></l><r>барыш<s n="n"/></r></p></e>
