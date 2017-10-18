@@ -1724,7 +1724,6 @@
       <e><p><l>taraf<s n="n"/></l><r>компонент<s n="n"/></r></p></e>
       <e><p><l>kompres<s n="n"/></l><r>компресс<s n="n"/></r></p></e>
       <e><p><l>bilgisayar<s n="n"/></l><r>компьютер<s n="n"/></r></p></e>
-      <e><p><l>kompütür<s n="n"/></l><r>компьютер<s n="n"/></r></p></e>
       <e><p><l>zarf<s n="n"/></l><r>конверт<s n="n"/></r></p></e>
       <e><p><l>muhafaza<s n="n"/></l><r>конвой<s n="n"/></r></p></e>
       <e><p><l>kongre<s n="n"/></l><r>конгресс<s n="n"/></r></p></e>
@@ -3471,6 +3470,52 @@
       <e><p><l>nokta<s n="n"/></l><r>пункт<s n="n"/></r></p></e>
       <e><p><l>yaşa<s n="v"/><s n="iv"/></l><r>яшә<s n="v"/><s n="iv"/></r></p></e>
       <e><p><l>yan<s n="n"/></l><r>як<s n="n"/></r></p></e>
+      <e><p><l>oku<s n="v"/><s n="tv"/></l><r>укы<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>namaz<s n="n"/></l><r>намаз<s n="n"/></r></p></e>
+      <e><p><l>yerleş<s n="v"/><s n="iv"/></l><r>урнаш<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>bölgesel<s n="adj"/></l><r>региональ<s n="adj"/></r></p></e>
+      <e><p><l>istasyon<s n="n"/></l><r>вокзал<s n="n"/></r></p></e>
+      <e><p><l>geliştir<s n="v"/><s n="tv"/></l><r>үстер<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>büyüt<s n="v"/><s n="tv"/></l><r>үстер<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>geliştirme<s n="n"/></l><r>үстерү<s n="n"/></r></p></e>
+      <e><p><l>düzenle<s n="v"/><s n="tv"/></l><r>үткәр<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>birlik<s n="n"/></l><r>ассоциация<s n="n"/></r></p></e>
+      <e><p><l>topluluk<s n="n"/></l><r>ассоциация<s n="n"/></r></p></e>
+      <e><p><l>Muhammet<s n="np"/><s n="ant"/><s n="m"/></l><r>Мөһәммәд<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Beyrut<s n="np"/><s n="top"/></l><r>Бәйрүт<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>orta<s n="n"/></l><r>урта<s n="n"/></r></p></e>
+      <e><p><l>inşaat<s n="n"/></l><r>төзелеш<s n="n"/></r></p></e>
+      <e><p><l>yapım<s n="n"/></l><r>төзелеш<s n="n"/></r></p></e>
+      <e><p><l>öldür<s n="v"/><s n="tv"/></l><r>үтер<s n="v"/><s n="tv"/></r></p></e>
+      <e r="RL"><p><l>yaş<s n="n"/><s n="px3sp"/><s n="loc"/><s n="attr"/></l><r>яшьлек<s n="adj"/></r></p></e>
+      <e><p><l>Osman<s n="np"/><s n="ant"/><s n="m"/></l><r>Госман<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>tamamla<s n="v"/><s n="tv"/></l><r>тәмамла<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>sahne<s n="n"/></l><r>сәхнә<s n="n"/></r></p></e>
+      <e><p><l>klinik<s n="n"/></l><r>клиник<s n="n"/></r></p></e>
+      <e><p><l>birlik<s n="n"/></l><r>союз<s n="n"/></r></p></e>
+      <e><p><l>göre<s n="post"/></l><r>карата<s n="post"/></r></p></e>
+      <e><p><l>yap<s n="v"/><s n="tv"/></l><r>төз<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>altyapı<s n="n"/></l><r>инфраструктура<s n="n"/></r></p></e>
+      <e><p><l>savaş<s n="n"/></l><r>сугыш<s n="n"/></r></p></e>
+      <e><p><l>reform<s n="n"/></l><r>реформа<s n="n"/></r></p></e>
+      <e><p><l>önem<s n="n"/></l><r>әһәмият<s n="n"/></r></p></e>
+      <e><p><l>ehemmiyet<s n="n"/></l><r>әһәмият<s n="n"/></r></p></e>
+      <e><p><l>geniş<s n="adj"/></l><r>киң<s n="adj"/></r></p></e>
+      <e><p><l>büyük<s n="adj"/></l><r>киң<s n="adj"/></r></p></e>
+      <e><p><l>gösteri<s n="n"/></l><r>спектакль<s n="n"/></r></p></e>
+      <e><p><l>yumuşak<s n="adj"/></l><r>йомшак<s n="adj"/></r></p></e>
+      <e><p><l>derleme<s n="n"/></l><r>җыентык<s n="n"/></r></p></e>
+      <e><p><l>Maksim<s n="np"/><s n="ant"/><s n="m"/></l><r>Максим<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>site<s n="n"/></l><r>сайт<s n="n"/></r></p></e>
+      <e><p><l>eser<s n="n"/></l><r>әсәр<s n="n"/></r></p></e>
+      <e><p><l>iftar<s n="n"/></l><r>ифтар<s n="n"/></r></p></e>
+      <e><p><l>şarkıcı<s n="n"/></l><r>җырчы<s n="n"/></r></p></e>
+      <e><p><l>resim<s n="n"/></l><r>рәсем<s n="n"/></r></p></e>
+      <e><p><l>patlama<s n="n"/></l><r>шартлау<s n="n"/></r></p></e>
+      <e><p><l>patla<s n="v"/><s n="iv"/></l><r>шартла<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>rektör<s n="n"/></l><r>ректор<s n="n"/></r></p></e>
+
+
 
 
 
