@@ -16,6 +16,10 @@
     </def-cat>
 
 
+    <def-cat n="быел">
+	<cat-item lemma="быел" tags="adv"/>
+    </def-cat>
+
     <def-cat n="хәзрәт">
 	<cat-item lemma="хәзрәт" tags="n.nom"/>
     </def-cat>
@@ -173,6 +177,29 @@
   </section-def-macros>
   <section-rules>
 
+    <rule comment="REGLA: быел">
+      <pattern>
+        <pattern-item n="быел"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+	<concat><lit v="bu"/><lit-tag v="det.dem"/></concat>	
+            </lu>
+		<b/>
+            <lu>
+	<concat><lit v="yıl"/><lit-tag v="n.nom"/></concat>	
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="REGLA: hazret">
       <pattern>
         <pattern-item n="ant"/>
@@ -187,7 +214,7 @@
             <lu>
 	<concat><lit v="sayın"/><lit-tag v="adj"/></concat>	
             </lu>
-		<b pos="1"/>
+		<b/>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>

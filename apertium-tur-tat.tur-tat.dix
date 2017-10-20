@@ -3479,7 +3479,7 @@
       <e><p><l>düzenle<s n="v"/><s n="tv"/></l><r>үткәр<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>birlik<s n="n"/></l><r>ассоциация<s n="n"/></r></p></e>
       <e><p><l>topluluk<s n="n"/></l><r>ассоциация<s n="n"/></r></p></e>
-      <e><p><l>Muhammet<s n="np"/><s n="ant"/><s n="m"/></l><r>Мөһәммәд<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Muhammed<s n="np"/><s n="ant"/><s n="m"/></l><r>Мөһәммәд<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Beyrut<s n="np"/><s n="top"/></l><r>Бәйрүт<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>orta<s n="n"/></l><r>урта<s n="n"/></r></p></e>
       <e><p><l>inşaat<s n="n"/></l><r>төзелеш<s n="n"/></r></p></e>
@@ -3528,6 +3528,66 @@
 
       <e><p><l>olumlu<s n="adj"/></l><r>уңай<s n="adj"/></r></p></e>
       <e><p><l>kolay<s n="adj"/></l><r>уңай<s n="adj"/></r></p></e>
+
+      <e r="RL"><p><l>BUYIL</l><r>быел<s n="adv"/></r></p></e>
+      <e r="RL"><p><l></l><r>хәзрәт<s n="n"/></r></p></e>
+      <e><p><l>Muhammed<s n="np"/><s n="ant"/><s n="m"/></l><r>Мөхәммәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Ramil<s n="np"/><s n="ant"/><s n="m"/></l><r>Рамил<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Celil<s n="np"/><s n="ant"/><s n="m"/></l><r>Җәлил<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>İldar<s n="np"/><s n="ant"/><s n="m"/></l><r>Илдар<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Fatih<s n="np"/><s n="ant"/><s n="m"/></l><r>Фатыйх<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Talat<s n="np"/><s n="ant"/><s n="m"/></l><r>Тәлгать<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Veliullah<s n="np"/><s n="ant"/><s n="m"/></l><r>Вәлиулла<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Alimcan<s n="np"/><s n="ant"/><s n="m"/></l><r>Галимҗан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Abdülhak<s n="np"/><s n="ant"/><s n="m"/></l><r>Габделхак<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Elbir<s n="np"/><s n="ant"/><s n="m"/></l><r>Әлбир<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Ömer<s n="np"/><s n="ant"/><s n="m"/></l><r>Үмәр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Hamza<s n="np"/><s n="ant"/><s n="m"/></l><r>Хәмзә<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Abdullah<s n="np"/><s n="ant"/><s n="m"/></l><r>Габдулла<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Nurmuhammet<s n="np"/><s n="ant"/><s n="m"/></l><r>Нурмөхәммәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Nurmuhammet<s n="np"/><s n="ant"/><s n="m"/></l><r>Нурмөхәмәт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Tahir<s n="np"/><s n="ant"/><s n="m"/></l><r>Таһир<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Nail<s n="np"/><s n="ant"/><s n="m"/></l><r>Наил<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Mahmut<s n="np"/><s n="ant"/><s n="m"/></l><r>Мәхмүт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>İlyas<s n="np"/><s n="ant"/><s n="m"/></l><r>Ильяс<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Habibullah<s n="np"/><s n="ant"/><s n="m"/></l><r>Хәбибулла<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>İbrahim<s n="np"/><s n="ant"/><s n="m"/></l><r>Ибраһим<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Zafer<s n="np"/><s n="ant"/><s n="m"/></l><r>Зөфәр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Zülkarneyn<s n="np"/><s n="ant"/><s n="m"/></l><r>Зөлкарнәй<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Hafız<s n="np"/><s n="ant"/><s n="m"/></l><r>Хафиз<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Sait<s n="np"/><s n="ant"/><s n="m"/></l><r>Сәет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Reşit<s n="np"/><s n="ant"/><s n="m"/></l><r>Рәшит<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Mukaddes<s n="np"/><s n="ant"/><s n="m"/></l><r>Мөкатдәс<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Yusuf<s n="np"/><s n="ant"/><s n="m"/></l><r>Йосыф<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Fehim<s n="np"/><s n="ant"/><s n="m"/></l><r>Фәһим<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Talat<s n="np"/><s n="ant"/><s n="m"/></l><r>Тәлгат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Süleyman<s n="np"/><s n="ant"/><s n="m"/></l><r>Сөләйман<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Nurislam<s n="np"/><s n="ant"/><s n="m"/></l><r>Нурислам<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Muhammetarif<s n="np"/><s n="ant"/><s n="m"/></l><r>Мөхәммәтгариф<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Abdülhabir<s n="np"/><s n="ant"/><s n="m"/></l><r>Габделхәбир<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Şamil<s n="np"/><s n="ant"/><s n="m"/></l><r>Шамил<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Haydar<s n="np"/><s n="ant"/><s n="m"/></l><r>Хәйдәр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Ruslan<s n="np"/><s n="ant"/><s n="m"/></l><r>Руслан<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Reşat<s n="np"/><s n="ant"/><s n="m"/></l><r>Ришат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Rasim<s n="np"/><s n="ant"/><s n="m"/></l><r>Рәсим<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Mirhaydar<s n="np"/><s n="ant"/><s n="m"/></l><r>Мирхәйдәр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Kamil<s n="np"/><s n="ant"/><s n="m"/></l><r>Камил<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>İshak<s n="np"/><s n="ant"/><s n="m"/></l><r>Исхак<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>İsmail<s n="np"/><s n="ant"/><s n="m"/></l><r>Исмәгыйль<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Zeki<s n="np"/><s n="ant"/><s n="m"/></l><r>Зәки<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Zarif<s n="np"/><s n="ant"/><s n="m"/></l><r>Зариф<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Zakir<s n="np"/><s n="ant"/><s n="m"/></l><r>Закир<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Cemil<s n="np"/><s n="ant"/><s n="m"/></l><r>Җәмил<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Cafer<s n="np"/><s n="ant"/><s n="m"/></l><r>Җәгъфәр<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Emir<s n="np"/><s n="ant"/><s n="m"/></l><r>Әмир<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Abdürrahim<s n="np"/><s n="ant"/><s n="m"/></l><r>Габдерәхим<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Abdülkerim<s n="np"/><s n="ant"/><s n="m"/></l><r>Абделкәрим<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Yusuf<s n="np"/><s n="ant"/><s n="m"/></l><r>Юсыф<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Yusuf<s n="np"/><s n="ant"/><s n="m"/></l><r>Юсеф<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Yunus<s n="np"/><s n="ant"/><s n="m"/></l><r>Юныс<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Fahrettin<s n="np"/><s n="ant"/><s n="m"/></l><r>Фәхретдин<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Ferhat<s n="np"/><s n="ant"/><s n="m"/></l><r>Фәрхать<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>siyaset<s n="n"/></l><r>сәясәт<s n="n"/></r></p></e>
 
 
 
