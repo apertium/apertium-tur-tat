@@ -42,6 +42,7 @@
     <sdef n="attr"  c=""/>
 
     <sdef n="nom"  c=""/>
+    <sdef n="org"  c=""/>
     <sdef n="dat"  c=""/>
     <sdef n="loc"  c=""/>
 
@@ -143,6 +144,7 @@
  
      <!-- Раздел: Определения -->
 
+    <e><p><l>bazı<s n="det"/><s n="qnt"/></l><r>кайбер<s n="det"/><s n="ind"/></r></p></e>
     <e><p><l>kendi<s n="det"/><s n="ref"/></l><r>үз<s n="det"/><s n="ref"/></r></p></e>
     <e><p><l>hangi<s n="det"/><s n="itg"/></l><r>кайсы<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>bir<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
@@ -158,6 +160,7 @@
     <!-- Раздел: Числителные -->
 
     <e><p><l>bir<s n="num"/></l><r>бер<s n="num"/></r></p></e>
+    <e><p><l>bin<s n="num"/></l><r>мең<s n="num"/></r></p></e>
     <e><p><l>iki<s n="num"/></l><r>ике<s n="num"/></r></p></e>
     <e><p><l>üç<s n="num"/></l><r>өч<s n="num"/></r></p></e>
     <e><p><l>dört<s n="num"/></l><r>дүрт<s n="num"/></r></p></e>
@@ -734,7 +737,6 @@
       <e><p><l>ingiliz<s n="n"/></l><r>британ<s n="n"/></r></p></e>
       <e><p><l>broşür<s n="n"/></l><r>брошюра<s n="n"/></r></p></e>
       <e><p><l>buhar<s n="n"/></l><r>бу<s n="n"/></r></p></e>
-      <e><p><l>boğmak<s n="n"/></l><r>бу<s n="n"/></r></p></e>
       <e><p><l>boğaz<s n="n"/></l><r>бугаз<s n="n"/></r></p></e>
       <e><p><l>boy<s n="n"/></l><r>буй<s n="n"/></r></p></e>
       <e><p><l>manda<s n="n"/></l><r>буйвол<s n="n"/></r></p></e>
@@ -783,9 +785,6 @@
       <e><p><l>mürit<s n="n"/></l><r>бәндә<s n="n"/></r></p></e>
       <e><p><l>kul<s n="n"/></l><r>бәндә<s n="n"/></r></p></e>
       <e><p><l>vuruşma<s n="n"/></l><r>бәрелеш<s n="n"/></r></p></e>
-      <e><p><l>çarpışma<s n="n"/></l><r>бәрелеш<s n="n"/></r></p></e>
-      <e><p><l>vuruşmak<s n="n"/></l><r>бәрелеш<s n="n"/></r></p></e>
-      <e><p><l>çarpışmak<s n="n"/></l><r>бәрелеш<s n="n"/></r></p></e>
       <e><p><l>kadife<s n="n"/></l><r>бәрхет<s n="n"/></r></p></e>
       <e><p><l>bereket<s n="n"/></l><r>бәрәкәт<s n="n"/></r></p></e>
       <e><p><l>kuzu<s n="n"/></l><r>бәрән<s n="n"/></r></p></e>
@@ -812,7 +811,6 @@
       <e><p><l>nane<s n="n"/></l><r>бөтнек<s n="n"/></r></p></e>
       <e><p><l>hamut<s n="n"/></l><r>бөят<s n="n"/></r></p></e>
       <e><p><l>böcek<s n="n"/></l><r>бөҗәк<s n="n"/></r></p></e>
-      <e><p><l>paylaşmak<s n="n"/></l><r>бүл<s n="n"/></r></p></e>
       <e><p><l>bölünebilen<s n="n"/></l><r>бүленүче<s n="n"/></r></p></e>
       <e><p><l>bölünebilen<s n="n"/></l><r>бүленүче<s n="n"/></r></p></e>
       <e><p><l>oda<s n="n"/></l><r>бүлмә<s n="n"/></r></p></e>
@@ -3214,7 +3212,7 @@
       <e><p><l>nisan<s n="n"/></l><r>апрель<s n="n"/></r></p></e>
       <e><p><l>mart<s n="n"/></l><r>март<s n="n"/></r></p></e>
       <e><p><l>hazır<s n="adj"/></l><r>әзер<s n="adj"/></r></p></e>
-      <e><p><l>rus<s n="n"/></l><r>рус<s n="n"/></r></p></e>
+      <e><p><l>rus<s n="n"/></l><r>урыс<s n="n"/></r></p></e>
       <e><p><l>hareket<s n="n"/></l><r>хәрәкәт<s n="n"/></r></p></e>
       <e><p><l>vurgula<s n="v"/><s n="tv"/></l><r>ассызыкла<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>şahsi<s n="adj"/></l><r>шәхси<s n="adj"/></r></p></e>
@@ -3514,9 +3512,22 @@
       <e><p><l>patlama<s n="n"/></l><r>шартлау<s n="n"/></r></p></e>
       <e><p><l>patla<s n="v"/><s n="iv"/></l><r>шартла<s n="v"/><s n="iv"/></r></p></e>
       <e><p><l>rektör<s n="n"/></l><r>ректор<s n="n"/></r></p></e>
+      <e><p><l>batı<s n="n"/></l><r>көнбатыш<s n="n"/></r></p></e>
+      <e><p><l>Peterburg<s n="np"/><s n="top"/></l><r>Санкт-Петербург<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Tatar-İnform<s n="np"/><s n="org"/></l><r>Татар-информ<s n="np"/><s n="org"/></r></p></e>
 
+      <e><p><l>ABD<s n="np"/><s n="top"/></l><r>АКШ<s n="abbr"/></r></p></e>
+      <e><p><l>Rusya<b/>Federasyonu<s n="np"/><s n="top"/></l><r>РФ<s n="abbr"/></r></p></e>
+      <e><p><l>turizm<s n="n"/></l><r>туризм<s n="n"/></r></p></e>
+      <e><p><l>Mintimer<s n="np"/><s n="ant"/><s n="m"/></l><r>Минтимер<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+      <e><p><l>forum<s n="n"/></l><r>форум<s n="n"/></r></p></e>
+      <e><p><l>oturum<s n="n"/></l><r>утырыш<s n="n"/></r></p></e>
+      <e><p><l>arkeolog<s n="n"/></l><r>археолог<s n="n"/></r></p></e>
+      <e><p><l>televizyon<s n="n"/></l><r>телевидение<s n="n"/></r></p></e>
+      <e><p><l>reklam<s n="n"/></l><r>реклама<s n="n"/></r></p></e>
 
-
+      <e><p><l>olumlu<s n="adj"/></l><r>уңай<s n="adj"/></r></p></e>
+      <e><p><l>kolay<s n="adj"/></l><r>уңай<s n="adj"/></r></p></e>
 
 
 
