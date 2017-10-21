@@ -122,7 +122,7 @@
     <e><p><l>ne<s n="prn"/></l><r>нәрсә<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>nere<s n="prn"/><s n="itg"/><s n="loc"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>nere<s n="prn"/><s n="itg"/><s n="dat"/></l><r>кая<s n="adv"/><s n="itg"/></r></p></e>
-    <e><p><l>kim<s n="prn"/></l><r>кем<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>kim<s n="prn"/><s n="itg"/></l><r>кем<s n="prn"/><s n="itg"/></r></p></e>
     
     <e><p><l>ben<s n="prn"/><s n="pers"/></l><r>мин<s n="prn"/><s n="pers"/></r></p></e>
     <e><p><l>sen<s n="prn"/><s n="pers"/></l><r>син<s n="prn"/><s n="pers"/></r></p></e>
@@ -3600,6 +3600,100 @@
       <e><p><l>Allah<s n="n"/></l><r>Аллаһ<s n="n"/></r></p></e>
       <e><p><l>ciddi<s n="adj"/></l><r>җитди<s n="adj"/></r></p></e>
       <e><p><l>şirket<s n="n"/></l><r>предприятие<s n="n"/></r></p></e>
+      <e r="RL"><p><l>milyon<s n="num"/></l><r>млн<s n="abbr"/></r></p></e>
+      <e><p><l>tatil<s n="n"/></l><r>ял<s n="n"/></r></p></e>
+      <e><p><l>mola<s n="n"/></l><r>ял<s n="n"/></r></p></e>
+      <e><p><l>ücret<s n="n"/></l><r>ял<s n="n"/></r></p></e>
+      <e><p><l>dinlenme<s n="n"/></l><r>ял<s n="n"/></r></p></e>
+      <e><p><l>yele<s n="n"/></l><r>ял<s n="n"/></r></p></e>
+      <e><p><l>yeşil<s n="adj"/></l><r>яшел<s n="adj"/></r></p></e>
+      <e><p><l>ırmak<s n="n"/></l><r>үзән<s n="n"/></r></p></e>
+      <e><p><l>nehir<s n="n"/></l><r>үзән<s n="n"/></r></p></e>
+      <e><p><l>isimlendir<s n="v"/><s n="tv"/></l><r>исемлә<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>düşür<s n="v"/><s n="tv"/></l><r>төшер<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>gazetecilik<s n="n"/></l><r>журналистика<s n="n"/></r></p></e>
+      <e><p><l>fakülte<s n="n"/></l><r>факультет<s n="n"/></r></p></e>
+      <e><p><l>dekan<s n="n"/></l><r>декан<s n="n"/></r></p></e>
+      <e><p><l>inovasyon<s n="n"/></l><r>инновация<s n="n"/></r></p></e>
+      <e><p><l>filoloji<s n="n"/></l><r>филология<s n="n"/></r></p></e>
+      <e><p><l>enstitü<s n="n"/></l><r>институт<s n="n"/></r></p></e>
+      <e><p><l>çalışma<s n="n"/></l><r>эшчәнлек<s n="n"/></r></p></e>
+      <e><p><l>Tatiana<s n="np"/><s n="ant"/><s n="f"/></l><r>Татьяна<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e><p><l>kanıtla<s n="v"/><s n="tv"/></l><r>расла<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>doğrula<s n="v"/><s n="tv"/></l><r>расла<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>gerçekleştir<s n="v"/><s n="tv"/></l><r>расла<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>yaz<s n="v"/><s n="tv"/></l><r>яз<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>devlet<s n="n"/></l><r>штат<s n="n"/></r></p></e>
+      <e><p><l>silah<s n="n"/></l><r>корал<s n="n"/></r></p></e>
+      <e><p><l>alet<s n="n"/></l><r>корал<s n="n"/></r></p></e>
+      <e><p><l>terör<s n="n"/></l><r>террорчылык<s n="n"/></r></p></e>
+      <e><p><l>meşhur<s n="adj"/></l><r>атказанган<s n="adj"/></r></p></e>
+      <e><p><l>belediye başkanı<s n="n"/></l><r>мэр<s n="n"/></r></p></e>
+      <e><p><l>aday<s n="n"/></l><r>намзәт<s n="n"/></r></p></e>
+      <e><p><l>tantanalı<s n="adj"/></l><r>тантаналы<s n="adj"/></r></p></e>
+      <e><p><l>gösterişli<s n="adj"/></l><r>тантаналы<s n="adj"/></r></p></e>
+      <e><p><l>Belarus<s n="np"/><s n="top"/></l><r>Беларус<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>uzak<s n="adj"/></l><r>ерак<s n="adj"/></r></p></e>
+      <e><p><l>hanım<s n="n"/></l><r>ханым<s n="n"/></r></p></e>
+      <e><p><l>hesap<s n="n"/></l><r>хисап<s n="n"/></r></p></e>
+      <e><p><l>bölgesel<s n="adj"/></l><r>территориаль<s n="adj"/></r></p></e>
+      <e><p><l>ramazan<s n="n"/></l><r>Рамазан<s n="n"/></r></p></e>
+      <e><p><l>kızıl<s n="adj"/></l><r>кызыл<s n="adj"/></r></p></e>
+      <e><p><l>kırmızı<s n="adj"/></l><r>кызыл<s n="adj"/></r></p></e>
+      <e><p><l>Lyudmila<s n="np"/><s n="ant"/><s n="f"/></l><r>Людмила<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e><p><l>hazırlık<s n="n"/></l><r>тәртип<s n="n"/></r></p></e>
+      <e><p><l>miting<s n="n"/></l><r>митинг<s n="n"/></r></p></e>
+      <e><p><l>Sırbistan<s n="np"/><s n="top"/></l><r>Сербия<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>orkestra<s n="n"/></l><r>оркестр<s n="n"/></r></p></e>
+      <e><p><l>gelenek<s n="n"/></l><r>традиция<s n="n"/></r></p></e>
+      <e><p><l>etnik<s n="adj"/></l><r>этник<s n="adj"/></r></p></e>
+      <e><p><l>hayır<s n="n"/></l><r>хәйрия<s n="n"/></r></p></e>
+      <e><p><l>müzik<s n="n"/></l><r>музыка<s n="n"/></r></p></e>
+      <e><p><l>millet<s n="n"/></l><r>милләт<s n="n"/></r></p></e>
+      <e><p><l>ulus<s n="n"/></l><r>милләт<s n="n"/></r></p></e>
+      <e><p><l>öğren<s n="v"/><s n="tv"/></l><r>өйрән<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>Washington<s n="np"/><s n="top"/></l><r>Вашингтон<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>amerikan<s n="adj"/></l><r>американ<s n="adj"/></r></p></e>
+      <e><p><l>pazar<s n="n"/></l><r>якшәмбе<s n="n"/></r></p></e>
+      <e><p><l>silahlı<s n="adj"/></l><r>кораллы<s n="adj"/></r></p></e>
+      <e><p><l>problem<s n="n"/></l><r>проблема<s n="n"/></r></p></e>
+      <e><p><l>sorun<s n="n"/></l><r>проблема<s n="n"/></r></p></e>
+      <e><p><l>Osetya<s n="np"/><s n="top"/></l><r>Осетия<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>futbol<s n="n"/></l><r>футбол<s n="n"/></r></p></e>
+      <e><p><l>bey<s n="n"/></l><r>әфәнде<s n="n"/></r></p></e>
+      <e><p><l>efendi<s n="n"/></l><r>әфәнде<s n="n"/></r></p></e>
+      <e><p><l>Nikolay<s n="n"/></l><r>Николай<s n="n"/></r></p></e>
+      <e><p><l>İgor<s n="np"/><s n="ant"/><s n="m"/></l><r>Игорь<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>teknoloji<s n="n"/></l><r>технология<s n="n"/></r></p></e>
+      <e><p><l>demokratik<s n="n"/></l><r>демократик<s n="n"/></r></p></e>
+      <e><p><l>Abhazya<s n="np"/><s n="top"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>tatarca<s n="n"/></l><r>татарча<s n="n"/></r></p></e>
+      <e><p><l>Libya<s n="np"/><s n="top"/></l><r>Либия<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Kırgızistan<s n="np"/><s n="top"/></l><r>Кыргызстан<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Tehran<s n="np"/><s n="top"/></l><r>Тәһран<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Oleg<s n="np"/><s n="ant"/><s n="m"/></l><r>Олег<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Japonya<s n="np"/><s n="top"/></l><r>Япония<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>yatırım<s n="n"/></l><r>инвестиция<s n="n"/></r></p></e>
+      <e><p><l>tecrübe<s n="n"/></l><r>тәҗрибә<s n="n"/></r></p></e>
+      <e><p><l>meydan<s n="n"/></l><r>мәйдан<s n="n"/></r></p></e>
+      <e><p><l>taraftar<s n="n"/></l><r>тарафдар<s n="n"/></r></p></e>
+      <e><p><l>destekçi<s n="n"/></l><r>тарафдар<s n="n"/></r></p></e>
+      <e><p><l>Celil<s n="np"/><s n="ant"/><s n="m"/></l><r>Җәлил<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Robert<s n="np"/><s n="ant"/><s n="m"/></l><r>Роберт<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Asya<s n="np"/><s n="top"/></l><r>Азия<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>akademi<s n="n"/></l><r>академия<s n="n"/></r></p></e>
+      <e><p><l>fizik<s n="n"/></l><r>физик<s n="n"/></r></p></e>
+      <e><p><l>Filistin<s n="np"/><s n="top"/></l><r>Фәләстин<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>müdür<s n="n"/></l><r>мөдир<s n="n"/></r></p></e>
+      <e><p><l>yönetici<s n="n"/></l><r>мөдир<s n="n"/></r></p></e>
+      <e><p><l>türki<s n="adj"/></l><r>төрки<s n="adj"/></r></p></e>
+      <e><p><l>Pakistan<s n="np"/><s n="top"/></l><r>Пакыстан<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Hindistan<s n="np"/><s n="top"/></l><r>Һиндстан<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Novgorod<s n="np"/><s n="top"/></l><r>Новгород<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>planla<s n="v"/><s n="tv"/></l><r>планлаштыр<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>faydalı<s n="adj"/></l><r>файдалы<s n="adj"/></r></p></e>
+      <e><p><l>üretim<s n="n"/></l><r>продукция<s n="n"/></r></p></e>
+
 
 
 
