@@ -3601,6 +3601,7 @@
       <e><p><l>ciddi<s n="adj"/></l><r>җитди<s n="adj"/></r></p></e>
       <e><p><l>şirket<s n="n"/></l><r>предприятие<s n="n"/></r></p></e>
       <e r="RL"><p><l>milyon<s n="num"/></l><r>млн<s n="abbr"/></r></p></e>
+      <e r="RL"><p><l>milyar<s n="num"/></l><r>млрд<s n="abbr"/></r></p></e>
       <e><p><l>tatil<s n="n"/></l><r>ял<s n="n"/></r></p></e>
       <e><p><l>mola<s n="n"/></l><r>ял<s n="n"/></r></p></e>
       <e><p><l>ücret<s n="n"/></l><r>ял<s n="n"/></r></p></e>
@@ -3665,7 +3666,7 @@
       <e><p><l>Nikolay<s n="n"/></l><r>Николай<s n="n"/></r></p></e>
       <e><p><l>İgor<s n="np"/><s n="ant"/><s n="m"/></l><r>Игорь<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>teknoloji<s n="n"/></l><r>технология<s n="n"/></r></p></e>
-      <e><p><l>demokratik<s n="n"/></l><r>демократик<s n="n"/></r></p></e>
+      <e><p><l>demokratik<s n="adj"/></l><r>демократик<s n="adj"/></r></p></e>
       <e><p><l>Abhazya<s n="np"/><s n="top"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>tatarca<s n="n"/></l><r>татарча<s n="n"/></r></p></e>
       <e><p><l>Libya<s n="np"/><s n="top"/></l><r>Либия<s n="np"/><s n="top"/></r></p></e>
@@ -3714,6 +3715,7 @@
       <e><p><l>Şefaat<s n="np"/><s n="ant"/><s n="m"/></l><r>Шәфәгать<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>başarılı<s n="adj"/></l><r>уңышлы<s n="adj"/></r></p></e>
       <e><p><l>hacim<s n="n"/></l><r>күләм<s n="n"/></r></p></e>
+      <e><p><l>büyüklük<s n="n"/></l><r>күләм<s n="n"/></r></p></e>
       <e><p><l>demir<s n="n"/></l><r>тимер<s n="n"/></r></p></e>
       <e><p><l>barış<s n="n"/></l><r>тынычлык<s n="n"/></r></p></e>
       <e><p><l>huzur<s n="n"/></l><r>тынычлык<s n="n"/></r></p></e>
@@ -3723,6 +3725,33 @@
       <e><p><l>leopar<s n="n"/></l><r>барс<s n="n"/></r></p></e>
       <e><p><l>İlsur<s n="np"/><s n="ant"/><s n="m"/></l><r>Илсур<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>dönem<s n="n"/></l><r>чор<s n="n"/></r></p></e>
+      <e><p><l>süreç<s n="n"/></l><r>процесс<s n="n"/></r></p></e>
+      <e><p><l>imzala<s n="v"/><s n="tv"/></l><r>имзала<s n="v"/><s n="tv"/></r></p></e>
+      <e r="RL"><p><l>ortalama<s n="n"/><s n="attr"/></l><r>уртача<s n="adj"/></r></p></e>
+      <e><p><l>KamAZ<s n="np"/><s n="org"/></l><r>КамАЗ<s n="abbr"/></r></p></e>
+      <e><p><l>Olimpiyat<s n="np"/><s n="org"/></l><r>Олимпия<s n="np"/><s n="al"/></r></p></e>
+      <e><p><l>tam<s n="adj"/></l><r>тулы<s n="adj"/></r></p></e>
+      <e><p><l>bütün<s n="adj"/></l><r>тулы<s n="adj"/></r></p></e>
+      <e><p><l>Yarçallı<s n="np"/><s n="top"/></l><r>Чаллы<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>geçir<s n="v"/><s n="tv"/></l><r>керт<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>sok<s n="v"/><s n="tv"/></l><r>керт<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>yerleştir<s n="v"/><s n="tv"/></l><r>керт<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>teorik<s n="adj"/></l><r>теоретик<s n="adj"/></r></p></e>
+      <e><p><l>Ural<s n="np"/><s n="top"/></l><r>Урал<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>vaziyet<s n="n"/></l><r>вәзгыять<s n="n"/></r></p></e>
+      <e><p><l>hal<s n="n"/></l><r>вәзгыять<s n="n"/></r></p></e>
+      <e><p><l>Anatoli<s n="np"/><s n="ant"/><s n="m"/></l><r>Анатолий<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>amerikalı<s n="n"/></l><r>американ<s n="n"/></r></p></e>
+      <e><p><l>kimya<s n="n"/></l><r>химия<s n="n"/></r></p></e>
+      <e><p><l>Abdullah<s n="np"/><s n="ant"/><s n="m"/></l><r>Абдуллах<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Nikolay<s n="np"/><s n="ant"/><s n="m"/></l><r>Николай<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>savcılık<s n="n"/></l><r>прокуратура<s n="n"/></r></p></e>
+      <e><p><l>Türkmenistan<s n="np"/><s n="top"/></l><r>Төркмәнстан<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>afgan<s n="n"/></l><r>әфган<s n="n"/></r></p></e>
+      <e><p><l>radyo<s n="n"/></l><r>радио<s n="n"/></r></p></e>
+      <e><p><l>muhabir<s n="n"/></l><r>хәбәрче<s n="n"/></r></p></e>
+      <e><p><l>Hamit<s n="np"/><s n="ant"/><s n="m"/></l><r>Хәмит<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
 
 
   </section>
