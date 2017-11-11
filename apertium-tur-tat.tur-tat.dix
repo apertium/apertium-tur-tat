@@ -21,6 +21,8 @@
     <sdef n="top" />
 
     <sdef n="m"  c=""/>
+    <sdef n="cog"  c=""/>
+    <sdef n="mf"  c=""/>
     <sdef n="pred"  c=""/>
     <sdef n="cop"  c=""/>
     <sdef n="f"  c=""/>
@@ -845,7 +847,7 @@
       <e><p><l>ayvan<s n="n"/></l><r>веранда<s n="n"/></r></p></e>
       <e><p><l>helikopter<s n="n"/></l><r>вертолет<s n="n"/></r></p></e>
       <e><p><l>gazi<s n="n"/></l><r>ветеран<s n="n"/></r></p></e>
-      <e><p><l>emektar<s n="n"/></l><r>ветеран<s n="n"/></r></p></e>
+<!--      <e><p><l>emektar<s n="n"/></l><r>ветеран<s n="n"/></r></p></e> -->
       <e><p><l>takım<s n="n"/></l><r>взвод<s n="n"/></r></p></e>
       <e><p><l>vize<s n="n"/></l><r>виза<s n="n"/></r></p></e>
       <e><p><l>virüs<s n="n"/></l><r>вирус<s n="n"/></r></p></e>
@@ -3839,6 +3841,36 @@
       <e><p><l>sanki<s n="adv"/></l><r>нәкъ<s n="adv"/></r></p></e>
       <e><p><l>Tatneft<s n="np"/><s n="org"/></l><r>Татнефть<s n="np"/><s n="org"/></r></p></e>
       <e><p><l>toplum<s n="n"/></l><r>җәмәгатьчелек<s n="n"/></r></p></e>
+      <e><p><l>büyük<s n="adj"/></l><r>эре<s n="adj"/></r></p></e>
+      <e><p><l>Obama<s n="np"/><s n="cog"/><s n="mf"/></l><r>Обама<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+      <e><p><l>Clinton<s n="np"/><s n="cog"/><s n="mf"/></l><r>Клинтон<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+      <e><p><l>Kaddafi<s n="np"/><s n="cog"/><s n="mf"/></l><r>Каддафи<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+      <e><p><l>ölüm<s n="n"/></l><r>һәлак<s n="n"/></r></p></e>
+      <e><p><l>folklor<s n="n"/></l><r>фольклор<s n="n"/></r></p></e>
+      <e><p><l>kolay<s n="adj"/></l><r>җиңел<s n="adj"/></r></p></e>
+      <e><p><l>hafif<s n="adj"/></l><r>җиңел<s n="adj"/></r></p></e>
+      <e><p><l>ceza<s n="n"/></l><r>штраф<s n="n"/></r></p></e>
+      <e><p><l>öğret<s n="v"/><s n="tv"/></l><r>укыт<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>öğretmen<s n="n"/></l><r>укытучы<s n="n"/></r></p></e>
+      <e><p><l>ulaş<s n="v"/><s n="iv"/></l><r>җит<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>Ayrat<s n="np"/><s n="ant"/><s n="m"/></l><r>Айрат<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>gönül<s n="n"/></l><r>күңел<s n="n"/></r></p></e>
+      <e><p><l>iman<s n="n"/></l><r>иман<s n="n"/></r></p></e>
+      <e><p><l>Rimma<s n="np"/><s n="ant"/><s n="f"/></l><r>Римма<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e><p><l>Selahattin<s n="np"/><s n="ant"/><s n="m"/></l><r>Сәләхетдин<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>tank<s n="n"/></l><r>танк<s n="n"/></r></p></e>
+      <e><p><l>doktor<s n="n"/></l><r>табиб<s n="n"/></r></p></e>
+      <e><p><l>pratik<s n="adj"/></l><r>гамәли<s n="adj"/></r></p></e>
+      <e><p><l>ölüm<s n="n"/></l><r>үлем<s n="n"/></r></p></e>
+      <e><p><l>birleş<s n="v"/><s n="iv"/></l><r>берләш<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>tamir<s n="n"/></l><r>ремонт<s n="n"/></r></p></e>
+      <e><p><l>tadilat<s n="n"/></l><r>ремонт<s n="n"/></r></p></e>
+      <e><p><l>kazan<s n="v"/><s n="tv"/></l><r>яула<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>bronz<s n="n"/></l><r>бронза<s n="n"/></r></p></e>
+      <e><p><l>madalya<s n="n"/></l><r>медаль<s n="n"/></r></p></e>
+      <e><p><l>iddia<s n="n"/></l><r>дәгъва<s n="n"/></r></p></e>
+      <e><p><l>elektronik<s n="adj"/></l><r>электрон<s n="adj"/></r></p></e>
+      <e><p><l>hokey<s n="n"/></l><r>хоккей<s n="n"/></r></p></e>
 
 
 
