@@ -4,6 +4,10 @@
   </rule>
 
   <rule>
+    <match lemma="башкар" tags="v.*"><select lemma="yürüt" tags="v.*"/></match>
+    <match lemma="комитет" tags="n.*"/>
+  </rule>
+  <rule>
     <match lemma="уңай" tags="adj.*"><select lemma="olumlu" tags="adj.*"/></match>
     <match lemma="җавап" tags="n.*"/>
   </rule>
