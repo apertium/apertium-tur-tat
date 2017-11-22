@@ -1097,7 +1097,8 @@
       <e><p><l>yıl<s n="n"/></l><r>ел<s n="n"/></r></p></e>
       <e><p><l>yılan<s n="n"/></l><r>елан<s n="n"/></r></p></e>
       <e><p><l>ırmak<s n="n"/></l><r>елга<s n="n"/></r></p></e>
-      <e><p><l>vadi<s n="n"/></l><r>елга<s n="n"/></r></p></e>
+      <e><p><l>nehir<s n="n"/></l><r>елга<s n="n"/></r></p></e>
+<!--      <e><p><l>vadi<s n="n"/></l><r>елга<s n="n"/></r></p></e> -->
       <e><p><l>becerikli<s n="n"/></l><r>елгыр<s n="n"/></r></p></e>
       <e><p><l>kurnaz<s n="n"/></l><r>елгыр<s n="n"/></r></p></e>
       <e><p><l>gülümseyiş<s n="n"/></l><r>елмаю<s n="n"/></r></p></e>
@@ -3896,6 +3897,56 @@
       <e><p><l>yalan<s n="n"/></l><r>ялган<s n="n"/></r></p></e>
       <e><p><l>öngör<s n="v"/><s n="tv"/></l><r>фаразла<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>ulaştır<s n="v"/><s n="tv"/></l><r>җиткер<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>adım<s n="n"/></l><r>адым<s n="n"/></r></p></e>
+      <e><p><l>alim<s n="n"/></l><r>галим<s n="n"/></r></p></e>
+      <e><p><l>Anatoli<s n="np"/><s n="ant"/><s n="m"/></l><r>Анатолий<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>asker<s n="n"/></l><r>сугышчы<s n="n"/></r></p></e>
+      <e><p><l>ateş<s n="n"/></l><r>ут<s n="n"/></r></p></e>
+      <e><p><l>destek<s n="n"/></l><r>теләктәшлек<s n="n"/></r></p></e>
+      <e><p><l>doğal<s n="adj"/></l><r>табигый<s n="adj"/></r></p></e>
+      <e><p><l>durdur<s n="v"/><s n="tv"/></l><r>туктат<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>eğitim<s n="n"/></l><r>тәрбия<s n="n"/></r></p></e>
+      <e><p><l>etkinlik<s n="n"/></l><r>тантана<s n="n"/></r></p></e>
+      <e><p><l>geçici<s n="adj"/></l><r>вакытлыча<s n="adj"/></r></p></e>
+      <e><p><l>genç<s n="n"/></l><r>яшүсмер<s n="n"/></r></p></e>
+      <e><p><l>gizemli<s n="adj"/></l><r>яшерен<s n="adj"/></r></p></e>
+      <e><p><l>gizli<s n="adj"/></l><r>яшерен<s n="adj"/></r></p></e>
+      <e><p><l>gösteri<s n="n"/></l><r>тантана<s n="n"/></r></p></e>
+      <e><p><l>güven<s n="n"/></l><r>ышаныч<s n="n"/></r></p></e>
+      <e><p><l>hapis<s n="n"/></l><r>төрмә<s n="n"/></r></p></e>
+      <e><p><l>hasat<s n="n"/></l><r>уңыш<s n="n"/></r></p></e>
+      <e><p><l>hastane<s n="n"/></l><r>хастаханә<s n="n"/></r></p></e>
+      <e><p><l>hedefle<s n="v"/><s n="tv"/></l><r>төз<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>ihtiyar<s n="adj"/></l><r>өлкән<s n="adj"/></r></p></e>
+      <e><p><l>inanç<s n="n"/></l><r>ышаныч<s n="n"/></r></p></e>
+      <e><p><l>in<s n="v"/><s n="iv"/></l><r>төш<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>ipotek<s n="n"/></l><r>ипотека<s n="n"/></r></p></e>
+      <e><p><l>işçi<s n="n"/></l><r>эшче<s n="n"/></r></p></e>
+      <e><p><l>kamusal<s n="adj"/></l><r>коммуналь<s n="adj"/></r></p></e>
+      <e><p><l>karmaşık<s n="adj"/></l><r>катлаулы<s n="adj"/></r></p></e>
+      <e><p><l>kötü<s n="adj"/></l><r>начар<s n="adj"/></r></p></e>
+      <e><p><l>malum<s n="adj"/></l><r>мәгълүм<s n="adj"/></r></p></e>
+      <e><p><l>mil<s n="n"/></l><r>чакрым<s n="n"/></r></p></e>
+      <e><p><l>neredeyse<s n="adv"/></l><r>якынча<s n="adv"/></r></p></e>
+      <e><p><l>öde<s n="v"/><s n="tv"/></l><r>түлә<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>orman<s n="n"/></l><r>урман<s n="n"/></r></p></e>
+      <e><p><l>politika<s n="n"/></l><r>юнәлеш<s n="n"/></r></p></e>
+      <e><p><l>savaşçı<s n="n"/></l><r>сугышчы<s n="n"/></r></p></e>
+      <e><p><l>sempati<s n="n"/></l><r>теләктәшлек<s n="n"/></r></p></e>
+      <e><p><l>sınırla<s n="v"/><s n="tv"/></l><r>чиклә<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>stratejik<s n="adj"/></l><r>стратегик<s n="adj"/></r></p></e>
+      <e><p><l>telefon<s n="n"/></l><r>телефон<s n="n"/></r></p></e>
+      <e><p><l>uçak<s n="n"/></l><r>очкыч<s n="n"/></r></p></e>
+      <e><p><l>uğraş<s n="v"/><s n="iv"/></l><r>шөгыльлән<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>üs<s n="n"/></l><r>база<s n="n"/></r></p></e>
+      <e><p><l>yaşlı<s n="adj"/></l><r>өлкән<s n="adj"/></r></p></e>
+      <e><p><l>yedi<s n="num"/></l><r>җиде<s n="num"/></r></p></e>
+      <e><p><l>yetenekli<s n="adj"/></l><r>сәләтле<s n="adj"/></r></p></e>
+      <e><p><l>yönet<s n="v"/><s n="tv"/></l><r>җитәклә<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>yönlendir<s n="v"/><s n="tv"/></l><r>җитәклә<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>yön<s n="n"/></l><r>юнәлеш<s n="n"/></r></p></e>
+      <e><p><l>zor<s n="adj"/></l><r>катлаулы<s n="adj"/></r></p></e>
+
 
 
 
