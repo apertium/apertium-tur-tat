@@ -93,6 +93,8 @@
     <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
     <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
   
+    <e r="RL"><p><l></l><r>әйтүенчә<s n="cnjadv"/></r></p></e>
+    <e r="RL"><p><l></l><r>сүзләренчә<s n="cnjadv"/></r></p></e>
 
     <!-- Раздел: Послелоги -->
 
@@ -148,7 +150,7 @@
      <!-- Раздел: Определения -->
 
     <e><p><l>bazı<s n="det"/><s n="qnt"/></l><r>кайбер<s n="det"/><s n="ind"/></r></p></e>
-    <e><p><l>hiçbir<s n="det"/><s n="qnt"/></l><r>бернинди<s n="det"/><s n="ind"/></r></p></e>
+    <e><p><l>hiçbir<s n="det"/><s n="qnt"/></l><r>бернинди<s n="det"/><s n="neg"/></r></p></e>
     <e><p><l>kendi<s n="det"/><s n="ref"/></l><r>үз<s n="det"/><s n="ref"/></r></p></e>
     <e><p><l>hangi<s n="det"/><s n="itg"/></l><r>кайсы<s n="det"/><s n="itg"/></r></p></e>
     <e><p><l>bir<s n="det"/><s n="ind"/></l><r>бер<s n="det"/><s n="ind"/></r></p></e>
