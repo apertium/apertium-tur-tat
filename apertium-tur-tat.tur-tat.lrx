@@ -2,4 +2,7 @@
   <rule>
     <match lemma="köpek" tags="n.*"><select lemma="эт" tags="n.*"/></match>
   </rule>
+  <rule>
+    <match lemma="ve" tags="cnjcoo"><select lemma="һәм" tags="cnjcoo"/></match>
+  </rule>
 </rules>

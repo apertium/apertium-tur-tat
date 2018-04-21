@@ -75,26 +75,26 @@
 
     <e><p><l>mı<s n="qst"/></l><r>мы<s n="qst"/></r></p></e>
 
-    <!-- Раздел: Союзы -->
+    <!-- Раздел: Союзы | Conjunctions -->
 
-    <e><p><l>ve<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
-    <e><p><l>yani<s n="cnjadv"/></l><r>ягъни<s n="cnjsub"/></r></p></e>
-    <e><p><l>çünkü<s n="cnjadv"/></l><r>чөнки<s n="cnjsub"/></r></p></e>
-    <e><p><l>eğer<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e>
-    <e><p><l>şayet<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e>
-    <e><p><l>ve<s n="cnjcoo"/></l><r>вә<s n="cnjcoo"/></r></p></e>
-    <e><p><l>ama<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
+    <e r="RL"><p><l></l><r>сүзләренчә<s n="cnjadv"/></r></p></e>
+    <e r="RL"><p><l></l><r>әйтүенчә<s n="cnjadv"/></r></p></e>
     <e><p><l>ama<s n="cnjcoo"/></l><r>ләкин<s n="cnjcoo"/></r></p></e>
-    <e><p><l>lakin<s n="cnjcoo"/></l><r>ләкин<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ama<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
+    <e><p><l>artı<s n="cnjcoo"/></l><r>плүс<s n="cnjcoo"/></r></p></e>    
     <e><p><l>da<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
+    <e><p><l>eğer<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e>
     <e><p><l>fakat<s n="cnjcoo"/></l><r>әмма<s n="cnjcoo"/></r></p></e>
-    <e><p><l>ya<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
+    <e><p><l>lakin<s n="cnjcoo"/></l><r>ләкин<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ve<s n="cnjcoo"/></l><r>вә<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ve<s n="cnjcoo"/></l><r>һәм<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>  
     <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
     <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>яки<s n="cnjcoo"/></r></p></e>
-    <e><p><l>ya<b/>da<s n="cnjcoo"/></l><r>я<s n="cnjcoo"/></r></p></e>
-  
-    <e r="RL"><p><l></l><r>әйтүенчә<s n="cnjadv"/></r></p></e>
-    <e r="RL"><p><l></l><r>сүзләренчә<s n="cnjadv"/></r></p></e>
+    <e><p><l>ya<s n="cnjcoo"/></l><r>яисә<s n="cnjcoo"/></r></p></e>
+    <e><p><l>yani<s n="cnjadv"/></l><r>ягъни<s n="cnjsub"/></r></p></e>
+    <e><p><l>çünkü<s n="cnjadv"/></l><r>чөнки<s n="cnjsub"/></r></p></e>
+    <e><p><l>şayet<s n="cnjsub"/></l><r>әгәр<s n="cnjsub"/></r></p></e>
 
     <!-- Раздел: Послелоги -->
 
@@ -2287,6 +2287,7 @@
     <e><p><l>gayet<s n="adv"/></l><r>гаять<s n="adv"/></r></p></e>
     <e><p><l>gayrı<s n="adv"/></l><r>гайре<s n="adv"/></r></p></e>
     <e><p><l>güzel<s n="adv"/></l><r>әйбәт<s n="adj"/><s n="advl"/></r></p></e>
+    <e><p><l>hemen<s n="adv"/></l><r>хәзер<b/>үк<s n="adv"/></r></p></e>    
     <e><p><l>her<b/>zaman<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
     <e><p><l>hâlâ<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e>  
     <e><p><l>iyi<s n="adj"/></l><r>яхшы<s n="adj"/></r></p></e>  
