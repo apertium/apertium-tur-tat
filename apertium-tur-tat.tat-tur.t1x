@@ -10,6 +10,11 @@
       <cat-item tags="v.*"/>
     </def-cat>
 
+
+    <def-cat n="post">
+      <cat-item tags="post"/>
+    </def-cat>
+
     <def-cat n="attr">
       <cat-item tags="adj"/>
       <cat-item tags="n.attr"/>
