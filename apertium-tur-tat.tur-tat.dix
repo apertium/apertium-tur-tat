@@ -303,7 +303,7 @@
       <e><p><l>alttan<s n="n"/></l><r>астан<s n="n"/></r></p></e>
       <e><p><l>altı<s n="n"/></l><r>алты<s n="n"/></r></p></e>
       <e><p><l>altın<s n="n"/></l><r>алтын<s n="n"/></r></p></e>
-      <e><p><l>altıncı<s n="n"/></l><r>алтынчы<s n="n"/></r></p></e>
+      <e><p><l>altıncı<s n="adj"/></l><r>алтынчы<s n="adj"/></r></p></e>
       <e><p><l>alçı<s n="n"/></l><r>гипс<s n="n"/></r></p></e>
       <e><p><l>alıcı<s n="n"/></l><r>алучы<s n="n"/></r></p></e>
       <e><p><l>alındı<s n="n"/></l><r>квитанция<s n="n"/></r></p></e>
@@ -595,7 +595,7 @@
       <e><p><l>bölge<s n="n"/></l><r>өлкә<s n="n"/></r></p></e>
       <e><p><l>bölücü<s n="n"/></l><r>бүлүче<s n="n"/></r></p></e>
       <e><p><l>bölüm<s n="n"/></l><r>кафедра<s n="n"/></r></p></e>
-      <e><p><l>bölünebilen<s n="n"/></l><r>бүленүче<s n="n"/></r></p></e>
+      <e><p><l>bölünebilen<s n="adj"/></l><r>бүленүче<s n="adj"/></r></p></e>
       <e><p><l>böğür<s n="n"/></l><r>бөер<s n="n"/></r></p></e>
       <e><p><l>böğürtlen<s n="n"/></l><r>бөрлегән<s n="n"/></r></p></e>
       <e><p><l>bücür<s n="n"/></l><r>кәрлә<s n="n"/></r></p></e>
@@ -905,7 +905,7 @@
       <e><p><l>göğüs<s n="n"/></l><r>күкрәк<s n="n"/></r></p></e>
       <e><p><l>gübre<s n="n"/></l><r>ашлама<s n="n"/></r></p></e>
       <e><p><l>gül<s n="n"/></l><r>гөл<s n="n"/></r></p></e>
-      <e><p><l>güldürücü<s n="n"/></l><r>комик<s n="n"/></r></p></e>
+      <e><p><l>güldürücü<s n="adj"/></l><r>комик<s n="adj"/></r></p></e>
       <e><p><l>gülümseyiş<s n="n"/></l><r>елмаю<s n="n"/></r></p></e>
       <e><p><l>gülünç<s n="n"/></l><r>комик<s n="n"/></r></p></e>
       <e><p><l>gülünç<s n="n"/></l><r>кызык<s n="n"/></r></p></e>
@@ -1212,7 +1212,7 @@
       <e><p><l>kaynak<s n="n"/></l><r>кайнаган<s n="n"/></r></p></e>
       <e><p><l>kaynar<s n="n"/></l><r>кайнаган<s n="n"/></r></p></e>
       <e><p><l>kaynar<s n="n"/></l><r>кайнар<s n="n"/></r></p></e>
-      <e><p><l>kaytan<s n="n"/></l><r>кәйтән<s n="n"/></r></p></e>
+      <e><p><l>kaytan<s n="adj"/></l><r>кәйтән<s n="adj"/></r></p></e>
       <e><p><l>kayık<s n="n"/></l><r>каек<s n="n"/></r></p></e>
       <e><p><l>kayık<s n="n"/></l><r>көймә<s n="n"/></r></p></e>
       <e><p><l>kayısı<s n="n"/></l><r>абрикос<s n="n"/></r></p></e>
@@ -1605,7 +1605,7 @@
       <e><p><l>pazar<s n="n"/></l><r>базар<s n="n"/></r></p></e>
       <e><p><l>pazartesi<s n="n"/></l><r>дүшәмбе<s n="n"/></r></p></e>
       <e><p><l>pek<s n="n"/></l><r>бик<s n="n"/></r></p></e>
-      <e><p><l>perişan<s n="n"/></l><r>коточкыч<s n="n"/></r></p></e>
+      <e><p><l>perişan<s n="adj"/></l><r>коточкыч<s n="adj"/></r></p></e>
       <e><p><l>petrol<s n="n"/></l><r>нефть<s n="n"/></r></p></e>
       <e><p><l>peynir<s n="n"/></l><r>гөбәдия<s n="n"/></r></p></e>
       <e><p><l>pil<s n="n"/></l><r>батарея<s n="n"/></r></p></e>
@@ -1647,7 +1647,7 @@
       <e><p><l>serbestlik<s n="n"/></l><r>иреклелек<s n="n"/></r></p></e>
       <e><p><l>sergi<s n="n"/></l><r>күргәзмә<s n="n"/></r></p></e>
       <e><p><l>sermaye<s n="n"/></l><r>капитал<s n="n"/></r></p></e>
-      <e><p><l>sert<s n="n"/></l><r>каты<s n="n"/></r></p></e>
+      <e><p><l>sert<s n="adj"/></l><r>каты<s n="adj"/></r></p></e>
       <e><p><l>ses<s n="n"/></l><r>аваз<s n="n"/></r></p></e>
       <e><p><l>set<s n="n"/></l><r>дамба<s n="n"/></r></p></e>
       <e><p><l>sevda<s n="n"/></l><r>дәрт<s n="n"/></r></p></e>
@@ -1699,7 +1699,7 @@
       <e><p><l>tablo<s n="n"/></l><r>картина<s n="n"/></r></p></e>
       <e><p><l>tabur<s n="n"/></l><r>батальон<s n="n"/></r></p></e>
       <e><p><l>takvim<s n="n"/></l><r>календарь<s n="n"/></r></p></e>
-      <e><p><l>takılan<s n="n"/></l><r>болагай<s n="n"/></r></p></e>
+      <e><p><l>takılan<s n="adj"/></l><r>болагай<s n="adj"/></r></p></e>
       <e><p><l>takım<s n="n"/></l><r>взвод<s n="n"/></r></p></e>
       <e><p><l>takım<s n="n"/></l><r>инструмент<s n="n"/></r></p></e>
       <e><p><l>takım<s n="n"/></l><r>комплект<s n="n"/></r></p></e>
@@ -1767,7 +1767,7 @@
       <e><p><l>tren<s n="n"/></l><r>кондуктор<s n="n"/></r></p></e>
       <e><p><l>tuhaf<s n="n"/></l><r>кызык<s n="n"/></r></p></e>
       <e><p><l>turist<s n="n"/></l><r>илгизәр<s n="n"/></r></p></e>
-      <e><p><l>tutucu<s n="n"/></l><r>искече<s n="n"/></r></p></e>
+      <e><p><l>tutucu<s n="adj"/></l><r>искече<s n="adj"/></r></p></e>
       <e><p><l>tüfek<s n="n"/></l><r>көбәк<s n="n"/></r></p></e>
       <e><p><l>tümen<s n="n"/></l><r>дивизия<s n="n"/></r></p></e>
       <e><p><l>tıp<s n="n"/></l><r>дөп-дөп<s n="n"/></r></p></e>
@@ -1979,6 +1979,7 @@
       <e><p><l>Avrupa<s n="np"/><s n="top"/></l><r>Аурупа<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>Tataristan<s n="np"/><s n="top"/></l><r>Татарстан<s n="np"/><s n="top"/></r></p></e>
       <e><p><l>Moskova<s n="np"/><s n="top"/></l><r>Мәскәү<s n="np"/><s n="top"/></r></p></e>
+      <e><p><l>Batman<s n="np"/><s n="top"/></l><r>батман<s n="np"/><s n="top"/></r></p></e>
     <!-- Раздел: Прилагательные -->
 
       <e><p><l>uluslararası<s n="adj"/></l><r>халыкара<s n="adj"/></r></p></e>
@@ -2951,6 +2952,7 @@
        <e><p><l>aşağı<s n="n"/></l><r>түбән<s n="n"/></r></p></e>
        <e><p><l>sayım<s n="n"/></l><r>җанисәп<s n="n"/></r></p></e>
        <e><p><l>kaynak<s n="n"/></l><r>ресурс<s n="n"/></r></p></e>
+       <e><p><l>hebele<s n="n"/></l><r>ресурс<s n="n"/></r></p></e>
        <e><p><l>don<s n="n"/></l><r>кырау<s n="n"/></r></p></e>
        <e><p><l>dağ<s n="n"/></l><r>тау<s n="n"/></r></p></e>
        <e><p><l>Nenets<s n="n"/></l><r>Ненец<s n="n"/></r></p></e>
