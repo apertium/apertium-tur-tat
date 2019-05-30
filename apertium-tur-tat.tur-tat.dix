@@ -2921,7 +2921,67 @@
 
    <!-- Not organized -->
 
-<e><p><l>sayın<s n="adj"/></l><r>ага<s n="adj"/></r></p></e>
+       <e><p><l>Mari<s n="np"/><s n="ant"/><s n="f"/></l><r>Мари<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+       <e><p><l>Geiger<s n="np"/><s n="cog"/><s n="mf"/></l><r>Гейгер/Гейгер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+       <e><p><l>arktik<s n="adj"/></l><r>Арктика<s n="adj"/></r></p></e>
+       <e><p><l>idari<s n="adj"/></l><r>административ<s n="adj"/></r></p></e>
+       <e><p><l>eşit<s n="adj"/></l><r>тигез<s n="adj"/></r></p></e>
+       <e><p><l>S<s n="n"/></l><r>C<s n="n"/></r></p></e>
+       <e><p><l>tepe<s n="n"/></l><r>Adj<s n="n"/></r></p></e>
+       <e><p><l>vilayet<s n="n"/></l><r>губерна<s n="n"/></r></p></e>
+       <e><p><l>sıcaklık<s n="n"/></l><r>температура<s n="n"/></r></p></e>
+       <e><p><l>tepe<s n="n"/></l><r>Уса<s n="n"/></r></p></e>
+       <e><p><l>kitle<s n="n"/></l><r>масса<s n="n"/></r></p></e>
+       <e><p><l>serin<s n="n"/></l><r>салкынча<s n="n"/></r></p></e>
+       <e><p><l>Hint<s n="n"/></l><r>Һинд<s n="n"/></r></p></e>
+       <e><p><l>sayım<s n="n"/></l><r>җанисәбе<s n="n"/></r></p></e>
+       <e><p><l>ilçe<s n="n"/></l><r>өязе<s n="n"/></r></p></e>
+       <e><p><l>üst<s n="n"/></l><r>өске<s n="n"/></r></p></e>
+       <e><p><l>bölücü<s n="n"/></l><r>бүлгесе<s n="n"/></r></p></e>
+       <e><p><l>ödül<s n="n"/></l><r>премиясе<s n="n"/></r></p></e>
+       <e><p><l>havza<s n="n"/></l><r>Таз<s n="n"/></r></p></e>
+       <e><p><l>Mansi<s n="n"/></l><r>Манси<s n="n"/></r></p></e>
+       <e><p><l>yaz<s n="n"/></l><r>Җәй<s n="n"/></r></p></e>
+       <e><p><l>k<s n="n"/></l><r>к<s n="n"/></r></p></e>
+       <e><p><l>börek<s n="n"/></l><r>Пирем<s n="n"/></r></p></e>
+       <e><p><l>kâr<s n="n"/></l><r>төшем<s n="n"/></r></p></e>
+       <e><p><l>yağış<s n="n"/></l><r>явым<s n="n"/></r></p></e>
+       <e><p><l>nefes<s n="n"/></l><r>Тын<s n="n"/></r></p></e>
+       <e><p><l>alt<s n="n"/></l><r>түбән<s n="n"/></r></p></e>
+       <e><p><l>kararsız<s n="n"/></l><r>үзгәрүчән<s n="n"/></r></p></e>
+       <e><p><l>Ukraynalı<s n="n"/></l><r>украиннар<s n="n"/></r></p></e>
+       <e><p><l>sınıflandırıcı<s n="n"/></l><r>классификатор<s n="n"/></r></p></e>
+       <e><p><l>yürüyüş<s n="n"/></l><r>йөр<s n="n"/></r></p></e>
+       <e><p><l>Hantı<s n="n"/></l><r>Хант<s n="n"/></r></p></e>
+       <e><p><l>saygı<s n="n"/></l><r>хөрмәт<s n="n"/></r></p></e>
+       <e><p><l>baraj<s n="n"/></l><r>сусаклагыч<s n="n"/></r></p></e>
+       <e><p><l>Çuvaş<s n="n"/></l><r>чуаш<s n="n"/></r></p></e>
+       <e><p><l>Çirmiş<s n="n"/></l><r>чирмеш<s n="n"/></r></p></e>
+       <e><p><l>durum<s n="n"/></l><r>торыш<s n="n"/></r></p></e>
+       <e><p><l>demografi<s n="n"/></l><r>Демография<s n="n"/></r></p></e>
+       <e><p><l>çeviri<s n="n"/></l><r>Тәрҗемә<s n="n"/></r></p></e>
+       <e><p><l>SSCB<s n="np"/><s n="top"/></l><r>ССРБ<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Sos'va<s n="np"/><s n="top"/></l><r>Сосьва<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Vıçegda<s n="np"/><s n="top"/></l><r>Вычегда<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Vologda<s n="np"/><s n="top"/></l><r>Вологда<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Oka<s n="np"/><s n="top"/></l><r>Ука<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Kuybışev<s n="np"/><s n="top"/></l><r>Куйбышев<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Altay<s n="np"/><s n="top"/></l><r>Алтай<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Novosibirsk<s n="np"/><s n="top"/></l><r>Новосибирск<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Yamal<s n="np"/><s n="top"/></l><r>Ямал<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Ağizel<s n="np"/><s n="top"/></l><r>Агыйдел<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Arhangelsk<s n="np"/><s n="top"/></l><r>Архангил<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Çuvaşistan<s n="np"/><s n="top"/></l><r>Чуашстан<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Nijgar<s n="np"/><s n="top"/></l><r>Нижгар<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Sverdilovsk<s n="np"/><s n="top"/></l><r>Свердлау<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>MSK<s n="abbr"/></l><r>MSK<s n="abbr"/></r></p></e>
+       <e><p><l>DFB<s n="abbr"/></l><r>Dfb<s n="abbr"/></r></p></e>
+       <e><p><l>parça<b/>parça<s n="adv"/></l><r>Кёппен<s n="adv"/></r></p></e>
+       <e><p><l>dayandırıl<s n="v"/><s n="iv"/></l><r>нигезлән<s n="v"/><s n="iv"/></r></p></e>
+       <e><p><l>dayandır<s n="v"/><s n="tv"/></l><r>нигезлә<s n="v"/><s n="tv"/></r></p></e>
+
+
+	<e><p><l>sayın<s n="adj"/></l><r>ага<s n="adj"/></r></p></e>
        <e><p><l>soğukkanlı<s n="adj"/></l><r>суыта<s n="adj"/></r></p></e>
        <e><p><l>sol<s n="adj"/></l><r>сул<s n="adj"/></r></p></e>
        <e><p><l>uzun<s n="adj"/></l><r>озын<s n="adj"/></r></p></e>
@@ -3160,7 +3220,7 @@
       <e><p><l>proje<s n="n"/></l><r>проект<s n="n"/></r></p></e>
       <e><p><l>hazırlık<s n="n"/></l><r>әзерлек<s n="n"/></r></p></e>
       <e><p><l>İngiltere<s n="np"/><s n="top"/></l><r>Британия<s n="np"/><s n="top"/></r></p></e>
-      <e><p><l>teknin<s n="adj"/></l><r>техник<s n="adj"/></r></p></e>
+      <e><p><l>teknik<s n="adj"/></l><r>техник<s n="adj"/></r></p></e>
       <e><p><l>tarihi<s n="adj"/></l><r>тарихи<s n="adj"/></r></p></e>
       <e><p><l>temmuz<s n="n"/></l><r>июль<s n="n"/></r></p></e>
       <e><p><l>üniversite<s n="n"/></l><r>университет<s n="n"/></r></p></e>
