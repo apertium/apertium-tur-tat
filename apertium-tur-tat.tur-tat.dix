@@ -921,7 +921,7 @@
       <e><p><l>güz<s n="n"/></l><r>көз<s n="n"/></r></p></e>
       <e><p><l>güzellik<s n="n"/></l><r>гүзәллек<s n="n"/></r></p></e>
       <e><p><l>güç<s n="n"/></l><r>балл<s n="n"/></r></p></e>
-      <e><p><l>güç<s n="n"/></l><r>кыен<s n="n"/></r></p></e>
+      <e><p><l>zor<s n="n"/></l><r>кыен<s n="n"/></r></p></e>
       <e><p><l>güç<s n="n"/></l><r>көч<s n="n"/></r></p></e>
       <e><p><l>güçsüzlük<s n="n"/></l><r>көчсезлек<s n="n"/></r></p></e>
       <e><p><l>gıybet<s n="n"/></l><r>гайбәт<s n="n"/></r></p></e>
@@ -2185,7 +2185,6 @@
     <e><p><l>her<b/>zaman<s n="adv"/></l><r>һәрвакыт<s n="adv"/></r></p></e>
     <e><p><l>hâlâ<s n="adv"/></l><r>һаман<s n="adv"/></r></p></e>  
     <e><p><l>iyi<s n="adj"/></l><r>яхшы<s n="adj"/></r></p></e>  
-    <e><p><l>onlar<s n="adv"/></l><r>алар<s n="adv"/></r></p></e>
     <e><p><l>pek<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
     <e><p><l>sonra<s n="adv"/></l><r>аннары<s n="adv"/></r></p></e>
     <e><p><l>sonra<s n="adv"/></l><r>соң<s n="adv"/></r></p></e>
@@ -2227,49 +2226,48 @@
     <e><p><l>geri<b/>çevir<s n="v"/><s n="tv"/></l><r>кире<b/>как<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>reddet<s n="v"/><s n="tv"/></l><r>кире<b/>как<s n="v"/><s n="tv"/></r></p></e>
 
-    <e><p><l>var<s n="v"/></l><r>бар<s n="v"/></r></p></e>
-    <e><p><l>bak<s n="v"/></l><r>кара<s n="v"/></r></p></e>
-    <e><p><l>koş<s n="v"/></l><r>йөгер<s n="v"/></r></p></e>
-    <e><p><l>sakla<s n="v"/></l><r>яшер<s n="v"/></r></p></e>
-    <e><p><l>bil<s n="v"/></l><r>бел<s n="v"/></r></p></e>
-    <e><p><l>otur<s n="v"/></l><r>утыр<s n="v"/></r></p></e>
+    <e><p><l>var<s n="v"/><s n="iv"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>bak<s n="v"/><s n="iv"/></l><r>кара<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>koş<s n="v"/><s n="iv"/></l><r>йөгер<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>sakla<s n="v"/><s n="tv"/></l><r>яшер<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>bil<s n="v"/><s n="tv"/></l><r>бел<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>otur<s n="v"/><s n="iv"/></l><r>утыр<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>gör<s n="v"/><s n="tv"/></l><r>күр<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>say<s n="v"/><s n="tv"/></l><r>сайла<s n="v"/></r></p></e>
+    <e><p><l>say<s n="v"/><s n="tv"/></l><r>сайла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>say<s n="v"/><s n="tv"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>bakın<s n="v"/></l><r>каран<s n="v"/></r></p></e>
-    <e><p><l>git<s n="v"/></l><r>бар<s n="v"/></r></p></e>
+    <e><p><l>bakın<s n="v"/><s n="iv"/></l><r>каран<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>git<s n="v"/><s n="iv"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>al<s n="v"/><s n="iv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv-->
     <e><p><l>al<s n="v"/><s n="tv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>düşün<s n="v"/></l><r>уйла<s n="v"/></r></p></e>
+    <e><p><l>düşün<s n="v"/><s n="tv"/></l><r>уйла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>ver<s n="v"/><s n="tv"/></l><r>бир<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv -->
-    <e><p><l>iste<s n="v"/></l><r>телә<s n="v"/></r></p></e>
+    <e><p><l>iste<s n="v"/><s n="tv"/></l><r>телә<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>gezin<s n="v"/><s n="iv"/></l><r>биләмдә<b/>йөр<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>duy<s n="v"/><s n="tv"/></l><r>ишет<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>git<s n="v"/></l><r>кит<s n="v"/></r></p></e>
-    <e><p><l>gül<s n="v"/><s n="iv"/></l><r>көл<s n="v"/></r></p></e>
-    <e><p><l>gül<s n="v"/><s n="iv"/></l><r>елмай<s n="v"/></r></p></e>
-    <e><p><l>ye<s n="v"/><s n="tv"/></l><r>аша<s n="v"/></r></p></e>
-    <e><p><l>seyret<s n="v"/></l><r>күзәт<s n="v"/></r></p></e>
-    <e><p><l>oy<s n="v"/></l><r>уйна<s n="v"/></r></p></e>
-    <e><p><l>ara<s n="v"/></l><r>эзлә<s n="v"/></r></p></e>
-    <e><p><l>bil<s n="v"/></l><r>бел<s n="v"/></r></p></e>
+    <e><p><l>git<s n="v"/><s n="iv"/></l><r>кит<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>gül<s n="v"/><s n="iv"/></l><r>көл<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>gül<s n="v"/><s n="iv"/></l><r>елмай<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>ye<s n="v"/><s n="tv"/></l><r>аша<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>seyret<s n="v"/><s n="tv"/></l><r>күзәт<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>oy<s n="v"/><s n="tv"/></l><r>уйна<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>ara<s n="v"/><s n="tv"/></l><r>эзлә<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>sor<s n="v"/><s n="tv"/></l><r>сора<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>de<s n="v"/></l><r>ди<s n="v"/></r></p></e>
-    <e><p><l>bul<s n="v"/><s n="tv"/></l><r>тап<s n="v"/></r></p></e>
+    <e><p><l>de<s n="v"/><s n="tv"/></l><r>ди<s n="v"/><s n="tv"/></r></p></e>
+    <e><p><l>bul<s n="v"/><s n="tv"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>çalış<s n="v"/><s n="iv"/></l><r>эшлә<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: check tv/iv -->
-    <e><p><l>dinle<s n="v"/></l><r>тыңла<s n="v"/></r></p></e>
+    <e><p><l>dinle<s n="v"/><s n="tv"/></l><r>тыңла<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>görün<s n="v"/><s n="iv"/></l><r>күр<s n="v"/><s n="tv"/><s n="pass"/></r></p></e>
-    <e><p><l>gel<s n="v"/></l><r>кил<s n="v"/></r></p></e>
-    <e><p><l>iç<s n="v"/></l><r>эч<s n="v"/></r></p></e>
+    <e><p><l>gel<s n="v"/><s n="iv"/></l><r>кил<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>iç<s n="v"/><s n="tv"/></l><r>эч<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>söyle<s n="v"/><s n="tv"/></l><r>әйт<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>uyu<s n="v"/></l><r>йокла<s n="v"/></r></p></e>
-    <e><p><l>yap<s n="v"/></l><r>эшлә<s n="v"/></r></p></e>
+    <e><p><l>uyu<s n="v"/><s n="iv"/></l><r>йокла<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>yap<s n="v"/><s n="tv"/></l><r>эшлә<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>dur<s n="v"/><s n="iv"/></l><r>тор<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>konuş<s n="v"/></l><r>сөйләш<s n="v"/></r></p></e>
+    <e><p><l>konuş<s n="v"/><s n="tv"/></l><r>сөйләш<s n="v"/><s n="tv"/></r></p></e>
     <e><p><l>bitir<s n="v"/><s n="tv"/></l><r>бетер<s n="v"/><s n="tv"/></r></p></e> <!-- FIXME: tv/iv -->
     <e><p><l>anla<s n="v"/><s n="tv"/></l><r>аңла<s n="v"/><s n="tv"/></r></p></e>
-    <e><p><l>gez<s n="v"/><s n="tv"/></l><r>йөр<s n="v"/><s n="iv"/></r></p></e>
-    <e><p><l>gayret<b/>et<s n="v"/><s n="tv"/></l><r>тырыш<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>gez<s n="v"/><s n="iv"/></l><r>йөр<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>gayret<b/>et<s n="v"/><s n="iv"/></l><r>тырыш<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>dön<s n="v"/><s n="iv"/></l><r>кайт<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>dön<s n="v"/><s n="iv"/></l><r>әйлән<s n="v"/><s n="iv"/></r></p></e>
 
@@ -2898,6 +2896,19 @@
 
 
    <!-- Not organized -->
+  <e><p><l>Köppen<s n="np"/><s n="cog"/><s n="mf"/></l><r>Кёппен<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+       <e><p><l>sakin<s n="adj"/></l><r>Тын<s n="adj"/></r></p></e>
+       <e><p><l>kararsız<s n="adj"/></l><r>үзгәрүчән<s n="adj"/></r></p></e>
+       <e><p><l>bileşim<s n="n"/></l><r>состав<s n="n"/></r></p></e>
+       <e><p><l>kadro<s n="n"/></l><r>состав<s n="n"/></r></p></e>
+       <e><p><l>bölge<s n="n"/></l><r>бүлге<s n="n"/></r></p></e>
+       <e><p><l>oğul<s n="n"/></l><r>ул<s n="n"/></r></p></e>
+       <e><p><l>kenar<s n="n"/></l><r>яр<s n="n"/></r></p></e>
+       <e><p><l>kıyı<s n="n"/></l><r>яр<s n="n"/></r></p></e>
+       <e><p><l>kayıt<s n="n"/></l><r>реестры<s n="n"/></r></p></e>
+       <e><p><l>sınıflandırma<s n="n"/></l><r>классификация<s n="n"/></r></p></e>
+       <e><p><l>Arktika<s n="np"/><s n="top"/></l><r>Арктика<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>sakin<s n="adv"/></l><r>Тын<s n="adv"/></r></p></e>
 
        <e><p><l>Mari<s n="np"/><s n="ant"/><s n="f"/></l><r>Мари<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
        <e><p><l>Geiger<s n="np"/><s n="cog"/><s n="mf"/></l><r>Гейгер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
