@@ -906,8 +906,8 @@
       <e><p><l>gül<s n="n"/></l><r>гөл<s n="n"/></r></p></e>
       <e><p><l>güldürücü<s n="adj"/></l><r>комик<s n="adj"/></r></p></e>
       <e><p><l>gülümseyiş<s n="n"/></l><r>елмаю<s n="n"/></r></p></e>
-      <e><p><l>gülünç<s n="n"/></l><r>комик<s n="n"/></r></p></e>
-      <e><p><l>gülünç<s n="n"/></l><r>кызык<s n="n"/></r></p></e>
+      <e><p><l>gülünç<s n="adj"/></l><r>комик<s n="adj"/></r></p></e>
+      <e><p><l>gülünç<s n="adj"/></l><r>кызык<s n="adj"/></r></p></e>
       <e><p><l>güm<s n="n"/></l><r>гөрс<s n="n"/></r></p></e>
       <e><p><l>güm<s n="n"/></l><r>гөрст<s n="n"/></r></p></e>
       <e><p><l>gümüş<s n="n"/></l><r>көмеш<s n="n"/></r></p></e>
@@ -1034,7 +1034,7 @@
       <e><p><l>ilgi<s n="n"/></l><r>кагылыш<s n="n"/></r></p></e>
       <e><p><l>ilgi<s n="n"/></l><r>контакт<s n="n"/></r></p></e>
       <e><p><l>ilgi<s n="n"/></l><r>кысылыш<s n="n"/></r></p></e>
-      <e><p><l>ilginç<s n="n"/></l><r>кызык<s n="n"/></r></p></e>
+      <e><p><l>ilginç<s n="adj"/></l><r>кызык<s n="adj"/></r></p></e>
       <e><p><l>ilham<s n="n"/></l><r>илһам<s n="n"/></r></p></e>
       <e><p><l>ilim<s n="n"/></l><r>белем<s n="n"/></r></p></e>
       <e><p><l>ilim<s n="n"/></l><r>гыйлем<s n="n"/></r></p></e>
@@ -1325,8 +1325,8 @@
       <e><p><l>kopça<s n="n"/></l><r>каптырма<s n="n"/></r></p></e>
       <e><p><l>koridor<s n="n"/></l><r>коридор<s n="n"/></r></p></e>
       <e><p><l>korku<s n="n"/></l><r>курку<s n="n"/></r></p></e>
-      <e><p><l>korkunç<s n="n"/></l><r>коточкыч<s n="n"/></r></p></e>
-      <e><p><l>korkunç<s n="n"/></l><r>куркыныч<s n="n"/></r></p></e>
+      <e><p><l>korkunç<s n="adj"/></l><r>коточкыч<s n="adj"/></r></p></e>
+      <e><p><l>korkunç<s n="adj"/></l><r>куркыныч<s n="adj"/></r></p></e>
       <e><p><l>korse<s n="n"/></l><r>корсет<s n="n"/></r></p></e>
       <e><p><l>koruma<s n="n"/></l><r>аяу<s n="n"/></r></p></e>
       <e><p><l>kostüm<s n="n"/></l><r>костюм<s n="n"/></r></p></e>
@@ -4354,7 +4354,7 @@
        <e><p><l>gibi<s n="post"/></l><r>сыман<s n="post"/></r></p></e>
        <e><p><l>her<b/>türlü<s n="adv"/></l><r>һәртөрле<s n="adv"/></r></p></e>
        <e><p><l>belki<s n="adv"/></l><r>бәлки<s n="adv"/></r></p></e>
-       <e><p><l>herkes<s n="adv"/></l><r>һәркем<s n="adv"/></r></p></e>
+
        <e><p><l>hala<s n="adv"/></l><r>әллә<s n="adv"/></r></p></e>
        <e><p><l>burada<s n="adv"/></l><r>менә<s n="adv"/></r></p></e>
        <e><p><l>diril<s n="v"/><s n="iv"/></l><r>терел<s n="v"/><s n="iv"/></r></p></e>
@@ -4410,6 +4410,7 @@
        <e><p><l>nefret<s n="n"/></l><r>нәфрәт<s n="n"/></r></p></e>
        <e><p><l>nasihat<s n="n"/></l><r>нәсыйхәт<s n="n"/></r></p></e>
        <e><p><l>vaftiz<s n="n"/></l><r>чумдырылу<s n="n"/></r></p></e>
+       <e><p><l>vaftiz<s n="n"/></l><r>чукындыру<s n="n"/></r></p></e>
        <e><p><l>hiç<s n="n"/></l><r>һич<s n="n"/></r></p></e>
        <e><p><l>yemiş<s n="n"/></l><r>җимеш<s n="n"/></r></p></e>
        <e><p><l>doğru<s n="n"/></l><r>тугры<s n="n"/></r></p></e>
