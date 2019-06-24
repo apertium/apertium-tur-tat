@@ -117,9 +117,14 @@
 
     <e><p><l>birisi<s n="prn"/><s n="qnt"/></l><r>берсе<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>hepsi<s n="prn"/><s n="qnt"/></l><r>бары<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
+<e><p><l>hepsi<s n="prn"/><s n="qnt"/></l><r>һәммә<s n="prn"/><s n="qnt"/><s n="px3sp"/></r></p></e>
+<e><p><l>herkes<s n="prn"/><s n="qnt"/></l><r>һәркем<s n="prn"/><s n="qnt"/>/></r></p></e>
+<e><p><l>hiçbir<b/>şey<s n="prn"/><s n="neg"/></l><r>һичнәрсә<s n="prn"/> n="neg"/>/></r></p></e>
+<e><p><l>kimse<s n="prn"/><s n="qnt"/></l><r>беркем<s n="prn"/><s n="neg"/>/></r></p></e>
     <e><p><l>ne<s n="prn"/><s n="itg"/></l><r>нинди<s n="prn"/><s n="itg"/><s n="sim"/></r></p></e>
     <e><p><l>kim<s n="prn"/><s n="itg"/></l><r>нинди<s n="prn"/><s n="itg"/><s n="sim"/></r></p></e>
     <e><p><l>hangi<s n="prn"/><s n="itg"/></l><r>нинди<s n="prn"/><s n="itg"/><s n="sim"/></r></p></e>
+<e><p><l>hangi<s n="prn"/><s n="itg"/></l><r>һичкем<s n="prn"/><s n="neg"/>/></r></p></e>
     <e><p><l>hangi<s n="prn"/><s n="itg"/></l><r>кайсы<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
@@ -2896,7 +2901,7 @@
 
 
    <!-- Not organized -->
-       <e><p><l>Skiratov<s n="np"/><s n="cog"/><s n="mf"/></l><r>Скуратов<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+       <e><p><l>Skiratov<s n="np"/><s n="cog"/><s n="mf"/></l><r>Скуратов<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
        <e><p><l>özel<s n="adj"/></l><r>үзенчәлекле<s n="adj"/></r></p></e>
        <e><p><l>bilimsel<s n="adj"/></l><r>гыйльми<s n="adj"/></r></p></e>
        <e><p><l>profesyonel<s n="adj"/></l><r>һөнәри<s n="adj"/></r></p></e>
