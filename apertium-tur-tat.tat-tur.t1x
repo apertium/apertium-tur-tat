@@ -10,6 +10,13 @@
       <cat-item tags="v.*"/>
     </def-cat>
 
+<def-cat n="comp">
+      <cat-item tags="adj.comp"/>
+      <cat-item tags="adj.comp.*"/>
+      <cat-item tags="adv.comp"/>
+      <cat-item tags="adv.comp.*"/>
+    </def-cat>
+
 
     <def-cat n="post">
       <cat-item tags="post"/>
@@ -125,6 +132,10 @@
       <attr-item tags="px3pl"/>
     </def-attr>
 
+    <def-attr n="a_cmp">
+      <attr-item tags="comp"/>
+    </def-attr>
+
     <def-attr n="a_tns">
       <attr-item tags="pres"/>
       <attr-item tags="cont"/>
@@ -134,6 +145,7 @@
       <attr-item tags="ger1.acc"/> <!-- FIXME: don't like this -->
       <attr-item tags="ifi"/>
       <attr-item tags="fut"/>
+      <attr-item tags="prc_impf"/>
     </def-attr>
 
   </section-def-attrs>
@@ -428,6 +440,7 @@
         </out>
       </action>
     </rule>
+
     <rule comment="REGLA: SENT">
       <pattern>
         <pattern-item n="sent"/>
@@ -611,7 +624,29 @@
 
 <!-- coding challenge, rules for stat. training -->
 
-
-
+<rule comment="REGLA: comparative for adj ( зуррак -> daha büyük)">
+      <pattern>
+        <pattern-item n="comp"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="a_cmp"/><lit v=""/>
+        </let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+	<lu>
+		<lit v="daha"/><lit-tag v="adv"/>
+	</lu>
+		<b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
   </section-rules>
 </transfer>
