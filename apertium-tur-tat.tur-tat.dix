@@ -3014,7 +3014,8 @@
        <e><p><l>hanlık<s n="n"/></l><r>ханлык<s n="n"/></r></p></e>
        <e><p><l>ressam<s n="n"/></l><r>рәссам<s n="n"/></r></p></e>
        <e><p><l>takvim<s n="n"/></l><r>тәкъвим<s n="n"/></r></p></e>
-       <e><p><l>Müslüman<s n="n"/></l><r>Мөслим<s n="n"/></r></p></e>
+       <e><p><l>Möslim<s n="np"/><s n="top"/></l><r>Мөслим<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>Müslüman<s n="n"/></l><r>мөслим<s n="n"/></r></p></e>
        <e><p><l>Latin<s n="n"/></l><r>латин<s n="n"/></r></p></e>
        <e><p><l>inkılap<s n="n"/></l><r>инкыйлап<s n="n"/></r></p></e>
        <e><p><l>sekreter<s n="n"/></l><r>сәркәтип<s n="n"/></r></p></e>
@@ -3065,7 +3066,7 @@
        <e><p><l>SSC<s n="abbr"/></l><r>ССР<s n="abbr"/></r></p></e>
        <e><p><l>cm<s n="abbr"/></l><r>см<s n="abbr"/></r></p></e>
        <e><p><l>benzeyen<s n="post"/></l><r>охшаш<s n="post"/></r></p></e>
-       <e><p><l>nispeten<s n="adv"/></l><r>чагыштырмача<s n="adv"/></r></p></e>
+       <e><p><l>nispeten<s n="adv"/></l><r>чагыштырмача<s n="adj"/></r></p></e>
        <e><p><l>aksine<s n="adv"/></l><r>киресенчә<s n="adv"/></r></p></e>
        <e><p><l>benze<s n="v"/><s n="iv"/></l><r>охша<s n="v"/><s n="iv"/></r></p></e>
        <e><p><l>araştır<s n="v"/><s n="tv"/></l><r>тикшерен<s n="v"/><s n="tv"/></r></p></e>
@@ -3125,7 +3126,7 @@
        <e><p><l>dans<s n="n"/></l><r>тирбәлеш<s n="n"/></r></p></e>
        <e><p><l>bölüm<s n="n"/></l><r>бүленеш<s n="n"/></r></p></e>
        <e><p><l>tekme<s n="n"/></l><r>тибы<s n="n"/></r></p></e>
-       <e><p><l>muson<s n="n"/></l><r>муссонлы<s n="n"/></r></p></e>
+       <e><p><l>muson<s n="n"/></l><r>муссонлы<s n="adj"/></r></p></e>
        <e><p><l>karşı<s n="n"/></l><r>каршы<s n="n"/></r></p></e>
        <e><p><l>şair<s n="n"/></l><r>шагыйрь<s n="n"/></r></p></e>
        <e><p><l>pedagoji<s n="n"/></l><r>педагогия<s n="n"/></r></p></e>
@@ -3446,6 +3447,8 @@
       <e><p><l>sayı<s n="n"/></l><r>сан<s n="n"/></r></p></e>
       <e><p><l>önce<s n="adv"/></l><r>элек<s n="adv"/></r></p></e>
       <e><p><l>Rusya<s n="np"/><s n="top"/></l><r>Россия<s n="np"/><s n="top"/></r></p></e>
+     <e><p><l>Rusya<s n="np"/><s n="top"/></l><r>Рәсәй<s n="np"/><s n="top"/></r></p></e>
+
       <e><p><l>askeri<s n="adj"/></l><r>хәрби<s n="adj"/></r></p></e>
       <e><p><l>demeç<s n="n"/></l><r>чыгыш<s n="n"/></r></p></e>
       <e><p><l>nutuk<s n="n"/></l><r>чыгыш<s n="n"/></r></p></e>
