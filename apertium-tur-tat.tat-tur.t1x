@@ -28,7 +28,11 @@
     </def-cat>
 
 
-    <def-cat n="быел">
+    <def-cat n="lı">
+	<cat-item lemma="лы" tags="post"/>
+    </def-cat>
+
+ <def-cat n="быел">
 	<cat-item lemma="быел" tags="adv"/>
     </def-cat>
 
@@ -480,6 +484,29 @@
               <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+<rule comment="regla: n+lı (almalı  → elmalı)">
+      <pattern>
+        <pattern-item n="noun"/>
+        <pattern-item n="lı"/>
+      </pattern>
+      <action>
+        <out>
+        <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+          <lu>
+		<clip pos="1" side="tl" part="lem"/>
+             <lit-tag v="n"/>
+	     <lit v="+lı"/>
+	     <lit-tag v="post"/>
+          </lu>
+   	 </chunk>
         </out>
       </action>
     </rule>
