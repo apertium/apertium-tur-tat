@@ -459,7 +459,33 @@
       </action>
     </rule>
 
-<!-- coding challenge, rules for stat. training -->
+<rule comment="REGLA: comparative for adj ( зуррак -> daha büyük)">
+      <pattern>
+        <pattern-item n="comp"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="a_cmp"/><lit v=""/>
+        </let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+	<lu>
+		<lit v="daha"/><lit-tag v="adv"/>
+	</lu>
+		<b/>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+<!-- coding challenge, rules for stat. training 
+
 <rule comment="REGLA: n+post -> n.nom+post">
       <pattern>
         <pattern-item n="noun"/>
@@ -622,31 +648,9 @@
       </action>
     </rule>
 
-<!-- coding challenge, rules for stat. training -->
+ coding challenge, rules for stat. training 
+-->
 
-<rule comment="REGLA: comparative for adj ( зуррак -> daha büyük)">
-      <pattern>
-        <pattern-item n="comp"/>
-      </pattern>
-      <action>
-        <let>
-          <clip pos="1" side="tl" part="a_cmp"/><lit v=""/>
-        </let>
-        <out>
-          <chunk name="n" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-            </tags>
-	<lu>
-		<lit v="daha"/><lit-tag v="adv"/>
-	</lu>
-		<b/>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
+
   </section-rules>
 </transfer>
