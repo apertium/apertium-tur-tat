@@ -27,6 +27,12 @@
       <cat-item tags="n.attr"/>
     </def-cat>
 
+   <def-cat n="p2formal">
+      <cat-item tags="n.*.p2.frm.*"/>
+      <cat-item tags="v.*.*.p2.frm.*"/>
+      <cat-item tags="adj.*.p2.frm.*"/>
+    </def-cat>
+
 
     <def-cat n="lı">
 	<cat-item lemma="лы" tags="post"/>
@@ -142,6 +148,11 @@
 
     <def-attr n="a_cmp">
       <attr-item tags="comp"/>
+    </def-attr>
+
+ <def-attr n="a_p2_frm">
+      <attr-item tags="p2.frm.sg"/>
+      <attr-item tags="p2.frm.pl"/>
     </def-attr>
 
     <def-attr n="a_tns">
@@ -531,6 +542,28 @@
              <lit-tag v="n"/>
 	     <lit v="+sız"/>
 	     <lit-tag v="post"/>
+          </lu>
+   	 </chunk>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="regla: p2.frm.sg/pl to p2.pl  ()">
+      <pattern>
+        <pattern-item n="p2formal"/>
+      </pattern>
+      <action>
+   <let>
+          <clip pos="1" side="tl" part="a_p2_frm"/>
+<lit v="p2.pl"/>
+        </let>
+        <out>
+        <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+          <lu>
+		<clip pos="1" side="tl" part="whole"/>
           </lu>
    	 </chunk>
         </out>
