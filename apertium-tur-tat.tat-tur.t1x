@@ -36,10 +36,12 @@
 
     <def-cat n="lı">
 	<cat-item lemma="лы" tags="post"/>
+	<cat-item lemma="лы" tags="post.*"/>
     </def-cat>
 
   <def-cat n="sız">
 	<cat-item lemma="сыз" tags="post"/>
+	<cat-item lemma="сыз" tags="post.*"/>
     </def-cat>
 
  <def-cat n="быел">
@@ -153,6 +155,16 @@
  <def-attr n="a_p2_frm">
       <attr-item tags="p2.frm.sg"/>
       <attr-item tags="p2.frm.pl"/>
+    </def-attr>
+
+    <def-attr n="a_pers_nbr">
+      <attr-item tags="p1.sg"/>
+      <attr-item tags="p2.sg"/>
+      <attr-item tags="p3.sg"/>
+      <attr-item tags="p1.pl"/>
+      <attr-item tags="p2.pl"/>
+      <attr-item tags="p3.pl"/>
+      <attr-item tags="p2.frm.sg"/> 
     </def-attr>
 
     <def-attr n="a_tns">
@@ -520,6 +532,7 @@
              <lit-tag v="n"/>
 	     <lit v="+lı"/>
 	     <lit-tag v="post"/>
+		<clip pos="2" side="tl" part="a_pers_nbr"/>
           </lu>
    	 </chunk>
         </out>
@@ -542,6 +555,7 @@
              <lit-tag v="n"/>
 	     <lit v="+sız"/>
 	     <lit-tag v="post"/>
+		<clip pos="2" side="tl" part="a_pers_nbr"/>
           </lu>
    	 </chunk>
         </out>
