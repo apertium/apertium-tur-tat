@@ -204,7 +204,8 @@
           <test>
             <equal><clip pos="1" side="sl" part="a_tns"/><lit-tag v="pres"/></equal>
           </test>
-          <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="cont"/></let>
+          <let><clip pos="1" side="tl" part="a_tns"/><lit-tag v="prog"/></let>
+		  <let><clip pos="1" side="tl" part="a_pers_nbr"/><concat><concat><lit v="+i"/><lit-tag v="cop.aor"/></concat><clip pos="1" side="sl" part="a_pers_nbr"/></concat></let>
         </when>
         <when>
           <test>

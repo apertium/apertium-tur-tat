@@ -19,6 +19,7 @@
     <sdef n="postadv"  c="Имя существительное"/>
     <sdef n="qst" />
     <sdef n="top" />
+    <sdef n="coop" />
 
     <sdef n="m"  c=""/>
     <sdef n="cog"  c=""/>
@@ -1618,6 +1619,7 @@
       <e><p><l>resimleme<s n="n"/></l><r>иллюстрация<s n="n"/></r></p></e>
       <e><p><l>ressam<s n="n"/></l><r>график<s n="n"/></r></p></e>
       <e><p><l>rica<s n="n"/></l><r>гозер<s n="n"/></r></p></e>
+      <e><p><l>ruble<s n="n"/></l><r>сум<s n="n"/></r></p></e>
       <e><p><l>ruh<s n="n"/></l><r>ия<s n="n"/></r></p></e>
       <e><p><l>rüşvetçilik<s n="n"/></l><r>коррупция<s n="n"/></r></p></e>
       <e><p><l>sabah<s n="n"/></l><r>иртә<s n="n"/></r></p></e>
@@ -4099,6 +4101,7 @@
       <e><p><l>Taliban<s n="np"/><s n="org"/></l><r>Талибан<s n="np"/><s n="org"/></r></p></e>
       <e><p><l>sonraki<s n="adj"/></l><r>чираттагы<s n="adj"/></r></p></e>
       <e><p><l>sıra<s n="n"/></l><r>чират<s n="n"/></r></p></e>
+      <e><p><l>topla<s n="v"/><s n="tv"/></l><r>җый<s n="v"/><s n="tv"/><s n="coop"/></r></p></e>
       <e><p><l>topla<s n="v"/><s n="tv"/></l><r>җый<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>kıyasla<s n="v"/><s n="tv"/></l><r>чагыштыр<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>yerleştir<s n="v"/><s n="tv"/></l><r>урнаштыр<s n="v"/><s n="tv"/></r></p></e>
@@ -4439,6 +4442,8 @@
        <e><p><l>dirilt<s n="v"/><s n="tv"/></l><r>терелт<s n="v"/><s n="tv"/></r></p></e>
        <e><p><l>tart<s n="v"/><s n="tv"/></l><r>тарт<s n="v"/><s n="tv"/></r></p></e>
        <e><p><l>öğret<s n="v"/><s n="tv"/></l><r>өйрәт<s n="v"/><s n="tv"/></r></p></e>
+       <e><p><l>ekle<s n="v"/><s n="tv"/></l><r>өстә<s n="v"/><s n="tv"/></r></p></e>
+
 
 
 
