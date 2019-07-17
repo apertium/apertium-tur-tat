@@ -134,6 +134,8 @@
 <e><p><l>hangi<s n="prn"/><s n="itg"/></l><r>һичкем<s n="prn"/><s n="neg"/>/></r></p></e>
     <e><p><l>hangi<s n="prn"/><s n="itg"/></l><r>кайсы<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>bu<s n="prn"/><s n="dem"/></l><r>бу<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>böyle<s n="adv"/></l><r>шул<s n="prn"/><s n="dem"/><s n="sim"/><s n="nom"/></r></p></e>
+    <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>şu<s n="prn"/><s n="dem"/></l><r>шул<s n="prn"/><s n="dem"/></r></p></e>
     <e><p><l>ne<s n="prn"/><s n="itg"/></l><r>ни<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>ne<s n="prn"/></l><r>нәрсә<s n="prn"/><s n="itg"/></r></p></e>
@@ -4101,7 +4103,7 @@
       <e><p><l>Taliban<s n="np"/><s n="org"/></l><r>Талибан<s n="np"/><s n="org"/></r></p></e>
       <e><p><l>sonraki<s n="adj"/></l><r>чираттагы<s n="adj"/></r></p></e>
       <e><p><l>sıra<s n="n"/></l><r>чират<s n="n"/></r></p></e>
-      <e><p><l>topla<s n="v"/><s n="tv"/></l><r>җый<s n="v"/><s n="tv"/><s n="coop"/></r></p></e>
+      <e r="RL"><p><l>topla<s n="v"/><s n="tv"/></l><r>җый<s n="v"/><s n="tv"/><s n="coop"/></r></p></e>
       <e><p><l>topla<s n="v"/><s n="tv"/></l><r>җый<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>kıyasla<s n="v"/><s n="tv"/></l><r>чагыштыр<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>yerleştir<s n="v"/><s n="tv"/></l><r>урнаштыр<s n="v"/><s n="tv"/></r></p></e>
