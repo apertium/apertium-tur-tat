@@ -21,21 +21,9 @@
       <program name="lrx-proc -m">
         <file name="tur-tat.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-tur-tat.tur-tat.t1x"/>
-        <file name="tur-tat.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-tur-tat.tur-tat.t2x"/>
-        <file name="tur-tat.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-tur-tat.tur-tat.t3x"/>
-        <file name="tur-tat.t3x.bin"/>
-      </program>
-      <program name="apertium-transfer -n">
-        <file name="apertium-tur-tat.tur-tat.t4x"/>
-        <file name="tur-tat.t4x.bin"/>
+	  <program name="rtx-proc">
+        <file name="tur-tat.rtx.bin2"/>
+        <file name="tur-tat.rtx.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="tur-tat.autogen.bin"/>
@@ -107,17 +95,9 @@
       <program name="lrx-proc -m">
         <file name="tat-tur.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-tur-tat.tat-tur.t1x"/>
-        <file name="tat-tur.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-tur-tat.tat-tur.t2x"/>
-        <file name="tat-tur.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-tur-tat.tat-tur.t3x"/>
-        <file name="tat-tur.t3x.bin"/>
+	  <program name="rtx-proc">
+        <file name="tat-tur.rtx.bin2"/>
+        <file name="tat-tur.rtx.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="tat-tur.autogen.bin"/>
