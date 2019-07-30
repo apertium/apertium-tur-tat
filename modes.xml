@@ -22,7 +22,6 @@
         <file name="tur-tat.autolex.bin"/>
       </program>
 	  <program name="rtx-proc">
-        <file name="tur-tat.rtx.bin2"/>
         <file name="tur-tat.rtx.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -96,7 +95,6 @@
         <file name="tat-tur.autolex.bin"/>
       </program>
 	  <program name="rtx-proc">
-        <file name="tat-tur.rtx.bin2"/>
         <file name="tat-tur.rtx.bin"/>
       </program>
       <program name="lt-proc $1">
