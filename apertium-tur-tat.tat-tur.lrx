@@ -13,6 +13,10 @@
   </rule>
 
   <rule>
+    <or><match tags="n.*.dat.*"/><match tags="n.dat"/></or>
+    <match lemma="ал" tags="v.*"><select lemma="götür" tags="v.*"/></match>
+  </rule>
+  <rule>
     <or><match tags="num"/><match tags="num.*"/></or>
     <match lemma="мәртәбә" tags="n.*"><select lemma="defa" tags="n.*"/></match>
   </rule>

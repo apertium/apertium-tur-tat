@@ -4,12 +4,13 @@
 
 n: _.number.poss.case;
 v: _.trans.voice.tam.person.number.subst.poss.case ;
+vaux: _.voice.tam.person.number.subst.poss.case ;
 cop: _.tam.person.number;
 adj: _.gender.number;
 det: _.det_type ;
 num: _ ;
 NP: _.number;
-VP: _.number;
+VP: _.person.number;
 AP: _.number;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -21,11 +22,12 @@ case = dat nom gen acc abl ins loc attr;
 voice = pass caus;
 subst = subst ;
 det_type = dem qnt ;
-person = p1 p2 p3;
+person = (ND "") p1 p2 p3 ND;
 number = (ND "") sg pl sp ND;
-tam = pres gpr_past ger_past past prog aor ;
+tam = pres gpr_past ger_past past prog aor prc_vol ger_inf ifi;
 poss = px1sg px2sg px1pl px2pl px3sp px3pl ;
 split_off = pres ;
+verb = vaux v;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Rules                     !
@@ -35,9 +37,10 @@ tam > tam: pres prog;
 
 NP -> n {1} |
 	  det num n {1 _1 2 _2 3} |
-	  n v.*.gpr_past NP {1(case=gen) _1 2(poss=px3sp) _2 3};
+	  n.*.nom v.*.gpr_past NP {1(case=gen) _1 2(poss=px3sp) _2 3};
 		
-VP -> v.*.[split_off] {1(person="", number="") + i@cop.aor.[1.person].[1.number]};
+VP -> v.*.[split_off] {1(person="", number="") + i@cop.aor.[1.person].[1.number]} |
+	  %v.*.prc_vol кил@vaux {1(person="", number="", tam=ger_inf, case=nom) _1 iste@v.tv.[1.person].[1.number]};  
 
 
 ! http://wiki.apertium.org/wiki/User:Popcorndude/Recursive_Transfer/Formalism

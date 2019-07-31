@@ -11,6 +11,7 @@
     <sdef n="prn"  c="Имя существительное"/>
     <sdef n="qnt"  c="Имя существительное"/>
     <sdef n="v"  c="Имя существительное"/>
+    <sdef n="vaux"  c=""/>
     <sdef n="tv"  c="Переходный"/>
     <sdef n="iv"  c="Непереходный"/>
     <sdef n="ind"  c=""/>
@@ -2416,6 +2417,7 @@
     <e><p><l>yak<s n="v"/><s n="iv"/></l><r>кил<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>vur<s n="v"/><s n="iv"/></l><r>кисеш<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>sözleş<s n="v"/><s n="iv"/></l><r>кил<s n="v"/><s n="iv"/></r></p></e>
+    <e><p><l>gel<s n="v"/><s n="iv"/></l><r>кил<s n="vaux"/></r></p></e>
     <e><p><l>bas<s n="v"/><s n="iv"/></l><r>бас<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>sevin<s n="v"/><s n="iv"/></l><r>куан<s n="v"/><s n="iv"/></r></p></e>
     <e><p><l>yüksel<s n="v"/><s n="iv"/></l><r>күтәрел<s n="v"/><s n="iv"/></r></p></e>
@@ -4218,6 +4220,7 @@
 
        <e><p><l>aldır<s n="v"/><s n="tv"/></l><r>алдыр<s n="v"/><s n="tv"/></r></p></e>
        <e><p><l>al<s n="v"/><s n="tv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
+       <e><p><l>götür<s n="v"/><s n="tv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
        <e><p><l>anlaş<s n="v"/><s n="tv"/></l><r>аңлаш<s n="v"/><s n="tv"/></r></p></e>
        <e><p><l>anlaş<s n="v"/><s n="iv"/></l><r>килеш<s n="v"/><s n="iv"/></r></p></e>
        <e><p><l>art<s n="v"/><s n="iv"/></l><r>арт<s n="v"/><s n="iv"/></r></p></e>
