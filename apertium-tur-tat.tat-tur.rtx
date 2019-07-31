@@ -2,21 +2,30 @@
 !! Tag Patterns              !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-n: _.gender.number;
-v: _.trans.voice.tam.person.number;
+n: _.number.poss.case;
+v: _.trans.voice.tam.person.number.subst.poss.case ;
+cop: _.tam.person.number;
 adj: _.gender.number;
+det: _.det_type ;
+num: _ ;
 NP: _.number;
 VP: _.number;
+AP: _.number;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Attribute Categories      !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+trans = tv iv cop ;
+case = dat nom gen acc abl ins loc attr;
 voice = pass caus;
+subst = subst ;
+det_type = dem qnt ;
 person = p1 p2 p3;
-gender = (GD m) m f mf GD;
-number = (ND sg) sg pl sp ND;
-tam = pres gpr_past ger_past past prog;
+number = (ND "") sg pl sp ND;
+tam = pres gpr_past ger_past past prog aor ;
+poss = px1sg px2sg px1pl px2pl px3sp px3pl ;
+split_off = pres ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Rules                     !
@@ -24,9 +33,11 @@ tam = pres gpr_past ger_past past prog;
 
 tam > tam: pres prog;
 
-NP -> n.$number {1};
-!      adj n.$number {2 _1 1(gender=2.gender, number=2.number)} ;
+NP -> n {1} |
+	  det num n {1 _1 2 _2 3} |
+	  n v.*.gpr_past NP {1(case=gen) _1 2(poss=px3sp) _2 3};
+		
+VP -> v.*.[split_off] {1(person="", number="") + i@cop.aor.[1.person].[1.number]};
 
-VP -> NP v {1 2};
 
 ! http://wiki.apertium.org/wiki/User:Popcorndude/Recursive_Transfer/Formalism
