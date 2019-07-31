@@ -3,21 +3,30 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 n: _.gender.number;
+v: _.trans.voice.tam.person.number;
 adj: _.gender.number;
 NP: _.number;
+VP: _.number;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Attribute Categories      !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+voice = pass caus;
+person = p1 p2 p3;
 gender = (GD m) m f mf GD;
 number = (ND sg) sg pl sp ND;
+tam = pres gpr_past ger_past past prog;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Rules                     !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-NP -> n.$number {1} |
-      adj n.$number {2 _1 1(gender=2.gender, number=2.number)} ;
+tam > tam: pres prog;
+
+NP -> n.$number {1};
+!      adj n.$number {2 _1 1(gender=2.gender, number=2.number)} ;
+
+VP -> NP v {1 2};
 
 ! http://wiki.apertium.org/wiki/User:Popcorndude/Recursive_Transfer/Formalism
