@@ -13,6 +13,15 @@
   </rule>
 
   <rule>
+	<match lemma="соң" tags="adv.*"><select lemma="geçen" tags="adj"/></match>
+  </rule>
+
+  <rule>
+	<match lemma="гына" tags="postadv"><select lemma="yine" tags="adv"/></match>
+	<match tags="n.*"/>
+  </rule>
+
+  <rule>
     <or><match tags="n.*.dat.*"/><match tags="n.dat"/></or>
     <match lemma="ал" tags="v.*"><select lemma="götür" tags="v.*"/></match>
   </rule>

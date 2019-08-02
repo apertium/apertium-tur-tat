@@ -21,6 +21,7 @@
     <sdef n="qst" />
     <sdef n="top" />
     <sdef n="coop" />
+    <sdef n="gpr_rsub" />
 
     <sdef n="m"  c=""/>
     <sdef n="cog"  c=""/>
@@ -115,6 +116,7 @@
 
     <!-- Раздел: Посленаречия -->
 
+    <e><p><l>yine<s n="adv"/></l><r>гына<s n="postadv"/></r></p></e>
     <e><p><l>yeterince<s n="adv"/></l><r>гына<s n="postadv"/></r></p></e>
     <e><p><l>nasıl<s n="adv"/><s n="itg"/></l><r>ничек<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>nere<s n="adv"/><s n="itg"/></l><r>кай<s n="adv"/><s n="itg"/></r></p></e>
@@ -2206,6 +2208,7 @@
     <e><p><l>pek<s n="adv"/></l><r>бик<s n="adv"/></r></p></e>
     <e><p><l>sonra<s n="adv"/></l><r>аннары<s n="adv"/></r></p></e>
     <e><p><l>sonra<s n="adv"/></l><r>соң<s n="adv"/></r></p></e>
+    <e><p><l>geçen<s n="adj"/></l><r>соң<s n="adv"/><s n="attr"/></r></p></e>
     <e><p><l>sonra<s n="adv"/></l><r>соңрак<s n="adv"/></r></p></e>
     <e><p><l>tamamen<s n="adv"/></l><r>бөтенләйгә<s n="adv"/></r></p></e>
     <e><p><l>tamamen<s n="adv"/></l><r>дөм<s n="adv"/></r></p></e>
@@ -3012,6 +3015,8 @@
        <e><p><l>ödül<s n="n"/></l><r>приз<s n="n"/></r></p></e>
        <e><p><l>Fransız<s n="n"/></l><r>француз<s n="n"/></r></p></e>
        <e><p><l>Sri<s n="n"/></l><r>Шри<s n="n"/></r></p></e>
+
+       <e r="RL"><p><l>anne-baba<s n="n"/></l><r>әти-әни<s n="n"/></r></p></e>
        <e><p><l>baba<s n="n"/></l><r>әти<s n="n"/></r></p></e>
        <e><p><l>ata<s n="n"/></l><r>әти<s n="n"/></r></p></e>
        <e><p><l>Tanrı<s n="n"/></l><r>Ходай<s n="n"/></r></p></e>
@@ -3308,6 +3313,7 @@
        <e><p><l>sınıflandırma<s n="n"/></l><r>классификациясе<s n="n"/></r></p></e>
        <e><p><l>çiftçi<s n="n"/></l><r>исүче<s n="n"/></r></p></e>
        <e><p><l>Komi<s n="n"/></l><r>Коми<s n="n"/></r></p></e>
+       <e><p><l>yaz<s n="n"/><s n="nom"/></l><r>җәй<s n="n"/><s n="loc"/></r></p></e>
        <e><p><l>yaz<s n="n"/></l><r>җәй<s n="n"/></r></p></e>
        <e><p><l>boğaz<s n="n"/></l><r>тамак<s n="n"/></r></p></e>
        <e><p><l>alan<s n="n"/></l><r>участок<s n="n"/></r></p></e>

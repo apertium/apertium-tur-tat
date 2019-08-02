@@ -9,25 +9,30 @@ cop: _.tam.person.number;
 adj: _.gender.number;
 det: _.det_type ;
 num: _ ;
-NP: _.number;
-VP: _.person.number;
+post: _ ;
+prn: _.prn_type.person.number.case ;
+NP: _.number.poss.case;
+VP: _.trans.person.number.val_change;
 AP: _.number;
+PP: _;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Attribute Categories      !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-trans = tv iv cop ;
-case = dat nom gen acc abl ins loc attr;
+trans = (TD "") tv iv cop TD;
+case = (CD "") dat nom gen acc abl ins loc attr CD;
 voice = pass caus;
 subst = subst ;
+prn_type = pers ;
 det_type = dem qnt ;
-person = (ND "") p1 p2 p3 ND;
+person = (PD "") p1 p2 p3 ND;
 number = (ND "") sg pl sp ND;
 tam = pres gpr_past ger_past past prog aor prc_vol ger_inf ifi;
-poss = px1sg px2sg px1pl px2pl px3sp px3pl ;
+poss = (SD "") px1sg px2sg px1pl px2pl px3sp px3pl PD;
 split_off = pres ;
 verb = vaux v;
+val_change = (VD "") gen_to_nom VD ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Rules                     !
@@ -35,12 +40,21 @@ verb = vaux v;
 
 tam > tam: pres prog;
 
-NP -> n {1} |
-	  det num n {1 _1 2 _2 3} |
-	  n.*.nom v.*.gpr_past NP {1(case=gen) _1 2(poss=px3sp) _2 3};
+NP -> n.$case {1} |
+	  prn.$case {1} |
+	  det num %n {1 _1 2 _2 3} |
+	  n.*.nom v.tv.*.gpr_past NP {1(case=gen) _1 2(poss=px3sp) _2 3};
 		
-VP -> v.*.[split_off] {1(person="", number="") + i@cop.aor.[1.person].[1.number]} |
-	  %v.*.prc_vol кил@vaux {1(person="", number="", tam=ger_inf, case=nom) _1 iste@v.tv.[1.person].[1.number]};  
+VP -> %v.*.[split_off] {1(person="", number="") + i@cop.aor.[1.person].[1.number]} |
+	  %v.*.prc_vol кил@vaux [$val_change=gen_to_nom, $trans=tv] {1(person="", number="", tam=ger_inf, case=nom) _1 iste@v.tv.[2.tam].[1.person].[1.number]} |
+	  n.gen VP.*.gen_to_nom {1(case=nom) _1 2} | 
+      NP.*.dat %VP {1 _1 2} |
+	  үз@prn.ref.px3sp белән@post %VP { (if (3.number = sg) kendi@prn.ref.px3sp.ins
+										 else kendi@prn.ref.px3pl.ins) _2 3} |
+	  NP.*.acc %VP.tv {1 _1 2};
+
+PP -> n post {1 _1 2} |
+	  prn post {1 _1 2};
 
 
 ! http://wiki.apertium.org/wiki/User:Popcorndude/Recursive_Transfer/Formalism
