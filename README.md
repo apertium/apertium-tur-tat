@@ -22,6 +22,7 @@ You will need the following software installed:
 * hfst (>= 3.8.2)
 * apertium-tur
 * apertium-tat
+* apertium-recursive
 
 If this does not make any sense, we recommend you look at: www.apertium.org.
 
