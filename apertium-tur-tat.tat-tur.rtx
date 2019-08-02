@@ -40,10 +40,10 @@ val_change = (VD "") gen_to_nom VD ;
 
 tam > tam: pres prog;
 
-NP -> n.$case {1} |
+NP -> n.$case {1(case=$case)} |
 	  prn.$case {1} |
 	  det num %n {1 _1 2 _2 3} |
-	  n.*.nom v.tv.*.gpr_past NP {1(case=gen) _1 2(poss=px3sp) _2 3};
+	  NP.*.nom v.tv.*.gpr_past NP {1(case=gen) _1 2(poss=px3sp) _2 3};
 		
 VP -> %v.*.[split_off] {1(person="", number="") + i@cop.aor.[1.person].[1.number]} |
 	  %v.*.prc_vol кил@vaux [$val_change=gen_to_nom, $trans=tv] {1(person="", number="", tam=ger_inf, case=nom) _1 iste@v.tv.[2.tam].[1.person].[1.number]} |
