@@ -18,6 +18,6 @@ number = (ND sg) sg pl sp ND;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 NP -> n.$number {1} |
-      adj n.$number {2 _1 1(gender=2.gender, number=2.number)} ;
+      adj n.$number {2 _1 1[gender=2.gender, number=2.number]} ;
 
 ! http://wiki.apertium.org/wiki/User:Popcorndude/Recursive_Transfer/Formalism
