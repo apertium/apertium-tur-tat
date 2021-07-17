@@ -1,0 +1,6 @@
+[_meuSFsBGUvb#0] ^nom<SN>{^@Ми<n><acc>$}$ ^default<default>{^her<det><dem>$}$ ^nom<SN>{^yaz<n><loc>$}$ ^nom<SN>{^köy<n><dat>$}$ ^nom<SN>{^@әби<n><pl><dat>$}$ ^v<SV>{^çevir<v><tv><prog>+i<cop><aor><p3><sg>$}$ ^default<default>{^i<cop><ifi><p3><pl>$}$^sent<SENT>{^.<sent>$}$
+[/_meuSFsBGUvb]
+[imX3eHImdJUS#0] ^nom<SN>{^Köy<n><pl><loc>$}$ ^nom<SN>{^kişi<n><pl><nom>$}$ ^v<SV>{^topla<v><tv><gpr_past>$}$ ^default<default>{^her<det><dem>$}$ ^default<default>{^1<num>$}$ ^nom<SN>{^ruble<n><dat>$}$ ^nom<SN>{^cumhuriyet<n><attr>$}$ ^nom<SN>{^bütçe<n><px3sp><abl>$}$ ^default<default>{^4<num>$}$ ^nom<SN>{^ruble<n><nom>$}$ ^v<SV>{^ekle<v><tv><pass><prog>+i<cop><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/imX3eHImdJUS]
+[n3QDj31J14m4#0] ^default<default>{^@Соңгы<adj>$}$ ^nom<SN>{^yaz<n><loc>$}$ ^default<default>{^yeterince<adv>$}$ ^nom<SN>{^@әти-әни<n><gen>$}$ ^nom<SN>{^@ми<n><acc>$}$ ^prn<SN>{^öz<prn><ref><px3sp><nom>$}$ ^default<default>{^ile<post>$}$ ^nom<SN>{^deniz<n><dat>$}$ ^v<SV>{^al<v><tv><prc_vol><p3><pl>$}$ ^default<default>{^@кил<vaux><ifi><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/n3QDj31J14m4]

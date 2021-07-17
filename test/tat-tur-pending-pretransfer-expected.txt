@@ -1,0 +1,6 @@
+[_meuSFsBGUvb#0] ^Ми<n><acc>$ ^һәр<det><qnt>$ ^җәй<n><loc>$ ^авыл<n><dat>$ ^әби<n><pl><dat>$ ^кайтар<v><tv><pres><p3><sg>$ ^и<cop><ifi><p3><pl>$^.<sent>$
+[/_meuSFsBGUvb]
+[imX3eHImdJUS#0] ^Авыл<n><pl><loc>$ ^кеше<n><pl><nom>$ ^җый<v><tv><coop><gpr_past>$ ^һәр<det><qnt>$ ^1<num>$ ^сум<n><dat>$ ^республика<n><attr>$ ^бюджет<n><px3sp><abl>$ ^4<num>$ ^сум<n><nom>$ ^өстә<v><tv><pass><pres><p3><sg>$^.<sent>$
+[/imX3eHImdJUS]
+[n3QDj31J14m4#0] ^Соңгы<adj>$ ^җәй<n><loc>$ ^гына<postadv>$ ^әти-әни<n><gen>$ ^ми<n><acc>$ ^үз<prn><ref><px3sp><nom>$ ^белән<post>$ ^диңгез<n><dat>$ ^ал<v><tv><prc_vol><p3><pl>$ ^кил<vaux><ifi><p3><sg>$^.<sent>$
+[/n3QDj31J14m4]

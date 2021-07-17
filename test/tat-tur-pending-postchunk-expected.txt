@@ -1,0 +1,6 @@
+[_meuSFsBGUvb#0] ^@Ми<n><acc>$ ^her<det><dem>$ ^yaz<n><loc>$ ^köy<n><dat>$ ^@әби<n><pl><dat>$ ^çevir<v><tv><prog>+i<cop><aor><p3><sg>$ ^i<cop><ifi><p3><pl>$^.<sent>$
+[/_meuSFsBGUvb]
+[imX3eHImdJUS#0] ^Köy<n><pl><loc>$ ^kişi<n><pl><nom>$ ^topla<v><tv><gpr_past>$ ^her<det><dem>$ ^1<num>$ ^ruble<n><dat>$ ^cumhuriyet<n><attr>$ ^bütçe<n><px3sp><abl>$ ^4<num>$ ^ruble<n><nom>$ ^ekle<v><tv><pass><prog>+i<cop><aor><p3><sg>$^.<sent>$
+[/imX3eHImdJUS]
+[n3QDj31J14m4#0] ^@Соңгы<adj>$ ^yaz<n><loc>$ ^yeterince<adv>$ ^@әти-әни<n><gen>$ ^@ми<n><acc>$ ^öz<prn><ref><px3sp><nom>$ ^ile<post>$ ^deniz<n><dat>$ ^al<v><tv><prc_vol><p3><pl>$ ^@кил<vaux><ifi><p3><sg>$^.<sent>$
+[/n3QDj31J14m4]

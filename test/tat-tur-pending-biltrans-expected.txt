@@ -1,0 +1,6 @@
+[_meuSFsBGUvb#0] ^Ми<n><acc>/@Ми<n><acc>$ ^һәр<det><qnt>/her<det><dem>$ ^җәй<n><loc>/yaz<n><loc>$ ^авыл<n><dat>/köy<n><dat>$ ^әби<n><pl><dat>/@әби<n><pl><dat>$ ^кайтар<v><tv><pres><p3><sg>/çevir<v><tv><pres><p3><sg>$ ^и<cop><ifi><p3><pl>/i<cop><ifi><p3><pl>$^.<sent>/.<sent>$
+[/_meuSFsBGUvb]
+[imX3eHImdJUS#0] ^Авыл<n><pl><loc>/Köy<n><pl><loc>$ ^кеше<n><pl><nom>/kişi<n><pl><nom>/insan<n><pl><nom>/birisi<n><pl><nom>$ ^җый<v><tv><coop><gpr_past>/topla<v><tv><gpr_past>$ ^һәр<det><qnt>/her<det><dem>$ ^1<num>/1<num>$ ^сум<n><dat>/ruble<n><dat>$ ^республика<n><attr>/cumhuriyet<n><attr>$ ^бюджет<n><px3sp><abl>/bütçe<n><px3sp><abl>$ ^4<num>/4<num>$ ^сум<n><nom>/ruble<n><nom>$ ^өстә<v><tv><pass><pres><p3><sg>/ekle<v><tv><pass><pres><p3><sg>$^.<sent>/.<sent>$
+[/imX3eHImdJUS]
+[n3QDj31J14m4#0] ^Соңгы<adj>/@Соңгы<adj>$ ^җәй<n><loc>/yaz<n><loc>$ ^гына<postadv>/yeterince<adv>$ ^әти-әни<n><gen>/@әти-әни<n><gen>$ ^ми<n><acc>/@ми<n><acc>$ ^үз<prn><ref><px3sp><nom>/öz<prn><ref><px3sp><nom>$ ^белән<post>/ile<post>$ ^диңгез<n><dat>/deniz<n><dat>$ ^ал<v><tv><prc_vol><p3><pl>/al<v><tv><prc_vol><p3><pl>/al<v><iv><prc_vol><p3><pl>/değiştir<v><tv><prc_vol><p3><pl>$ ^кил<vaux><ifi><p3><sg>/@кил<vaux><ifi><p3><sg>$^.<sent>/.<sent>$
+[/n3QDj31J14m4]
